@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -196,46 +196,61 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen195
+\ar@mcellbox=\box64
+\extrarowheight=\dimen196
+\NC@list=\toks29
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box65
+)
+\everycr=\toks30
+\minrowclearance=\skip54
+\rownum=\count317
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen195
-\pgf@picmaxx=\dimen196
-\pgf@picminy=\dimen197
-\pgf@picmaxy=\dimen198
-\pgf@pathminx=\dimen199
-\pgf@pathmaxx=\dimen256
-\pgf@pathminy=\dimen257
-\pgf@pathmaxy=\dimen258
-\pgf@xx=\dimen259
-\pgf@xy=\dimen260
-\pgf@yx=\dimen261
-\pgf@yy=\dimen262
-\pgf@zx=\dimen263
-\pgf@zy=\dimen264
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen265
-\pgf@path@lasty=\dimen266
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen267
-\pgf@shorten@start@additional=\dimen268
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box64
-\pgf@hbox=\box65
-\pgf@layerbox@main=\box66
-\pgf@picture@serial@count=\count317
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count318
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen269
+\pgflinewidth=\dimen271
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen270
-\pgf@pt@y=\dimen271
-\pgf@pt@temp=\dimen272
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -244,17 +259,17 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen273
+\pgfarrowsep=\dimen275
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count318
-\pgf@shadingcount=\count319
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box67
+\pgfexternal@startupbox=\box69
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -265,8 +280,8 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count320
-\XC@countmixins=\count321
+\XC@nummixins=\count321
+\XC@countmixins=\count322
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -299,13 +314,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count322
+\c@section@level=\count323
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen275
-\Hy@linkcounter=\count323
-\Hy@pagecounter=\count324
+\@linkdim=\dimen277
+\Hy@linkcounter=\count324
+\Hy@pagecounter=\count325
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -313,7 +328,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count325
+\Hy@SavedSpaceFactor=\count326
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -329,21 +344,21 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count326
+\c@Hy@tempcnt=\count327
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen276
+\XeTeXLinkMargin=\dimen278
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count327
-\Field@Width=\dimen277
-\Fld@charsize=\dimen278
+\Fld@menulength=\count328
+\Field@Width=\dimen279
+\Fld@charsize=\dimen280
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -351,7 +366,7 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count328
+\Hy@abspage=\count329
 
 
 Package hyperref Message: Stopped early.
@@ -360,8 +375,8 @@ Package hyperref Message: Stopped early.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -372,7 +387,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks29
+\@emptytoks=\toks31
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -389,208 +404,253 @@ Package: scrlogo 2025/12/01 v3.49 KOMA-Script package (logo)
 ))))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetranslator.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscreens.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverlay.sty
-\beamer@argscount=\count331
-\beamer@lastskipcover=\skip52
-\beamer@trivlistdepth=\count332
+\beamer@argscount=\count332
+\beamer@lastskipcover=\skip55
+\beamer@trivlistdepth=\count333
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesection.sty
-\c@lecture=\count333
-\c@part=\count334
-\c@section=\count335
-\c@subsection=\count336
-\c@subsubsection=\count337
+\c@lecture=\count334
+\c@part=\count335
+\c@section=\count336
+\c@subsection=\count337
+\c@subsubsection=\count338
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.sty
-\beamer@framebox=\box68
-\beamer@frametitlebox=\box69
-\beamer@zoombox=\box70
-\beamer@zoomcount=\count338
-\beamer@zoomframecount=\count339
-\beamer@frametextheight=\dimen279
-\c@subsectionslide=\count340
-\beamer@frametopskip=\skip53
-\beamer@framebottomskip=\skip54
-\beamer@frametopskipautobreak=\skip55
-\beamer@framebottomskipautobreak=\skip56
-\beamer@envbody=\toks30
-\framewidth=\dimen280
-\c@framenumber=\count341
+\beamer@framebox=\box70
+\beamer@frametitlebox=\box71
+\beamer@zoombox=\box72
+\beamer@zoomcount=\count339
+\beamer@zoomframecount=\count340
+\beamer@frametextheight=\dimen281
+\c@subsectionslide=\count341
+\beamer@frametopskip=\skip56
+\beamer@framebottomskip=\skip57
+\beamer@frametopskipautobreak=\skip58
+\beamer@framebottomskipautobreak=\skip59
+\beamer@envbody=\toks32
+\framewidth=\dimen282
+\c@framenumber=\count342
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframesize.sty
-\beamer@splitbox=\box71
-\beamer@autobreakcount=\count342
-\beamer@autobreaklastheight=\dimen281
-\beamer@frametitletoks=\toks31
-\beamer@framesubtitletoks=\toks32
+\beamer@splitbox=\box73
+\beamer@autobreakcount=\count343
+\beamer@autobreaklastheight=\dimen283
+\beamer@frametitletoks=\toks33
+\beamer@framesubtitletoks=\toks34
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframecomponents.sty
-\beamer@colheight=\skip57
-\beamer@footins=\box72
+\beamer@colheight=\skip60
+\beamer@footins=\box74
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.sty
-\beamer@frameboxcopy=\box73
+\beamer@frameboxcopy=\box75
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetemplates.sty
-\beamer@sbttoks=\toks33
+\beamer@sbttoks=\toks35
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtemplates.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.sty
-\bmb@box=\box74
-\bmb@colorbox=\box75
-\bmb@boxwidth=\dimen282
-\bmb@boxheight=\dimen283
-\bmb@prevheight=\dimen284
-\bmb@temp=\dimen285
-\bmb@dima=\dimen286
-\bmb@dimb=\dimen287
-\bmb@prevheight=\dimen288
+\bmb@box=\box76
+\bmb@colorbox=\box77
+\bmb@boxwidth=\dimen284
+\bmb@boxheight=\dimen285
+\bmb@prevheight=\dimen286
+\bmb@temp=\dimen287
+\bmb@dima=\dimen288
+\bmb@dimb=\dimen289
+\bmb@prevheight=\dimen290
 )
-\beamer@blockheadheight=\dimen289
+\beamer@blockheadheight=\dimen291
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocalstructure.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
-\@enLab=\toks34
+\@enLab=\toks36
 )
-\beamer@bibiconwidth=\skip58
-\c@figure=\count343
-\c@table=\count344
-\abovecaptionskip=\skip59
-\belowcaptionskip=\skip60
+\beamer@bibiconwidth=\skip61
+\c@figure=\count344
+\c@table=\count345
+\abovecaptionskip=\skip62
+\belowcaptionskip=\skip63
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigation.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigationsymbols.tex)
-\beamer@section@min@dim=\dimen290
+\beamer@section@min@dim=\dimen292
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheorems.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip61
+\@mathmargin=\skip64
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen291
+\@emptytoks=\toks37
+\ex@=\dimen293
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen292
+\pmbraise@=\dimen294
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count345
+\inf@bad=\count346
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count346
-\leftroot@=\count347
+\uproot@=\count347
+\leftroot@=\count348
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count348
-\DOTSCASE@=\count349
+\classnum@=\count349
+\DOTSCASE@=\count350
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box76
-\strutbox@=\box77
+\Mathstrutbox@=\box78
+\strutbox@=\box79
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen293
+\big@size=\dimen295
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count350
+\macc@depth=\count351
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count351
+\c@MaxMatrixCols=\count352
 \dotsspace@=\muskip18
-\c@parentequation=\count352
-\dspbrk@lvl=\count353
-\tag@help=\toks36
-\row@=\count354
-\column@=\count355
-\maxfields@=\count356
-\andhelp@=\toks37
-\eqnshift@=\dimen294
-\alignsep@=\dimen295
-\tagshift@=\dimen296
-\tagwidth@=\dimen297
-\totwidth@=\dimen298
-\lineht@=\dimen299
-\@envbody=\toks38
-\multlinegap=\skip62
-\multlinetaggap=\skip63
-\mathdisplay@stack=\toks39
+\c@parentequation=\count353
+\dspbrk@lvl=\count354
+\tag@help=\toks38
+\row@=\count355
+\column@=\count356
+\maxfields@=\count357
+\andhelp@=\toks39
+\eqnshift@=\dimen296
+\alignsep@=\dimen297
+\tagshift@=\dimen298
+\tagwidth@=\dimen299
+\totwidth@=\dimen300
+\lineht@=\dimen301
+\@envbody=\toks40
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
-\thm@preskip=\skip64
-\thm@postskip=\skip65
-\thm@headsep=\skip66
-\dth@everypar=\toks45
+\thm@style=\toks42
+\thm@bodyfont=\toks43
+\thm@headfont=\toks44
+\thm@notefont=\toks45
+\thm@headpunct=\toks46
+\thm@preskip=\skip67
+\thm@postskip=\skip68
+\thm@headsep=\skip69
+\dth@everypar=\toks47
 )
-\c@theorem=\count357
+\c@theorem=\count358
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes.sty)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefault.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemedefault.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemedefault.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemedefault.sty
-\beamer@dima=\dimen300
-\beamer@dimb=\dimen301
-) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+\beamer@dima=\dimen302
+\beamer@dimb=\dimen303
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
+)
+\XKV@depth=\count359
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box80
+)
+\tc@llx=\dimen304
+\tc@lly=\dimen305
+\tc@urx=\dimen306
+\tc@ury=\dimen307
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen308
+\adjbox@Height=\dimen309
+\adjbox@Depth=\dimen310
+\adjbox@Totalheight=\dimen311
+\adjbox@pwidth=\dimen312
+\adjbox@pheight=\dimen313
+\adjbox@pdepth=\dimen314
+\adjbox@ptotalheight=\dimen315
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count360
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box81
+\sift@deathcycles=\count361
+\@vwid@loff=\dimen316
+\@vwid@roff=\dimen317
+)
+==> First Aid for varwidth.sty applied!
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen302
-\lightrulewidth=\dimen303
-\cmidrulewidth=\dimen304
-\belowrulesep=\dimen305
-\belowbottomsep=\dimen306
-\aboverulesep=\dimen307
-\abovetopsep=\dimen308
-\cmidrulesep=\dimen309
-\cmidrulekern=\dimen310
-\defaultaddspace=\dimen311
-\@cmidla=\count358
-\@cmidlb=\count359
-\@aboverulesep=\dimen312
-\@belowrulesep=\dimen313
-\@thisruleclass=\count360
-\@lastruleclass=\count361
-\@thisrulewidth=\dimen314
+\heavyrulewidth=\dimen318
+\lightrulewidth=\dimen319
+\cmidrulewidth=\dimen320
+\belowrulesep=\dimen321
+\belowbottomsep=\dimen322
+\aboverulesep=\dimen323
+\abovetopsep=\dimen324
+\cmidrulesep=\dimen325
+\cmidrulekern=\dimen326
+\defaultaddspace=\dimen327
+\@cmidla=\count362
+\@cmidlb=\count363
+\@aboverulesep=\dimen328
+\@belowrulesep=\dimen329
+\@thisruleclass=\count364
+\@lastruleclass=\count365
+\@thisrulewidth=\dimen330
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-12-29 L3 programming layer (loader) 
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count362
+\l__color_backend_stack_int=\count366
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: fnpct 2022/02/27 v1.1a footnotes' interaction with punctuation
-\l__fnpct_collection_int=\count363
-\l__fnpct_before_footnote_dim=\dimen315
-\l__fnpct_before_dot_dim=\dimen316
-\l__fnpct_after_dot_dim=\dimen317
-\l__fnpct_before_comma_dim=\dimen318
-\l__fnpct_after_comma_dim=\dimen319
-\l__fnpct_before_collect_dim=\dimen320
-\l__fnpct_after_collect_dim=\dimen321
+\l__fnpct_collection_int=\count367
+\l__fnpct_before_footnote_dim=\dimen331
+\l__fnpct_before_dot_dim=\dimen332
+\l__fnpct_after_dot_dim=\dimen333
+\l__fnpct_before_comma_dim=\dimen334
+\l__fnpct_after_comma_dim=\dimen335
+\l__fnpct_before_collect_dim=\dimen336
+\l__fnpct_after_collect_dim=\dimen337
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count364
-\lst@gtempboxa=\box78
-\lst@token=\toks46
-\lst@length=\count365
-\lst@currlwidth=\dimen322
-\lst@column=\count366
-\lst@pos=\count367
-\lst@lostspace=\dimen323
-\lst@width=\dimen324
-\lst@newlines=\count368
-\lst@lineno=\count369
-\lst@maxwidth=\dimen325
+\lst@mode=\count368
+\lst@gtempboxa=\box82
+\lst@token=\toks50
+\lst@length=\count369
+\lst@currlwidth=\dimen338
+\lst@column=\count370
+\lst@pos=\count371
+\lst@lostspace=\dimen339
+\lst@width=\dimen340
+\lst@newlines=\count372
+\lst@lineno=\count373
+\lst@maxwidth=\dimen341
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count370
-\lst@skipnumbers=\count371
-\lst@framebox=\box79
+\c@lstnumber=\count374
+\lst@skipnumbers=\count375
+\lst@framebox=\box83
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
@@ -606,11 +666,11 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count372
+\BKM@id=\count376
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks47
-\inpenc@posthook=\toks48
+\inpenc@prehook=\toks51
+\inpenc@posthook=\toks52
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
@@ -776,29 +836,29 @@ LaTeX Font Info:    Trying to load font information for T5+cmss on input line 11
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
-\sl@Save=\count373
-\sl@StateNumber=\count374
-\sl@MessageCount=\count375
-\sl@Casualties=\count376
-\sl@Filter=\toks49
-\sl@Message=\toks50
-\sl@UnexpandedMessage=\toks51
-\sl@Mess@ge=\toks52
-\sl@WarningCount=\count377
-\sl@WarningNumber=\count378
-\sl@WarningCasualties=\count379
-\sl@TempBOW=\toks53
-\sl@BankOfWarnings=\toks54
+\sl@Save=\count377
+\sl@StateNumber=\count378
+\sl@MessageCount=\count379
+\sl@Casualties=\count380
+\sl@Filter=\toks53
+\sl@Message=\toks54
+\sl@UnexpandedMessage=\toks55
+\sl@Mess@ge=\toks56
+\sl@WarningCount=\count381
+\sl@WarningNumber=\count382
+\sl@WarningCasualties=\count383
+\sl@TempBOW=\toks57
+\sl@BankOfWarnings=\toks58
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count380
-\sl@ErrorNumber=\count381
-\sl@ErrorCasualties=\count382
-\sl@TempBOE=\toks55
-\sl@BankOfErrors=\toks56
+\sl@ErrorCount=\count384
+\sl@ErrorNumber=\count385
+\sl@ErrorCasualties=\count386
+\sl@TempBOE=\toks59
+\sl@BankOfErrors=\toks60
 LaTeX Info: Redefining \GenericError on input line 601.
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/12/30 v25.18 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
-\babel@savecnt=\count383
+\babel@savecnt=\count387
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
@@ -806,12 +866,12 @@ LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
-\U@D=\dimen326
+\U@D=\dimen342
 \l@unhyphenated=\language79
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3964.
-\bbl@dirlevel=\count384
+\bbl@dirlevel=\count388
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
 (babel)             Reported on input line 4197.
@@ -919,51 +979,51 @@ Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS)
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box80
+\pgfnodeparttextbox=\box84
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen327
-\pgf@nodesepend=\dimen328
+\pgf@nodesepstart=\dimen343
+\pgf@nodesepend=\dimen344
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen329
-\pgffor@skip=\dimen330
-\pgffor@stack=\toks57
-\pgffor@toks=\toks58
+\pgffor@iter=\dimen345
+\pgffor@skip=\dimen346
+\pgffor@stack=\toks61
+\pgffor@toks=\toks62
 )) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count385
-\pgfplotmarksize=\dimen331
+\pgf@plot@mark@count=\count389
+\pgfplotmarksize=\dimen347
 )
-\tikz@lastx=\dimen332
-\tikz@lasty=\dimen333
-\tikz@lastxsaved=\dimen334
-\tikz@lastysaved=\dimen335
-\tikz@lastmovetox=\dimen336
-\tikz@lastmovetoy=\dimen337
-\tikzleveldistance=\dimen338
-\tikzsiblingdistance=\dimen339
-\tikz@figbox=\box81
-\tikz@figbox@bg=\box82
-\tikz@tempbox=\box83
-\tikz@tempbox@bg=\box84
-\tikztreelevel=\count386
-\tikznumberofchildren=\count387
-\tikznumberofcurrentchild=\count388
-\tikz@fig@count=\count389
+\tikz@lastx=\dimen348
+\tikz@lasty=\dimen349
+\tikz@lastxsaved=\dimen350
+\tikz@lastysaved=\dimen351
+\tikz@lastmovetox=\dimen352
+\tikz@lastmovetoy=\dimen353
+\tikzleveldistance=\dimen354
+\tikzsiblingdistance=\dimen355
+\tikz@figbox=\box85
+\tikz@figbox@bg=\box86
+\tikz@tempbox=\box87
+\tikz@tempbox@bg=\box88
+\tikztreelevel=\count390
+\tikznumberofchildren=\count391
+\tikznumberofcurrentchild=\count392
+\tikz@fig@count=\count393
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count390
-\pgfmatrixcurrentcolumn=\count391
-\pgf@matrix@numberofcolumns=\count392
+\pgfmatrixcurrentrow=\count394
+\pgfmatrixcurrentcolumn=\count395
+\pgf@matrix@numberofcolumns=\count396
 )
-\tikz@expandcount=\count393
+\tikz@expandcount=\count397
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
@@ -979,86 +1039,88 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@layerbox@background=\box85
-\pgf@layerboxsaved@background=\box86
+\pgf@layerbox@background=\box89
+\pgf@layerboxsaved@background=\box90
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen340
-\pgfarrowlength=\dimen341
-\pgfarrowwidth=\dimen342
-\pgfarrowlinewidth=\dimen343
+\pgfarrowinset=\dimen356
+\pgfarrowlength=\dimen357
+\pgfarrowwidth=\dimen358
+\pgfarrowlinewidth=\dimen359
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip67
-\RaggedLeftLeftskip=\skip68
-\RaggedRightLeftskip=\skip69
-\CenteringRightskip=\skip70
-\RaggedLeftRightskip=\skip71
-\RaggedRightRightskip=\skip72
-\CenteringParfillskip=\skip73
-\RaggedLeftParfillskip=\skip74
-\RaggedRightParfillskip=\skip75
-\JustifyingParfillskip=\skip76
-\CenteringParindent=\skip77
-\RaggedLeftParindent=\skip78
-\RaggedRightParindent=\skip79
-\JustifyingParindent=\skip80
+\CenteringLeftskip=\skip70
+\RaggedLeftLeftskip=\skip71
+\RaggedRightLeftskip=\skip72
+\CenteringRightskip=\skip73
+\RaggedLeftRightskip=\skip74
+\RaggedRightRightskip=\skip75
+\CenteringParfillskip=\skip76
+\RaggedLeftParfillskip=\skip77
+\RaggedRightParfillskip=\skip78
+\JustifyingParfillskip=\skip79
+\CenteringParindent=\skip80
+\RaggedLeftParindent=\skip81
+\RaggedRightParindent=\skip82
+\JustifyingParindent=\skip83
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks59
-\verbatim@line=\toks60
+\every@verbatim=\toks63
+\verbatim@line=\toks64
 \verbatim@in@stream=\read4
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box87
-\tcb@upperbox=\box88
-\tcb@lowerbox=\box89
-\tcb@phantombox=\box90
-\c@tcbbreakpart=\count394
-\c@tcblayer=\count395
-\c@tcolorbox@number=\count396
-\l__tcobox_tmpa_box=\box91
-\l__tcobox_tmpa_dim=\dimen344
-\tcb@temp=\box92
-\tcb@temp=\box93
-\tcb@temp=\box94
-\tcb@temp=\box95
+\tcb@titlebox=\box91
+\tcb@upperbox=\box92
+\tcb@lowerbox=\box93
+\tcb@phantombox=\box94
+\c@tcbbreakpart=\count398
+\c@tcblayer=\count399
+\c@tcolorbox@number=\count400
+\l__tcobox_tmpa_box=\box95
+\l__tcobox_tmpa_dim=\dimen360
+\tcb@temp=\box96
+\tcb@temp=\box97
+\tcb@temp=\box98
+\tcb@temp=\box99
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthememiniframes.sty)
-LaTeX Font Info:    Trying to load font information for T5+ppl on input line 159.
+LaTeX Font Info:    Trying to load font information for T5+ppl on input line 162.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ppl.fd
 File: t5upl.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ppl.
 ) (template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 159.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 162.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 162.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    ... okay on input line 162.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1096,62 +1158,62 @@ LaTeX Font Info:    ... okay on input line 159.
 
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count397
-\scratchdimen=\dimen345
-\scratchbox=\box96
-\nofMPsegments=\count398
-\nofMParguments=\count399
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count400
-\MPscratchDim=\dimen346
-\MPnumerator=\count401
-\makeMPintoPDFobject=\count402
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count401
+\scratchdimen=\dimen361
+\scratchbox=\box100
+\nofMPsegments=\count402
+\nofMParguments=\count403
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count404
+\MPscratchDim=\dimen362
+\MPnumerator=\count405
+\makeMPintoPDFobject=\count406
+\everyMPtoPDFconversion=\toks66
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 159.
+Package hyperref Info: Link coloring OFF on input line 162.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ppl/m/n --> T5/ppl/m/n on input line 159.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 159.
+(Font)                  OT1/ppl/m/n --> T5/ppl/m/n on input line 162.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 159.
+(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 159.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 159.
+(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 162.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T5/cmss/m/n on input line 159.
+(Font)                  OT1/cmss/m/n --> T5/cmss/m/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T5/cmss/m/n on input line 159.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 159.
+(Font)                  OT1/cmss/bx/n --> T5/cmss/m/n on input line 162.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ppl/m/it --> T5/ppl/m/it on input line 159.
+(Font)                  OT1/ppl/m/it --> T5/ppl/m/it on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ppl/b/it --> T5/ppl/m/it on input line 159.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 159.
+(Font)                  OT1/ppl/b/it --> T5/ppl/m/it on input line 162.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 159.
+(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 159.
+(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 162.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T5/ppl/m/n --> T5/ppl/b/n on input line 159.
+(Font)                  T5/ppl/m/n --> T5/ppl/b/n on input line 162.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 159.
+(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/ppl/b/n --> T5/ppl/b/n on input line 159.
+(Font)                  OT1/ppl/b/n --> T5/ppl/b/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T5/ppl/b/n --> T5/ppl/b/n on input line 159.
+(Font)                  T5/ppl/b/n --> T5/ppl/b/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T5/cmss/m/n --> T5/cmss/b/n on input line 159.
+(Font)                  T5/cmss/m/n --> T5/cmss/b/n on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 159.
+(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 162.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T5/cmtt/m/n --> T5/cmtt/b/n on input line 159.
+(Font)                  T5/cmtt/m/n --> T5/cmtt/b/n on input line 162.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1167,14 +1229,14 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 159.
-Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 159.
-\c@lstlisting=\count403
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 162.
+Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 162.
+\c@lstlisting=\count407
  (template.nav) (01-title.tex
 Overfull \vbox (25.69702pt too high) detected at line 15
  []
 
-<images/background-1080p-washout.jpg, id=64, 778.107pt x 423.0204pt>
+<images/background-1080p-washout.jpg, id=70, 778.107pt x 423.0204pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
@@ -1182,7 +1244,7 @@ Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
  <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=128, 1283.79625pt x 722.7pt>
+<images/drone_solar.jpg, id=143, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1223,7 +1285,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc) [3
 
 ]) (03-example-motivation.tex
-<images/DatVanDe/dautieng.jpg, id=225, 462.528pt x 346.4142pt>
+<images/DatVanDe/dautieng.jpg, id=248, 462.528pt x 346.4142pt>
 File: images/DatVanDe/dautieng.jpg Graphic file (type jpg)
 <use images/DatVanDe/dautieng.jpg>
 Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
@@ -1231,17 +1293,17 @@ Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
  [4
 
  <./images/DatVanDe/dautieng.jpg>]
-<images/DatVanDe/icons/thoigian.png, id=272, 292.09125pt x 288.07625pt>
+<images/DatVanDe/icons/thoigian.png, id=301, 292.09125pt x 288.07625pt>
 File: images/DatVanDe/icons/thoigian.png Graphic file (type png)
 <use images/DatVanDe/icons/thoigian.png>
 Package pdftex.def Info: images/DatVanDe/icons/thoigian.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.11969pt.
-<images/DatVanDe/icons/antoan.png, id=273, 293.095pt x 289.08pt>
+<images/DatVanDe/icons/antoan.png, id=302, 293.095pt x 289.08pt>
 File: images/DatVanDe/icons/antoan.png Graphic file (type png)
 <use images/DatVanDe/icons/antoan.png>
 Package pdftex.def Info: images/DatVanDe/icons/antoan.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.12555pt.
-<images/DatVanDe/icons/hieuqua.png, id=274, 301.125pt x 290.08376pt>
+<images/DatVanDe/icons/hieuqua.png, id=303, 301.125pt x 290.08376pt>
 File: images/DatVanDe/icons/hieuqua.png Graphic file (type png)
 <use images/DatVanDe/icons/hieuqua.png>
 Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 113.
@@ -1249,17 +1311,17 @@ Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 1
  [5
 
  <./images/DatVanDe/icons/thoigian.png> <./images/DatVanDe/icons/antoan.png> <./images/DatVanDe/icons/hieuqua.png>]
-<images/DatVanDe/icons/tongquan.png, id=319, 121.6545pt x 128.27925pt>
+<images/DatVanDe/icons/tongquan.png, id=354, 121.6545pt x 128.27925pt>
 File: images/DatVanDe/icons/tongquan.png Graphic file (type png)
 <use images/DatVanDe/icons/tongquan.png>
 Package pdftex.def Info: images/DatVanDe/icons/tongquan.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 36.0021pt.
-<images/DatVanDe/icons/phuongphap.png, id=321, 126.4725pt x 129.48375pt>
+<images/DatVanDe/icons/phuongphap.png, id=356, 126.4725pt x 129.48375pt>
 File: images/DatVanDe/icons/phuongphap.png Graphic file (type png)
 <use images/DatVanDe/icons/phuongphap.png>
 Package pdftex.def Info: images/DatVanDe/icons/phuongphap.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 34.95514pt.
-<images/DatVanDe/icons/dexuat.png, id=322, 121.05225pt x 121.05225pt>
+<images/DatVanDe/icons/dexuat.png, id=357, 121.05225pt x 121.05225pt>
 File: images/DatVanDe/icons/dexuat.png Graphic file (type png)
 <use images/DatVanDe/icons/dexuat.png>
 Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 208.
@@ -1267,7 +1329,7 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
  [6
 
  <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex
-<images/TongQuan/pinmattroi.png, id=370, 513.92pt x 243.91125pt>
+<images/TongQuan/pinmattroi.png, id=411, 513.92pt x 243.91125pt>
 File: images/TongQuan/pinmattroi.png Graphic file (type png)
 <use images/TongQuan/pinmattroi.png>
 Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
@@ -1275,17 +1337,17 @@ Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
  [7
 
  <./images/TongQuan/pinmattroi.png>]
-<images/TongQuan/icons/bungno.png, id=418, 329.23pt x 316.18124pt>
+<images/TongQuan/icons/bungno.png, id=465, 329.23pt x 316.18124pt>
 File: images/TongQuan/icons/bungno.png Graphic file (type png)
 <use images/TongQuan/icons/bungno.png>
 Package pdftex.def Info: images/TongQuan/icons/bungno.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 62.4246pt.
-<images/TongQuan/icons/chiphi.png, id=419, 297.11pt x 313.17pt>
+<images/TongQuan/icons/chiphi.png, id=466, 297.11pt x 313.17pt>
 File: images/TongQuan/icons/chiphi.png Graphic file (type png)
 <use images/TongQuan/icons/chiphi.png>
 Package pdftex.def Info: images/TongQuan/icons/chiphi.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 68.51532pt.
-<images/TongQuan/icons/tiemnang.png, id=420, 372.39125pt x 282.05376pt>
+<images/TongQuan/icons/tiemnang.png, id=467, 372.39125pt x 282.05376pt>
 File: images/TongQuan/icons/tiemnang.png Graphic file (type png)
 <use images/TongQuan/icons/tiemnang.png>
 Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 81.
@@ -1293,7 +1355,7 @@ Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 
  [8
 
  <./images/TongQuan/icons/bungno.png> <./images/TongQuan/icons/chiphi.png> <./images/TongQuan/icons/tiemnang.png>]
-<images/TongQuan/bieudobungno.png, id=465, 513.92pt x 286.06876pt>
+<images/TongQuan/bieudobungno.png, id=518, 513.92pt x 286.06876pt>
 File: images/TongQuan/bieudobungno.png Graphic file (type png)
 <use images/TongQuan/bieudobungno.png>
 Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89.
@@ -1301,7 +1363,7 @@ Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89
  [9
 
  <./images/TongQuan/bieudobungno.png>]
-<images/TongQuan/bieudochiphi.png, id=511, 513.92pt x 344.28625pt>
+<images/TongQuan/bieudochiphi.png, id=570, 513.92pt x 344.28625pt>
 File: images/TongQuan/bieudochiphi.png Graphic file (type png)
 <use images/TongQuan/bieudochiphi.png>
 Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97.
@@ -1309,7 +1371,7 @@ Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97
  [10
 
  <./images/TongQuan/bieudochiphi.png>]
-<images/TongQuan/bieudonhiet.png, id=557, 513.92pt x 249.93375pt>
+<images/TongQuan/bieudonhiet.png, id=622, 513.92pt x 249.93375pt>
 File: images/TongQuan/bieudonhiet.png Graphic file (type png)
 <use images/TongQuan/bieudonhiet.png>
 Package pdftex.def Info: images/TongQuan/bieudonhiet.png  used on input line 105.
@@ -1317,12 +1379,12 @@ Package pdftex.def Info: images/TongQuan/bieudonhiet.png  used on input line 105
  [11
 
  <./images/TongQuan/bieudonhiet.png>]
-<images/TongQuan/bandonhietVietNam.png, id=603, 404.51125pt x 513.92pt>
+<images/TongQuan/bandonhietVietNam.png, id=674, 404.51125pt x 513.92pt>
 File: images/TongQuan/bandonhietVietNam.png Graphic file (type png)
 <use images/TongQuan/bandonhietVietNam.png>
 Package pdftex.def Info: images/TongQuan/bandonhietVietNam.png  used on input line 171.
 (pdftex.def)             Requested size: 131.74081pt x 167.3749pt.
-<images/TongQuan/icons/phaply.png, id=604, 481.8pt x 483.8075pt>
+<images/TongQuan/icons/phaply.png, id=675, 481.8pt x 483.8075pt>
 File: images/TongQuan/icons/phaply.png Graphic file (type png)
 <use images/TongQuan/icons/phaply.png>
 Package pdftex.def Info: images/TongQuan/icons/phaply.png  used on input line 171.
@@ -1339,7 +1401,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 171.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 171.
-<images/TongQuan/icons/tiemnangVietNam.png, id=605, 477.785pt x 482.80376pt>
+<images/TongQuan/icons/tiemnangVietNam.png, id=676, 477.785pt x 482.80376pt>
 File: images/TongQuan/icons/tiemnangVietNam.png Graphic file (type png)
 <use images/TongQuan/icons/tiemnangVietNam.png>
 Package pdftex.def Info: images/TongQuan/icons/tiemnangVietNam.png  used on input line 171.
@@ -1347,7 +1409,7 @@ Package pdftex.def Info: images/TongQuan/icons/tiemnangVietNam.png  used on inpu
  [12
 
  <./images/TongQuan/bandonhietVietNam.png> <./images/TongQuan/icons/phaply.png> <./images/TongQuan/icons/tiemnangVietNam.png>]
-<images/TongQuan/icons/dienmattroiquymolon.png, id=652, 283.0575pt x 259.97125pt>
+<images/TongQuan/icons/dienmattroiquymolon.png, id=729, 283.0575pt x 259.97125pt>
 File: images/TongQuan/icons/dienmattroiquymolon.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiquymolon.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroiquymolon.png  used on input line 277.
@@ -1356,48 +1418,115 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 27
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<images/TongQuan/trungnam.jpg, id=653, 2007.5pt x 1128.215pt>
+<images/TongQuan/trungnam.jpg, id=730, 2007.5pt x 1128.215pt>
 File: images/TongQuan/trungnam.jpg Graphic file (type jpg)
 <use images/TongQuan/trungnam.jpg>
 Package pdftex.def Info: images/TongQuan/trungnam.jpg  used on input line 277.
 (pdftex.def)             Requested size: 136.37341pt x 51.21507pt.
-<images/TongQuan/icons/dienmattroiapmai.png, id=654, 259.97125pt x 264.99pt>
+<images/TongQuan/icons/dienmattroiapmai.png, id=731, 259.97125pt x 264.99pt>
 File: images/TongQuan/icons/dienmattroiapmai.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiapmai.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroiapmai.png  used on input line 277.
 (pdftex.def)             Requested size: 22.32932pt x 22.76228pt.
-<images/TongQuan/apmai.png, id=655, 316.18124pt x 236.68425pt>
+<images/TongQuan/apmai.png, id=732, 316.18124pt x 236.68425pt>
 File: images/TongQuan/apmai.png Graphic file (type png)
 <use images/TongQuan/apmai.png>
 Package pdftex.def Info: images/TongQuan/apmai.png  used on input line 277.
 (pdftex.def)             Requested size: 136.40396pt x 51.21477pt.
-<images/TongQuan/icons/dienmattroidoclap.png, id=656, 314.17375pt x 276.03125pt>
+<images/TongQuan/icons/dienmattroidoclap.png, id=733, 314.17375pt x 276.03125pt>
 File: images/TongQuan/icons/dienmattroidoclap.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroidoclap.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroidoclap.png  used on input line 277.
 (pdftex.def)             Requested size: 25.90622pt x 22.76228pt.
-<images/TongQuan/doclap.png, id=657, 381.22424pt x 332.442pt>
+<images/TongQuan/doclap.png, id=734, 381.22424pt x 332.442pt>
 File: images/TongQuan/doclap.png Graphic file (type png)
 <use images/TongQuan/doclap.png>
 Package pdftex.def Info: images/TongQuan/doclap.png  used on input line 277.
 (pdftex.def)             Requested size: 136.40297pt x 51.21347pt.
  [13
 
-{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/TongQuan/icons/dienmattroiquymolon.png> <./images/TongQuan/trungnam.jpg> <./images/TongQuan/icons/dienmattroiapmai.png> <./images/TongQuan/apmai.png> <./images/TongQuan/icons/dienmattroidoclap.png> <./images/TongQuan/doclap.png>] [14
+{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/TongQuan/icons/dienmattroiquymolon.png> <./images/TongQuan/trungnam.jpg> <./images/TongQuan/icons/dienmattroiapmai.png> <./images/TongQuan/apmai.png> <./images/TongQuan/icons/dienmattroidoclap.png> <./images/TongQuan/doclap.png>]
+<images/TongQuan/icons/quanghoc.png, id=789, 120.45pt x 133.09724pt>
+File: images/TongQuan/icons/quanghoc.png Graphic file (type png)
+<use images/TongQuan/icons/quanghoc.png>
+Package pdftex.def Info: images/TongQuan/icons/quanghoc.png  used on input line 403.
+(pdftex.def)             Requested size: 24.96048pt x 27.57959pt.
+<images/TongQuan/suythoaiquanghoc.png, id=790, 519.1395pt x 425.79076pt>
+File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
+<use images/TongQuan/suythoaiquanghoc.png>
+Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 403.
+(pdftex.def)             Requested size: 55.49747pt x 45.52458pt.
+File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
+<use images/TongQuan/suythoaiquanghoc.png>
+Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 403.
+(pdftex.def)             Requested size: 55.49747pt x 45.52458pt.
+<images/TongQuan/icons/matketnoidien.png, id=791, 88.53075pt x 118.64325pt>
+File: images/TongQuan/icons/matketnoidien.png Graphic file (type png)
+<use images/TongQuan/icons/matketnoidien.png>
+Package pdftex.def Info: images/TongQuan/icons/matketnoidien.png  used on input line 403.
+(pdftex.def)             Requested size: 24.96048pt x 33.44978pt.
+<images/TongQuan/matketnoidien.jpg, id=792, 1002.74625pt x 748.7975pt>
+File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
+<use images/TongQuan/matketnoidien.jpg>
+Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 403.
+(pdftex.def)             Requested size: 60.95781pt x 45.52458pt.
+File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
+<use images/TongQuan/matketnoidien.jpg>
+Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 403.
+(pdftex.def)             Requested size: 60.95781pt x 45.52458pt.
+<images/TongQuan/icons/phancung.png, id=793, 121.6545pt x 133.6995pt>
+File: images/TongQuan/icons/phancung.png Graphic file (type png)
+<use images/TongQuan/icons/phancung.png>
+Package pdftex.def Info: images/TongQuan/icons/phancung.png  used on input line 403.
+(pdftex.def)             Requested size: 24.96048pt x 27.431pt.
+<images/TongQuan/huhongphancung.png, id=794, 410.13225pt x 263.18324pt>
+File: images/TongQuan/huhongphancung.png Graphic file (type png)
+<use images/TongQuan/huhongphancung.png>
+Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 403.
+(pdftex.def)             Requested size: 70.94188pt x 45.52458pt.
+File: images/TongQuan/huhongphancung.png Graphic file (type png)
+<use images/TongQuan/huhongphancung.png>
+Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 403.
+(pdftex.def)             Requested size: 70.94188pt x 45.52458pt.
+ [14
 
-]) (05-example-conclusion.tex [15
+ <./images/TongQuan/icons/quanghoc.png> <./images/TongQuan/suythoaiquanghoc.png> <./images/TongQuan/icons/matketnoidien.png> <./images/TongQuan/matketnoidien.jpg> <./images/TongQuan/icons/phancung.png> <./images/TongQuan/huhongphancung.png>]
+<images/TongQuan/cachuhong.png, id=850, 672.111pt x 371.58826pt>
+File: images/TongQuan/cachuhong.png Graphic file (type png)
+<use images/TongQuan/cachuhong.png>
+Package pdftex.def Info: images/TongQuan/cachuhong.png  used on input line 411.
+(pdftex.def)             Requested size: 260.01231pt x 143.75081pt.
+ [15
 
-]) (06-example-appendix.tex [16
+ <./images/TongQuan/cachuhong.png>]
+<images/PhuongPhap/drone.png, id=903, 302.93175pt x 169.8345pt>
+File: images/PhuongPhap/drone.png Graphic file (type png)
+<use images/PhuongPhap/drone.png>
+Package pdftex.def Info: images/PhuongPhap/drone.png  used on input line 512.
+(pdftex.def)             Requested size: 71.13188pt x 39.87741pt.
+ [16
+
+ <./images/PhuongPhap/drone.png>]
+<images/PhuongPhap/UAV.png, id=956, 606.46574pt x 275.8305pt>
+File: images/PhuongPhap/UAV.png Graphic file (type png)
+<use images/PhuongPhap/UAV.png>
+Package pdftex.def Info: images/PhuongPhap/UAV.png  used on input line 520.
+(pdftex.def)             Requested size: 260.01231pt x 118.25967pt.
+ [17
+
+ <./images/PhuongPhap/UAV.png>]) (05-example-conclusion.tex [18
+
+]) (06-example-appendix.tex [19
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=837, 295.1025pt x 398.08725pt>
+<images/graph.png, id=1048, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 14.
 (pdftex.def)             Requested size: 295.10176pt x 398.08627pt.
- [17
+ [20
 
- <./images/graph.png>]) (09-example-appendix-terms.tex [18
+ <./images/graph.png>]) (09-example-appendix-terms.tex [21
 
 ]) (10-example-appendix-code.tex
 \openout4 = `template.vrb'.
@@ -1437,13 +1566,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 20.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 20.
-) [19
+) [22
 
 ]) (11-example-appendix-theorems.tex
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 21.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [20
+) [23
 
 ])
 \tf@nav=\write5
@@ -1466,20 +1595,20 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 34964 strings out of 467871
- 716326 string characters out of 5418376
- 1263665 words of memory out of 5000000
- 63037 multiletter control sequences out of 15000+600000
- 720786 words of font info for 165 fonts, out of 8000000 for 9000
+ 36364 strings out of 467871
+ 741096 string characters out of 5418376
+ 1294012 words of memory out of 5000000
+ 64386 multiletter control sequences out of 15000+600000
+ 718447 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,530b,2184s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,135p,530b,2245s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Test} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on template.pdf (20 pages, 7014301 bytes).
+Output written on template.pdf (23 pages, 11465142 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1177 PDF objects out of 1200 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

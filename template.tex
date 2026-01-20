@@ -1,11 +1,13 @@
-\documentclass[11pt, aspectratio=169]{beamer}
+\documentclass[11pt, aspectratio=169, xcolor=table]{beamer}
 
 \graphicspath{{images/}{./}} 
+\usepackage[export]{adjustbox} 
 \usepackage{booktabs} 
 \usepackage{calligra} 
 \usepackage{fnpct} 
 \usepackage{listings} 
-\usepackage{bookmark} 
+\usepackage{bookmark}
+\usepackage{colortbl}        % Hỗ trợ tô màu bảng
 
 %---------------------------------------------------------
 %   CẤU HÌNH TIẾNG VIỆT (VIETNAMESE SETUP)
@@ -93,6 +95,7 @@
 \usetikzlibrary{calc} % Để tính toán tọa độ nếu cần
 \usetikzlibrary{backgrounds} % Để dùng on background layer
 \usetikzlibrary{arrows.meta} % Để tạo mũi tên đẹp
+\usetikzlibrary{positioning} % SỬA LỖI: Unknown operator 'of'
 \usepackage{ragged2e} % Để dùng \justifying
 \usepackage{tcolorbox}
 

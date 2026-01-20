@@ -276,25 +276,248 @@
     }}
 \end{frame}
 
+% Định nghĩa màu sắc giống trong ảnh
+\definecolor{mypaleblue}{RGB}{189, 215, 238} % Màu xanh nhạt cho đường kẻ
+\definecolor{myorange}{RGB}{197, 90, 17}    % Màu cam đậm cho tiêu đề (nếu cần)
+\definecolor{myblueicon}{RGB}{0, 112, 192}  % Màu xanh cho icon
+
+% --- KHAI BÁO LỆNH BO GÓC BẰNG TIKZ (ĐẶT NGOÀI FRAME) ---
+% Nguyên lý: Vẽ 1 ảnh tàng hình để lấy kích thước -> Tạo khung cắt bo tròn -> Vẽ ảnh thật đè lên
+\newcommand{\roundimg}[2]{ % Tham số: #1 = chiều cao, #2 = đường dẫn ảnh
+    \begin{tikzpicture}[baseline=(img.center)]
+        \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[height=#1]{#2}}; % Ảnh tàng hình đo size
+        \clip[rounded corners=8pt] (measure.south west) rectangle (measure.north east); % Cắt bo góc
+        \node[inner sep=0pt] (img) at (measure.center) {\includegraphics[height=#1]{#2}}; % Ảnh thật
+    \end{tikzpicture}
+}
+% -----------------------------------------------------------------------
+
+\begin{frame}
+    \frametitle{CÁC DẠNG HƯ HỎNG PHỔ BIẾN}
+
+    \vspace*{-0.5cm} 
+    
+    \begin{columns}[T]
+        
+        % --- CỘT 1 ---
+        \begin{column}{0.32\textwidth}
+            \begin{minipage}[c]{0.18\textwidth}
+                \includegraphics[width=\linewidth]{images/TongQuan/icons/quanghoc.png} 
+            \end{minipage}%
+            \hspace{0.1cm}
+            \begin{minipage}[c]{0.80\textwidth}
+                \textbf{\footnotesize Suy Thoái Quang Học}
+            \end{minipage}
+            
+            \vspace{0.1cm}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0.05cm}
+                \setlength\parskip{0pt}
+                \item \textbf{\textcolor{orange}{Bụi bẩn:}} Giảm khả năng hấp thụ ánh sáng.
+                \item \textbf{\textcolor{orange}{Ố màu:}} Lão hóa vật liệu.
+                \item \textbf{\textcolor{orange}{Bong tróc:}} Tách lớp kính bảo vệ.
+            \end{itemize}
+            
+            \vspace{0.05cm}
+            \centering
+            % SỬ DỤNG LỆNH TIKZ ĐÃ TẠO Ở TRÊN
+            \roundimg{1.6cm}{images/TongQuan/suythoaiquanghoc.png}
+        \end{column}
+
+        % --- KẺ DỌC 1 ---
+        \begin{column}{0.02\textwidth}
+            \centering
+            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.0cm}}
+        \end{column}
+
+        % --- CỘT 2 ---
+        \begin{column}{0.32\textwidth}
+            \begin{minipage}[c]{0.18\textwidth}
+                \includegraphics[width=\linewidth]{images/TongQuan/icons/matketnoidien.png}
+            \end{minipage}%
+            \hspace{0.1cm}
+            \begin{minipage}[c]{0.80\textwidth}
+                \textbf{\footnotesize Mất Kết Nối Điện}
+            \end{minipage}
+            
+            \vspace{0.1cm}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0.05cm}
+                \setlength\parskip{0pt}
+                \item \textbf{\textcolor{orange}{Vết nứt:}} Do tác động cơ học/nhiệt.
+                \item \textbf{\textcolor{orange}{Điểm nóng:}} Gây quá nhiệt cục bộ.
+                \item \textbf{\textcolor{orange}{Ngắn mạch:}} Hư hỏng cell pin.
+            \end{itemize}
+            
+            \vspace{0.05cm}
+            \centering
+            % SỬ DỤNG LỆNH TIKZ
+            \roundimg{1.6cm}{images/TongQuan/matketnoidien.jpg}
+        \end{column}
+
+        % --- KẺ DỌC 2 ---
+        \begin{column}{0.02\textwidth}
+            \centering
+            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.0cm}}
+        \end{column}
+
+        % --- CỘT 3 ---
+        \begin{column}{0.32\textwidth}
+            \begin{minipage}[c]{0.18\textwidth}
+                \includegraphics[width=\linewidth]{images/TongQuan/icons/phancung.png}
+            \end{minipage}%
+            \hspace{0.1cm}
+            \begin{minipage}[c]{0.80\textwidth}
+                \textbf{\footnotesize Hư Hỏng Phần Cứng}
+            \end{minipage}
+            
+            \vspace{0.1cm}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0.05cm}
+                \setlength\parskip{0pt}
+                \item \textbf{\textcolor{orange}{PID:}} Suy giảm do điện thế cảm ứng.
+                \item \textbf{\textcolor{orange}{Diode hỏng:}} Mất chức năng bypass.
+                \item \textbf{\textcolor{orange}{Lỗi dây:}} Ăn mòn, đứt gãy.
+            \end{itemize}
+            
+            \vspace{0.05cm}
+            \centering
+            % SỬ DỤNG LỆNH TIKZ
+            \roundimg{1.6cm}{images/TongQuan/huhongphancung.png}
+        \end{column}
+    \end{columns}
+    
+    % --- FOOTER ---
+    \vspace{0.2cm}
+    \centering
+    \tiny 
+    \parbox{0.95\textwidth}{
+        Xuất phát từ đặc thù 'có thể nhìn thấy', đề tài tập trung nghiên cứu Nhận diện Suy thoái quang học và sẽ phân tích chi tiết các dạng lỗi này ở phần tiếp theo.
+        
+        \vspace{0.1cm}
+        \textbf{Tổng kết Chương 1:} Từ cơ sở thực tiễn về tiềm năng và thiệt hại do hư hỏng tấm pin đã nêu, Chương 2 sẽ đi sâu phân tích các phương pháp kiểm tra và giám sát nhằm giải quyết vấn đề này.
+    }
+\end{frame}
+
+\begin{frame}
+\label{Cachuhong}
+	\frametitle{CÁC DẠNG HƯ HỎNG PHỔ BIẾN}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{images/TongQuan/cachuhong.png}
+	\end{center}
+\end{frame}
+
 %------------------------------------------------
 \section{Phương pháp đề xuất}
 
-%------------------------------------------------
 \begin{frame}
-	\frametitle{Blocks}
-    	\begin{block}{Block Title}
-    		Block 1
-    	\end{block}
-    	
-    	\begin{exampleblock}{Example Block Title}
-    		Block 2
-    	\end{exampleblock}
-    	
-    	\begin{alertblock}{Alert Block Title}
-    		Block 3
-    	\end{alertblock}
-    	
-    	\begin{block}{}
-    		Block without a title
-    	\end{block}
+    \frametitle{GIỚI THIỆU VỀ UAV}
+
+    % --- 1. KÉO SÁT LÊN TRÊN ---
+    \vspace{-0.3cm}
+
+    % --- 2. DANH SÁCH ---
+    \footnotesize
+    \begin{itemize}
+        \setlength\itemsep{0pt}
+        \setlength\parskip{0pt}
+        \item Nhóm chọn giải pháp kiểm tra hệ thống bằng thiết bị bay không người lái (UAV) tích hợp Camera quang học (RGB).
+        \item Hướng tiếp cận này khắc phục nhược điểm về chi phí cao và tốn kém nhân lực của các phương pháp truyền thống.
+        \item Giải pháp loại bỏ tình trạng quá tải, tốn thời gian và nguy cơ bỏ sót lỗi khi phân tích thủ công lượng lớn hình ảnh.
+    \end{itemize}
+
+    \vspace{0.2cm} % Tăng khoảng cách một chút để thoáng hơn
+
+    % --- PHẦN NỘI DUNG CHÍNH ---
+    \begin{columns}[T, onlytextwidth]
+        % --- CỘT TRÁI: BẢNG ĐÁNH GIÁ ---
+        % Giảm độ rộng cột trái một chút để nhường chỗ cho cột phải
+        \begin{column}{0.45\textwidth}
+            \centering % <--- THÊM LỆNH NÀY ĐỂ CANH GIỮA BẢNG TRONG CỘT (DỊCH PHẢI 1 TÍ)
+            \begin{table}[h]
+                \scriptsize
+                \renewcommand{\arraystretch}{1.2} % Tăng nhẹ giãn dòng cho dễ đọc
+                \setlength{\tabcolsep}{3pt}
+                % Sử dụng tỷ lệ phần trăm để bảng tự co giãn tốt hơn
+                \begin{tabular}{|p{0.25\linewidth}|p{0.68\linewidth}|}
+                    \hline
+                    \rowcolor{blue!70}\textcolor{white}{\textbf{Đánh giá}} & \cellcolor{blue!70} \\
+                    \hline
+                    \cellcolor{green!20}\textbf{Ưu điểm} & Tối ưu chi phí, tốc độ; giảm tải nhân lực, dễ triển khai. \\
+                    \hline
+                    \cellcolor{red!20}\textbf{Hạn chế} & Chỉ phát hiện lỗi bề mặt; độ chính xác phụ thuộc đk bay. \\
+                    \hline
+                \end{tabular}
+            \end{table}
+        \end{column}
+
+        % --- CỘT PHẢI: SƠ ĐỒ QUY TRÌNH MỚI ---
+        % Tăng độ rộng cột phải để chứa sơ đồ lớn hơn
+        \begin{column}{0.53\textwidth}
+            \centering
+            % Sử dụng resizebox để ép toàn bộ sơ đồ vừa khít chiều ngang cột
+            \resizebox{1\linewidth}{!}{%
+                \begin{tikzpicture}[
+                    % Định nghĩa kiểu cho các hộp và nhãn
+                    boxstyle/.style={
+                        draw,
+                        rectangle,
+                        fill=blue!15, % Màu nền xanh nhạt giống ảnh
+                        align=center,
+                        font=\bfseries\small, % Chữ in đậm, to vừa
+                        text width=3.2cm, % Độ rộng cố định cho các hộp
+                        minimum height=1.2cm,
+                        inner sep=5pt
+                    },
+                    labelstyle/.style={
+                        align=center,
+                        font=\scriptsize, % Chữ chú thích nhỏ hơn
+                        text width=3.2cm,
+                        below=0.2cm % Khoảng cách nằm dưới hộp
+                    },
+                    arrowstyle/.style={->, >=latex, thick} % Kiểu mũi tên
+                ]
+
+                    % 1. Node Drone ở trên cùng, giữa
+                    % Thay đường dẫn ảnh bằng ảnh thực tế của bạn: images/PhuongPhap/drone.png
+                    \node (drone) at (0, 3) {\includegraphics[width=2.5cm, keepaspectratio]{images/PhuongPhap/drone.png}};
+
+                    % 2. Các hộp quy trình chính (Đặt hộp số 2 ở giữa tâm 0,0)
+                    \node [boxstyle] (step2) at (0,0) {2. Thu thập dữ liệu RGB};
+                    % Hộp 1 nằm bên trái hộp 2
+                    \node [boxstyle, left=0.6cm of step2] (step1) {1. Lập kế hoạch bay};
+                    % Hộp 3 nằm bên phải hộp 2
+                    \node [boxstyle, right=0.6cm of step2] (step3) {3. AI Detect (Deep Learning)};
+
+                    % 3. Các nhãn chú thích bên dưới các hộp
+                    \node [labelstyle] at (step1.south) {Thiết lập đường bay tự động};
+                    \node [labelstyle] at (step2.south) {Chụp ảnh, gắn thẻ GPS, ghép bản đồ};
+                    \node [labelstyle] at (step3.south) {Phân tích lỗi \& Định vị tọa độ};
+
+                    % 4. Các mũi tên kết nối
+                    % Mũi tên nét đứt từ Drone xuống hộp 2
+                    \draw [arrowstyle, dashed, very thick, gray!80] (drone.south) -- (step2.north);
+                    % Mũi tên từ 1 sang 2
+                    \draw [arrowstyle] (step1) -- (step2);
+                    % Mũi tên từ 2 sang 3
+                    \draw [arrowstyle] (step2) -- (step3);
+
+                \end{tikzpicture}
+            }% Kết thúc resizebox
+        \end{column}
+    \end{columns}
 \end{frame}
+
+\begin{frame}
+\label{UAV}
+	\frametitle{GIỚI THIỆU VỀ UAV}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{images/PhuongPhap/UAV.png}
+	\end{center}
+\end{frame}
+
+
+
