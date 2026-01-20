@@ -687,7 +687,84 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{TỔNG HỢP \& SO SÁNH CÁC PHƯƠNG PHÁP}
-
+    \frametitle{TỔNG HỢP \& SO SÁNH CÁC PHƯƠNG PHÁP}
+    \definecolor{headerBlue}{HTML}{6FA8DC}
+    
+    % Kéo bảng lên sát mép trên hơn nữa (từ -0.5cm lên -0.65cm)
+    \vspace{-0.65cm} 
+    
+    \begin{table}
+        \centering
+        \resizebox{\textwidth}{!}{
+            % Giữ nguyên scriptsize như bạn muốn (không dùng tiny)
+            \scriptsize 
+            
+            % Giảm giãn dòng xuống 0.75 (Vẫn đọc tốt, tiết kiệm chiều cao cực nhiều)
+            \setlength{\tabcolsep}{3pt} 
+            \renewcommand{\arraystretch}{0.75} 
+            
+            \begin{tabular}{|
+                >{\raggedright\arraybackslash}p{2.2cm}|
+                >{\raggedright\arraybackslash}p{5.5cm}|
+                >{\raggedright\arraybackslash}p{4.0cm}|
+                >{\raggedright\arraybackslash}p{6.0cm}|
+            }
+                \hline
+                \rowcolor{headerBlue} 
+                \textbf{Công nghệ} & \textbf{Đầu vào} & \textbf{Phương pháp} & \textbf{Kết quả} \\
+                \hline
+                
+                % Hàng 1
+                Chụp ảnh đa phổ & 
+                - Ảnh không lỗi: 15330 \newline - Ảnh lỗi: 5915 \newline - Train/Test: 80/20 & 
+                Mạng neural tích chập đa phổ & 
+                Độ chính xác: \newline - Đường kẻ dày: 76.4\% \newline - Vết xước: 48.6\% \newline - Tế bào bẩn: 87.2\% \\
+                \hline
+                
+                % Hàng 2
+                Chụp ảnh nhiệt hồng ngoại (IR) & 
+                18 video: \newline - 13 (72\%) huấn luyện \newline - 5 (28\%) kiểm thử & 
+                - YOLOv2 \newline - YOLOv3 & 
+                - YOLOv2: Accuracy 89\% \newline - YOLOv3: Accuracy 91\% \\
+                \hline
+                
+                % Hàng 3
+                Chụp ảnh RGB & 
+                - Dữ liệu gốc: 45754 \newline - Huấn luyện: 27537 \newline - Xác thực: 18217 & 
+                - ImpactNet \newline - Mask FCNN \newline - BiDAF \newline - WebNN & 
+                Bụi, Tuyết, Phân chim, Vết nứt với độ chính xác tổng thể là 84.5\% \\
+                \hline
+                
+                % Hàng 4: Đã viết gọn tên công nghệ để tránh xuống dòng quá nhiều
+                Camera CCD, Nhiệt (IR) \& RGB & 
+                Ảnh từ UAV: \newline 
+                + 2038 ảnh nhiệt: Train 1426, Test 306, Val 306 \newline
+                + 1500 ảnh KTS: Train 1050, Test 225, Val 225 & 
+                - Biến đổi hình thái \& Canny \newline 
+                - Xử lý ảnh nhiệt \& CCD \newline 
+                - Biến đổi Hough \newline 
+                - Xoay ảnh, YOLOv3 & 
+                Độ chính xác tổng thể 92\% (Điểm nóng, vết nứt...). \newline
+                Chi tiết: \newline 
+                - Điểm nóng: 80.3\% \newline
+                - Dính hộp nối: 90.2\% \newline
+                - Vũng nước: 82.5\% \\
+                \hline
+                
+                % Hàng 5: Viết gọn tên công nghệ
+                Ảnh phát quang hồng ngoại gần & 
+                Tập dữ liệu chuẩn PVEL-AD-2021 & 
+                YOLOv7 & 
+                Precision: 88.3\% \\
+                \hline
+                
+                % Hàng 6
+                Chụp ảnh điện quang EL & 
+                148 ảnh tế bào quang điện (U-net): \newline - Train: 108 (73\%) \newline - Test: 30 (20\%) \newline - Val: 10 (7\%) & 
+                - VGG-16 \newline - U-net & 
+                Recall: \newline - Vết nứt: 84\% \newline - Vùng k.hoạt động: 69\% \newline - Lỗi đường dẫn pin: 53\% \\
+                \hline
+            \end{tabular}
+        }
+    \end{table}
 \end{frame}
-
