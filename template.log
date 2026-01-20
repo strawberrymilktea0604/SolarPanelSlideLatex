@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 18:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,15 +972,31 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthememiniframes.sty)
-LaTeX Font Info:    Trying to load font information for T5+opensans-TLF on input line 137.
-LaTeX Font Info:    No file T5opensans-TLF.fd. on input line 137.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 137.
- (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\smallskipamount' on input line 138.
+
+LaTeX Font Info:    Trying to load font information for T5+opensans-TLF on input line 138.
+LaTeX Font Info:    No file T5opensans-TLF.fd. on input line 138.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 138.
+(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T5/opensans-TLF/m/n' undefined
-(Font)              using `T5/cmr/m/n' instead on input line 137.
+(Font)              using `T5/cmr/m/n' instead on input line 138.
 
 (template.aux
 Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
@@ -988,26 +1004,26 @@ Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 )
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1062,53 +1078,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 137.
+Package hyperref Info: Link coloring OFF on input line 138.
  (template.out) (template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 137.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 137.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 138.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T5/ppl/m/n on input line 137.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+(Font)                  OT1/cmss/m/n --> T5/ppl/m/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T5/phv/b/n on input line 137.
+(Font)                  OT1/cmr/bx/n --> T5/phv/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T5/phv/b/n on input line 137.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 137.
+(Font)                  OT1/cmr/bx/n --> T5/phv/b/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T5/phv/m/n on input line 137.
+(Font)                  OT1/cmss/m/n --> T5/phv/m/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T5/phv/m/n on input line 137.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 137.
+(Font)                  OT1/cmss/bx/n --> T5/phv/m/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T5/phv/m/it on input line 137.
+(Font)                  OT1/cmr/m/it --> T5/phv/m/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T5/phv/m/it on input line 137.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 137.
+(Font)                  OT1/cmr/bx/it --> T5/phv/m/it on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T5/pcr/m/n on input line 137.
+(Font)                  OT1/cmtt/m/n --> T5/pcr/m/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T5/pcr/m/n on input line 137.
+(Font)                  OT1/cmtt/m/n --> T5/pcr/m/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T5/phv/m/n --> T5/phv/b/n on input line 137.
+(Font)                  T5/phv/m/n --> T5/phv/b/n on input line 138.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T5/phv/m/it --> T5/phv/b/it on input line 137.
+(Font)                  T5/phv/m/it --> T5/phv/b/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T5/ppl/b/n on input line 137.
+(Font)                  OT1/cmss/b/n --> T5/ppl/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T5/phv/b/n --> T5/phv/b/n on input line 137.
+(Font)                  T5/phv/b/n --> T5/phv/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T5/phv/m/n --> T5/phv/b/n on input line 137.
+(Font)                  T5/phv/m/n --> T5/phv/b/n on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T5/phv/m/it --> T5/phv/b/it on input line 137.
+(Font)                  T5/phv/m/it --> T5/phv/b/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T5/pcr/m/n --> T5/pcr/b/n on input line 137.
+(Font)                  T5/pcr/m/n --> T5/pcr/b/n on input line 138.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1122,19 +1138,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 137.
+Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 138.
 \c@lstlisting=\count390
 \c@mv@tabular=\count391
 \c@mv@boldtabular=\count392
  (template.nav) (01-title.tex
 
-LaTeX Font Warning: Font shape `T5/opensans-TLF/m/it' undefined
-(Font)              using `T5/opensans-TLF/m/n' instead on input line 10.
+LaTeX Font Warning: Font shape `T5/opensans-TLF/b/n' undefined
+(Font)              using `T5/opensans-TLF/m/n' instead on input line 15.
 
+
+Overfull \vbox (87.26616pt too high) detected at line 15
+ []
+
+<images/background-1080p-washout.jpg, id=80, 778.107pt x 423.0204pt>
+File: images/background-1080p-washout.jpg Graphic file (type jpg)
+<use images/background-1080p-washout.jpg>
+Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
+(pdftex.def)             Requested size: 455.24419pt x 256.08627pt.
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-]) (01-tomtat.tex
-<images/drone_solar.jpg, id=132, 1283.79625pt x 722.7pt>
+ <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
+<images/drone_solar.jpg, id=133, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1157,12 +1182,7 @@ LaTeX Font Info:    Font shape `T5/phv/m/it' in size <8> not available
 (Font)              Font shape `T5/phv/m/sl' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <6> not available
 (Font)              Font shape `T5/phv/m/sl' tried instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `T5/opensans-TLF/b/n' undefined
-(Font)              using `T5/opensans-TLF/m/n' instead on input line 48.
-
-[2
+ [2
 
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc
 LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 1.
@@ -1174,19 +1194,22 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 ) [3
 
 ]) (03-example-motivation.tex
-LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
-(Font)              scaled to size 35.82726pt on input line 25.
+<images/DatVanDe/imagetarget.png, id=210, 778.107pt x 422.7795pt>
+File: images/DatVanDe/imagetarget.png Graphic file (type png)
+<use images/DatVanDe/imagetarget.png>
+Package pdftex.def Info: images/DatVanDe/imagetarget.png  used on input line 35.
+(pdftex.def)             Requested size: 195.00592pt x 105.95265pt.
  [4
 
-]
-<images/link.png, id=247, 632.3625pt x 562.1pt>
+ <./images/DatVanDe/imagetarget.png>]
+<images/link.png, id=250, 632.3625pt x 562.1pt>
 File: images/link.png Graphic file (type png)
 <use images/link.png>
-Package pdftex.def Info: images/link.png  used on input line 61.
+Package pdftex.def Info: images/link.png  used on input line 71.
 (pdftex.def)             Requested size: 632.36096pt x 562.09863pt.
 File: images/link.png Graphic file (type png)
 <use images/link.png>
-Package pdftex.def Info: images/link.png  used on input line 61.
+Package pdftex.def Info: images/link.png  used on input line 71.
 (pdftex.def)             Requested size: 632.36096pt x 562.09863pt.
  [5
 
@@ -1194,11 +1217,11 @@ Package pdftex.def Info: images/link.png  used on input line 61.
 
 ]
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <10> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 103.
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <7> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 103.
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <5> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 103.
  [7
 
 ]) (04-example-theory.tex [8
@@ -1212,7 +1235,7 @@ LaTeX Font Info:    Font shape `T5/phv/m/it' in size <5> not available
 ]) (06-example-appendix.tex [12
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=564, 295.1025pt x 398.08725pt>
+<images/graph.png, id=565, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 13.
@@ -1280,20 +1303,20 @@ L3 programming layer <2025-12-29>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 38576988A2BF40892C24337E35125F22;457.
+(rerunfilecheck)             Checksum: 432E019168398758932F0A3306E859E5;478.
  ) 
 Here is how much of TeX's memory you used:
- 31703 strings out of 467871
- 625968 string characters out of 5418376
- 1188023 words of memory out of 5000000
- 59843 multiletter control sequences out of 15000+600000
- 683807 words of font info for 101 fonts, out of 8000000 for 9000
+ 31723 strings out of 467871
+ 626690 string characters out of 5418376
+ 1190609 words of memory out of 5000000
+ 59864 multiletter control sequences out of 15000+600000
+ 683373 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,135p,517b,2247s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\minhk\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvro8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb>
-Output written on template.pdf (16 pages, 913029 bytes).
+<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvro8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb>
+Output written on template.pdf (16 pages, 2573236 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
+ 701 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
