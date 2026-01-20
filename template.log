@@ -1,34 +1,29 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 17:50
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./template.tex
-(template.tex
+**c:/Users/minhk/Downloads/SolarPanelSlideLatex/template.tex
+(c:/Users/minhk/Downloads/SolarPanelSlideLatex/template.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
 Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
-sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
 )
 \beamer@tempbox=\box53
 \beamer@tempcount=\count276
 \c@beamerpauses=\count277
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
-.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode.sty
 \beamer@slideinframe=\count278
 \beamer@minimum=\count279
 \beamer@decode@box=\box54
 )
 \beamer@commentbox=\box55
 \beamer@modecount=\count280
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \headdp=\dimen148
@@ -74,20 +69,15 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \beamer@sectionadjust=\count298
 \beamer@toclastsection=\count299
 \beamer@tocsectionnumber=\count300
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
-s.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoptions.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 ))
 \beamer@paperwidth=\skip50
 \beamer@paperheight=\skip51
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count301
@@ -102,41 +92,20 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks18
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen172
 \pgfutil@tempdimb=\dimen173
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box62
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-libraryfiltered.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks22
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex
 \pgf@x=\dimen174
 \pgf@xa=\dimen175
 \pgf@xb=\dimen176
@@ -149,70 +118,33 @@ code.tex
 \c@pgf@countb=\count305
 \c@pgf@countc=\count306
 \c@pgf@countd=\count307
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen182
 \pgfmath@count=\count308
 \pgfmath@box=\box63
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count309
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@x=\dimen185
 \pgf@y=\dimen186
@@ -234,39 +166,27 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count314
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count315
 \pgfsyssoftpath@bigbuffer@items=\count316
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -276,15 +196,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen195
 \pgf@picmaxx=\dimen196
@@ -300,150 +214,94 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen262
 \pgf@zx=\dimen263
 \pgf@zy=\dimen264
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen265
 \pgf@path@lasty=\dimen266
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box64
 \pgf@hbox=\box65
 \pgf@layerbox@main=\box66
 \pgf@picture@serial@count=\count317
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen269
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen270
 \pgf@pt@y=\dimen271
 \pgf@pt@temp=\dimen272
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen273
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count318
 \pgf@shadingcount=\count319
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box67
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
-ty
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count320
 \XC@countmixins=\count321
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count322
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
-ty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen275
 \Hy@linkcounter=\count323
@@ -472,21 +330,16 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count326
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen276
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count327
 \Field@Width=\dimen277
@@ -509,26 +362,15 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count329
 \c@bookmark@seq@number=\count330
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
-es.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
-ibility.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
-ty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequires.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompatibility.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks29
 \symAMSa=\mathgroup4
@@ -536,51 +378,27 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
-accent.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2025/12/01 v3.49 KOMA-Script package (file load hooks)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2025/12/01 v3.49 KOMA-Script package (using LaTeX hooks)
-
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2025/12/01 v3.49 KOMA-Script package (logo)
-)))))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
-ator.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
+))))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetranslator.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
-ty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
-eens.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
-y.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscreens.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverlay.sty
 \beamer@argscount=\count331
 \beamer@lastskipcover=\skip52
 \beamer@trivlistdepth=\count332
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
-sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
-n.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesection.sty
 \c@lecture=\count333
 \c@part=\count334
 \c@section=\count335
 \c@subsection=\count336
 \c@subsubsection=\count337
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
-sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.sty
 \beamer@framebox=\box68
 \beamer@frametitlebox=\box69
 \beamer@zoombox=\box70
@@ -595,40 +413,22 @@ sty
 \beamer@envbody=\toks30
 \framewidth=\dimen280
 \c@framenumber=\count341
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
-im.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
-ize.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframesize.sty
 \beamer@splitbox=\box71
 \beamer@autobreakcount=\count342
 \beamer@autobreaklastheight=\dimen281
 \beamer@frametitletoks=\toks31
 \beamer@framesubtitletoks=\toks32
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
-omponents.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframecomponents.sty
 \beamer@colheight=\skip57
 \beamer@footins=\box72
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
-sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
-sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.sty
 \beamer@frameboxcopy=\box73
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
-y)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
-tes.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetemplates.sty
 \beamer@sbttoks=\toks33
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
-plates.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
-sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtemplates.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.sty
 \bmb@box=\box74
 \bmb@colorbox=\box75
 \bmb@boxwidth=\dimen282
@@ -640,10 +440,7 @@ sty
 \bmb@prevheight=\dimen288
 )
 \beamer@blockheadheight=\dimen289
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
-tructure.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocalstructure.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
@@ -652,33 +449,23 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \c@table=\count344
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
-tion.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
-tionsymbols.tex)
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigation.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenavigationsymbols.tex)
 \beamer@section@min@dim=\dimen290
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
-ms.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheorems.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen291
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen292
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count345
@@ -728,8 +515,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks40
 \thm@bodyfont=\toks41
@@ -742,23 +528,10 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks45
 )
 \c@theorem=\count357
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
-.sty))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
-lt.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
-efault.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-default.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-default.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes.sty)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefault.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemedefault.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemedefault.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemedefault.sty
 \beamer@dima=\dimen300
 \beamer@dimb=\dimen301
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-default.sty)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen302
 \lightrulewidth=\dimen303
@@ -777,18 +550,11 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count360
 \@lastruleclass=\count361
 \@thisrulewidth=\dimen314
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligr
-a.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fundus-calligra\calligra.sty
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
-) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-12-29 L3 programming layer (loader) 
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count362
 ))
@@ -803,13 +569,9 @@ Package: fnpct 2022/02/27 v1.1a footnotes' interaction with punctuation
 \l__fnpct_after_comma_dim=\dimen319
 \l__fnpct_before_collect_dim=\dimen320
 \l__fnpct_after_collect_dim=\dimen321
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
-ns.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count364
 \lst@gtempboxa=\box78
 \lst@token=\toks46
@@ -822,20 +584,18 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \lst@newlines=\count368
 \lst@lineno=\count369
 \lst@maxwidth=\dimen325
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count370
 \lst@skipnumbers=\count371
 \lst@framebox=\box79
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
 ==> First Aid for listings.sty no longer applied!
     Expected:
         2024/09/23 1.10c (Carsten Heinz)
@@ -846,16 +606,13 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks47
 \inpenc@posthook=\toks48
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.dfu
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -1009,34 +766,22 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
 ))
-LaTeX Font Info:    Trying to load font information for T5+cmss on input line 1
-16.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
+LaTeX Font Info:    Trying to load font information for T5+cmss on input line 116.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/30 v25.18 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/30 v25.18 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count372
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2101.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
 \U@D=\dimen326
 \l@unhyphenated=\language79
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3964.
 \bbl@dirlevel=\count373
@@ -1048,16 +793,11 @@ Package babel Info: Configuration files are deprecated, as
 * Local config file bblopts.cfg used
 *
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/vi\babel
--vietnamese.tex)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/vi\babel-vietnamese.tex)
 Package babel Info: Importing font and identification data for vietnamese
 (babel)             from babel-vi.ini. Reported on input line 4321.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/babel-vietnamese\vietna
-mese.ldf
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/babel-vietnamese\vietnamese.ldf
 Language: vietnamese 
 
 
@@ -1071,222 +811,119 @@ Package babel Info: Hyphen rules for 'vietnamese' set to \l@english
 (babel)             (\language0). Reported on input line 37.
 Package babel Info: Hyphen rules for 'vietnam' set to \l@english
 (babel)             (\language0). Reported on input line 38.
-Loading definitions for the Vietnamese font encoding
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
+Loading definitions for the Vietnamese font encoding (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 LaTeX Font Info:    Redeclaring font encoding T5 on input line 75.
-LaTeX Encoding Info:    Redeclaring text command \` (encoding T5) on input line
- 79.
-LaTeX Encoding Info:    Redeclaring text command \' (encoding T5) on input line
- 80.
-LaTeX Encoding Info:    Redeclaring text command \^ (encoding T5) on input line
- 81.
-LaTeX Encoding Info:    Redeclaring text command \~ (encoding T5) on input line
- 82.
-LaTeX Encoding Info:    Redeclaring text command \" (encoding T5) on input line
- 83.
-LaTeX Encoding Info:    Redeclaring text command \r (encoding T5) on input line
- 84.
-LaTeX Encoding Info:    Redeclaring text command \v (encoding T5) on input line
- 85.
-LaTeX Encoding Info:    Redeclaring text command \u (encoding T5) on input line
- 86.
-LaTeX Encoding Info:    Redeclaring text command \= (encoding T5) on input line
- 87.
-LaTeX Encoding Info:    Redeclaring text command \. (encoding T5) on input line
- 88.
-LaTeX Encoding Info:    Redeclaring text command \b (encoding T5) on input line
- 90.
-LaTeX Encoding Info:    Redeclaring text command \c (encoding T5) on input line
- 94.
-LaTeX Encoding Info:    Redeclaring text command \d (encoding T5) on input line
- 98.
-LaTeX Encoding Info:    Redeclaring text command \h (encoding T5) on input line
- 103.
-LaTeX Encoding Info:    Redeclaring text symbol \quotesinglbase (encoding T5) o
-n input line 105.
-LaTeX Encoding Info:    Redeclaring text symbol \guilsinglleft (encoding T5) on
- input line 106.
-LaTeX Encoding Info:    Redeclaring text symbol \guilsinglright (encoding T5) o
-n input line 107.
-LaTeX Encoding Info:    Redeclaring text symbol \textquotedblleft (encoding T5)
- on input line 108.
-LaTeX Encoding Info:    Redeclaring text symbol \textquotedblright (encoding T5
-) on input line 109.
-LaTeX Encoding Info:    Redeclaring text symbol \quotedblbase (encoding T5) on 
-input line 110.
-LaTeX Encoding Info:    Redeclaring text symbol \guillemotleft (encoding T5) on
- input line 111.
-LaTeX Encoding Info:    Redeclaring text symbol \guillemotright (encoding T5) o
-n input line 112.
-LaTeX Encoding Info:    Redeclaring text symbol \textendash (encoding T5) on in
-put line 113.
-LaTeX Encoding Info:    Redeclaring text symbol \textemdash (encoding T5) on in
-put line 114.
-LaTeX Encoding Info:    Redeclaring text symbol \textcompwordmark (encoding T5)
- on input line 115.
-LaTeX Encoding Info:    Redeclaring text command \textperthousand (encoding T5)
- on input line 117.
-LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding 
-T5) on input line 118.
-LaTeX Encoding Info:    Redeclaring text symbol \i (encoding T5) on input line 
-119.
-LaTeX Encoding Info:    Redeclaring text symbol \textvisiblespace (encoding T5)
- on input line 121.
-LaTeX Encoding Info:    Redeclaring text symbol \textquotedbl (encoding T5) on 
-input line 122.
-LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding T5) on in
-put line 123.
-LaTeX Encoding Info:    Redeclaring text symbol \textquoteright (encoding T5) o
-n input line 124.
-LaTeX Encoding Info:    Redeclaring text symbol \textless (encoding T5) on inpu
-t line 125.
-LaTeX Encoding Info:    Redeclaring text symbol \textgreater (encoding T5) on i
-nput line 126.
-LaTeX Encoding Info:    Redeclaring text symbol \textbackslash (encoding T5) on
- input line 127.
-LaTeX Encoding Info:    Redeclaring text symbol \textasciicircum (encoding T5) 
-on input line 128.
-LaTeX Encoding Info:    Redeclaring text symbol \textunderscore (encoding T5) o
-n input line 129.
-LaTeX Encoding Info:    Redeclaring text symbol \textquoteleft (encoding T5) on
- input line 130.
-LaTeX Encoding Info:    Redeclaring text symbol \textbraceleft (encoding T5) on
- input line 131.
-LaTeX Encoding Info:    Redeclaring text symbol \textbar (encoding T5) on input
- line 132.
-LaTeX Encoding Info:    Redeclaring text symbol \textbraceright (encoding T5) o
-n input line 133.
-LaTeX Encoding Info:    Redeclaring text symbol \textasciitilde (encoding T5) o
-n input line 134.
-LaTeX Encoding Info:    Redeclaring text command \horn (encoding T5) on input l
-ine 137.
-LaTeX Encoding Info:    Redeclaring text symbol \DJ (encoding T5) on input line
- 306.
-LaTeX Encoding Info:    Redeclaring text symbol \dj (encoding T5) on input line
- 307.
-LaTeX Encoding Info:    Redeclaring text symbol \Acircumflex (encoding T5) on i
-nput line 312.
-LaTeX Encoding Info:    Redeclaring text symbol \Abreve (encoding T5) on input 
-line 319.
-LaTeX Encoding Info:    Redeclaring text symbol \Ecircumflex (encoding T5) on i
-nput line 326.
-LaTeX Encoding Info:    Redeclaring text symbol \Ocircumflex (encoding T5) on i
-nput line 333.
-LaTeX Encoding Info:    Redeclaring text symbol \Ohorn (encoding T5) on input l
-ine 340.
-LaTeX Encoding Info:    Redeclaring text symbol \Uhorn (encoding T5) on input l
-ine 347.
-LaTeX Encoding Info:    Redeclaring text symbol \acircumflex (encoding T5) on i
-nput line 354.
-LaTeX Encoding Info:    Redeclaring text symbol \abreve (encoding T5) on input 
-line 361.
-LaTeX Encoding Info:    Redeclaring text symbol \ecircumflex (encoding T5) on i
-nput line 368.
-LaTeX Encoding Info:    Redeclaring text symbol \ocircumflex (encoding T5) on i
-nput line 375.
-LaTeX Encoding Info:    Redeclaring text symbol \ohorn (encoding T5) on input l
-ine 382.
-LaTeX Encoding Info:    Redeclaring text symbol \uhorn (encoding T5) on input l
-ine 389.
-LaTeX Encoding Info:    Redeclaring text symbol \ACIRCUMFLEX (encoding T5) on i
-nput line 397.
-LaTeX Encoding Info:    Redeclaring text symbol \ABREVE (encoding T5) on input 
-line 404.
-LaTeX Encoding Info:    Redeclaring text symbol \ECIRCUMFLEX (encoding T5) on i
-nput line 411.
-LaTeX Encoding Info:    Redeclaring text symbol \OCIRCUMFLEX (encoding T5) on i
-nput line 418.
-LaTeX Encoding Info:    Redeclaring text symbol \OHORN (encoding T5) on input l
-ine 425.
-LaTeX Encoding Info:    Redeclaring text symbol \UHORN (encoding T5) on input l
-ine 432.
+LaTeX Encoding Info:    Redeclaring text command \` (encoding T5) on input line 79.
+LaTeX Encoding Info:    Redeclaring text command \' (encoding T5) on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \^ (encoding T5) on input line 81.
+LaTeX Encoding Info:    Redeclaring text command \~ (encoding T5) on input line 82.
+LaTeX Encoding Info:    Redeclaring text command \" (encoding T5) on input line 83.
+LaTeX Encoding Info:    Redeclaring text command \r (encoding T5) on input line 84.
+LaTeX Encoding Info:    Redeclaring text command \v (encoding T5) on input line 85.
+LaTeX Encoding Info:    Redeclaring text command \u (encoding T5) on input line 86.
+LaTeX Encoding Info:    Redeclaring text command \= (encoding T5) on input line 87.
+LaTeX Encoding Info:    Redeclaring text command \. (encoding T5) on input line 88.
+LaTeX Encoding Info:    Redeclaring text command \b (encoding T5) on input line 90.
+LaTeX Encoding Info:    Redeclaring text command \c (encoding T5) on input line 94.
+LaTeX Encoding Info:    Redeclaring text command \d (encoding T5) on input line 98.
+LaTeX Encoding Info:    Redeclaring text command \h (encoding T5) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \quotesinglbase (encoding T5) on input line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \guilsinglleft (encoding T5) on input line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \guilsinglright (encoding T5) on input line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotedblleft (encoding T5) on input line 108.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotedblright (encoding T5) on input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \quotedblbase (encoding T5) on input line 110.
+LaTeX Encoding Info:    Redeclaring text symbol \guillemotleft (encoding T5) on input line 111.
+LaTeX Encoding Info:    Redeclaring text symbol \guillemotright (encoding T5) on input line 112.
+LaTeX Encoding Info:    Redeclaring text symbol \textendash (encoding T5) on input line 113.
+LaTeX Encoding Info:    Redeclaring text symbol \textemdash (encoding T5) on input line 114.
+LaTeX Encoding Info:    Redeclaring text symbol \textcompwordmark (encoding T5) on input line 115.
+LaTeX Encoding Info:    Redeclaring text command \textperthousand (encoding T5) on input line 117.
+LaTeX Encoding Info:    Redeclaring text command \textpertenthousand (encoding T5) on input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \i (encoding T5) on input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textvisiblespace (encoding T5) on input line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotedbl (encoding T5) on input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding T5) on input line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textquoteright (encoding T5) on input line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textless (encoding T5) on input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textgreater (encoding T5) on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \textbackslash (encoding T5) on input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicircum (encoding T5) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textunderscore (encoding T5) on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textquoteleft (encoding T5) on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textbraceleft (encoding T5) on input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textbar (encoding T5) on input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textbraceright (encoding T5) on input line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciitilde (encoding T5) on input line 134.
+LaTeX Encoding Info:    Redeclaring text command \horn (encoding T5) on input line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \DJ (encoding T5) on input line 306.
+LaTeX Encoding Info:    Redeclaring text symbol \dj (encoding T5) on input line 307.
+LaTeX Encoding Info:    Redeclaring text symbol \Acircumflex (encoding T5) on input line 312.
+LaTeX Encoding Info:    Redeclaring text symbol \Abreve (encoding T5) on input line 319.
+LaTeX Encoding Info:    Redeclaring text symbol \Ecircumflex (encoding T5) on input line 326.
+LaTeX Encoding Info:    Redeclaring text symbol \Ocircumflex (encoding T5) on input line 333.
+LaTeX Encoding Info:    Redeclaring text symbol \Ohorn (encoding T5) on input line 340.
+LaTeX Encoding Info:    Redeclaring text symbol \Uhorn (encoding T5) on input line 347.
+LaTeX Encoding Info:    Redeclaring text symbol \acircumflex (encoding T5) on input line 354.
+LaTeX Encoding Info:    Redeclaring text symbol \abreve (encoding T5) on input line 361.
+LaTeX Encoding Info:    Redeclaring text symbol \ecircumflex (encoding T5) on input line 368.
+LaTeX Encoding Info:    Redeclaring text symbol \ocircumflex (encoding T5) on input line 375.
+LaTeX Encoding Info:    Redeclaring text symbol \ohorn (encoding T5) on input line 382.
+LaTeX Encoding Info:    Redeclaring text symbol \uhorn (encoding T5) on input line 389.
+LaTeX Encoding Info:    Redeclaring text symbol \ACIRCUMFLEX (encoding T5) on input line 397.
+LaTeX Encoding Info:    Redeclaring text symbol \ABREVE (encoding T5) on input line 404.
+LaTeX Encoding Info:    Redeclaring text symbol \ECIRCUMFLEX (encoding T5) on input line 411.
+LaTeX Encoding Info:    Redeclaring text symbol \OCIRCUMFLEX (encoding T5) on input line 418.
+LaTeX Encoding Info:    Redeclaring text symbol \OHORN (encoding T5) on input line 425.
+LaTeX Encoding Info:    Redeclaring text symbol \UHORN (encoding T5) on input line 432.
 )
 Package babel Info: Making " an active character on input line 147.
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadri
-d.sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-whale.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-orchid.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-rounded.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-infolines.sty))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\palatino.sty
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadrid.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemeinfolines.sty)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\opensans.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\opensans.sty
 Package: opensans 2019/06/20 Style file for Open Sans.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
 Applying: [2024-11-01] Use figureversions if present on input line 74.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureve
-rsions.sty
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 )
 Already applied: [0000-00-00] Fall back to v1 on input line 76.
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks49
 \XKV@tempa@toks=\toks50
 )
 \XKV@depth=\count374
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box80
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen327
 \pgf@nodesepend=\dimen328
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen329
 \pgffor@skip=\dimen330
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
-))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count375
 \pgfplotmarksize=\dimen331
@@ -1307,27 +944,18 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count377
 \tikznumberofcurrentchild=\count378
 \tikz@fig@count=\count379
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count380
 \pgfmatrixcurrentcolumn=\count381
 \pgf@matrix@numberofcolumns=\count382
 )
 \tikz@expandcount=\count383
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-circles.sty)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarycalc.code.tex
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemecircles.sty) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip67
 \RaggedLeftLeftskip=\skip68
@@ -1343,16 +971,11 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip78
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-miniframes.sty)
-LaTeX Font Info:    Trying to load font information for T5+opensans-TLF on inpu
-t line 138.
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthememiniframes.sty)
+LaTeX Font Info:    Trying to load font information for T5+opensans-TLF on input line 138.
 LaTeX Font Info:    No file T5opensans-TLF.fd. on input line 138.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 13
-8.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 138.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
@@ -1416,9 +1039,7 @@ LaTeX Font Info:    ... okay on input line 138.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count384
 \scratchdimen=\dimen340
@@ -1431,19 +1052,13 @@ ii
 \MPnumerator=\count388
 \makeMPintoPDFobject=\count389
 \everyMPtoPDFconversion=\toks54
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 138.
- (template.out) (template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
@@ -1489,86 +1104,67 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T5/phv/m/it --> T5/phv/b/it on input line 138.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T5/pcr/m/n --> T5/pcr/b/n on input line 138.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
-asic-dictionary-English.dict
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
-ibliography-dictionary-English.dict
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-e
-nvironment-dictionary-English.dict
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-m
-onths-dictionary-English.dict
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-n
-umbers-dictionary-English.dict
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-)
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
-heorem-dictionary-English.dict
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-Package translations Info: no dictionary file `translations-basic-dictionary-vi
-etnamese.trsl' found. on input line 138.
+Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 138.
 \c@lstlisting=\count390
 Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 (babel)             Reported on input line 138.
 \c@mv@tabular=\count391
 \c@mv@boldtabular=\count392
- (template.nav) (01-title.tex
+
+No file template.nav.
+(01-title.tex
 
 LaTeX Font Warning: Font shape `T5/opensans-TLF/m/it' undefined
 (Font)              using `T5/opensans-TLF/m/n' instead on input line 13.
 
-<images/background-1080p-washout.jpg, id=34, 963.6pt x 542.025pt>
+<images/background-1080p-washout.jpg, id=26, 963.6pt x 542.025pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
-Package pdftex.def Info: images/background-1080p-washout.jpg  used on input lin
-e 13.
+Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 13.
 (pdftex.def)             Requested size: 455.24408pt x 256.07507pt.
 [1
 
-{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/bac
-kground-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=52, 1283.79625pt x 722.7pt>
+{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
+<images/drone_solar.jpg, id=40, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
-Package pdftex.def Info: images/drone_solar.jpg  used on input line 50.
+Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
 (pdftex.def)             Requested size: 142.26378pt x 80.0817pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
-
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
-
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T5+phv on input line 50
-.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5phv.fd
+LaTeX Font Info:    Trying to load font information for T5+phv on input line 48.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5phv.fd
 File: t5uhv.fd 2005/08/24 Fontinst v1.929 font definitions for T5/phv.
 )
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 50.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <8> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 50.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T5/phv/m/it' in size <6> not available
-(Font)              Font shape `T5/phv/m/sl' tried instead on input line 50.
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 48.
 
 
 LaTeX Font Warning: Font shape `T5/opensans-TLF/b/n' undefined
-(Font)              using `T5/opensans-TLF/m/n' instead on input line 50.
+(Font)              using `T5/opensans-TLF/m/n' instead on input line 48.
 
 Package epstopdf Info: Source file: <images/logo.eps>
 (epstopdf)                    date: 2026-01-20 09:13:12
@@ -1576,15 +1172,13 @@ Package epstopdf Info: Source file: <images/logo.eps>
 (epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
 (epstopdf)                    date: 2026-01-20 16:33:24
 (epstopdf)                    size: 18592 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-conv
-erted-to.pdf images/logo.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<images/logo-eps-converted-to.pdf, id=53, 115.43124pt x 45.16875pt>
+<images/logo-eps-converted-to.pdf, id=41, 115.43124pt x 45.16875pt>
 File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/logo-eps-converted-to.pdf>
-Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 5
-0.
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 48.
 (pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
 [2
 
@@ -1598,13 +1192,9 @@ Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 5
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
-
-(template.aux
-LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on inp
-ut line 8.
-
-(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\ot1opensans-tl
-f.fd
+ (template.aux
+LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 8.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\ot1opensans-tlf.fd
 File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
@@ -1621,24 +1211,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 98061B023607ED5D57C7F5FCC997994D;35.
+
+Package rerunfilecheck Warning: File `template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `template.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  98061B023607ED5D57C7F5FCC997994D;35.
  ) 
 Here is how much of TeX's memory you used:
- 30007 strings out of 467871
- 598788 string characters out of 5418376
- 965429 words of memory out of 5000000
- 58262 multiletter control sequences out of 15000+600000
+ 29976 strings out of 467871
+ 598293 string characters out of 5418376
+ 964363 words of memory out of 5000000
+ 58235 multiletter control sequences out of 15000+600000
  653009 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,473b,808s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb
-><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb>
-<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C
-:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb>
-Output written on template.pdf (2 pages, 570342 bytes).
+ 128i,16n,123p,517b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb>
+Output written on template.pdf (2 pages, 568957 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
