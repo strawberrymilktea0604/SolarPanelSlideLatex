@@ -519,5 +519,175 @@
 	\end{center}
 \end{frame}
 
+% --- ĐỊNH NGHĨA MÀU ---
+\definecolor{customBlueTitle}{HTML}{6FA8DC}
+\definecolor{customBlueBody}{HTML}{CFE2F3}
+\definecolor{customGreenTitle}{HTML}{70AD47}
+\definecolor{customGreenBody}{HTML}{B6D7A8}
+\definecolor{customGreenCardBG}{HTML}{D9EAD3}
 
+% --- ĐƯỜNG DẪN ẢNH ---
+\newcommand{\pathIcons}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/}
+\newcommand{\pathImages}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/}
+
+% --- MACRO VẼ THẺ TIKZ ---
+\newcommand{\drawCustomCard}[2]{%
+    \begin{tikzpicture}
+        \def\cardW{3.45cm}%
+        \def\totalH{2.15cm}% Giữ kích thước nhỏ gọn
+        \def\splitY{1.2cm}%
+        \def\rad{0.2cm}%
+        \def\imgH{0.95cm}%
+
+        % --- PHẦN 1: ẢNH ---
+        \begin{scope}
+            \clip [rounded corners=\rad] (0,\splitY) -- (\cardW,\splitY) -- (\cardW,\totalH) -- (0,\totalH) -- cycle;
+            \node[anchor=south west, inner sep=0] at (0,\splitY) {
+                \includegraphics[width=\cardW, height=\imgH, keepaspectratio=false]{#1}
+            };
+        \end{scope}
+
+        % --- PHẦN 2: TEXT ---
+        \begin{scope}
+            \path[fill=customGreenCardBG, rounded corners=\rad] (0,0) -- (\cardW,0) -- (\cardW,\splitY) -- (0,\splitY) -- cycle;
+            \node[anchor=center] at (\cardW/2, \splitY/2) {
+                \begin{minipage}{3.25cm}
+                    \centering
+                    \fontsize{5}{6}\selectfont 
+                    \color{black} 
+                    #2
+                \end{minipage}
+            };
+        \end{scope}
+    \end{tikzpicture}%
+}
+
+\begin{frame}[t]
+    % Giữ nguyên vị trí bắt đầu
+    \vspace{-0.4cm} 
+    \frametitle{KIỂM TRA MẮT THƯỜNG \& PHƯƠNG PHÁP BỔ TRỢ}
+
+    % --- CẤP ĐỘ 1 ---
+    {
+        \setbeamercolor{block title}{bg=customBlueTitle, fg=white}
+        \setbeamercolor{block body}{bg=customBlueBody, fg=black}
+        \setbeamertemplate{blocks}[rounded][shadow=false]
+
+        \begin{block}{\centering \raisebox{-0.5ex}{\includegraphics[height=1.2em, keepaspectratio]{\pathIcons search.png}} \enspace \textbf{CẤP ĐỘ 1: KIỂM TRA BẰNG MẮT THƯỜNG}}
+            \vspace{-0.1cm}
+            \begin{columns}
+                \column{0.75\textwidth}
+                \fontsize{6}{7}\selectfont 
+                \begin{itemize}
+                    \setlength\itemsep{0pt}
+                    \setlength\parskip{0pt}
+                    \setlength\leftmargini{0.4cm}
+                    \item Bước sàng lọc đầu tiên phát hiện lỗi bề mặt (kính, frame...).
+                    \item Quan sát trực tiếp vật mẫu dưới điều kiện ánh sáng mạnh.
+                    \item Ưu điểm: Tốc độ xử lý nhanh, chi phí thấp, dễ thực hiện.
+                    \item Nhược điểm: Phụ thuộc chủ quan và thị lực người kiểm tra.
+                    \item Hạn chế: Không thấy được lỗi ẩn sâu (micro-crack).
+                \end{itemize}
+
+                \column{0.21\textwidth}
+                \centering
+                \begin{tikzpicture}
+                    \begin{scope}
+                        \clip [rounded corners=0.2cm] (0,0) rectangle (2.5cm, 0.85cm);
+                        \node[anchor=south west, inner sep=0] at (0,0) {
+                            \includegraphics[width=2.5cm, height=0.85cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}
+                        };
+                    \end{scope}
+                \end{tikzpicture}
+            \end{columns}
+            \vspace{-0.1cm}
+        \end{block}
+    }
+
+    % --- MŨI TÊN (ĐIỀU CHỈNH KHOẢNG CÁCH ĐỂ ĐẨY CẤP 2 XUỐNG) ---
+    \begin{center}
+        \vspace{-0.3cm} % [Fix] Nới lỏng khoảng cách trên mũi tên (-0.5 -> -0.3)
+        \begin{tikzpicture}[scale=1]
+            \fill[fill=customBlueBody, draw=none] (-0.2,0.3) -- (0.2,0.3) -- (0.2,0) -- (0.4,0) -- (0,-0.4) -- (-0.4,0) -- (-0.2,0) -- cycle;
+        \end{tikzpicture}
+        \vspace{-0.1cm} % [Fix] Nới lỏng khoảng cách dưới mũi tên (-0.5 -> -0.1) -> Đẩy Cấp 2 xuống
+    \end{center}
+
+
+
+	\vspace{-0.3cm}
+    % --- CẤP ĐỘ 2 ---
+    \begin{tcolorbox}[
+        enhanced,
+        colframe=customGreenTitle,
+        colbacktitle=customGreenTitle,
+        coltitle=white,
+        colback=customGreenBody,
+        fonttitle=\bfseries\small,
+        title={CẤP ĐỘ 2: CÁC PHƯƠNG PHÁP BỔ TRỢ CHUYÊN SÂU},
+        arc=1.5mm, boxrule=0.5pt,
+        left=1pt, right=1pt, top=0pt, bottom=0pt, 
+        toptitle=1pt, bottomtitle=0pt,
+        halign title=center
+    ]
+        \begin{columns}[t, onlytextwidth]
+            % --- CỘT 1 ---
+            \column{0.33\textwidth}
+            \centering
+            \begin{minipage}{3.4cm}
+                \centering
+                % [Fix] Dùng raisebox -2pt để hạ Icon xuống ngang hàng với chữ
+                \raisebox{-2pt}{\includegraphics[height=0.8em]{\pathIcons electricity_icon.png}}
+                \enspace \tiny \textbf{\textcolor{black}{ĐIỆN HỌC}} 
+            \end{minipage}
+            \vspace{0.05cm} 
+            \drawCustomCard{\pathImages iv_curve_device.png}{%
+                Đo đường cong I-V kiểm tra sức khỏe dòng điện và hiệu suất thực tế.%
+            }
+
+            % --- CỘT 2 ---
+            \column{0.33\textwidth}
+            \centering
+            \begin{minipage}{3.4cm}
+                \centering
+                % [Fix] Căn thẳng hàng
+                \raisebox{-2pt}{\includegraphics[height=0.7em]{\pathIcons camera_icon.png}}
+                \enspace \tiny \textbf{\textcolor{black}{HÌNH ẢNH}}
+            \end{minipage}
+            \vspace{0.05cm}
+            \drawCustomCard{\pathImages el_images.png}{%
+                \begin{itemize}
+                    \setlength\itemsep{0pt}
+                    \setlength\leftmargini{0.2cm}
+                    \item[•] EL: Nhìn xuyên thấu vết nứt.
+                    \item[•] UV-F: Đánh giá lão hóa.
+                \end{itemize}%
+            }
+
+            % --- CỘT 3 ---
+            \column{0.33\textwidth}
+            \centering
+            \begin{minipage}{3.4cm}
+                \centering
+                % [Fix] Căn thẳng hàng
+                \raisebox{-2pt}{\includegraphics[height=0.8em]{\pathIcons flask_icon.png}}
+                \enspace \tiny \textbf{\textcolor{black}{PHÂN TÍCH VẬT LIỆU}}
+            \end{minipage}
+            \vspace{0.05cm}
+            \drawCustomCard{\pathImages spectrometer_lab.png}{%
+                Máy Quang phổ phân tích chuyên sâu cấu trúc vật liệu trong Lab.%
+            }
+        \end{columns}
+    \end{tcolorbox}
+
+    % --- FOOTER (ĐẨY XUỐNG THÊM) ---
+	\vspace{-0.1cm}
+    \centering
+    \tiny \textit{`\textbf{Khám lâm sàng}' $\to$ `\textbf{Xét nghiệm y khoa}' để kết luận chính xác}
+\end{frame}
+
+\begin{frame}
+	\frametitle{TỔNG HỢP \& SO SÁNH CÁC PHƯƠNG PHÁP}
+
+\end{frame}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 02:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 03:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1049,7 +1049,49 @@ File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowlinewidth=\dimen359
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box91
+\pgfnodeparttwobox=\box92
+\pgfnodepartthreebox=\box93
+\pgfnodepartfourbox=\box94
+\pgfnodeparttwentybox=\box95
+\pgfnodepartnineteenbox=\box96
+\pgfnodeparteighteenbox=\box97
+\pgfnodepartseventeenbox=\box98
+\pgfnodepartsixteenbox=\box99
+\pgfnodepartfifteenbox=\box100
+\pgfnodepartfourteenbox=\box101
+\pgfnodepartthirteenbox=\box102
+\pgfnodeparttwelvebox=\box103
+\pgfnodepartelevenbox=\box104
+\pgfnodeparttenbox=\box105
+\pgfnodepartninebox=\box106
+\pgfnodeparteightbox=\box107
+\pgfnodepartsevenbox=\box108
+\pgfnodepartsixbox=\box109
+\pgfnodepartfivebox=\box110
+))) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip70
 \RaggedLeftLeftskip=\skip71
@@ -1077,50 +1119,67 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box91
-\tcb@upperbox=\box92
-\tcb@lowerbox=\box93
-\tcb@phantombox=\box94
+\tcb@titlebox=\box111
+\tcb@upperbox=\box112
+\tcb@lowerbox=\box113
+\tcb@phantombox=\box114
 \c@tcbbreakpart=\count398
 \c@tcblayer=\count399
 \c@tcolorbox@number=\count400
-\l__tcobox_tmpa_box=\box95
+\l__tcobox_tmpa_box=\box115
 \l__tcobox_tmpa_dim=\dimen360
-\tcb@temp=\box96
-\tcb@temp=\box97
-\tcb@temp=\box98
-\tcb@temp=\box99
+\tcb@temp=\box116
+\tcb@temp=\box117
+\tcb@temp=\box118
+\tcb@temp=\box119
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+(C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box120
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+)) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count401
+\c@tcbrasterrow=\count402
+\c@tcbrasternum=\count403
+\c@tcbraster=\count404
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthememiniframes.sty)
-LaTeX Font Info:    Trying to load font information for T5+ppl on input line 162.
+LaTeX Font Info:    Trying to load font information for T5+ppl on input line 164.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ppl.fd
 File: t5upl.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ppl.
 ) (template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 162.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 164.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 164.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    ... okay on input line 164.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1158,16 +1217,16 @@ LaTeX Font Info:    ... okay on input line 162.
 
 (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count401
+\scratchcounter=\count405
 \scratchdimen=\dimen361
-\scratchbox=\box100
-\nofMPsegments=\count402
-\nofMParguments=\count403
+\scratchbox=\box121
+\nofMPsegments=\count406
+\nofMParguments=\count407
 \everyMPshowfont=\toks65
-\MPscratchCnt=\count404
+\MPscratchCnt=\count408
 \MPscratchDim=\dimen362
-\MPnumerator=\count405
-\makeMPintoPDFobject=\count406
+\MPnumerator=\count409
+\makeMPintoPDFobject=\count410
 \everyMPtoPDFconversion=\toks66
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1175,45 +1234,45 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 162.
+Package hyperref Info: Link coloring OFF on input line 164.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/ppl/m/n --> T5/ppl/m/n on input line 162.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 162.
+(Font)                  OT1/ppl/m/n --> T5/ppl/m/n on input line 164.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 162.
+(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 162.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 162.
+(Font)                  OT1/zplm/b/n --> T5/ppl/b/n on input line 164.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T5/cmss/m/n on input line 162.
+(Font)                  OT1/cmss/m/n --> T5/cmss/m/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T5/cmss/m/n on input line 162.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 162.
+(Font)                  OT1/cmss/bx/n --> T5/cmss/m/n on input line 164.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ppl/m/it --> T5/ppl/m/it on input line 162.
+(Font)                  OT1/ppl/m/it --> T5/ppl/m/it on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ppl/b/it --> T5/ppl/m/it on input line 162.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 162.
+(Font)                  OT1/ppl/b/it --> T5/ppl/m/it on input line 164.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 162.
+(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 162.
+(Font)                  OT1/cmtt/m/n --> T5/cmtt/m/n on input line 164.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T5/ppl/m/n --> T5/ppl/b/n on input line 162.
+(Font)                  T5/ppl/m/n --> T5/ppl/b/n on input line 164.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 162.
+(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/ppl/b/n --> T5/ppl/b/n on input line 162.
+(Font)                  OT1/ppl/b/n --> T5/ppl/b/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T5/ppl/b/n --> T5/ppl/b/n on input line 162.
+(Font)                  T5/ppl/b/n --> T5/ppl/b/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T5/cmss/m/n --> T5/cmss/b/n on input line 162.
+(Font)                  T5/cmss/m/n --> T5/cmss/b/n on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 162.
+(Font)                  T5/ppl/m/it --> T5/ppl/b/it on input line 164.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T5/cmtt/m/n --> T5/cmtt/b/n on input line 162.
+(Font)                  T5/cmtt/m/n --> T5/cmtt/b/n on input line 164.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1229,14 +1288,14 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 162.
-Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 162.
-\c@lstlisting=\count407
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 164.
+Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 164.
+\c@lstlisting=\count411
  (template.nav) (01-title.tex
 Overfull \vbox (25.69702pt too high) detected at line 15
  []
 
-<images/background-1080p-washout.jpg, id=70, 778.107pt x 423.0204pt>
+<images/background-1080p-washout.jpg, id=74, 778.107pt x 423.0204pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
@@ -1244,7 +1303,7 @@ Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
  <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=143, 1283.79625pt x 722.7pt>
+<images/drone_solar.jpg, id=153, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1285,7 +1344,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc) [3
 
 ]) (03-example-motivation.tex
-<images/DatVanDe/dautieng.jpg, id=248, 462.528pt x 346.4142pt>
+<images/DatVanDe/dautieng.jpg, id=266, 462.528pt x 346.4142pt>
 File: images/DatVanDe/dautieng.jpg Graphic file (type jpg)
 <use images/DatVanDe/dautieng.jpg>
 Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
@@ -1293,17 +1352,17 @@ Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
  [4
 
  <./images/DatVanDe/dautieng.jpg>]
-<images/DatVanDe/icons/thoigian.png, id=301, 292.09125pt x 288.07625pt>
+<images/DatVanDe/icons/thoigian.png, id=323, 292.09125pt x 288.07625pt>
 File: images/DatVanDe/icons/thoigian.png Graphic file (type png)
 <use images/DatVanDe/icons/thoigian.png>
 Package pdftex.def Info: images/DatVanDe/icons/thoigian.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.11969pt.
-<images/DatVanDe/icons/antoan.png, id=302, 293.095pt x 289.08pt>
+<images/DatVanDe/icons/antoan.png, id=324, 293.095pt x 289.08pt>
 File: images/DatVanDe/icons/antoan.png Graphic file (type png)
 <use images/DatVanDe/icons/antoan.png>
 Package pdftex.def Info: images/DatVanDe/icons/antoan.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.12555pt.
-<images/DatVanDe/icons/hieuqua.png, id=303, 301.125pt x 290.08376pt>
+<images/DatVanDe/icons/hieuqua.png, id=325, 301.125pt x 290.08376pt>
 File: images/DatVanDe/icons/hieuqua.png Graphic file (type png)
 <use images/DatVanDe/icons/hieuqua.png>
 Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 113.
@@ -1311,17 +1370,17 @@ Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 1
  [5
 
  <./images/DatVanDe/icons/thoigian.png> <./images/DatVanDe/icons/antoan.png> <./images/DatVanDe/icons/hieuqua.png>]
-<images/DatVanDe/icons/tongquan.png, id=354, 121.6545pt x 128.27925pt>
+<images/DatVanDe/icons/tongquan.png, id=380, 121.6545pt x 128.27925pt>
 File: images/DatVanDe/icons/tongquan.png Graphic file (type png)
 <use images/DatVanDe/icons/tongquan.png>
 Package pdftex.def Info: images/DatVanDe/icons/tongquan.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 36.0021pt.
-<images/DatVanDe/icons/phuongphap.png, id=356, 126.4725pt x 129.48375pt>
+<images/DatVanDe/icons/phuongphap.png, id=382, 126.4725pt x 129.48375pt>
 File: images/DatVanDe/icons/phuongphap.png Graphic file (type png)
 <use images/DatVanDe/icons/phuongphap.png>
 Package pdftex.def Info: images/DatVanDe/icons/phuongphap.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 34.95514pt.
-<images/DatVanDe/icons/dexuat.png, id=357, 121.05225pt x 121.05225pt>
+<images/DatVanDe/icons/dexuat.png, id=383, 121.05225pt x 121.05225pt>
 File: images/DatVanDe/icons/dexuat.png Graphic file (type png)
 <use images/DatVanDe/icons/dexuat.png>
 Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 208.
@@ -1329,7 +1388,7 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
  [6
 
  <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex
-<images/TongQuan/pinmattroi.png, id=411, 513.92pt x 243.91125pt>
+<images/TongQuan/pinmattroi.png, id=441, 513.92pt x 243.91125pt>
 File: images/TongQuan/pinmattroi.png Graphic file (type png)
 <use images/TongQuan/pinmattroi.png>
 Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
@@ -1337,17 +1396,17 @@ Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
  [7
 
  <./images/TongQuan/pinmattroi.png>]
-<images/TongQuan/icons/bungno.png, id=465, 329.23pt x 316.18124pt>
+<images/TongQuan/icons/bungno.png, id=499, 329.23pt x 316.18124pt>
 File: images/TongQuan/icons/bungno.png Graphic file (type png)
 <use images/TongQuan/icons/bungno.png>
 Package pdftex.def Info: images/TongQuan/icons/bungno.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 62.4246pt.
-<images/TongQuan/icons/chiphi.png, id=466, 297.11pt x 313.17pt>
+<images/TongQuan/icons/chiphi.png, id=500, 297.11pt x 313.17pt>
 File: images/TongQuan/icons/chiphi.png Graphic file (type png)
 <use images/TongQuan/icons/chiphi.png>
 Package pdftex.def Info: images/TongQuan/icons/chiphi.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 68.51532pt.
-<images/TongQuan/icons/tiemnang.png, id=467, 372.39125pt x 282.05376pt>
+<images/TongQuan/icons/tiemnang.png, id=501, 372.39125pt x 282.05376pt>
 File: images/TongQuan/icons/tiemnang.png Graphic file (type png)
 <use images/TongQuan/icons/tiemnang.png>
 Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 81.
@@ -1355,7 +1414,7 @@ Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 
  [8
 
  <./images/TongQuan/icons/bungno.png> <./images/TongQuan/icons/chiphi.png> <./images/TongQuan/icons/tiemnang.png>]
-<images/TongQuan/bieudobungno.png, id=518, 513.92pt x 286.06876pt>
+<images/TongQuan/bieudobungno.png, id=556, 513.92pt x 286.06876pt>
 File: images/TongQuan/bieudobungno.png Graphic file (type png)
 <use images/TongQuan/bieudobungno.png>
 Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89.
@@ -1363,7 +1422,7 @@ Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89
  [9
 
  <./images/TongQuan/bieudobungno.png>]
-<images/TongQuan/bieudochiphi.png, id=570, 513.92pt x 344.28625pt>
+<images/TongQuan/bieudochiphi.png, id=612, 513.92pt x 344.28625pt>
 File: images/TongQuan/bieudochiphi.png Graphic file (type png)
 <use images/TongQuan/bieudochiphi.png>
 Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97.
@@ -1371,7 +1430,7 @@ Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97
  [10
 
  <./images/TongQuan/bieudochiphi.png>]
-<images/TongQuan/bieudonhiet.png, id=622, 513.92pt x 249.93375pt>
+<images/TongQuan/bieudonhiet.png, id=668, 513.92pt x 249.93375pt>
 File: images/TongQuan/bieudonhiet.png Graphic file (type png)
 <use images/TongQuan/bieudonhiet.png>
 Package pdftex.def Info: images/TongQuan/bieudonhiet.png  used on input line 105.
@@ -1379,12 +1438,12 @@ Package pdftex.def Info: images/TongQuan/bieudonhiet.png  used on input line 105
  [11
 
  <./images/TongQuan/bieudonhiet.png>]
-<images/TongQuan/bandonhietVietNam.png, id=674, 404.51125pt x 513.92pt>
+<images/TongQuan/bandonhietVietNam.png, id=724, 404.51125pt x 513.92pt>
 File: images/TongQuan/bandonhietVietNam.png Graphic file (type png)
 <use images/TongQuan/bandonhietVietNam.png>
 Package pdftex.def Info: images/TongQuan/bandonhietVietNam.png  used on input line 171.
 (pdftex.def)             Requested size: 131.74081pt x 167.3749pt.
-<images/TongQuan/icons/phaply.png, id=675, 481.8pt x 483.8075pt>
+<images/TongQuan/icons/phaply.png, id=725, 481.8pt x 483.8075pt>
 File: images/TongQuan/icons/phaply.png Graphic file (type png)
 <use images/TongQuan/icons/phaply.png>
 Package pdftex.def Info: images/TongQuan/icons/phaply.png  used on input line 171.
@@ -1401,7 +1460,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 171.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 171.
-<images/TongQuan/icons/tiemnangVietNam.png, id=676, 477.785pt x 482.80376pt>
+<images/TongQuan/icons/tiemnangVietNam.png, id=726, 477.785pt x 482.80376pt>
 File: images/TongQuan/icons/tiemnangVietNam.png Graphic file (type png)
 <use images/TongQuan/icons/tiemnangVietNam.png>
 Package pdftex.def Info: images/TongQuan/icons/tiemnangVietNam.png  used on input line 171.
@@ -1409,7 +1468,7 @@ Package pdftex.def Info: images/TongQuan/icons/tiemnangVietNam.png  used on inpu
  [12
 
  <./images/TongQuan/bandonhietVietNam.png> <./images/TongQuan/icons/phaply.png> <./images/TongQuan/icons/tiemnangVietNam.png>]
-<images/TongQuan/icons/dienmattroiquymolon.png, id=729, 283.0575pt x 259.97125pt>
+<images/TongQuan/icons/dienmattroiquymolon.png, id=783, 283.0575pt x 259.97125pt>
 File: images/TongQuan/icons/dienmattroiquymolon.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiquymolon.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroiquymolon.png  used on input line 277.
@@ -1418,27 +1477,27 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 27
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<images/TongQuan/trungnam.jpg, id=730, 2007.5pt x 1128.215pt>
+<images/TongQuan/trungnam.jpg, id=784, 2007.5pt x 1128.215pt>
 File: images/TongQuan/trungnam.jpg Graphic file (type jpg)
 <use images/TongQuan/trungnam.jpg>
 Package pdftex.def Info: images/TongQuan/trungnam.jpg  used on input line 277.
 (pdftex.def)             Requested size: 136.37341pt x 51.21507pt.
-<images/TongQuan/icons/dienmattroiapmai.png, id=731, 259.97125pt x 264.99pt>
+<images/TongQuan/icons/dienmattroiapmai.png, id=785, 259.97125pt x 264.99pt>
 File: images/TongQuan/icons/dienmattroiapmai.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiapmai.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroiapmai.png  used on input line 277.
 (pdftex.def)             Requested size: 22.32932pt x 22.76228pt.
-<images/TongQuan/apmai.png, id=732, 316.18124pt x 236.68425pt>
+<images/TongQuan/apmai.png, id=786, 316.18124pt x 236.68425pt>
 File: images/TongQuan/apmai.png Graphic file (type png)
 <use images/TongQuan/apmai.png>
 Package pdftex.def Info: images/TongQuan/apmai.png  used on input line 277.
 (pdftex.def)             Requested size: 136.40396pt x 51.21477pt.
-<images/TongQuan/icons/dienmattroidoclap.png, id=733, 314.17375pt x 276.03125pt>
+<images/TongQuan/icons/dienmattroidoclap.png, id=787, 314.17375pt x 276.03125pt>
 File: images/TongQuan/icons/dienmattroidoclap.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroidoclap.png>
 Package pdftex.def Info: images/TongQuan/icons/dienmattroidoclap.png  used on input line 277.
 (pdftex.def)             Requested size: 25.90622pt x 22.76228pt.
-<images/TongQuan/doclap.png, id=734, 381.22424pt x 332.442pt>
+<images/TongQuan/doclap.png, id=788, 381.22424pt x 332.442pt>
 File: images/TongQuan/doclap.png Graphic file (type png)
 <use images/TongQuan/doclap.png>
 Package pdftex.def Info: images/TongQuan/doclap.png  used on input line 277.
@@ -1446,12 +1505,12 @@ Package pdftex.def Info: images/TongQuan/doclap.png  used on input line 277.
  [13
 
 {C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/TongQuan/icons/dienmattroiquymolon.png> <./images/TongQuan/trungnam.jpg> <./images/TongQuan/icons/dienmattroiapmai.png> <./images/TongQuan/apmai.png> <./images/TongQuan/icons/dienmattroidoclap.png> <./images/TongQuan/doclap.png>]
-<images/TongQuan/icons/quanghoc.png, id=789, 120.45pt x 133.09724pt>
+<images/TongQuan/icons/quanghoc.png, id=847, 120.45pt x 133.09724pt>
 File: images/TongQuan/icons/quanghoc.png Graphic file (type png)
 <use images/TongQuan/icons/quanghoc.png>
 Package pdftex.def Info: images/TongQuan/icons/quanghoc.png  used on input line 403.
 (pdftex.def)             Requested size: 24.96048pt x 27.57959pt.
-<images/TongQuan/suythoaiquanghoc.png, id=790, 519.1395pt x 425.79076pt>
+<images/TongQuan/suythoaiquanghoc.png, id=848, 519.1395pt x 425.79076pt>
 File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
 <use images/TongQuan/suythoaiquanghoc.png>
 Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 403.
@@ -1460,12 +1519,12 @@ File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
 <use images/TongQuan/suythoaiquanghoc.png>
 Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 403.
 (pdftex.def)             Requested size: 55.49747pt x 45.52458pt.
-<images/TongQuan/icons/matketnoidien.png, id=791, 88.53075pt x 118.64325pt>
+<images/TongQuan/icons/matketnoidien.png, id=849, 88.53075pt x 118.64325pt>
 File: images/TongQuan/icons/matketnoidien.png Graphic file (type png)
 <use images/TongQuan/icons/matketnoidien.png>
 Package pdftex.def Info: images/TongQuan/icons/matketnoidien.png  used on input line 403.
 (pdftex.def)             Requested size: 24.96048pt x 33.44978pt.
-<images/TongQuan/matketnoidien.jpg, id=792, 1002.74625pt x 748.7975pt>
+<images/TongQuan/matketnoidien.jpg, id=850, 1002.74625pt x 748.7975pt>
 File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
 <use images/TongQuan/matketnoidien.jpg>
 Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 403.
@@ -1474,12 +1533,12 @@ File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
 <use images/TongQuan/matketnoidien.jpg>
 Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 403.
 (pdftex.def)             Requested size: 60.95781pt x 45.52458pt.
-<images/TongQuan/icons/phancung.png, id=793, 121.6545pt x 133.6995pt>
+<images/TongQuan/icons/phancung.png, id=851, 121.6545pt x 133.6995pt>
 File: images/TongQuan/icons/phancung.png Graphic file (type png)
 <use images/TongQuan/icons/phancung.png>
 Package pdftex.def Info: images/TongQuan/icons/phancung.png  used on input line 403.
 (pdftex.def)             Requested size: 24.96048pt x 27.431pt.
-<images/TongQuan/huhongphancung.png, id=794, 410.13225pt x 263.18324pt>
+<images/TongQuan/huhongphancung.png, id=852, 410.13225pt x 263.18324pt>
 File: images/TongQuan/huhongphancung.png Graphic file (type png)
 <use images/TongQuan/huhongphancung.png>
 Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 403.
@@ -1491,7 +1550,7 @@ Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 
  [14
 
  <./images/TongQuan/icons/quanghoc.png> <./images/TongQuan/suythoaiquanghoc.png> <./images/TongQuan/icons/matketnoidien.png> <./images/TongQuan/matketnoidien.jpg> <./images/TongQuan/icons/phancung.png> <./images/TongQuan/huhongphancung.png>]
-<images/TongQuan/cachuhong.png, id=850, 672.111pt x 371.58826pt>
+<images/TongQuan/cachuhong.png, id=912, 672.111pt x 371.58826pt>
 File: images/TongQuan/cachuhong.png Graphic file (type png)
 <use images/TongQuan/cachuhong.png>
 Package pdftex.def Info: images/TongQuan/cachuhong.png  used on input line 411.
@@ -1499,7 +1558,7 @@ Package pdftex.def Info: images/TongQuan/cachuhong.png  used on input line 411.
  [15
 
  <./images/TongQuan/cachuhong.png>]
-<images/PhuongPhap/drone.png, id=903, 302.93175pt x 169.8345pt>
+<images/PhuongPhap/drone.png, id=969, 302.93175pt x 169.8345pt>
 File: images/PhuongPhap/drone.png Graphic file (type png)
 <use images/PhuongPhap/drone.png>
 Package pdftex.def Info: images/PhuongPhap/drone.png  used on input line 512.
@@ -1507,26 +1566,71 @@ Package pdftex.def Info: images/PhuongPhap/drone.png  used on input line 512.
  [16
 
  <./images/PhuongPhap/drone.png>]
-<images/PhuongPhap/UAV.png, id=956, 606.46574pt x 275.8305pt>
+<images/PhuongPhap/UAV.png, id=1026, 606.46574pt x 275.8305pt>
 File: images/PhuongPhap/UAV.png Graphic file (type png)
 <use images/PhuongPhap/UAV.png>
 Package pdftex.def Info: images/PhuongPhap/UAV.png  used on input line 520.
 (pdftex.def)             Requested size: 260.01231pt x 118.25967pt.
  [17
 
- <./images/PhuongPhap/UAV.png>]) (05-example-conclusion.tex [18
+ <./images/PhuongPhap/UAV.png>]
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/search.png, id=1083, 284.262pt x 284.262pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/search.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/search.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/search.png  used on input line 687.
+(pdftex.def)             Requested size: 14.3961pt x 14.39996pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/visual_inspection_worker.png, id=1086, 946.13475pt x 364.36125pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/visual_inspection_worker.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/visual_inspection_worker.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/visual_inspection_worker.png  used on input line 687.
+(pdftex.def)             Requested size: 71.13028pt x 24.18468pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/electricity_icon.png, id=1087, 147.55125pt x 181.8795pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/electricity_icon.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/electricity_icon.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/electricity_icon.png  used on input line 687.
+(pdftex.def)             Requested size: 7.10556pt x 8.76003pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/iv_curve_device.png, id=1088, 787.14075pt x 193.32225pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/iv_curve_device.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/iv_curve_device.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/iv_curve_device.png  used on input line 687.
+(pdftex.def)             Requested size: 98.15213pt x 27.02953pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera_icon.png, id=1089, 168.63pt x 142.131pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera_icon.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera_icon.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera_icon.png  used on input line 687.
+(pdftex.def)             Requested size: 9.09326pt x 7.66496pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/el_images.png, id=1090, 870.8535pt x 200.54926pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/el_images.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/el_images.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/el_images.png  used on input line 687.
+(pdftex.def)             Requested size: 98.15947pt x 27.03014pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/flask_icon.png, id=1091, 160.1985pt x 181.8795pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/flask_icon.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/flask_icon.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/flask_icon.png  used on input line 687.
+(pdftex.def)             Requested size: 7.71461pt x 8.76003pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/spectrometer_lab.png, id=1092, 441.44925pt x 209.583pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/spectrometer_lab.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/spectrometer_lab.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/spectrometer_lab.png  used on input line 687.
+(pdftex.def)             Requested size: 98.15646pt x 27.02928pt.
+ [18
 
-]) (06-example-appendix.tex [19
+ <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/search.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/visual_inspection_worker.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/electricity_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/iv_curve_device.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/el_images.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/flask_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/spectrometer_lab.png>] [19
+
+]) (05-example-conclusion.tex [20
+
+]) (06-example-appendix.tex [21
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=1048, 295.1025pt x 398.08725pt>
+<images/graph.png, id=1252, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 14.
 (pdftex.def)             Requested size: 295.10176pt x 398.08627pt.
- [20
+ [22
 
- <./images/graph.png>]) (09-example-appendix-terms.tex [21
+ <./images/graph.png>]) (09-example-appendix-terms.tex [23
 
 ]) (10-example-appendix-code.tex
 \openout4 = `template.vrb'.
@@ -1566,13 +1670,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 20.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 20.
-) [22
+) [24
 
 ]) (11-example-appendix-theorems.tex
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 21.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [23
+) [25
 
 ])
 \tf@nav=\write5
@@ -1589,26 +1693,22 @@ File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 36364 strings out of 467871
- 741096 string characters out of 5418376
- 1294012 words of memory out of 5000000
- 64386 multiletter control sequences out of 15000+600000
- 718447 words of font info for 164 fonts, out of 8000000 for 9000
+ 39639 strings out of 467871
+ 841932 string characters out of 5418376
+ 1452680 words of memory out of 5000000
+ 67594 multiletter control sequences out of 15000+600000
+ 726378 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,135p,530b,2245s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Test} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on template.pdf (23 pages, 11465142 bytes).
+<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplbi8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on template.pdf (25 pages, 14200381 bytes).
 PDF statistics:
- 1177 PDF objects out of 1200 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1386 PDF objects out of 1440 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 

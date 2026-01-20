@@ -43,29 +43,33 @@
 \headcommand {\beamer@framepages {16}{16}}
 \headcommand {\slideentry {4}{0}{2}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@sectionpages {16}{17}}
-\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\sectionentry {5}{Kết luận \& hướng phát triển}{18}{Kết luận \& hướng phát triển}{0}}
-\headcommand {\slideentry {5}{0}{1}{18/18}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\gdef \insertmainframenumber {18}}
-\headcommand {\partentry {Appendix}{1}}
-\headcommand {\beamer@partpages {1}{18}}
-\headcommand {\beamer@sectionpages {18}{18}}
-\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\beamer@appendixpages {19}}
-\headcommand {\slideentry {5}{0}{2}{19/19}{}{1}}
+\headcommand {\slideentry {4}{0}{4}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {5}{0}{3}{20/20}{}{1}}
+\headcommand {\beamer@sectionpages {16}{19}}
+\headcommand {\beamer@subsectionpages {16}{19}}
+\headcommand {\sectionentry {5}{Kết luận \& hướng phát triển}{20}{Kết luận \& hướng phát triển}{0}}
+\headcommand {\slideentry {5}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {5}{0}{4}{21/21}{}{1}}
+\headcommand {\gdef \insertmainframenumber {20}}
+\headcommand {\partentry {Appendix}{1}}
+\headcommand {\beamer@partpages {1}{20}}
+\headcommand {\beamer@sectionpages {20}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\beamer@appendixpages {21}}
+\headcommand {\slideentry {5}{0}{2}{21/21}{}{1}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {5}{0}{5}{22/22}{}{1}}
+\headcommand {\slideentry {5}{0}{3}{22/22}{}{1}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {5}{0}{6}{23/23}{}{1}}
+\headcommand {\slideentry {5}{0}{4}{23/23}{}{1}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {19}{23}}
-\headcommand {\beamer@subsectionpages {19}{23}}
-\headcommand {\beamer@sectionpages {19}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\slideentry {5}{0}{5}{24/24}{}{1}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {5}{0}{6}{25/25}{}{1}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@partpages {21}{25}}
+\headcommand {\beamer@subsectionpages {21}{25}}
+\headcommand {\beamer@sectionpages {21}{25}}
+\headcommand {\beamer@documentpages {25}}
+\headcommand {\gdef \inserttotalframenumber {20}}
