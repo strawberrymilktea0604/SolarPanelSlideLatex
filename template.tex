@@ -5,6 +5,7 @@
 \usepackage{calligra} 
 \usepackage{fnpct} 
 \usepackage{listings} 
+\usepackage{bookmark} 
 
 %---------------------------------------------------------
 %   CẤU HÌNH TIẾNG VIỆT (VIETNAMESE SETUP)
@@ -78,9 +79,11 @@
 %---------------------------------------------------------
 %   SELECT THE FONT THEME & FONTS
 %---------------------------------------------------------
-\usefonttheme{default}
-\usepackage{lmodern} % Latin Modern font - hỗ trợ tốt T5 encoding
-% Dùng font mặc định của beamer với lmodern cho tiếng Việt
+\usefonttheme{serif}
+\usepackage{mathpazo} % Palatino font
+% Dùng font Linux Libertine cho tiếng Việt
+
+%---------------------------------------------------------
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{tikz}
@@ -88,6 +91,7 @@
 \useinnertheme{circles}
 \usetikzlibrary{calc} % Để tính toán tọa độ nếu cần
 \usetikzlibrary{backgrounds} % Để dùng on background layer
+\usetikzlibrary{arrows.meta} % Để tạo mũi tên đẹp
 \usepackage{ragged2e} % Để dùng \justifying
 
 %---------------------------------------------------------
@@ -98,8 +102,8 @@
 %---------------------------------------------------------
 %   PRESENTATION INFORMATION
 %---------------------------------------------------------
-\title[Mã số: CĐ-2025-07]{\normalsize BÁO CÁO TỔNG KẾT ĐỀ TÀI NGHIÊN CỨU KHOA HỌC SINH VIÊN \texorpdfstring{\\}{} NĂM HỌC 2025-2026}
-\subtitle{\scriptsize NGHIÊN CỨU ỨNG DỤNG TRÍ TUỆ NHÂN TẠO TRONG XỬ LÝ HÌNH ẢNH ĐỂ PHÁT HIỆN CÁC HƯ HỎNG CỦA TẤM PIN NĂNG LƯỢNG MẶT TRỜI PHỤC VỤ CÔNG TÁC ĐÁNH GIÁ CHẤT LƯỢNG \texorpdfstring{\\}{} Mã số: CĐ-2025-07}
+\title[Mã số: CĐ-2025-07]{\footnotesize BÁO CÁO TỔNG KẾT ĐỀ TÀI NGHIÊN CỨU KHOA HỌC SINH VIÊN \\ NĂM HỌC 2025-2026}
+\subtitle{\footnotesize NGHIÊN CỨU ỨNG DỤNG TRÍ TUỆ NHÂN TẠO TRONG XỬ LÝ HÌNH ẢNH ĐỂ PHÁT HIỆN CÁC HƯ HỎNG CỦA TẤM PIN NĂNG LƯỢNG MẶT TRỜI \\ PHỤC VỤ CÔNG TÁC ĐÁNH GIÁ CHẤT LƯỢNG \texorpdfstring{\\}{} Mã số: CĐ-2025-07}
 \author[NCKH 2025-2026]{\footnotesize \textbf{Sinh viên thực hiện:} \texorpdfstring{\\}{} 
 NGUYỄN KHÁNH CHI - Lớp 67CS2 - MSV: 0131367 \texorpdfstring{\\}{}
 LÃ MINH KHÁNH - Lớp 67CS1 - MSV: 4004267}

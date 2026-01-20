@@ -8,37 +8,6 @@
 
 %------------------------------------------------
 \begin{frame}
-    \frametitle{MỤC TIÊU \& GIẢI PHÁP}
-    
-    % Image at the top
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=0.45\textwidth]{images/DatVanDe/imagetarget.png}
-    \end{figure}
-    
-    \vspace{-0.4cm}
-    
-    % Solution title
-    \begin{center}
-        \small Giải pháp: UAV (Flycam) + AI (EfficientNet-B2)
-    \end{center}
-    
-    \vspace{0.2cm}
-    
-    % Statistics
-    \begin{center}
-        \begin{tabular}{c@{\hspace{1cm}}c@{\hspace{1cm}}c}
-            {\huge \bfseries \textcolor{blue!80!cyan}{96.45\%}} & 
-            \textcolor{gray}{\rule[-0.5ex]{1pt}{3ex}} & 
-            {\huge \bfseries \textcolor{blue!80!cyan}{96.9\%}} \\[0.3ex]
-            \small Độ chính xác & & \small Tách chiếc pin
-        \end{tabular}
-    \end{center}
-
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}
     \frametitle{BỐI CẢNH VÀ TÍNH CẤP THIẾT}
     \vspace{-0.2cm}
     \begin{columns}[T,onlytextwidth]
@@ -145,22 +114,95 @@
 
 %------------------------------------------------
 \begin{frame}
-    \label{Test} % For the link button for the Appendix slide
-    \frametitle{Sub-bullets and Links}
+    \frametitle{MỤC LỤC}
 
-    \begin{itemize}
-        \item You can also nest sub-bullets
-              \begin{itemize}
-                  \item Sub-bullet 1
-                  \item Sub-bullet 2
-                  \item Sub-bullet 3
-                  \item Sub-bullet 4 \newline
-              \end{itemize}
-    \end{itemize}
-
-    \textbf{Below is a button that links to a slide in the appendix}
-
+    \vspace{-0.3cm}
+    
+    % Định nghĩa màu sắc
+    \definecolor{blueCard}{HTML}{5DADE2}
+    \definecolor{greenCard}{HTML}{81C784}
+    \definecolor{orangeCard}{HTML}{FF9E5A}
+    
     \begin{center}
-        \hyperlink{Figure}{\beamergotobutton{Go to graphs}}
+    \begin{tikzpicture}[scale=0.90, every node/.style={scale=0.90}]
+        
+        % CARD 1 - CHƯƠNG 1 (Blue)
+        \begin{scope}[shift={(0,0)}]
+            % Body card
+            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
+                  fill=white, draw=blueCard, line width=2.5pt] (card1body) at (0,-0.3) {};
+            
+            % Header card
+            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
+                  fill=blueCard, anchor=north] (card1header) at (0,2.0) {};
+            
+            % Text trong header
+            \node[text=white, font=\bfseries\normalsize] at (card1header.center) {CHƯƠNG 1};
+            
+            % Nội dung chính
+            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,0.1) {
+                TỔNG QUAN\\PIN NĂNG\\LƯỢNG\\MẶT TRỜI
+            };
+            
+            % Icon
+            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/tongquan.png}};
+        \end{scope}
+        
+        % MŨI TÊN 1
+        \draw[->, line width=3pt, color=blueCard!60!greenCard, 
+              -{Latex[length=3mm,width=3mm]}] (2.1,0) -- (3.3,0);
+        
+        % CARD 2 - CHƯƠNG 2 (Green)
+        \begin{scope}[shift={(5.6,0)}]
+            % Body card
+            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
+                  fill=white, draw=greenCard, line width=2.5pt] (card2body) at (0,-0.3) {};
+            
+            % Header card
+            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
+                  fill=greenCard, anchor=north] (card2header) at (0,2.0) {};
+            
+            % Text trong header
+            \node[text=white, font=\bfseries\normalsize] at (card2header.center) {CHƯƠNG 2};
+            
+            % Nội dung chính
+            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,-0.1) {
+                CÁC PHƯƠNG\\PHÁP PHÁT HIỆN\\HƯ HỎNG
+            };
+            
+            % Icon
+            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/phuongphap.png}};
+        \end{scope}
+        
+        % MŨI TÊN 2
+        \draw[->, line width=3pt, color=greenCard!60!orangeCard,
+              -{Latex[length=3mm,width=3mm]}] (7.7,0) -- (8.9,0);
+        
+        % CARD 3 - CHƯƠNG 3 (Orange)
+        \begin{scope}[shift={(11.2,0)}]
+            % Body card
+            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
+                  fill=white, draw=orangeCard, line width=2.5pt] (card3body) at (0,-0.3) {};
+            
+            % Header card
+            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
+                  fill=orangeCard, anchor=north] (card3header) at (0,2.0) {};
+            
+            % Text trong header
+            \node[text=white, font=\bfseries\normalsize] at (card3header.center) {CHƯƠNG 3};
+            
+            % Nội dung chính
+            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,0.1) {
+                ĐỀ XUẤT\\MÔ HÌNH AI
+            };
+            
+            % Icon
+            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/dexuat.png}};
+        \end{scope}
+        
+    \end{tikzpicture}
     \end{center}
+    
+    \vspace{0.1cm}
+    
 \end{frame}
