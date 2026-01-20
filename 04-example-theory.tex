@@ -1327,6 +1327,60 @@
     \end{columns}
 \end{frame}
 
+
+\begin{frame}
+    \frametitle{TĂNG CƯỜNG DỮ LIỆU}
+    \centering
+    
+    % Thiết lập chiều rộng của cột (gần một nửa slide trừ đi khoảng đệm)
+    \newcommand{\colW}{0.46\textwidth}
+    % Thiết lập CHIỀU CAO CỐ ĐỊNH cho mỗi ô (QUAN TRỌNG ĐỂ KHÔNG BỊ DÃN)
+    \newcommand{\rowH}{3.2cm} 
+    % Thiết lập chiều cao ảnh tối đa
+    \newcommand{\imgH}{2.0cm}
+
+    % Bắt đầu bảng với các đường kẻ | ở giữa
+    \begin{tabular}{c|c}
+    
+        % --- GÓC TRÊN TRÁI ---
+        \begin{minipage}[c][\rowH][c]{\colW}
+            \centering
+            \textbf{Xoay (Rotation): +/- 15$^\circ$} \\ 
+            \vspace{2pt} % Khoảng cách rất nhỏ
+            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/rotation.png}
+        \end{minipage}
+        & 
+        % --- GÓC TRÊN PHẢI ---
+        \begin{minipage}[c][\rowH][c]{\colW}
+            \centering
+            \textbf{Lật (Flip): Ngang/Dọc} \\ 
+            \vspace{2pt}
+            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/flip.png}
+        \end{minipage}
+        \\ 
+        \hline % ĐƯỜNG KẺ NGANG LIỀN MẠCH
+        
+        % --- GÓC DƯỚI TRÁI ---
+        \begin{minipage}[c][\rowH][c]{\colW}
+            \centering
+            \vspace{2pt} % Đẩy nhẹ nội dung xuống khỏi đường kẻ
+            \textbf{Color Jitter: Độ Sáng/Tương Phản} \\ 
+            \vspace{2pt}
+            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/color.png}
+        \end{minipage}
+        & 
+        % --- GÓC DƯỚI PHẢI ---
+        \begin{minipage}[c][\rowH][c]{\colW}
+            \centering
+            \vspace{2pt}
+            \textbf{Noise Injection: Nhiễu Gaussian} \\ 
+            \vspace{2pt}
+            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/noise.png}
+        \end{minipage}
+        
+    \end{tabular}
+\end{frame}
+
 % --- MÀU SẮC ---
 \definecolor{myBlueLine}{HTML}{0072BC}
 \definecolor{myBlueBack}{HTML}{F0F6FA}
