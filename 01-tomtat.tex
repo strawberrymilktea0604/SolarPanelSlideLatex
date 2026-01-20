@@ -1,0 +1,50 @@
+\begin{frame}
+    \frametitle{\textbf{Tóm tắt}} 
+
+    % --- PHẦN HÌNH ẢNH HÌNH TRÒN OVERLAY ---
+    \begin{tikzpicture}[remember picture, overlay]
+        % 1. Xác định tâm của hình tròn.
+        % $(current page.north west) + (4cm, -4.5cm)$ nghĩa là:
+        % Bắt đầu từ góc trên cùng bên trái của trang, dịch sang phải 4cm, dịch xuống dưới 4.5cm.
+        % Vị trí này nằm gọn trong cột trống bên trái.
+        \coordinate (centerPoint) at ($(current page.north west) + (4cm, -4.5cm)$);
+
+        \begin{scope}
+            % 2. Tạo vùng cắt hình tròn ( khuôn)
+            % Bán kính 3.5cm (đường kính 7cm)
+            \clip (centerPoint) circle (3.5cm);
+
+            % 3. Chèn ảnh vào đúng tâm của vùng cắt
+            % width=7.5cm: Đặt ảnh lớn hơn đường kính một chút để đảm bảo lấp đầy hình tròn mà không bị hở.
+            \node[inner sep=0pt] at (centerPoint) {
+                \includegraphics[width=5cm, keepaspectratio]{drone_solar.jpg}
+            };
+        \end{scope}
+        
+        % (Tùy chọn) Bỏ comment dòng dưới nếu muốn thêm viền trắng cho ảnh nổi bật hơn
+        % \draw[white, line width=3pt] (centerPoint) circle (3.5cm);
+    \end{tikzpicture}
+
+    % --- PHẦN NỘI DUNG VĂN BẢN (Giữ nguyên) ---
+    \begin{columns}
+        % Cột đệm bên trái để nhường chỗ cho ảnh
+        \begin{column}{0.4\textwidth}
+            % Để trống
+        \end{column}
+        
+        % Cột nội dung chính bên phải
+        \begin{column}{0.6\textwidth}
+            \small 
+            \justifying 
+            
+            Đồ án nghiên cứu ứng dụng trí tuệ nhân tạo trong xử lý hình ảnh để phát hiện hư hỏng của tấm pin năng lượng mặt trời. Quy trình bao gồm việc sử dụng UAV để thu thập ảnh tổng thể, sau đó cắt chiết từng tấm pin và ứng dụng mô hình học sâu \textbf{EfficientNet-B2} để phân loại trạng thái ``bình thường'' hoặc ``lỗi''. 
+            
+            \vspace{1em}
+            
+            Kết quả đạt được độ chính xác cao với \textcolor{red}{\textbf{96.45\%}} cho phân loại và \textcolor{red}{\textbf{96.9\%}} cho việc tách chiết tấm pin. Điều này cho thấy ảnh RGB là một nguồn dữ liệu hiệu quả để phát hiện lỗi bề mặt, mở ra hướng tiếp cận tiết kiệm hơn so với EL hoặc camera nhiệt vốn yêu cầu thiết bị chuyên dụng.
+            
+            \vspace{1em}
+            \raggedleft
+        \end{column}
+    \end{columns}
+\end{frame}
