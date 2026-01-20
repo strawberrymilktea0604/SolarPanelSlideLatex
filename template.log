@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 23:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1146,15 +1146,18 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 155.
 \c@lstlisting=\count400
  (template.nav) (01-title.tex
+Overfull \vbox (30.28188pt too high) detected at line 15
+ []
+
 <images/background-1080p-washout.jpg, id=54, 778.107pt x 423.0204pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
-Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 16.
+Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
 (pdftex.def)             Requested size: 455.24419pt x 256.08627pt.
- [1
+[1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
-{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=79, 1283.79625pt x 722.7pt>
+ <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
+<images/drone_solar.jpg, id=103, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1195,7 +1198,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc) [3
 
 ]) (03-example-motivation.tex
-<images/DatVanDe/dautieng.jpg, id=161, 462.528pt x 346.4142pt>
+<images/DatVanDe/dautieng.jpg, id=176, 462.528pt x 346.4142pt>
 File: images/DatVanDe/dautieng.jpg Graphic file (type jpg)
 <use images/DatVanDe/dautieng.jpg>
 Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
@@ -1203,17 +1206,17 @@ Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
  [4
 
  <./images/DatVanDe/dautieng.jpg>]
-<images/DatVanDe/icons/thoigian.png, id=198, 292.09125pt x 288.07625pt>
+<images/DatVanDe/icons/thoigian.png, id=213, 292.09125pt x 288.07625pt>
 File: images/DatVanDe/icons/thoigian.png Graphic file (type png)
 <use images/DatVanDe/icons/thoigian.png>
 Package pdftex.def Info: images/DatVanDe/icons/thoigian.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.11969pt.
-<images/DatVanDe/icons/antoan.png, id=199, 293.095pt x 289.08pt>
+<images/DatVanDe/icons/antoan.png, id=214, 293.095pt x 289.08pt>
 File: images/DatVanDe/icons/antoan.png Graphic file (type png)
 <use images/DatVanDe/icons/antoan.png>
 Package pdftex.def Info: images/DatVanDe/icons/antoan.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.12555pt.
-<images/DatVanDe/icons/hieuqua.png, id=200, 301.125pt x 290.08376pt>
+<images/DatVanDe/icons/hieuqua.png, id=215, 301.125pt x 290.08376pt>
 File: images/DatVanDe/icons/hieuqua.png Graphic file (type png)
 <use images/DatVanDe/icons/hieuqua.png>
 Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 113.
@@ -1221,17 +1224,17 @@ Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 1
  [5
 
  <./images/DatVanDe/icons/thoigian.png> <./images/DatVanDe/icons/antoan.png> <./images/DatVanDe/icons/hieuqua.png>]
-<images/DatVanDe/icons/tongquan.png, id=235, 121.6545pt x 128.27925pt>
+<images/DatVanDe/icons/tongquan.png, id=250, 121.6545pt x 128.27925pt>
 File: images/DatVanDe/icons/tongquan.png Graphic file (type png)
 <use images/DatVanDe/icons/tongquan.png>
 Package pdftex.def Info: images/DatVanDe/icons/tongquan.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 36.0021pt.
-<images/DatVanDe/icons/phuongphap.png, id=237, 126.4725pt x 129.48375pt>
+<images/DatVanDe/icons/phuongphap.png, id=252, 126.4725pt x 129.48375pt>
 File: images/DatVanDe/icons/phuongphap.png Graphic file (type png)
 <use images/DatVanDe/icons/phuongphap.png>
 Package pdftex.def Info: images/DatVanDe/icons/phuongphap.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 34.95514pt.
-<images/DatVanDe/icons/dexuat.png, id=238, 121.05225pt x 121.05225pt>
+<images/DatVanDe/icons/dexuat.png, id=253, 121.05225pt x 121.05225pt>
 File: images/DatVanDe/icons/dexuat.png Graphic file (type png)
 <use images/DatVanDe/icons/dexuat.png>
 Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 208.
@@ -1239,23 +1242,39 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
  [6
 
  <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex
-<images/TongQuan/pinmattroi.png, id=276, 513.92pt x 243.91125pt>
+<images/TongQuan/pinmattroi.png, id=291, 513.92pt x 243.91125pt>
 File: images/TongQuan/pinmattroi.png Graphic file (type png)
 <use images/TongQuan/pinmattroi.png>
 Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
 (pdftex.def)             Requested size: 346.68088pt x 164.53993pt.
  [7
 
- <./images/TongQuan/pinmattroi.png>] [8
+ <./images/TongQuan/pinmattroi.png>]
+<images/TongQuan/icons/bungno.png, id=329, 329.23pt x 316.18124pt>
+File: images/TongQuan/icons/bungno.png Graphic file (type png)
+<use images/TongQuan/icons/bungno.png>
+Package pdftex.def Info: images/TongQuan/icons/bungno.png  used on input line 81.
+(pdftex.def)             Requested size: 65.00307pt x 62.4246pt.
+<images/TongQuan/icons/chiphi.png, id=330, 297.11pt x 313.17pt>
+File: images/TongQuan/icons/chiphi.png Graphic file (type png)
+<use images/TongQuan/icons/chiphi.png>
+Package pdftex.def Info: images/TongQuan/icons/chiphi.png  used on input line 81.
+(pdftex.def)             Requested size: 65.00307pt x 68.51532pt.
+<images/TongQuan/icons/tiemnang.png, id=331, 372.39125pt x 282.05376pt>
+File: images/TongQuan/icons/tiemnang.png Graphic file (type png)
+<use images/TongQuan/icons/tiemnang.png>
+Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 81.
+(pdftex.def)             Requested size: 65.00307pt x 49.23102pt.
+ [8
 
-] [9
+ <./images/TongQuan/icons/bungno.png> <./images/TongQuan/icons/chiphi.png> <./images/TongQuan/icons/tiemnang.png>] [9
 
 ]) (05-example-conclusion.tex [10
 
 ]) (06-example-appendix.tex [11
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=464, 295.1025pt x 398.08725pt>
+<images/graph.png, id=482, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 14.
@@ -1327,10 +1346,10 @@ L3 programming layer <2025-12-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32646 strings out of 467871
- 654136 string characters out of 5418376
- 1212120 words of memory out of 5000000
- 60757 multiletter control sequences out of 15000+600000
+ 32667 strings out of 467871
+ 654966 string characters out of 5418376
+ 1211283 words of memory out of 5000000
+ 60778 multiletter control sequences out of 15000+600000
  697402 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,530b,2184s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1338,9 +1357,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Test} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on template.pdf (15 pages, 3220700 bytes).
+Output written on template.pdf (15 pages, 3500675 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
+ 607 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
