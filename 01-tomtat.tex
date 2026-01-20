@@ -3,9 +3,9 @@
 
     % --- PHẦN HÌNH ẢNH HÌNH TRÒN OVERLAY ---
     \begin{tikzpicture}[remember picture, overlay]
-        % 1. Xác định tâm của hình tròn - bên trái, thấp hơn để tránh che header
-        % Dịch sang trái và giảm kích thước
-        \coordinate (centerPoint) at ($(current page.west) + (0.04\paperwidth, -0.7cm)$);
+        % 1. Xác định tâm của hình tròn - bên phải hơn
+        % Dịch sang phải
+        \coordinate (centerPoint) at ($(current page.west) + (0.1\paperwidth, -0.7cm)$);
 
         \begin{scope}
             % 2. Tạo vùng cắt hình tròn
@@ -26,7 +26,7 @@
     % --- PHẦN NỘI DUNG VĂN BẢN (Giữ nguyên) ---
     \begin{columns}
         % Cột đệm bên trái để nhường chỗ cho ảnh
-        \begin{column}{0.4\textwidth}
+        \begin{column}{0.25\textwidth}
             % Để trống
         \end{column}
         
