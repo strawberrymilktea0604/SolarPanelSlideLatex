@@ -63,6 +63,74 @@
 \end{frame}
 
 %------------------------------------------------
+
+\begin{frame}
+    \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN VIỆT NAM}
+    
+    % [FIX 1] Giảm khoảng cách dưới tiêu đề (0.2 -> 0.1)
+    \vspace{0.1cm} 
+    
+    \begin{columns}[T] 
+        
+        % --- CỘT TRÁI: BẢN ĐỒ ---
+        \begin{column}{0.32\textwidth}
+            \centering
+            \vspace{0pt} 
+            \includegraphics[width=0.95\textwidth]{images/DatVanDe/bandonhietVietNam.png}
+        \end{column}
+        
+        % --- CỘT PHẢI: NỘI DUNG ---
+        \begin{column}{0.65\textwidth}
+            \vspace{0pt} 
+            
+            % === PHẦN 1: PHÁP LÝ ===
+            % [FIX 2] Giảm kích thước khung chứa icon (1.2cm -> 0.9cm)
+            \begin{minipage}[c]{0.9cm}
+                % [FIX 3] Giảm size icon (1.0cm -> 0.75cm) cho gọn
+                \includegraphics[width=0.75cm]{images/DatVanDe/icons/phaply.png}
+            \end{minipage}%
+            \hspace{0.1cm}%
+            \begin{minipage}[c]{8.8cm} 
+                {\Large\textbf{\textcolor{blue!70!black}{PHÁP LÝ}}}
+            \end{minipage}
+            
+            % [FIX 4] Giảm khoảng cách dưới tiêu đề mục (0.1 -> 0.05)
+            \vspace{0.05cm}
+            
+            \footnotesize
+            \begin{itemize}
+                % [FIX 5] Giảm khoảng cách giữa các item (0.1 -> 0.02)
+                \setlength\itemsep{0.02cm} 
+                \item Chuyển từ giai đoạn chính sách giá ưu đãi (kích cầu đầu tư ồ ạt) sang giai đoạn phát triển bền vững và có kiểm soát.
+                \item Tập trung kiểm soát an toàn lưới điện và đặc biệt ưu tiên khuyến khích mô hình điện mặt trời \textbf{tự sản tự tiêu} (thay vì bán lên lưới).
+            \end{itemize}
+            
+            % [FIX 6] Giảm khoảng cách lớn giữa 2 phần (0.4 -> 0.25)
+            \vspace{0.25cm} 
+            
+            % === PHẦN 2: TIỀM NĂNG ===
+            \begin{minipage}[c]{0.9cm}
+                \includegraphics[width=0.75cm]{images/DatVanDe/icons/tiemnangVietNam.png}
+            \end{minipage}%
+            \hspace{0.1cm}%
+            \begin{minipage}[c]{8.8cm}
+                {\Large\textbf{\textcolor{orange}{TIỀM NĂNG}}}
+            \end{minipage}
+            
+            \vspace{0.05cm}
+            
+            \footnotesize
+            \begin{itemize}
+                \setlength\itemsep{0.02cm}
+                \item \textbf{Việt Nam} nằm trong nhóm quốc gia có bức xạ mặt trời \textbf{tốt nhất Đông Nam Á}, đặc biệt tại miền Trung và Nam Bộ (bức xạ $>$4.6 kWh/kWp/ngày; $>$2500 giờ nắng/năm).
+                \item \textbf{Miền Nam} phù hợp phát triển cả trang trại lớn và điện áp mái; \textbf{Miền Bắc} tuy bức xạ thấp hơn nhưng vẫn hiệu quả cho mô hình áp mái kết hợp lưu trữ.
+            \end{itemize}
+            
+        \end{column}
+    \end{columns}
+\end{frame}
+
+%------------------------------------------------
 \begin{frame}
     \frametitle{THÁCH THỨC}
     \vspace{-0.5cm}
@@ -112,97 +180,81 @@
     
 \end{frame}
 
-%------------------------------------------------
-\begin{frame}
-    \frametitle{CẤU TRÚC BÁO CÁO}
+% --- ĐỊNH NGHĨA MÀU (Trích xuất từ ảnh) ---
+% Màu Xanh (Box trái)
+\definecolor{myBlueBorder}{HTML}{1FA2F2} % Màu thanh bên trái
+\definecolor{myBlueBG}{HTML}{F0F8FF}     % Màu nền xanh nhạt
 
-    \vspace{-0.3cm}
-    
-    % Định nghĩa màu sắc
-    \definecolor{blueCard}{HTML}{5DADE2}
-    \definecolor{greenCard}{HTML}{81C784}
-    \definecolor{orangeCard}{HTML}{FF9E5A}
-    
-    \begin{center}
-    \begin{tikzpicture}[scale=0.90, every node/.style={scale=0.90}]
+% Màu Cam (Box phải)
+\definecolor{myOrangeBorder}{HTML}{F7A623} % Màu thanh bên trái
+\definecolor{myOrangeBG}{HTML}{FFFBF2}     % Màu nền cam nhạt
+
+% --- ĐỊNH NGHĨA KHUNG (Custom Box) ---
+\newtcolorbox{objectivebox}[2]{
+    enhanced,
+    boxrule=0pt, frame hidden, % Ẩn viền xung quanh
+    borderline west={4pt}{0pt}{#1}, % Chỉ kẻ vạch màu bên trái dày 4pt
+    colback=#2, % Màu nền
+    sharp corners, % Góc vuông (hoặc chỉnh arc=3pt nếu muốn bo nhẹ)
+    left=5pt, right=5pt, top=10pt, bottom=10pt, % Căn lề trong
+    valign=center,
+    halign=center
+}
+
+
+
+\begin{frame}
+    \frametitle{MỤC TIÊU NGHIÊN CỨU}
+
+    \vspace{0.5cm} % Khoảng cách từ tiêu đề xuống nội dung
+
+    \begin{columns}[T, onlytextwidth] % Căn lề trên (Top)
+        % --- CỘT TRÁI (Xử lý ảnh) ---
+        \begin{column}{0.48\textwidth}
+            \begin{objectivebox}{myBlueBorder}{myBlueBG}
+                \centering
+                % Đường dẫn ảnh đã được đổi dấu \ thành / để LaTeX hiểu
+                \includegraphics[width=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png} 
+                
+                \vspace{0.5cm}
+                
+                \raggedright % Căn trái văn bản
+                Xây dựng phương pháp \textbf{xử lý ảnh} để tự động tách chiết từng tấm pin từ ảnh toàn cảnh chụp bởi UAV.
+            \end{objectivebox}
+        \end{column}
+
+        % --- CỘT PHẢI (Học sâu) ---
+        \begin{column}{0.48\textwidth}
+            \begin{objectivebox}{myOrangeBorder}{myOrangeBG}
+                \centering
+                \includegraphics[width=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png}
+                
+                \vspace{0.5cm}
+                
+                \raggedright
+                Phát triển mô hình \textbf{Học sâu (Deep Learning)} để phân loại trạng thái tấm pin (Bình thường vs. Lỗi) với độ chính xác cao.
+            \end{objectivebox}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{PHẠM VI NGHIÊN CỨU}
+
+    \begin{itemize}
+        \setlength\itemsep{1.5em} % Tăng khoảng cách giữa các ý
         
-        % CARD 1 - CHƯƠNG 1 (Blue)
-        \begin{scope}[shift={(0,0)}]
-            % Body card
-            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
-                  fill=white, draw=blueCard, line width=2.5pt] (card1body) at (0,-0.3) {};
-            
-            % Header card
-            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
-                  fill=blueCard, anchor=north] (card1header) at (0,2.0) {};
-            
-            % Text trong header
-            \node[text=white, font=\bfseries\normalsize] at (card1header.center) {CHƯƠNG 1};
-            
-            % Nội dung chính
-            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,0.1) {
-                TỔNG QUAN\\PIN NĂNG\\LƯỢNG\\MẶT TRỜI
-            };
-            
-            % Icon
-            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/tongquan.png}};
-        \end{scope}
-        
-        % MŨI TÊN 1
-        \draw[->, line width=3pt, color=blueCard!60!greenCard, 
-              -{Latex[length=3mm,width=3mm]}] (2.1,0) -- (3.3,0);
-        
-        % CARD 2 - CHƯƠNG 2 (Green)
-        \begin{scope}[shift={(5.6,0)}]
-            % Body card
-            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
-                  fill=white, draw=greenCard, line width=2.5pt] (card2body) at (0,-0.3) {};
-            
-            % Header card
-            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
-                  fill=greenCard, anchor=north] (card2header) at (0,2.0) {};
-            
-            % Text trong header
-            \node[text=white, font=\bfseries\normalsize] at (card2header.center) {CHƯƠNG 2};
-            
-            % Nội dung chính
-            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,-0.1) {
-                CÁC PHƯƠNG\\PHÁP PHÁT HIỆN\\HƯ HỎNG
-            };
-            
-            % Icon
-            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/phuongphap.png}};
-        \end{scope}
-        
-        % MŨI TÊN 2
-        \draw[->, line width=3pt, color=greenCard!60!orangeCard,
-              -{Latex[length=3mm,width=3mm]}] (7.7,0) -- (8.9,0);
-        
-        % CARD 3 - CHƯƠNG 3 (Orange)
-        \begin{scope}[shift={(11.2,0)}]
-            % Body card
-            \node[rectangle, rounded corners=12pt, minimum width=3.6cm, minimum height=5.0cm,
-                  fill=white, draw=orangeCard, line width=2.5pt] (card3body) at (0,-0.3) {};
-            
-            % Header card
-            \node[rectangle, rounded corners=10pt, minimum width=3.4cm, minimum height=0.9cm,
-                  fill=orangeCard, anchor=north] (card3header) at (0,2.0) {};
-            
-            % Text trong header
-            \node[text=white, font=\bfseries\normalsize] at (card3header.center) {CHƯƠNG 3};
-            
-            % Nội dung chính
-            \node[text width=3.2cm, align=center, font=\bfseries\small] at (0,0.1) {
-                ĐỀ XUẤT\\MÔ HÌNH AI
-            };
-            
-            % Icon
-            \node at (0,-1.6) {\includegraphics[width=1.2cm]{images/DatVanDe/icons/dexuat.png}};
-        \end{scope}
-        
-    \end{tikzpicture}
-    \end{center}
-    
-    \vspace{0.1cm}
-    
+        % Dữ liệu
+        \item \textbf{Dữ liệu nghiên cứu:} 
+        Sử dụng bộ dữ liệu ảnh màu (RGB) độ phân giải cao, được thu thập thực tế từ thiết bị bay không người lái (UAV) tại khu vực khảo sát.
+
+        % Đối tượng
+        \item \textbf{Đối tượng áp dụng:} 
+        Nghiên cứu tập trung vào hệ thống pin mặt trời được lắp đặt tại các hộ gia đình (áp mái) và các trang trại năng lượng mặt trời quy mô lớn.
+
+        % Giới hạn
+        \item \textbf{Giới hạn đề tài:} 
+        Hệ thống chỉ tập trung phát hiện các dạng hư hỏng vật lý quan sát được trên bề mặt; không bao gồm các đo đạc chuyên sâu về đặc tính điện hay cấu trúc bên trong tế bào quang điện.
+    \end{itemize}
+
 \end{frame}

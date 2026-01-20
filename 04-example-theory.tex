@@ -1,3 +1,49 @@
+% --- KHAI BÁO CÁC ĐỊNH NGHĨA DÙNG CHUNG (Đặt ở đây để Section nào cũng dùng được) ---
+
+% --- ĐỊNH NGHĨA MÀU ---
+\definecolor{customBlueTitle}{HTML}{6FA8DC}
+\definecolor{customBlueBody}{HTML}{CFE2F3}
+\definecolor{customGreenTitle}{HTML}{70AD47}
+\definecolor{customGreenBody}{HTML}{B6D7A8}
+\definecolor{customGreenCardBG}{HTML}{D9EAD3}
+\definecolor{headerBlue}{HTML}{6FA8DC} % Màu cho bảng so sánh
+
+% --- ĐƯỜNG DẪN ẢNH (Lưu ý đường dẫn tuyệt đối của bạn) ---
+\newcommand{\pathIcons}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/}
+\newcommand{\pathImages}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/}
+
+% --- MACRO VẼ THẺ TIKZ ---
+\newcommand{\drawCustomCard}[2]{%
+    \begin{tikzpicture}
+        \def\cardW{3.45cm}%
+        \def\totalH{2.15cm}%
+        \def\splitY{1.2cm}%
+        \def\rad{0.2cm}%
+        \def\imgH{0.95cm}%
+        % --- PHẦN 1: ẢNH ---
+        \begin{scope}
+            \clip [rounded corners=\rad] (0,\splitY) -- (\cardW,\splitY) -- (\cardW,\totalH) -- (0,\totalH) -- cycle;
+            \node[anchor=south west, inner sep=0] at (0,\splitY) {
+                \includegraphics[width=\cardW, height=\imgH, keepaspectratio=false]{#1}
+            };
+        \end{scope}
+        % --- PHẦN 2: TEXT ---
+        \begin{scope}
+            \path[fill=customGreenCardBG, rounded corners=\rad] (0,0) -- (\cardW,0) -- (\cardW,\splitY) -- (0,\splitY) -- cycle;
+            \node[anchor=center] at (\cardW/2, \splitY/2) {
+                \begin{minipage}{3.25cm}
+                    \centering
+                    \fontsize{5}{6}\selectfont 
+                    \color{black} 
+                    #2
+                \end{minipage}
+            };
+        \end{scope}
+    \end{tikzpicture}%
+}
+
+
+
 %------------------------------------------------
 \section{Cơ sở lý thuyết \& tổng quan}
 
@@ -11,75 +57,77 @@
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}
-	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
-	
-	\vspace{0.3cm}
-	
-	\begin{columns}[t]
-		% Cột 1: BÙNG NỔ
-		\begin{column}{0.3\textwidth}
-			\centering
-			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/bungno.png}
-			
-			\vspace{0.3cm}
-			
-			{\Large\textbf{BÙNG NỔ}}
-			
-			\vspace{0.4cm}
-			
-			\small
-			Diện mặt trời chiếm \\
-			\textcolor{orange}{\textbf{73\%}} tổng công suất \\
-			năng lượng tái tạo \\
-			tăng thêm toàn cầu \\
-			năm 2023.
-		\end{column}
+% SLIDE 10: ẨN - Tổng quan tiềm năng (đã gộp vào slide 11)
+% \begin{frame}
+% 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
+% 	
+% 	\vspace{0.3cm}
+% 	
+% 	\begin{columns}[t]
+% 		% Cột 1: BÙNG NỔ
+% 		\begin{column}{0.3\textwidth}
+% 			\centering
+% 			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/bungno.png}
+% 			
+% 			\vspace{0.3cm}
+% 			
+% 			{\Large\textbf{BÙNG NỔ}}
+% 			
+% 			\vspace{0.4cm}
+% 			
+% 			\small
+% 			Diện mặt trời chiếm \\
+% 			\textcolor{orange}{\textbf{73\%}} tổng công suất \\
+% 			năng lượng tái tạo \\
+% 			tăng thêm toàn cầu \\
+% 			năm 2023.
+% 		\end{column}
+% 
+% 		\vrule width 1pt
+% 		
+% 		% Cột 2: CHI PHÍ
+% 		\begin{column}{0.3\textwidth}
+% 			\centering
+% 			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/chiphi.png}
+% 			
+% 			\vspace{0.3cm}
+% 			
+% 			{\Large\textbf{CHI PHÍ}}
+% 			
+% 			\vspace{0.4cm}
+% 			
+% 			\small
+% 			Chi phí lắp đặt đã giảm sâu \\
+% 			\textcolor{orange}{\textbf{85\%}} sau một thập kỷ, trở \\
+% 			thành nguồn năng lượng \\
+% 			dễ tiếp cận nhất.
+% 		\end{column}
+% 
+% 		\vrule width 1pt
+% 		
+% 		% Cột 3: TIỀM NĂNG
+% 		\begin{column}{0.3\textwidth}
+% 			\centering
+% 			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/tiemnang.png}
+% 			
+% 			\vspace{0.3cm}
+% 			
+% 			{\Large\textbf{TIỀM NĂNG}}
+% 			
+% 			\vspace{0.4cm}
+% 			
+% 			\small
+% 			Việt Nam nằm trong \\
+% 			``vùng đỏ'' bức xạ nhiệt, \\
+% 			mang hữu tiềm năng tự \\
+% 			nhiên lý tưởng để phát \\
+% 			triển điện mặt trời.
+% 		\end{column}
+% 	\end{columns}
+% 	
+% \end{frame}
 
-		\vrule width 1pt
-		
-		% Cột 2: CHI PHÍ
-		\begin{column}{0.3\textwidth}
-			\centering
-			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/chiphi.png}
-			
-			\vspace{0.3cm}
-			
-			{\Large\textbf{CHI PHÍ}}
-			
-			\vspace{0.4cm}
-			
-			\small
-			Chi phí lắp đặt đã giảm sâu \\
-			\textcolor{orange}{\textbf{85\%}} sau một thập kỷ, trở \\
-			thành nguồn năng lượng \\
-			dễ tiếp cận nhất.
-		\end{column}
-
-		\vrule width 1pt
-		
-		% Cột 3: TIỀM NĂNG
-		\begin{column}{0.3\textwidth}
-			\centering
-			\includegraphics[width=0.5\textwidth]{images/TongQuan/icons/tiemnang.png}
-			
-			\vspace{0.3cm}
-			
-			{\Large\textbf{TIỀM NĂNG}}
-			
-			\vspace{0.4cm}
-			
-			\small
-			Việt Nam nằm trong \\
-			``vùng đỏ'' bức xạ nhiệt, \\
-			mang hữu tiềm năng tự \\
-			nhiên lý tưởng để phát \\
-			triển điện mặt trời.
-		\end{column}
-	\end{columns}
-	
-\end{frame}
-
+% SLIDE 11: GIỮ LẠI - Biểu đồ tăng trưởng (ấn tượng nhất)
 \begin{frame}
 \label{Bungno}
 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
@@ -88,87 +136,25 @@
 	\end{center}
 \end{frame}
 
-\begin{frame}
-\label{Chiphi}
-	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
-	\begin{center}
-		\includegraphics[width=0.6\textwidth]{images/TongQuan/bieudochiphi.png}
-	\end{center}
-\end{frame}
+% SLIDE 12: ẨN - Biểu đồ chi phí
+% \begin{frame}
+% \label{Chiphi}
+% 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
+% 	\begin{center}
+% 		\includegraphics[width=0.6\textwidth]{images/TongQuan/bieudochiphi.png}
+% 	\end{center}
+% \end{frame}
 
-\begin{frame}
-\label{Nhiet}
-	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{images/TongQuan/bieudonhiet.png}
-	\end{center}
-\end{frame}
+% SLIDE 13: ẨN - Bản đồ bức xạ thế giới
+% \begin{frame}
+% \label{Nhiet}
+% 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
+% 	\begin{center}
+% 		\includegraphics[width=0.8\textwidth]{images/TongQuan/bieudonhiet.png}
+% 	\end{center}
+% \end{frame}
 
-\begin{frame}
-    \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN VIỆT NAM}
-    
-    % [FIX 1] Giảm khoảng cách dưới tiêu đề (0.2 -> 0.1)
-    \vspace{0.1cm} 
-    
-    \begin{columns}[T] 
-        
-        % --- CỘT TRÁI: BẢN ĐỒ ---
-        \begin{column}{0.32\textwidth}
-            \centering
-            \vspace{0pt} 
-            \includegraphics[width=0.95\textwidth]{images/TongQuan/bandonhietVietNam.png}
-        \end{column}
-        
-        % --- CỘT PHẢI: NỘI DUNG ---
-        \begin{column}{0.65\textwidth}
-            \vspace{0pt} 
-            
-            % === PHẦN 1: PHÁP LÝ ===
-            % [FIX 2] Giảm kích thước khung chứa icon (1.2cm -> 0.9cm)
-            \begin{minipage}[c]{0.9cm}
-                % [FIX 3] Giảm size icon (1.0cm -> 0.75cm) cho gọn
-                \includegraphics[width=0.75cm]{images/TongQuan/icons/phaply.png}
-            \end{minipage}%
-            \hspace{0.1cm}%
-            \begin{minipage}[c]{8.8cm} 
-                {\Large\textbf{\textcolor{blue!70!black}{PHÁP LÝ}}}
-            \end{minipage}
-            
-            % [FIX 4] Giảm khoảng cách dưới tiêu đề mục (0.1 -> 0.05)
-            \vspace{0.05cm}
-            
-            \footnotesize
-            \begin{itemize}
-                % [FIX 5] Giảm khoảng cách giữa các item (0.1 -> 0.02)
-                \setlength\itemsep{0.02cm} 
-                \item Chuyển từ giai đoạn chính sách giá ưu đãi (kích cầu đầu tư ồ ạt) sang giai đoạn phát triển bền vững và có kiểm soát.
-                \item Tập trung kiểm soát an toàn lưới điện và đặc biệt ưu tiên khuyến khích mô hình điện mặt trời \textbf{tự sản tự tiêu} (thay vì bán lên lưới).
-            \end{itemize}
-            
-            % [FIX 6] Giảm khoảng cách lớn giữa 2 phần (0.4 -> 0.25)
-            \vspace{0.25cm} 
-            
-            % === PHẦN 2: TIỀM NĂNG ===
-            \begin{minipage}[c]{0.9cm}
-                \includegraphics[width=0.75cm]{images/TongQuan/icons/tiemnangVietNam.png}
-            \end{minipage}%
-            \hspace{0.1cm}%
-            \begin{minipage}[c]{8.8cm}
-                {\Large\textbf{\textcolor{orange}{TIỀM NĂNG}}}
-            \end{minipage}
-            
-            \vspace{0.05cm}
-            
-            \footnotesize
-            \begin{itemize}
-                \setlength\itemsep{0.02cm}
-                \item \textbf{Việt Nam} nằm trong nhóm quốc gia có bức xạ mặt trời \textbf{tốt nhất Đông Nam Á}, đặc biệt tại miền Trung và Nam Bộ (bức xạ $>$4.6 kWh/kWp/ngày; $>$2500 giờ nắng/năm).
-                \item \textbf{Miền Nam} phù hợp phát triển cả trang trại lớn và điện áp mái; \textbf{Miền Bắc} tuy bức xạ thấp hơn nhưng vẫn hiệu quả cho mô hình áp mái kết hợp lưu trữ.
-            \end{itemize}
-            
-        \end{column}
-    \end{columns}
-\end{frame}
+
 
 % Định nghĩa màu nền xanh
 \definecolor{CardBlue}{HTML}{B1CDFC}
@@ -410,9 +396,6 @@
 	\end{center}
 \end{frame}
 
-%------------------------------------------------
-\section{Phương pháp đề xuất}
-
 \begin{frame}
     \frametitle{GIỚI THIỆU VỀ UAV}
 
@@ -482,8 +465,8 @@
                 ]
 
                     % 1. Node Drone ở trên cùng, giữa
-                    % Thay đường dẫn ảnh bằng ảnh thực tế của bạn: images/PhuongPhap/drone.png
-                    \node (drone) at (0, 3) {\includegraphics[width=2.5cm, keepaspectratio]{images/PhuongPhap/drone.png}};
+                    % Thay đường dẫn ảnh bằng ảnh thực tế của bạn: images/TongQuan/drone.png
+                    \node (drone) at (0, 3) {\includegraphics[width=2.5cm, keepaspectratio]{images/TongQuan/drone.png}};
 
                     % 2. Các hộp quy trình chính (Đặt hộp số 2 ở giữa tâm 0,0)
                     \node [boxstyle] (step2) at (0,0) {2. Thu thập dữ liệu RGB};
@@ -515,52 +498,9 @@
 \label{UAV}
 	\frametitle{GIỚI THIỆU VỀ UAV}
 	\begin{center}
-		\includegraphics[width=0.6\textwidth]{images/PhuongPhap/UAV.png}
+		\includegraphics[width=0.6\textwidth]{images/TongQuan/UAV.png}
 	\end{center}
 \end{frame}
-
-% --- ĐỊNH NGHĨA MÀU ---
-\definecolor{customBlueTitle}{HTML}{6FA8DC}
-\definecolor{customBlueBody}{HTML}{CFE2F3}
-\definecolor{customGreenTitle}{HTML}{70AD47}
-\definecolor{customGreenBody}{HTML}{B6D7A8}
-\definecolor{customGreenCardBG}{HTML}{D9EAD3}
-
-% --- ĐƯỜNG DẪN ẢNH ---
-\newcommand{\pathIcons}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/}
-\newcommand{\pathImages}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/}
-
-% --- MACRO VẼ THẺ TIKZ ---
-\newcommand{\drawCustomCard}[2]{%
-    \begin{tikzpicture}
-        \def\cardW{3.45cm}%
-        \def\totalH{2.15cm}% Giữ kích thước nhỏ gọn
-        \def\splitY{1.2cm}%
-        \def\rad{0.2cm}%
-        \def\imgH{0.95cm}%
-
-        % --- PHẦN 1: ẢNH ---
-        \begin{scope}
-            \clip [rounded corners=\rad] (0,\splitY) -- (\cardW,\splitY) -- (\cardW,\totalH) -- (0,\totalH) -- cycle;
-            \node[anchor=south west, inner sep=0] at (0,\splitY) {
-                \includegraphics[width=\cardW, height=\imgH, keepaspectratio=false]{#1}
-            };
-        \end{scope}
-
-        % --- PHẦN 2: TEXT ---
-        \begin{scope}
-            \path[fill=customGreenCardBG, rounded corners=\rad] (0,0) -- (\cardW,0) -- (\cardW,\splitY) -- (0,\splitY) -- cycle;
-            \node[anchor=center] at (\cardW/2, \splitY/2) {
-                \begin{minipage}{3.25cm}
-                    \centering
-                    \fontsize{5}{6}\selectfont 
-                    \color{black} 
-                    #2
-                \end{minipage}
-            };
-        \end{scope}
-    \end{tikzpicture}%
-}
 
 \begin{frame}[t]
     % Giữ nguyên vị trí bắt đầu
@@ -768,3 +708,181 @@
         }
     \end{table}
 \end{frame}
+
+\begin{frame}
+    \frametitle{MÔ HÌNH EfficientNet-B2}
+
+    % [QUAN TRỌNG] Sử dụng shrink để tự động co giãn nếu vẫn bị tràn chút ít (tùy chọn)
+    % Hoặc bỏ [shrink] nếu code bên dưới đã vừa vặn.
+    
+    \begin{columns}[T] 
+        
+        % --- CỘT TRÁI: VĂN BẢN ---
+        \begin{column}{0.6\textwidth} % Tăng độ rộng cột chữ lên một chút cho thoáng
+            
+            % Dùng \footnotesize thay vì \small để chữ nhỏ hơn, vừa trang
+            \footnotesize 
+            
+            % Tiêu đề
+            {\textbf{\textcolor{red}{Tại sao chọn EfficientNet-B2 ?}}}
+            \vspace{0.1cm} % Giảm khoảng cách (từ 0.3 xuống 0.1)
+
+            % Nội dung
+            Kiến trúc này sử dụng phương pháp \textbf{Compound Scaling}, cân bằng tối ưu giữa 3 yếu tố: độ sâu (depth), độ rộng (width) và độ phân giải (resolution).
+            \vspace{0.1cm} % Giảm khoảng cách
+
+            % Danh sách
+            \begin{itemize}
+                % Giảm khoảng cách giữa các item (từ 0.8em xuống 0.3em)
+                \setlength\itemsep{0.3em} 
+                
+                \item[\textcolor{cyan}{\checkmark}] \textbf{Số lượng tham số:} 7.7 Triệu.
+                
+                \item[\textcolor{cyan}{\checkmark}] \textbf{Khối MBConv:} Mobile Inverted Bottleneck giúp giảm chi phí tính toán.
+                
+                \item[\textcolor{cyan}{\checkmark}] \textbf{Squeeze-and-Excitation (SE):} Cơ chế Attention giúp tập trung đặc trưng lỗi.
+                
+                \item[\textcolor{cyan}{\checkmark}] \textbf{Transfer Learning:} Dùng trọng số ImageNet để hội tụ nhanh.
+            \end{itemize}
+
+            \vspace{0.2cm} % Giảm khoảng cách cuối
+            \textbf{Hàm mất mát (Loss Function):} Kết hợp Weighted Cross-Entropy và Focal Loss
+        \end{column}
+
+        % --- CỘT PHẢI: HÌNH ẢNH ---
+        \begin{column}{0.4\textwidth}
+            \centering
+            % Giảm chiều cao ảnh xuống 75% chiều cao slide (thay vì 0.8) để tránh đẩy khung
+            \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png}
+        \end{column}
+
+    \end{columns}
+\end{frame}
+
+% Định nghĩa màu sắc
+\definecolor{myRed}{HTML}{FF3333}
+\definecolor{bgGray}{HTML}{F8FAFC}
+\definecolor{textDark}{HTML}{333333}
+\begin{frame}
+    \frametitle{ĐÁNH GIÁ MÔ HÌNH}
+
+    % Tiêu đề chính
+    \begin{center}
+        \textbf{\textcolor{myRed}{\large Tại Sao Cần Đánh Giá Mô Hình?}}
+    \end{center}
+    
+    \vspace{0.2cm} % Giảm khoảng cách để tránh tràn trang
+
+    % Chia 2 cột lớn độc lập cho toàn bộ slide
+    \begin{columns}[T] % T = Top alignment (căn đỉnh trên)
+        
+        % --- CỘT TRÁI: Khả năng tổng quát hóa ---
+        \begin{column}{0.48\textwidth}
+            \begin{tcolorbox}[
+                colback=bgGray,
+                colframe=bgGray,
+                arc=8pt,
+                boxrule=0pt,
+                left=4pt, right=4pt, top=6pt, bottom=6pt
+            ]
+                % Chia cột nhỏ bên trong Box (Icon | Tiêu đề)
+                \begin{columns}
+                    % Cột chứa Icon (nhỏ lại theo yêu cầu)
+                    \begin{column}{0.15\textwidth}
+                        \centering
+                        % Đặt kích thước cố định nhỏ (0.8cm)
+                        \includegraphics[width=0.8cm, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png}
+                    \end{column}
+                    % Cột chứa Tiêu đề
+                    \begin{column}{0.83\textwidth}
+                        \textbf{\small Khả năng tổng quát hóa}
+                    \end{column}
+                \end{columns}
+
+                \vspace{0.2cm}
+                
+                % Nội dung text
+                \justifying
+                \color{textDark}
+                \footnotesize % Dùng font nhỏ hơn một chút để an toàn
+                Mục tiêu cuối cùng không chỉ là khớp dữ liệu huấn luyện (Training Data) mà là hoạt động tốt trên dữ liệu chưa biết (Unseen Data).
+            \end{tcolorbox}
+        \end{column}
+
+        % --- CỘT PHẢI: Overfitting vs Underfitting ---
+        \begin{column}{0.48\textwidth}
+            \begin{tcolorbox}[
+                colback=bgGray,
+                colframe=bgGray,
+                arc=8pt,
+                boxrule=0pt,
+                left=4pt, right=4pt, top=6pt, bottom=6pt
+            ]
+                % Chia cột nhỏ bên trong Box
+                \begin{columns}
+                    \begin{column}{0.15\textwidth}
+                        \centering
+                        \includegraphics[width=0.8cm, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png}
+                    \end{column}
+                    \begin{column}{0.83\textwidth}
+                        \textbf{\small Overfitting vs Underfitting}
+                    \end{column}
+                \end{columns}
+
+                \vspace{0.2cm}
+
+                % Nội dung text
+                \justifying
+                \color{textDark}
+                \footnotesize
+                Mục tiêu cuối cùng không chỉ là khớp dữ liệu huấn luyện (Training Data) mà là hoạt động tốt trên dữ liệu chưa biết (Unseen Data).
+            \end{tcolorbox}
+        \end{column}
+
+    \end{columns}
+
+\end{frame}
+
+% Định nghĩa màu (giữ nguyên)
+\definecolor{mygreen}{RGB}{0, 168, 89} 
+\definecolor{myred}{RGB}{237, 28, 36}
+
+\begin{frame}
+    \frametitle{MA TRẬN NHẦM LẪN}
+
+    % Thêm [T] để căn nội dung bắt đầu từ trên cùng của cột
+    \begin{columns}[T] 
+        
+        % Cột bên trái: Nội dung văn bản
+        \begin{column}{0.55\textwidth}
+            \small % Cỡ chữ nhỏ
+            Là nền tảng của hầu hết các chỉ số đánh giá phân loại. Nó so sánh kết quả dự đoán với thực tế.
+            \vspace{0.1cm} % GIẢM khoảng cách ở đây (từ 0.3 xuống 0.1)
+
+            \begin{itemize}
+                % GIẢM khoảng cách giữa các gạch đầu dòng (từ 0.5em xuống 0.1em)
+                \setlength\itemsep{0.1em} 
+                \setlength\parskip{0pt} % Loại bỏ khoảng cách đoạn thừa
+                
+                \item \textbf{\textcolor{mygreen}{TP (True Positive):}} Dự đoán đúng là Dương tính.
+                
+                \item \textbf{\textcolor{mygreen}{TN (True Negative):}} Dự đoán đúng là Âm tính.
+                
+                \item \textbf{\textcolor{myred}{FP (False Positive):}} Dự đoán sai là Dương tính (Báo động giả).
+                
+                \item \textbf{\textcolor{myred}{FN (False Negative):}} Dự đoán sai là Âm tính (Bỏ sót).
+            \end{itemize}
+        \end{column}
+
+        % Cột bên phải: Hình ảnh
+        \begin{column}{0.45\textwidth}
+            \centering
+            % Dùng keepaspectratio để ảnh không bị méo nếu lỡ quá cao
+            \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png}
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+%------------------------------------------------
+\section{Phương pháp đề xuất}
