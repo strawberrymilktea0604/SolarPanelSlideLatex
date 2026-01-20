@@ -3,26 +3,24 @@
 
     % --- PHẦN HÌNH ẢNH HÌNH TRÒN OVERLAY ---
     \begin{tikzpicture}[remember picture, overlay]
-        % 1. Xác định tâm của hình tròn.
-        % $(current page.north west) + (4cm, -4.5cm)$ nghĩa là:
-        % Bắt đầu từ góc trên cùng bên trái của trang, dịch sang phải 4cm, dịch xuống dưới 4.5cm.
-        % Vị trí này nằm gọn trong cột trống bên trái.
-        \coordinate (centerPoint) at ($(current page.north west) + (4cm, -4.5cm)$);
+        % 1. Xác định tâm của hình tròn (căn giữa vùng cột trái)
+        % Điều chỉnh vị trí để căn giữa theo chiều dọc và ngang trong vùng cột trái
+        \coordinate (centerPoint) at ($(current page.north west) + (3.5cm, -4.5cm)$);
 
         \begin{scope}
-            % 2. Tạo vùng cắt hình tròn ( khuôn)
-            % Bán kính 3.5cm (đường kính 7cm)
-            \clip (centerPoint) circle (3.5cm);
+            % 2. Tạo vùng cắt hình tròn nhỏ hơn
+            % Bán kính giảm xuống 2.5cm (đường kính 5cm)
+            \clip (centerPoint) circle (2.5cm);
 
             % 3. Chèn ảnh vào đúng tâm của vùng cắt
-            % width=7.5cm: Đặt ảnh lớn hơn đường kính một chút để đảm bảo lấp đầy hình tròn mà không bị hở.
+            % Điều chỉnh kích thước ảnh phù hợp với hình tròn nhỏ hơn
             \node[inner sep=0pt] at (centerPoint) {
                 \includegraphics[width=5cm, keepaspectratio]{drone_solar.jpg}
             };
         \end{scope}
         
         % (Tùy chọn) Bỏ comment dòng dưới nếu muốn thêm viền trắng cho ảnh nổi bật hơn
-        % \draw[white, line width=3pt] (centerPoint) circle (3.5cm);
+        % \draw[white, line width=3pt] (centerPoint) circle (2.5cm);
     \end{tikzpicture}
 
     % --- PHẦN NỘI DUNG VĂN BẢN (Giữ nguyên) ---
