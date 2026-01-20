@@ -34,40 +34,60 @@
 
 \end{frame}
 
-
-
-
-
-
-
-
-
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Columns}
-    \framesubtitle{And Graphics}
+    \frametitle{BỐI CẢNH VÀ TÍNH CẤP THIẾT}
+    \vspace{-0.2cm}
+    \begin{columns}[T,onlytextwidth]
+        \begin{column}{0.52\textwidth}
+            \justifying
+            {\scriptsize Năng lượng mặt trời (PV) đang bùng nổ toàn cầu với tốc độ tăng trưởng \textbf{>20\%} mỗi năm (theo IEA). Tại Việt Nam, xu hướng này đang phát triển mạnh mẽ. Tính đến đầu năm 2025, điện mặt trời đã chiếm \textbf{11.85\%} tổng công suất nguồn điện cả nước, hàng loạt dự án quy mô lớn đã đi vào vận hành ổn định.}
 
-    Check this slide to see how columns made the formatting look nice.
+            \vspace{0.1cm}
 
-    \begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-        \begin{column}{0.5\textwidth} % Right column width
-            % To add an image
-            \begin{figure}[h!]
-                \centering
-                % \caption{Hawkins et al, 2015}
-                \includegraphics[angle=0, width=4.5cm]{link.png}
-                \label{Figure 1}
-            \end{figure}
+            % Example box with left orange strip
+            \begin{tikzpicture}
+                \node[inner sep=3pt,rounded corners=0pt] (box) {
+                    \begin{minipage}{0.94\linewidth}
+                        {\scriptsize \hspace{0.3cm}\textbf{Ví dụ điển hình: Nhà máy điện mặt trời Dầu Tiếng}}\\[2pt]
+                        {\scriptsize
+                        \begin{itemize}\setlength\itemsep{0pt}\setlength\parskip{0pt}
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Công suất:} >600 MWp (Lớn nhất Đông Nam Á).
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Quy mô:} Hàng trăm héc-ta với hàng triệu tấm pin.
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Thách thức:} Giám sát thủ công là bất khả thi.
+                        \end{itemize}}
+                    \end{minipage}
+                };
+                % background rounded box and light gray fill
+                \begin{scope}[on background layer]
+                    \fill[gray!15,rounded corners=0pt] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south east)+(0.04cm,-0.04cm)$);
+                    % orange left strip
+                    \fill[orange] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south west)+(0.12cm,-0.04cm)$);
+                \end{scope}
+            \end{tikzpicture}
+
+            \vspace{0.1cm}
+
+            \justifying
+            {\scriptsize Theo \textbf{Quy hoạch điện VIII}, dư địa phát triển năng lượng tái tạo vẫn còn rất lớn, dự kiến quy mô điện mặt trời sẽ tiếp tục \textbf{tăng trưởng mạnh mẽ đến năm 2030.}}
         \end{column}
-        \begin{column}{0.5\textwidth} % Left column width
-            \begin{figure}[h!]
-                \centering
-                % \caption{Hawkins et al, 2015}
-                \includegraphics[angle=0, width=4.5cm]{link.png}
-                \label{Figure 2}
-            \end{figure}
+
+        \begin{column}{0.48\textwidth}
+            \begin{center}
+                \vspace{0.8cm}
+                \begin{tikzpicture}
+                    % Draw the clipped image
+                    \begin{scope}
+                        \clip[rounded corners=10pt] (0,0) rectangle (5.2,3.5);
+                        \node[anchor=south west,inner sep=0pt] at (0,0) {\includegraphics[width=5.2cm,keepaspectratio]{images/DatVanDe/dautieng.jpg}};
+                    \end{scope}
+                    % Draw the border on top
+                    \draw[line width=1.5pt,rounded corners=10pt] (0,0) rectangle (5.2,3.5);
+                \end{tikzpicture}
+            \end{center}
         \end{column}
     \end{columns}
+
 \end{frame}
 
 %------------------------------------------------

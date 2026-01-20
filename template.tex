@@ -11,8 +11,19 @@
 %---------------------------------------------------------
 % Để gõ tiếng Việt và giữ font đẹp, cần 3 gói lệnh sau:
 \usepackage[utf8]{inputenc}   % Mã hóa đầu vào UTF-8
-\usepackage[T5]{fontenc}      % Mã hóa font T5 (Bắt buộc để chữ tiếng Việt không bị lỗi copy/paste và hiển thị đúng dấu)
-\usepackage[vietnamese]{babel}% Hỗ trợ quy tắc ngắt dòng và tên mục (Ví dụ: "Mục lục" thay vì "Contents")
+\usepackage[T5]{fontenc}      % Mã hóa font T5 (Bắt buộc cho tiếng Việt)
+% Tắt warning cho babel hyphenation
+\RequirePackage{silence}
+\WarningFilter{babel}{No hyphenation patterns}
+\usepackage[vietnamese,english]{babel}% Hỗ trợ quy tắc ngắt dòng và tên mục
+% Suppress hyphenation warning for Vietnamese
+\babelprovide[hyphenrules=english]{vietnamese}
+\makeatletter
+\def\bbl@tempa{vietnamese}
+\ifx\languagename\bbl@tempa
+  \language=0
+\fi
+\makeatother
 
 %---------------------------------------------------------
 %   SELECT THEME & COLORS
@@ -67,14 +78,16 @@
 %---------------------------------------------------------
 %   SELECT THE FONT THEME & FONTS
 %---------------------------------------------------------
-\usefonttheme{default} 
-\usepackage{palatino} % Font Serif
-\usepackage[default]{opensans} % Font Sans-serif (Mặc định cho Beamer)
+\usefonttheme{default}
+\usepackage{lmodern} % Latin Modern font - hỗ trợ tốt T5 encoding
+% Dùng font mặc định của beamer với lmodern cho tiếng Việt
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usepackage{pifont}
 \useinnertheme{circles}
 \usetikzlibrary{calc} % Để tính toán tọa độ nếu cần
+\usetikzlibrary{backgrounds} % Để dùng on background layer
 \usepackage{ragged2e} % Để dùng \justifying
 
 %---------------------------------------------------------
@@ -85,13 +98,13 @@
 %---------------------------------------------------------
 %   PRESENTATION INFORMATION
 %---------------------------------------------------------
-\title[Mã số: CĐ-2025-07]{BÁO CÁO TỔNG KẾT ĐỀ TÀI NGHIÊN CỨU KHOA HỌC SINH VIÊN \\ NĂM HỌC 2025-2026}
-\subtitle{NGHIÊN CỨU ỨNG DỤNG TRÍ TUỆ NHÂN TẠO TRONG XỬ LÝ HÌNH ẢNH ĐỂ PHÁT HIỆN CÁC HƯ HỎNG CỦA TẤM PIN NĂNG LƯỢNG MẶT TRỜI PHỤC VỤ CÔNG TÁC ĐÁNH GIÁ CHẤT LƯỢNG \\ \smallskip Mã số: CĐ-2025-07}
-\author[NCKH 2025-2026]{\textbf{Sinh viên thực hiện:} \\ 
-NGUYỄN KHÁNH CHI - Lớp 67CS2 - MSV: 0131367 \\
+\title[Mã số: CĐ-2025-07]{\normalsize BÁO CÁO TỔNG KẾT ĐỀ TÀI NGHIÊN CỨU KHOA HỌC SINH VIÊN \texorpdfstring{\\}{} NĂM HỌC 2025-2026}
+\subtitle{\scriptsize NGHIÊN CỨU ỨNG DỤNG TRÍ TUỆ NHÂN TẠO TRONG XỬ LÝ HÌNH ẢNH ĐỂ PHÁT HIỆN CÁC HƯ HỎNG CỦA TẤM PIN NĂNG LƯỢNG MẶT TRỜI PHỤC VỤ CÔNG TÁC ĐÁNH GIÁ CHẤT LƯỢNG \texorpdfstring{\\}{} Mã số: CĐ-2025-07}
+\author[NCKH 2025-2026]{\footnotesize \textbf{Sinh viên thực hiện:} \texorpdfstring{\\}{} 
+NGUYỄN KHÁNH CHI - Lớp 67CS2 - MSV: 0131367 \texorpdfstring{\\}{}
 LÃ MINH KHÁNH - Lớp 67CS1 - MSV: 4004267}
 
-\institute[]{\textbf{Giáo viên hướng dẫn:} \\ PGS.TS. LÊ BÁ DANH \\ THS. NGUYỄN ĐÌNH QUÝ}
+\institute[]{\footnotesize \textbf{Giáo viên hướng dẫn:} \\ PGS.TS. LÊ BÁ DANH \\ THS. NGUYỄN ĐÌNH QUÝ}
 
 % School logo
 % \logo{\includegraphics[width=2.5cm]{logo.eps}}
