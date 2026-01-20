@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1149,7 +1149,7 @@ Package translations Info: no dictionary file `translations-basic-dictionary-vie
 Overfull \vbox (30.28188pt too high) detected at line 15
  []
 
-<images/background-1080p-washout.jpg, id=60, 778.107pt x 423.0204pt>
+<images/background-1080p-washout.jpg, id=62, 778.107pt x 423.0204pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
@@ -1157,7 +1157,7 @@ Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
  <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=118, 1283.79625pt x 722.7pt>
+<images/drone_solar.jpg, id=123, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1198,7 +1198,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc) [3
 
 ]) (03-example-motivation.tex
-<images/DatVanDe/dautieng.jpg, id=203, 462.528pt x 346.4142pt>
+<images/DatVanDe/dautieng.jpg, id=212, 462.528pt x 346.4142pt>
 File: images/DatVanDe/dautieng.jpg Graphic file (type jpg)
 <use images/DatVanDe/dautieng.jpg>
 Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
@@ -1206,17 +1206,17 @@ Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
  [4
 
  <./images/DatVanDe/dautieng.jpg>]
-<images/DatVanDe/icons/thoigian.png, id=246, 292.09125pt x 288.07625pt>
+<images/DatVanDe/icons/thoigian.png, id=257, 292.09125pt x 288.07625pt>
 File: images/DatVanDe/icons/thoigian.png Graphic file (type png)
 <use images/DatVanDe/icons/thoigian.png>
 Package pdftex.def Info: images/DatVanDe/icons/thoigian.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.11969pt.
-<images/DatVanDe/icons/antoan.png, id=247, 293.095pt x 289.08pt>
+<images/DatVanDe/icons/antoan.png, id=258, 293.095pt x 289.08pt>
 File: images/DatVanDe/icons/antoan.png Graphic file (type png)
 <use images/DatVanDe/icons/antoan.png>
 Package pdftex.def Info: images/DatVanDe/icons/antoan.png  used on input line 113.
 (pdftex.def)             Requested size: 56.9055pt x 56.12555pt.
-<images/DatVanDe/icons/hieuqua.png, id=248, 301.125pt x 290.08376pt>
+<images/DatVanDe/icons/hieuqua.png, id=259, 301.125pt x 290.08376pt>
 File: images/DatVanDe/icons/hieuqua.png Graphic file (type png)
 <use images/DatVanDe/icons/hieuqua.png>
 Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 113.
@@ -1224,17 +1224,17 @@ Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 1
  [5
 
  <./images/DatVanDe/icons/thoigian.png> <./images/DatVanDe/icons/antoan.png> <./images/DatVanDe/icons/hieuqua.png>]
-<images/DatVanDe/icons/tongquan.png, id=289, 121.6545pt x 128.27925pt>
+<images/DatVanDe/icons/tongquan.png, id=302, 121.6545pt x 128.27925pt>
 File: images/DatVanDe/icons/tongquan.png Graphic file (type png)
 <use images/DatVanDe/icons/tongquan.png>
 Package pdftex.def Info: images/DatVanDe/icons/tongquan.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 36.0021pt.
-<images/DatVanDe/icons/phuongphap.png, id=291, 126.4725pt x 129.48375pt>
+<images/DatVanDe/icons/phuongphap.png, id=304, 126.4725pt x 129.48375pt>
 File: images/DatVanDe/icons/phuongphap.png Graphic file (type png)
 <use images/DatVanDe/icons/phuongphap.png>
 Package pdftex.def Info: images/DatVanDe/icons/phuongphap.png  used on input line 208.
 (pdftex.def)             Requested size: 34.14322pt x 34.95514pt.
-<images/DatVanDe/icons/dexuat.png, id=292, 121.05225pt x 121.05225pt>
+<images/DatVanDe/icons/dexuat.png, id=305, 121.05225pt x 121.05225pt>
 File: images/DatVanDe/icons/dexuat.png Graphic file (type png)
 <use images/DatVanDe/icons/dexuat.png>
 Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 208.
@@ -1242,7 +1242,7 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
  [6
 
  <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex
-<images/TongQuan/pinmattroi.png, id=336, 513.92pt x 243.91125pt>
+<images/TongQuan/pinmattroi.png, id=351, 513.92pt x 243.91125pt>
 File: images/TongQuan/pinmattroi.png Graphic file (type png)
 <use images/TongQuan/pinmattroi.png>
 Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
@@ -1250,17 +1250,17 @@ Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
  [7
 
  <./images/TongQuan/pinmattroi.png>]
-<images/TongQuan/icons/bungno.png, id=380, 329.23pt x 316.18124pt>
+<images/TongQuan/icons/bungno.png, id=397, 329.23pt x 316.18124pt>
 File: images/TongQuan/icons/bungno.png Graphic file (type png)
 <use images/TongQuan/icons/bungno.png>
 Package pdftex.def Info: images/TongQuan/icons/bungno.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 62.4246pt.
-<images/TongQuan/icons/chiphi.png, id=381, 297.11pt x 313.17pt>
+<images/TongQuan/icons/chiphi.png, id=398, 297.11pt x 313.17pt>
 File: images/TongQuan/icons/chiphi.png Graphic file (type png)
 <use images/TongQuan/icons/chiphi.png>
 Package pdftex.def Info: images/TongQuan/icons/chiphi.png  used on input line 81.
 (pdftex.def)             Requested size: 65.00307pt x 68.51532pt.
-<images/TongQuan/icons/tiemnang.png, id=382, 372.39125pt x 282.05376pt>
+<images/TongQuan/icons/tiemnang.png, id=399, 372.39125pt x 282.05376pt>
 File: images/TongQuan/icons/tiemnang.png Graphic file (type png)
 <use images/TongQuan/icons/tiemnang.png>
 Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 81.
@@ -1268,7 +1268,7 @@ Package pdftex.def Info: images/TongQuan/icons/tiemnang.png  used on input line 
  [8
 
  <./images/TongQuan/icons/bungno.png> <./images/TongQuan/icons/chiphi.png> <./images/TongQuan/icons/tiemnang.png>]
-<images/TongQuan/bieudobungno.png, id=423, 513.92pt x 286.06876pt>
+<images/TongQuan/bieudobungno.png, id=442, 513.92pt x 286.06876pt>
 File: images/TongQuan/bieudobungno.png Graphic file (type png)
 <use images/TongQuan/bieudobungno.png>
 Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89.
@@ -1276,7 +1276,7 @@ Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 89
  [9
 
  <./images/TongQuan/bieudobungno.png>]
-<images/TongQuan/bieudochiphi.png, id=465, 513.92pt x 344.28625pt>
+<images/TongQuan/bieudochiphi.png, id=486, 513.92pt x 344.28625pt>
 File: images/TongQuan/bieudochiphi.png Graphic file (type png)
 <use images/TongQuan/bieudochiphi.png>
 Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97.
@@ -1284,28 +1284,58 @@ Package pdftex.def Info: images/TongQuan/bieudochiphi.png  used on input line 97
  [10
 
  <./images/TongQuan/bieudochiphi.png>]
-<images/TongQuan/bieudonhiet.png, id=507, 513.92pt x 249.93375pt>
+<images/TongQuan/bieudonhiet.png, id=530, 513.92pt x 249.93375pt>
 File: images/TongQuan/bieudonhiet.png Graphic file (type png)
 <use images/TongQuan/bieudonhiet.png>
 Package pdftex.def Info: images/TongQuan/bieudonhiet.png  used on input line 105.
 (pdftex.def)             Requested size: 346.68088pt x 168.60265pt.
  [11
 
- <./images/TongQuan/bieudonhiet.png>] [12
+ <./images/TongQuan/bieudonhiet.png>]
+<images/TongQuan/bandonhietVietNam.png, id=574, 404.51125pt x 513.92pt>
+File: images/TongQuan/bandonhietVietNam.png Graphic file (type png)
+<use images/TongQuan/bandonhietVietNam.png>
+Package pdftex.def Info: images/TongQuan/bandonhietVietNam.png  used on input line 171.
+(pdftex.def)             Requested size: 131.74081pt x 167.3749pt.
+<images/TongQuan/icons/phaply.png, id=575, 481.8pt x 483.8075pt>
+File: images/TongQuan/icons/phaply.png Graphic file (type png)
+<use images/TongQuan/icons/phaply.png>
+Package pdftex.def Info: images/TongQuan/icons/phaply.png  used on input line 171.
+(pdftex.def)             Requested size: 21.33955pt x 21.42342pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 171.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 171.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 171.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 171.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 171.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 171.
+<images/TongQuan/icons/tiemnangVietNam.png, id=576, 477.785pt x 482.80376pt>
+File: images/TongQuan/icons/tiemnangVietNam.png Graphic file (type png)
+<use images/TongQuan/icons/tiemnangVietNam.png>
+Package pdftex.def Info: images/TongQuan/icons/tiemnangVietNam.png  used on input line 171.
+(pdftex.def)             Requested size: 21.33955pt x 21.56316pt.
+ [12
 
-]) (05-example-conclusion.tex [13
+ <./images/TongQuan/bandonhietVietNam.png> <./images/TongQuan/icons/phaply.png> <./images/TongQuan/icons/tiemnangVietNam.png>] [13
 
-]) (06-example-appendix.tex [14
+]) (05-example-conclusion.tex [14
+
+]) (06-example-appendix.tex [15
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=675, 295.1025pt x 398.08725pt>
+<images/graph.png, id=750, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 14.
 (pdftex.def)             Requested size: 295.10176pt x 398.08627pt.
- [15
+ [16
 
- <./images/graph.png>]) (09-example-appendix-terms.tex [16
+ <./images/graph.png>]) (09-example-appendix-terms.tex [17
 
 {C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]) (10-example-appendix-code.tex
 \openout4 = `template.vrb'.
@@ -1345,13 +1375,13 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 20.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 20.
-) [17
+) [18
 
 ]) (11-example-appendix-theorems.tex
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 21.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-) [18
+) [19
 
 ])
 \tf@nav=\write5
@@ -1370,20 +1400,20 @@ L3 programming layer <2025-12-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32706 strings out of 467871
- 655920 string characters out of 5418376
- 1212738 words of memory out of 5000000
- 60808 multiletter control sequences out of 15000+600000
- 697402 words of font info for 130 fonts, out of 8000000 for 9000
+ 32764 strings out of 467871
+ 657264 string characters out of 5418376
+ 1211960 words of memory out of 5000000
+ 60858 multiletter control sequences out of 15000+600000
+ 718041 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,530b,2184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Test} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on template.pdf (18 pages, 4037912 bytes).
+<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
+Output written on template.pdf (19 pages, 4687254 bytes).
 PDF statistics:
- 800 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 879 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
