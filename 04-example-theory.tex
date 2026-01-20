@@ -884,5 +884,107 @@
 
 \end{frame}
 
+% --- ĐỊNH NGHĨA MÀU SẮC ---
+\definecolor{myBlueText}{HTML}{155FA0}
+\definecolor{myBlueIconBg}{HTML}{E8F0FE}
+\definecolor{myBoxBg}{HTML}{F2F6FC}
+\definecolor{myBorder}{HTML}{DDDDDD}
+
+% --- MACRO SIÊU GỌN (ULTRA COMPACT) ---
+% Đã loại bỏ hết padding thừa để xử lý lỗi 127pt too high
+\newcommand{\MetricCard}[4]{
+    \begin{tcolorbox}[
+        colback=white,
+        colframe=myBorder,
+        boxrule=1pt,
+        arc=6pt,
+        width=\linewidth,
+        boxsep=0pt, % Bỏ đệm nội dung
+        left=2pt, right=2pt, top=2pt, bottom=2pt, % Lề cực nhỏ
+        before skip=0pt, after skip=0pt, % Không tự động thêm khoảng trắng trước/sau thẻ
+        shadow={0.5mm}{-0.5mm}{0mm}{black!5}
+    ]
+        \centering
+        % 1. Icon thu nhỏ tối đa (0.35cm)
+        \begin{tikzpicture}
+            \node[circle, fill=myBlueIconBg, inner sep=3pt] {
+                \includegraphics[width=0.35cm, height=0.35cm, keepaspectratio]{#1}
+            };
+        \end{tikzpicture}
+        \vspace{1pt}
+
+        % 2. Tiêu đề
+        {\color{myBlueText}\bfseries\scriptsize #2} % Dùng scriptsize thay vì small
+        \vspace{1pt}
+
+        % 3. Mô tả (Rất nhỏ - tiny)
+        {\tiny #3}
+        \vspace{2pt}
+
+        % 4. Khung công thức
+        \begin{tcolorbox}[
+            colback=myBoxBg,
+            colframe=myBoxBg,
+            arc=3pt,
+            boxrule=0pt,
+            width=0.92\linewidth,
+            boxsep=0pt,
+            top=1pt, bottom=1pt, left=1pt, right=1pt
+        ]
+            \centering \color{myBlueText}\bfseries \tiny 
+            #4
+        \end{tcolorbox}
+    \end{tcolorbox}
+}
+
+% --- SỬ DỤNG SHRINK=20 ĐỂ ÉP VỪA TRANG ---
+% Nếu vẫn tràn, bạn có thể tăng lên 25, nhưng 20 thường là đủ
+\begin{frame}[shrink=20] 
+    \frametitle{CHỈ SỐ ĐÁNH GIÁ}
+    
+    \vspace{0.5cm} % Kéo nội dung lên sát tiêu đề hơn nữa
+    
+    \begin{columns}[t]
+        % --- CỘT TRÁI ---
+        \begin{column}{0.48\textwidth}
+            % Accuracy
+            \MetricCard%
+                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png}%
+                {Accuracy}%
+                {Tỷ lệ dự đoán đúng trên tổng số mẫu.}%
+                {$\dfrac{TP+TN}{TP+TN+FP+FN}$}
+            
+            \vspace{0.15cm} % Khoảng cách giữa 2 thẻ dọc cực nhỏ
+            
+            % Precision (Nam châm)
+            \MetricCard%
+                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png}%
+                {Precision}%
+                {Tỷ lệ phát hiện được dương tính thực tế.}%
+                {$\dfrac{TP}{TP+FP}$}
+        \end{column}
+        
+        % --- CỘT PHẢI ---
+        \begin{column}{0.48\textwidth}
+            % Precision (Phễu)
+            \MetricCard%
+                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png}%
+                {Precision}%
+                {Độ chính xác trong các dự đoán dương tính.}%
+                {$\dfrac{TP}{TP+FN}$}
+            
+            \vspace{0.15cm}
+            
+            % F1-Score
+            \MetricCard%
+                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png}%
+                {F1-Score}%
+                {Dung hòa Precision \& Recall (data lệch).}%
+                {$2 \times \dfrac{\text{P} \times \text{R}}{\text{P} + \text{R}}$} 
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
 %------------------------------------------------
 \section{Phương pháp đề xuất}
