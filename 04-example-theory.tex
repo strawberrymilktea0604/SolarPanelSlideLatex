@@ -8,6 +8,8 @@
 \definecolor{customGreenCardBG}{HTML}{D9EAD3}
 \definecolor{headerBlue}{HTML}{6FA8DC} % Màu cho bảng so sánh
 
+
+
 % --- ĐƯỜNG DẪN ẢNH (Lưu ý đường dẫn tuyệt đối của bạn) ---
 \newcommand{\pathIcons}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/}
 \newcommand{\pathImages}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/}
@@ -988,3 +990,179 @@
 
 %------------------------------------------------
 \section{Phương pháp đề xuất}
+% Định nghĩa màu sắc theo ảnh
+\definecolor{processBlue}{RGB}{0, 85, 165}  % Màu xanh đậm của tiêu đề/nút
+\definecolor{processRed}{RGB}{235, 50, 50}   % Màu đỏ của số 95%
+\definecolor{bgGray}{RGB}{240, 244, 248}     % Màu nền xám nhạt khung dưới
+\definecolor{lineGray}{RGB}{200, 200, 200}   % Màu đường kẻ ngang
+\begin{frame}
+    \frametitle{QUY TRÌNH TỔNG THỂ}
+
+    % 1. Phần mô tả phía trên
+    \centering
+    \small{Hệ thống được thiết kế khép kín từ khâu thu thập dữ liệu thô đến khi xuất báo cáo phân loại.}
+    
+    \vspace{0.5cm}
+
+    % 2. Phần sơ đồ Quy trình (Dùng TikZ để căn chỉnh chính xác)
+    % resizebox giúp tự động co giãn sơ đồ vừa khít chiều ngang slide, tránh bị tràn
+    \resizebox{\textwidth}{!}{
+        \begin{tikzpicture}
+            % --- Cấu hình khoảng cách ---
+            \def\hdist{4.5} % Khoảng cách giữa các bước
+            
+            % --- Đường kẻ ngang nền ---
+            % Vẽ từ tâm icon 1 đến tâm icon 4
+            \draw[lineGray, line width=4pt] (0,0) -- ({3*\hdist},0);
+
+            % --- BƯỚC 1: THU THẬP ---
+            \node[inner sep=0pt] (icon1) at (0, 1.8) {
+                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png}
+            };
+            \fill[processBlue] (0,0) circle (6pt); % Chấm tròn xanh
+            \node[text width=4cm, align=center, anchor=north] at (0, -0.5) {
+                \textbf{\color{processBlue}\large Thu thập} \\[-2pt]
+                \small Bay chụp ảnh toàn cảnh \\ bằng UAV
+            };
+
+            % --- BƯỚC 2: TIỀN XỬ LÝ ---
+            \node[inner sep=0pt] (icon2) at (\hdist, 1.8) {
+                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png}
+            };
+            \fill[processBlue] (\hdist,0) circle (6pt);
+            \node[text width=4cm, align=center, anchor=north] at (\hdist, -0.5) {
+                \textbf{\color{processBlue}\large Tiền xử lý} \\[-2pt]
+                \small Cắt tách tấm pin \& \\ Chuẩn hóa
+            };
+
+            % --- BƯỚC 3: HUẤN LUYỆN ---
+            \node[inner sep=0pt] (icon3) at ({2*\hdist}, 1.8) {
+                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png}
+            };
+            \fill[processBlue] ({2*\hdist},0) circle (6pt);
+            \node[text width=4cm, align=center, anchor=north] at ({2*\hdist}, -0.5) {
+                \textbf{\color{processBlue}\large Huấn luyện} \\[-2pt]
+                \small Transfer Learning \\ với EfficientNet-B2
+            };
+
+            % --- BƯỚC 4: PHÂN LOẠI ---
+            \node[inner sep=0pt] (icon4) at ({3*\hdist}, 1.8) {
+                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png}
+            };
+            \fill[processBlue] ({3*\hdist},0) circle (6pt);
+            \node[text width=4cm, align=center, anchor=north] at ({3*\hdist}, -0.5) {
+                \textbf{\color{processBlue}\large Phân loại} \\[-2pt]
+                \small Dự đoán nhãn \\ Normal / Defect
+            };
+        \end{tikzpicture}
+    }
+
+    \vspace{0.8cm}
+
+    % 3. Khung Mục tiêu phía dưới
+    \begin{tikzpicture}
+        \node[
+            fill=bgGray, 
+            rounded corners=5pt, 
+            text width=0.95\textwidth, 
+            inner sep=10pt, 
+            align=center
+        ] {
+            \textbf{Mục tiêu:} Tự động hóa hoàn toàn việc phát hiện lỗi bề mặt với độ chính xác \textbf{\color{processRed}>95\%}.
+        };
+    \end{tikzpicture}
+
+\end{frame}
+
+% Định nghĩa màu
+\definecolor{bglight}{HTML}{F2F7FB}
+\definecolor{darkblue}{HTML}{0D2B46}
+\definecolor{borderblue}{HTML}{2F5575}
+
+% Thêm tùy chọn shrink=5 để tự động co nhỏ 5% nếu vẫn còn hơi chật
+\begin{frame}[shrink=5] 
+    \frametitle{THU THẬP DỮ LIỆU UAV}
+
+    \begin{columns}[T]
+        
+        % --- CỘT TRÁI ---
+        \begin{column}{0.58\textwidth}
+            % Giảm margin và padding của box tổng xuống mức tối thiểu
+            \begin{tcolorbox}[
+                colback=bglight, 
+                colframe=bglight, 
+                arc=5pt, 
+                boxrule=0pt,
+                left=1mm, right=1mm, top=1mm, bottom=1mm, % Ép lề cực nhỏ
+                boxsep=0pt % Bỏ đệm nội dung
+            ]
+                % --- Phần 1: Thiết bị ---
+                % Dùng small thay vì large cho tiêu đề
+                \textbf{\small Thiết bị} 
+                
+                % Dùng scriptsize (rất nhỏ) cho nội dung
+                \scriptsize{DJI Phantom 4 RTK với cảm biến 20MP và công nghệ định vị RTK độ chính xác centimet.}
+                
+                \vspace{0.3em} % Giảm khoảng cách
+                
+                % --- Phần 2: Thông số ---
+                \textbf{\small Thông số bay tối ưu}
+                \vspace{0.2em}
+                
+                % Bảng: Giảm khoảng cách dòng (arraystretch)
+                \renewcommand{\arraystretch}{0.8} 
+                \begin{tabular}{@{}c l@{}}
+                    % Giảm kích thước icon xuống 1em
+                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png} & 
+                    \parbox{0.88\linewidth}{\scriptsize \textbf{Độ cao:} 25m so với mặt đất.} \\[0.8ex] % Giảm khoảng cách dòng
+                    
+                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png} & 
+                    \parbox{0.88\linewidth}{\scriptsize \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).} \\[0.8ex]
+                    
+                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png} & 
+                    \parbox{0.88\linewidth}{\scriptsize \textbf{Thời gian:} 9:00 - 11:00 sáng.} \\
+                \end{tabular}
+
+                \vspace{0.5em}
+
+                % --- Phần 3: Kết quả ---
+                \begin{tcolorbox}[
+                    enhanced,
+                    title=Kết quả,
+                    coltitle=white,
+                    fonttitle=\bfseries\scriptsize, % Font tiêu đề nhỏ
+                    colback=bglight,
+                    colframe=borderblue,
+                    attach boxed title to top left={xshift=2mm, yshift*=-2mm}, % Đẩy tiêu đề sát hơn
+                    boxed title style={colback=borderblue, sharp corners, rounded corners=southeast, arc=3pt, size=small}, % size=small làm tiêu đề gọn hơn
+                    boxrule=0.5pt,
+                    arc=3pt,
+                    left=1mm, right=1mm, top=4pt, bottom=1mm, % Ép lề box con
+                    boxsep=0pt
+                ]
+                    \scriptsize 130 ảnh quang học độ phân giải cao, sắc nét, có tọa độ chính xác.
+                \end{tcolorbox}
+            \end{tcolorbox}
+        \end{column}
+
+        % --- CỘT PHẢI ---
+        \begin{column}{0.40\textwidth}
+             % Điều chỉnh ảnh bên phải cho khớp chiều cao mới
+            \begin{tikzpicture}
+                \clip [rounded corners=5pt] (0,0) rectangle (\linewidth, 0.60\paperheight); 
+                \node [anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=\linewidth, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png}};
+            \end{tikzpicture}
+        \end{column}
+        
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}
+\label{thuthapUAV}
+	\frametitle{ẢNH THU THẬP BỞI UAV }
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{images/PhuongPhap/thuthap.png}
+	\end{center}
+\end{frame}
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 05:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  21 JAN 2026 05:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1295,7 +1295,7 @@ Package translations Info: no dictionary file `translations-basic-dictionary-vie
 Overfull \vbox (25.69702pt too high) detected at line 15
  []
 
-<images/background-1080p-washout.jpg, id=78, 778.107pt x 423.0204pt>
+<images/background-1080p-washout.jpg, id=84, 778.107pt x 423.0204pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
@@ -1303,7 +1303,7 @@ Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
  <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=163, 1283.79625pt x 722.7pt>
+<images/drone_solar.jpg, id=178, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
@@ -1344,7 +1344,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./images/drone_solar.jpg>]) (02-contents.tex (template.toc) [3
 
 ]) (03-example-motivation.tex
-<images/DatVanDe/dautieng.jpg, id=284, 462.528pt x 346.4142pt>
+<images/DatVanDe/dautieng.jpg, id=311, 462.528pt x 346.4142pt>
 File: images/DatVanDe/dautieng.jpg Graphic file (type jpg)
 <use images/DatVanDe/dautieng.jpg>
 Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
@@ -1352,12 +1352,12 @@ Package pdftex.def Info: images/DatVanDe/dautieng.jpg  used on input line 63.
  [4
 
  <./images/DatVanDe/dautieng.jpg>]
-<images/DatVanDe/bandonhietVietNam.png, id=345, 404.51125pt x 513.92pt>
+<images/DatVanDe/bandonhietVietNam.png, id=378, 404.51125pt x 513.92pt>
 File: images/DatVanDe/bandonhietVietNam.png Graphic file (type png)
 <use images/DatVanDe/bandonhietVietNam.png>
 Package pdftex.def Info: images/DatVanDe/bandonhietVietNam.png  used on input line 131.
 (pdftex.def)             Requested size: 131.74081pt x 167.3749pt.
-<images/DatVanDe/icons/phaply.png, id=346, 481.8pt x 483.8075pt>
+<images/DatVanDe/icons/phaply.png, id=379, 481.8pt x 483.8075pt>
 File: images/DatVanDe/icons/phaply.png Graphic file (type png)
 <use images/DatVanDe/icons/phaply.png>
 Package pdftex.def Info: images/DatVanDe/icons/phaply.png  used on input line 131.
@@ -1374,7 +1374,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 131.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 131.
-<images/DatVanDe/icons/tiemnangVietNam.png, id=347, 477.785pt x 482.80376pt>
+<images/DatVanDe/icons/tiemnangVietNam.png, id=380, 477.785pt x 482.80376pt>
 File: images/DatVanDe/icons/tiemnangVietNam.png Graphic file (type png)
 <use images/DatVanDe/icons/tiemnangVietNam.png>
 Package pdftex.def Info: images/DatVanDe/icons/tiemnangVietNam.png  used on input line 131.
@@ -1382,17 +1382,17 @@ Package pdftex.def Info: images/DatVanDe/icons/tiemnangVietNam.png  used on inpu
  [5
 
  <./images/DatVanDe/bandonhietVietNam.png> <./images/DatVanDe/icons/phaply.png> <./images/DatVanDe/icons/tiemnangVietNam.png>]
-<images/DatVanDe/icons/thoigian.png, id=408, 292.09125pt x 288.07625pt>
+<images/DatVanDe/icons/thoigian.png, id=447, 292.09125pt x 288.07625pt>
 File: images/DatVanDe/icons/thoigian.png Graphic file (type png)
 <use images/DatVanDe/icons/thoigian.png>
 Package pdftex.def Info: images/DatVanDe/icons/thoigian.png  used on input line 181.
 (pdftex.def)             Requested size: 56.9055pt x 56.11969pt.
-<images/DatVanDe/icons/antoan.png, id=409, 293.095pt x 289.08pt>
+<images/DatVanDe/icons/antoan.png, id=448, 293.095pt x 289.08pt>
 File: images/DatVanDe/icons/antoan.png Graphic file (type png)
 <use images/DatVanDe/icons/antoan.png>
 Package pdftex.def Info: images/DatVanDe/icons/antoan.png  used on input line 181.
 (pdftex.def)             Requested size: 56.9055pt x 56.12555pt.
-<images/DatVanDe/icons/hieuqua.png, id=410, 301.125pt x 290.08376pt>
+<images/DatVanDe/icons/hieuqua.png, id=449, 301.125pt x 290.08376pt>
 File: images/DatVanDe/icons/hieuqua.png Graphic file (type png)
 <use images/DatVanDe/icons/hieuqua.png>
 Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 181.
@@ -1400,12 +1400,12 @@ Package pdftex.def Info: images/DatVanDe/icons/hieuqua.png  used on input line 1
  [6
 
  <./images/DatVanDe/icons/thoigian.png> <./images/DatVanDe/icons/antoan.png> <./images/DatVanDe/icons/hieuqua.png>]
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png, id=469, 69.861pt x 69.861pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png, id=514, 69.861pt x 69.861pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png>
 Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png  used on input line 239.
 (pdftex.def)             Requested size: 42.67912pt x 42.6791pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png, id=471, 69.861pt x 69.861pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png, id=516, 69.861pt x 69.861pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png>
 Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png  used on input line 239.
@@ -1415,233 +1415,287 @@ Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/Da
  <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/xulyanh.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/DatVanDe/icons/hocsau.png>] [8
 
 ]) (04-example-theory.tex
-<images/TongQuan/pinmattroi.png, id=591, 513.92pt x 243.91125pt>
+<images/TongQuan/pinmattroi.png, id=648, 513.92pt x 243.91125pt>
 File: images/TongQuan/pinmattroi.png Graphic file (type png)
 <use images/TongQuan/pinmattroi.png>
-Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 57.
+Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 59.
 (pdftex.def)             Requested size: 346.68088pt x 164.53993pt.
  [9
 
  <./images/TongQuan/pinmattroi.png>]
-<images/TongQuan/bieudobungno.png, id=652, 513.92pt x 286.06876pt>
+<images/TongQuan/bieudobungno.png, id=715, 513.92pt x 286.06876pt>
 File: images/TongQuan/bieudobungno.png Graphic file (type png)
 <use images/TongQuan/bieudobungno.png>
-Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 137.
+Package pdftex.def Info: images/TongQuan/bieudobungno.png  used on input line 139.
 (pdftex.def)             Requested size: 303.34329pt x 168.8533pt.
  [10
 
  <./images/TongQuan/bieudobungno.png>]
-<images/TongQuan/icons/dienmattroiquymolon.png, id=712, 283.0575pt x 259.97125pt>
+<images/TongQuan/icons/dienmattroiquymolon.png, id=781, 283.0575pt x 259.97125pt>
 File: images/TongQuan/icons/dienmattroiquymolon.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiquymolon.png>
-Package pdftex.def Info: images/TongQuan/icons/dienmattroiquymolon.png  used on input line 263.
+Package pdftex.def Info: images/TongQuan/icons/dienmattroiquymolon.png  used on input line 265.
 (pdftex.def)             Requested size: 24.783pt x 22.76228pt.
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 263.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 265.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-<images/TongQuan/trungnam.jpg, id=713, 2007.5pt x 1128.215pt>
+<images/TongQuan/trungnam.jpg, id=782, 2007.5pt x 1128.215pt>
 File: images/TongQuan/trungnam.jpg Graphic file (type jpg)
 <use images/TongQuan/trungnam.jpg>
-Package pdftex.def Info: images/TongQuan/trungnam.jpg  used on input line 263.
+Package pdftex.def Info: images/TongQuan/trungnam.jpg  used on input line 265.
 (pdftex.def)             Requested size: 136.37341pt x 51.21507pt.
-<images/TongQuan/icons/dienmattroiapmai.png, id=714, 259.97125pt x 264.99pt>
+<images/TongQuan/icons/dienmattroiapmai.png, id=783, 259.97125pt x 264.99pt>
 File: images/TongQuan/icons/dienmattroiapmai.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroiapmai.png>
-Package pdftex.def Info: images/TongQuan/icons/dienmattroiapmai.png  used on input line 263.
+Package pdftex.def Info: images/TongQuan/icons/dienmattroiapmai.png  used on input line 265.
 (pdftex.def)             Requested size: 22.32932pt x 22.76228pt.
-<images/TongQuan/apmai.png, id=715, 316.18124pt x 236.68425pt>
+<images/TongQuan/apmai.png, id=784, 316.18124pt x 236.68425pt>
 File: images/TongQuan/apmai.png Graphic file (type png)
 <use images/TongQuan/apmai.png>
-Package pdftex.def Info: images/TongQuan/apmai.png  used on input line 263.
+Package pdftex.def Info: images/TongQuan/apmai.png  used on input line 265.
 (pdftex.def)             Requested size: 136.40396pt x 51.21477pt.
-<images/TongQuan/icons/dienmattroidoclap.png, id=716, 314.17375pt x 276.03125pt>
+<images/TongQuan/icons/dienmattroidoclap.png, id=785, 314.17375pt x 276.03125pt>
 File: images/TongQuan/icons/dienmattroidoclap.png Graphic file (type png)
 <use images/TongQuan/icons/dienmattroidoclap.png>
-Package pdftex.def Info: images/TongQuan/icons/dienmattroidoclap.png  used on input line 263.
+Package pdftex.def Info: images/TongQuan/icons/dienmattroidoclap.png  used on input line 265.
 (pdftex.def)             Requested size: 25.90622pt x 22.76228pt.
-<images/TongQuan/doclap.png, id=717, 381.22424pt x 332.442pt>
+<images/TongQuan/doclap.png, id=786, 381.22424pt x 332.442pt>
 File: images/TongQuan/doclap.png Graphic file (type png)
 <use images/TongQuan/doclap.png>
-Package pdftex.def Info: images/TongQuan/doclap.png  used on input line 263.
+Package pdftex.def Info: images/TongQuan/doclap.png  used on input line 265.
 (pdftex.def)             Requested size: 136.40297pt x 51.21347pt.
  [11
 
 {C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./images/TongQuan/icons/dienmattroiquymolon.png> <./images/TongQuan/trungnam.jpg> <./images/TongQuan/icons/dienmattroiapmai.png> <./images/TongQuan/apmai.png> <./images/TongQuan/icons/dienmattroidoclap.png> <./images/TongQuan/doclap.png>]
-<images/TongQuan/icons/quanghoc.png, id=779, 120.45pt x 133.09724pt>
+<images/TongQuan/icons/quanghoc.png, id=854, 120.45pt x 133.09724pt>
 File: images/TongQuan/icons/quanghoc.png Graphic file (type png)
 <use images/TongQuan/icons/quanghoc.png>
-Package pdftex.def Info: images/TongQuan/icons/quanghoc.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/icons/quanghoc.png  used on input line 391.
 (pdftex.def)             Requested size: 24.96048pt x 27.57959pt.
-<images/TongQuan/suythoaiquanghoc.png, id=780, 519.1395pt x 425.79076pt>
+<images/TongQuan/suythoaiquanghoc.png, id=855, 519.1395pt x 425.79076pt>
 File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
 <use images/TongQuan/suythoaiquanghoc.png>
-Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 391.
 (pdftex.def)             Requested size: 55.49747pt x 45.52458pt.
 File: images/TongQuan/suythoaiquanghoc.png Graphic file (type png)
 <use images/TongQuan/suythoaiquanghoc.png>
-Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/suythoaiquanghoc.png  used on input line 391.
 (pdftex.def)             Requested size: 55.49747pt x 45.52458pt.
-<images/TongQuan/icons/matketnoidien.png, id=781, 88.53075pt x 118.64325pt>
+<images/TongQuan/icons/matketnoidien.png, id=856, 88.53075pt x 118.64325pt>
 File: images/TongQuan/icons/matketnoidien.png Graphic file (type png)
 <use images/TongQuan/icons/matketnoidien.png>
-Package pdftex.def Info: images/TongQuan/icons/matketnoidien.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/icons/matketnoidien.png  used on input line 391.
 (pdftex.def)             Requested size: 24.96048pt x 33.44978pt.
-<images/TongQuan/matketnoidien.jpg, id=782, 1002.74625pt x 748.7975pt>
+<images/TongQuan/matketnoidien.jpg, id=857, 1002.74625pt x 748.7975pt>
 File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
 <use images/TongQuan/matketnoidien.jpg>
-Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 389.
+Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 391.
 (pdftex.def)             Requested size: 60.95781pt x 45.52458pt.
 File: images/TongQuan/matketnoidien.jpg Graphic file (type jpg)
 <use images/TongQuan/matketnoidien.jpg>
-Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 389.
+Package pdftex.def Info: images/TongQuan/matketnoidien.jpg  used on input line 391.
 (pdftex.def)             Requested size: 60.95781pt x 45.52458pt.
-<images/TongQuan/icons/phancung.png, id=783, 121.6545pt x 133.6995pt>
+<images/TongQuan/icons/phancung.png, id=858, 121.6545pt x 133.6995pt>
 File: images/TongQuan/icons/phancung.png Graphic file (type png)
 <use images/TongQuan/icons/phancung.png>
-Package pdftex.def Info: images/TongQuan/icons/phancung.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/icons/phancung.png  used on input line 391.
 (pdftex.def)             Requested size: 24.96048pt x 27.431pt.
-<images/TongQuan/huhongphancung.png, id=784, 410.13225pt x 263.18324pt>
+<images/TongQuan/huhongphancung.png, id=859, 410.13225pt x 263.18324pt>
 File: images/TongQuan/huhongphancung.png Graphic file (type png)
 <use images/TongQuan/huhongphancung.png>
-Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 391.
 (pdftex.def)             Requested size: 70.94188pt x 45.52458pt.
 File: images/TongQuan/huhongphancung.png Graphic file (type png)
 <use images/TongQuan/huhongphancung.png>
-Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 389.
+Package pdftex.def Info: images/TongQuan/huhongphancung.png  used on input line 391.
 (pdftex.def)             Requested size: 70.94188pt x 45.52458pt.
  [12
 
  <./images/TongQuan/icons/quanghoc.png> <./images/TongQuan/suythoaiquanghoc.png> <./images/TongQuan/icons/matketnoidien.png> <./images/TongQuan/matketnoidien.jpg> <./images/TongQuan/icons/phancung.png> <./images/TongQuan/huhongphancung.png>]
-<images/TongQuan/cachuhong.png, id=848, 672.111pt x 371.58826pt>
+<images/TongQuan/cachuhong.png, id=929, 672.111pt x 371.58826pt>
 File: images/TongQuan/cachuhong.png Graphic file (type png)
 <use images/TongQuan/cachuhong.png>
-Package pdftex.def Info: images/TongQuan/cachuhong.png  used on input line 397.
+Package pdftex.def Info: images/TongQuan/cachuhong.png  used on input line 399.
 (pdftex.def)             Requested size: 260.01231pt x 143.75081pt.
  [13
 
  <./images/TongQuan/cachuhong.png>]
-<images/TongQuan/drone.png, id=910, 302.93175pt x 169.8345pt>
+<images/TongQuan/drone.png, id=997, 302.93175pt x 169.8345pt>
 File: images/TongQuan/drone.png Graphic file (type png)
 <use images/TongQuan/drone.png>
-Package pdftex.def Info: images/TongQuan/drone.png  used on input line 495.
+Package pdftex.def Info: images/TongQuan/drone.png  used on input line 497.
 (pdftex.def)             Requested size: 71.13188pt x 39.87741pt.
  [14
 
  <./images/TongQuan/drone.png>]
-<images/TongQuan/UAV.png, id=970, 606.46574pt x 275.8305pt>
+<images/TongQuan/UAV.png, id=1063, 606.46574pt x 275.8305pt>
 File: images/TongQuan/UAV.png Graphic file (type png)
 <use images/TongQuan/UAV.png>
-Package pdftex.def Info: images/TongQuan/UAV.png  used on input line 503.
+Package pdftex.def Info: images/TongQuan/UAV.png  used on input line 505.
 (pdftex.def)             Requested size: 260.01231pt x 118.25967pt.
  [15
 
  <./images/TongQuan/UAV.png>]
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png, id=1031, 284.262pt x 284.262pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png, id=1130, 284.262pt x 284.262pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png  used on input line 629.
 (pdftex.def)             Requested size: 14.3961pt x 14.39996pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png, id=1034, 946.13475pt x 364.36125pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png, id=1133, 946.13475pt x 364.36125pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png  used on input line 629.
 (pdftex.def)             Requested size: 71.13028pt x 24.18468pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png, id=1035, 147.55125pt x 181.8795pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png, id=1134, 147.55125pt x 181.8795pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png  used on input line 629.
 (pdftex.def)             Requested size: 7.10556pt x 8.76003pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png, id=1036, 787.14075pt x 193.32225pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png, id=1135, 787.14075pt x 193.32225pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png  used on input line 629.
 (pdftex.def)             Requested size: 98.15213pt x 27.02953pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png, id=1037, 168.63pt x 142.131pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png, id=1136, 168.63pt x 142.131pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png  used on input line 629.
 (pdftex.def)             Requested size: 9.09326pt x 7.66496pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png, id=1038, 870.8535pt x 200.54926pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png, id=1137, 870.8535pt x 200.54926pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png  used on input line 629.
 (pdftex.def)             Requested size: 98.15947pt x 27.03014pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png, id=1039, 160.1985pt x 181.8795pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png, id=1138, 160.1985pt x 181.8795pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png  used on input line 629.
 (pdftex.def)             Requested size: 7.71461pt x 8.76003pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png, id=1040, 441.44925pt x 209.583pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png, id=1139, 441.44925pt x 209.583pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png  used on input line 627.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png  used on input line 629.
 (pdftex.def)             Requested size: 98.15646pt x 27.02928pt.
  [16
 
  <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/search.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/visual_inspection_worker.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/electricity_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/iv_curve_device.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/camera_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/el_images.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/flask_icon.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/spectrometer_lab.png>] [17
 
 ]
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png, id=1167, 823.659pt x 398.58pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png, id=1278, 823.659pt x 398.58pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png  used on input line 760.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png  used on input line 762.
 (pdftex.def)             Requested size: 173.3254pt x 83.87456pt.
  [18
 
  <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png>]
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png, id=1228, 47.961pt x 56.283pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png, id=1345, 47.961pt x 56.283pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png  used on input line 844.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png  used on input line 846.
 (pdftex.def)             Requested size: 22.76228pt x 26.71236pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png, id=1229, 71.832pt x 58.911pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png, id=1346, 71.832pt x 58.911pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png  used on input line 844.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png  used on input line 846.
 (pdftex.def)             Requested size: 22.76228pt x 18.66762pt.
  [19
 
  <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png>]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 885.
+(Font)              scaled to size 10.42007pt on input line 887.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 885.
+(Font)              scaled to size 7.91925pt on input line 887.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 885.
+(Font)              scaled to size 10.42007pt on input line 887.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 885.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png, id=1291, 325.215pt x 333.04425pt>
+(Font)              scaled to size 7.91925pt on input line 887.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png, id=1414, 325.215pt x 333.04425pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png  used on input line 885.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png  used on input line 887.
 (pdftex.def)             Requested size: 152.59302pt x 156.26656pt.
  [20
 
  <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png>]
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png, id=1351, 39.42pt x 39.42pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png, id=1480, 39.42pt x 39.42pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png  used on input line 987.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png  used on input line 989.
 (pdftex.def)             Requested size: 9.95842pt x 9.95842pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png, id=1352, 35.478pt x 35.697pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png, id=1481, 35.478pt x 35.697pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png  used on input line 987.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png  used on input line 989.
 (pdftex.def)             Requested size: 9.89749pt x 9.95859pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png, id=1353, 37.23pt x 42.267pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png, id=1482, 37.23pt x 42.267pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png  used on input line 987.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png  used on input line 989.
 (pdftex.def)             Requested size: 8.77176pt x 9.95853pt.
-<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png, id=1354, 45.552pt x 36.573pt>
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png, id=1483, 45.552pt x 36.573pt>
 File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png Graphic file (type png)
 <use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png>
-Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png  used on input line 987.
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png  used on input line 989.
 (pdftex.def)             Requested size: 9.9582pt x 7.99529pt.
  [21
 
- <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png>]) (05-example-conclusion.tex [22
+ <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png>]
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png, id=1553, 63.51pt x 63.51pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png  used on input line 1075.
+(pdftex.def)             Requested size: 42.68034pt x 42.67912pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png, id=1554, 53.655pt x 53.874pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png  used on input line 1075.
+(pdftex.def)             Requested size: 42.50731pt x 42.67912pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png, id=1555, 67.452pt x 54.093pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png  used on input line 1075.
+(pdftex.def)             Requested size: 53.22165pt x 42.67912pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png, id=1556, 62.853pt x 62.853pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png  used on input line 1075.
+(pdftex.def)             Requested size: 42.67905pt x 42.67912pt.
+ [22
+
+ <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png>]
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png, id=1626, 105.39375pt x 87.9285pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png  used on input line 1158.
+(pdftex.def)             Requested size: 9.58794pt x 8.0pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png, id=1627, 106.59825pt x 76.48575pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png  used on input line 1158.
+(pdftex.def)             Requested size: 11.1484pt x 8.0pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png, id=1628, 106.59825pt x 90.93974pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png  used on input line 1158.
+(pdftex.def)             Requested size: 9.37709pt x 8.0pt.
+<C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png, id=1629, 589.548pt x 532.608pt>
+File: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png Graphic file (type png)
+<use C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png>
+Package pdftex.def Info: C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png  used on input line 1158.
+(pdftex.def)             Requested size: 182.6102pt x 164.97675pt.
+ [23
+
+ <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png> <C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png>]
+<images/PhuongPhap/thuthap.png, id=1698, 1259.031pt x 508.518pt>
+File: images/PhuongPhap/thuthap.png Graphic file (type png)
+<use images/PhuongPhap/thuthap.png>
+Package pdftex.def Info: images/PhuongPhap/thuthap.png  used on input line 1167.
+(pdftex.def)             Requested size: 260.01231pt x 105.01503pt.
+ [24
+
+ <./images/PhuongPhap/thuthap.png>]) (05-example-conclusion.tex [25
 
 ])
 \tf@nav=\write5
@@ -1660,17 +1714,17 @@ L3 programming layer <2025-12-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 38247 strings out of 467871
- 825201 string characters out of 5418376
- 1267112 words of memory out of 5000000
- 66278 multiletter control sequences out of 15000+600000
+ 38389 strings out of 467871
+ 831538 string characters out of 5418376
+ 1274322 words of memory out of 5000000
+ 66413 multiletter control sequences out of 15000+600000
  720489 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,530b,1505s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,123p,530b,2090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplbi8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on template.pdf (22 pages, 16577801 bytes).
+Output written on template.pdf (25 pages, 43099690 bytes).
 PDF statistics:
- 1524 PDF objects out of 1728 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1876 PDF objects out of 2073 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 
