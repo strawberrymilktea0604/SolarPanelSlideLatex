@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {2}{Đặt vấn đề}{4}{0}{1}
-\beamer@sectionintoc {3}{Theory}{7}{0}{2}
+\beamer@sectionintoc {3}{Tổng quan}{7}{0}{2}
 \beamer@sectionintoc {4}{Testing}{9}{0}{3}
 \beamer@sectionintoc {5}{Conclusion}{10}{0}{4}

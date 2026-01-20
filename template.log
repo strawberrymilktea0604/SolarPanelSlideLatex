@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 23:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1238,9 +1238,15 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
 (pdftex.def)             Requested size: 34.14322pt x 34.1419pt.
  [6
 
- <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex [7
+ <./images/DatVanDe/icons/tongquan.png> <./images/DatVanDe/icons/phuongphap.png> <./images/DatVanDe/icons/dexuat.png>]) (04-example-theory.tex
+<images/TongQuan/pinmattroi.png, id=276, 513.92pt x 243.91125pt>
+File: images/TongQuan/pinmattroi.png Graphic file (type png)
+<use images/TongQuan/pinmattroi.png>
+Package pdftex.def Info: images/TongQuan/pinmattroi.png  used on input line 11.
+(pdftex.def)             Requested size: 346.68088pt x 164.53993pt.
+ [7
 
-{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [8
+ <./images/TongQuan/pinmattroi.png>] [8
 
 ] [9
 
@@ -1249,7 +1255,7 @@ Package pdftex.def Info: images/DatVanDe/icons/dexuat.png  used on input line 20
 ]) (06-example-appendix.tex [11
 
 ]) (08-example-appendix-figures.tex
-<images/graph.png, id=473, 295.1025pt x 398.08725pt>
+<images/graph.png, id=464, 295.1025pt x 398.08725pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
 Package pdftex.def Info: images/graph.png  used on input line 14.
@@ -1258,7 +1264,7 @@ Package pdftex.def Info: images/graph.png  used on input line 14.
 
  <./images/graph.png>]) (09-example-appendix-terms.tex [13
 
-]) (10-example-appendix-code.tex
+{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]) (10-example-appendix-code.tex
 \openout4 = `template.vrb'.
 
  (template.vrb (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -1321,10 +1327,10 @@ L3 programming layer <2025-12-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32639 strings out of 467871
- 653878 string characters out of 5418376
- 1212051 words of memory out of 5000000
- 60750 multiletter control sequences out of 15000+600000
+ 32646 strings out of 467871
+ 654136 string characters out of 5418376
+ 1212120 words of memory out of 5000000
+ 60757 multiletter control sequences out of 15000+600000
  697402 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,530b,2184s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1332,9 +1338,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Test} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb>
-Output written on template.pdf (15 pages, 3001401 bytes).
+Output written on template.pdf (15 pages, 3220700 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
+ 589 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
