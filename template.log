@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  20 JAN 2026 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,7 +982,10 @@ File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Warning: Font shape `T5/opensans-TLF/m/n' undefined
 (Font)              using `T5/cmr/m/n' instead on input line 138.
 
-No file template.aux.
+(template.aux
+Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
+(babel)             Reported on input line 8.
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
@@ -1005,6 +1008,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1059,6 +1063,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 138.
+ (template.out) (template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
@@ -1119,30 +1124,26 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package translations Info: no dictionary file `translations-basic-dictionary-vietnamese.trsl' found. on input line 138.
 \c@lstlisting=\count390
-Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
-(babel)             Reported on input line 138.
 \c@mv@tabular=\count391
 \c@mv@boldtabular=\count392
-
-No file template.nav.
-(01-title.tex
+ (template.nav) (01-title.tex
 
 LaTeX Font Warning: Font shape `T5/opensans-TLF/m/it' undefined
 (Font)              using `T5/opensans-TLF/m/n' instead on input line 13.
 
-<images/background-1080p-washout.jpg, id=26, 963.6pt x 542.025pt>
+<images/background-1080p-washout.jpg, id=80, 963.6pt x 542.025pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 13.
 (pdftex.def)             Requested size: 455.24408pt x 256.07507pt.
-[1
+[1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
-<images/drone_solar.jpg, id=40, 1283.79625pt x 722.7pt>
+ <./images/background-1080p-washout.jpg>]) (01-tomtat.tex
+<images/drone_solar.jpg, id=133, 1283.79625pt x 722.7pt>
 File: images/drone_solar.jpg Graphic file (type jpg)
 <use images/drone_solar.jpg>
 Package pdftex.def Info: images/drone_solar.jpg  used on input line 48.
-(pdftex.def)             Requested size: 142.26378pt x 80.0817pt.
+(pdftex.def)             Requested size: 398.33858pt x 224.23317pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1175,14 +1176,302 @@ Package epstopdf Info: Source file: <images/logo.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
-<images/logo-eps-converted-to.pdf, id=41, 115.43124pt x 45.16875pt>
+<images/logo-eps-converted-to.pdf, id=134, 115.43124pt x 45.16875pt>
 File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/logo-eps-converted-to.pdf>
 Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 48.
 (pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
 [2
 
- <./images/logo-eps-converted-to.pdf> <./images/drone_solar.jpg>])
+ <./images/logo-eps-converted-to.pdf> <./images/drone_solar.jpg>]) (02-contents.tex (template.toc
+LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 1.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\ot1opensans-tlf.fd
+File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 1.
+)
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 11.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [3
+
+]) (03-example-motivation.tex
+LaTeX Font Info:    Font shape `T1/calligra/m/n' will be
+(Font)              scaled to size 35.82726pt on input line 25.
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 25.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [4
+
+]
+<images/link.png, id=251, 632.3625pt x 562.1pt>
+File: images/link.png Graphic file (type png)
+<use images/link.png>
+Package pdftex.def Info: images/link.png  used on input line 61.
+(pdftex.def)             Requested size: 632.36096pt x 562.09863pt.
+File: images/link.png Graphic file (type png)
+<use images/link.png>
+Package pdftex.def Info: images/link.png  used on input line 61.
+(pdftex.def)             Requested size: 632.36096pt x 562.09863pt.
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 61.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 61.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [5
+
+ <./images/link.png>]
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 71.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [6
+
+]
+LaTeX Font Info:    Font shape `T5/phv/m/it' in size <10> not available
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Font shape `T5/phv/m/it' in size <7> not available
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+LaTeX Font Info:    Font shape `T5/phv/m/it' in size <5> not available
+(Font)              Font shape `T5/phv/m/sl' tried instead on input line 93.
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 93.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [7
+
+]) (04-example-theory.tex
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 26.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [8
+
+{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}]
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 35.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [9
+
+]
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 58.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [10
+
+]) (05-example-conclusion.tex
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 10.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [11
+
+]) (06-example-appendix.tex
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 18.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [12
+
+]) (08-example-appendix-figures.tex
+<images/graph.png, id=568, 295.1025pt x 398.08725pt>
+File: images/graph.png Graphic file (type png)
+<use images/graph.png>
+Package pdftex.def Info: images/graph.png  used on input line 13.
+(pdftex.def)             Requested size: 295.10176pt x 398.08627pt.
+
+Overfull \vbox (1.64261pt too high) detected at line 13
+ []
+
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 13.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+[13
+
+ <./images/graph.png>]) (09-example-appendix-terms.tex
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 25.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [14
+
+]) (10-example-appendix-code.tex
+\openout4 = `template.vrb'.
+
+ (template.vrb (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for T5+pcr on input line 5.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
+File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
+))
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 44.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [15
+
+]) (11-example-appendix-theorems.tex
+LaTeX Font Info:    Trying to load font information for T5+ppl on input line 21.
+ (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ppl.fd
+File: t5upl.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ppl.
+)
+Package epstopdf Info: Source file: <images/logo.eps>
+(epstopdf)                    date: 2026-01-20 09:13:12
+(epstopdf)                    size: 50348 bytes
+(epstopdf)             Output file: <images/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 16:33:24
+(epstopdf)                    size: 18592 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/logo-eps-converted-to.pdf images/logo.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+File: images/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use images/logo-eps-converted-to.pdf>
+Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 21.
+(pdftex.def)             Requested size: 71.13188pt x 27.83408pt.
+ [16
+
+])
 \tf@nav=\write6
 \openout6 = `template.nav'.
 
@@ -1192,14 +1481,7 @@ Package pdftex.def Info: images/logo-eps-converted-to.pdf  used on input line 48
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
- (template.aux
-LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 8.
- (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/opensans\ot1opensans-tlf.fd
-File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
-)
-LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 8.
-)
+ (template.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -1208,30 +1490,21 @@ L3 programming layer <2025-12-29>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  98061B023607ED5D57C7F5FCC997994D;35.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 38576988A2BF40892C24337E35125F22;457.
  ) 
 Here is how much of TeX's memory you used:
- 29976 strings out of 467871
- 598293 string characters out of 5418376
- 964363 words of memory out of 5000000
- 58235 multiletter control sequences out of 15000+600000
- 653009 words of font info for 73 fonts, out of 8000000 for 9000
+ 31721 strings out of 467871
+ 626602 string characters out of 5418376
+ 1187207 words of memory out of 5000000
+ 59861 multiletter control sequences out of 15000+600000
+ 683807 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,517b,747s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb>
-Output written on template.pdf (2 pages, 568957 bytes).
+ 128i,20n,135p,517b,2247s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\minhk\AppData\Local\MiKTeX\fonts/pk/ljfour/public/calligra/dpi1433\callig15.pk><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uhvro8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr8.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb>
+Output written on template.pdf (16 pages, 1138386 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

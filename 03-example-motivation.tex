@@ -24,52 +24,13 @@
     \end{center}
 \end{frame}
 
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Intra-frame Footnotes and Citations I}
-    
-    Citation in Beamer works slightly differently from conventional cites as Beamer rewrites its footnote and citation functions. 
-    A common issue is the duplication of footnotes in a frame when using \texttt{footcite}. \newline
 
-    This paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970}. \newline
 
-    And this paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970} again. 
-\end{frame}
 
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Inter-frame Footnotes and Citations I}
 
-    Another issue with \texttt{footcite} is the unwanted continuation of the footnote index. \newline
 
-    This paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970}. \newline
 
-    And this paper \footcite{Harshman1970}, that paper \footcite{Hitchcock1927}, and another paper \footcite{Carroll1970} again. \newline
 
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Intra-frame Footnotes and Citations II}
-    
-    This template provides a workaround for these issues. 
-    Let's use the customized command \texttt{firstcite} when citing a reference in a frame for the first time, and \texttt{secondcite} for the following citations. \newline
-
-    This paper \firstcite{Harshman1970}, that paper \firstcite{Hitchcock1927}, and another paper \firstcite{Carroll1970}. \newline
-
-    And this paper \secondcite{Harshman1970}, that paper \secondcite{Hitchcock1927}, and another paper \secondcite{Carroll1970} again. 
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Inter-frame Footnotes and Citations II}
-
-    This workaround works for the inter-frame scenario as well. \newline
-
-    This paper\firstcite{Harshman1970}, that paper \firstcite{Hitchcock1927}, and another paper \firstcite{Carroll1970}. \newline
-
-    And this paper\secondcite{Harshman1970}, that paper \secondcite{Hitchcock1927}, and another paper \secondcite{Carroll1970} again. 
-\end{frame}
 
 %------------------------------------------------
 \begin{frame}
