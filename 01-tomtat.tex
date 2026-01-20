@@ -4,13 +4,13 @@
     % --- PHẦN HÌNH ẢNH HÌNH TRÒN OVERLAY ---
     \begin{tikzpicture}[remember picture, overlay]
         % 1. Xác định tâm của hình tròn - bên trái, thấp hơn để tránh che header
-        % 20% từ bên trái, -0.5cm xuống dưới để tránh che header và footer
-        \coordinate (centerPoint) at ($(current page.west) + (0.2\paperwidth, -0.5cm)$);
+        % Dịch sang trái và giảm kích thước
+        \coordinate (centerPoint) at ($(current page.west) + (0.04\paperwidth, -0.7cm)$);
 
         \begin{scope}
             % 2. Tạo vùng cắt hình tròn
-            % Bán kính 3.5cm (đường kính 7cm)
-            \clip (centerPoint) circle (3.5cm);
+            % Bán kính 3cm (đường kính 6cm) - nhỏ hơn một chút
+            \clip (centerPoint) circle (3.4cm);
 
             % 3. Chèn ảnh vào đúng tâm của vùng cắt
             % width=14cm: Phóng to ảnh hơn nữa để tạo hình tròn đẹp
@@ -20,7 +20,7 @@
         \end{scope}
         
         % (Tùy chọn) Bỏ comment dòng dưới nếu muốn thêm viền cho ảnh nổi bật hơn
-        % \draw[white, line width=3pt] (centerPoint) circle (3.5cm);
+        % \draw[white, line width=3pt] (centerPoint) circle (3cm);
     \end{tikzpicture}
 
     % --- PHẦN NỘI DUNG VĂN BẢN (Giữ nguyên) ---
