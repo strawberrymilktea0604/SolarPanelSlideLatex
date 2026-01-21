@@ -5,6 +5,7 @@
 %	PRESENTATION BODY SLIDES
 %---------------------------------------------------------
 \section{Đặt vấn đề \& mục tiêu} % Note all sections and subsections are automatically placed in your table of contents
+\SectionIntro{Phần 1: Đặt vấn đề \& tổng quan}{Bối cảnh năng lượng tái tạo và thách thức trong công tác bảo trì.}
 
 %------------------------------------------------
 \begin{frame}
@@ -33,8 +34,7 @@
                 % background rounded box and light gray fill
                 \begin{scope}[on background layer]
                     \fill[gray!15,rounded corners=0pt] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south east)+(0.04cm,-0.04cm)$);
-                    % orange left strip
-                    \fill[orange] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south west)+(0.12cm,-0.04cm)$);
+                    % Left strip removed
                 \end{scope}
             \end{tikzpicture}
 
@@ -194,7 +194,7 @@
     enhanced,
     equal height group=obj,
     boxrule=0pt, frame hidden, % Ẩn viền xung quanh
-    borderline west={4pt}{0pt}{#1}, % Chỉ kẻ vạch màu bên trái dày 4pt
+    borderline west={0pt}{0pt}{#1}, % Chỉ kẻ vạch màu bên trái dày 4pt
     colback=#2, % Màu nền
     sharp corners, % Góc vuông (hoặc chỉnh arc=3pt nếu muốn bo nhẹ)
     left=5pt, right=5pt, top=10pt, bottom=10pt, % Căn lề trong
@@ -240,20 +240,39 @@
 \begin{frame}
     \frametitle{PHẠM VI NGHIÊN CỨU}
 
-    \begin{itemize}
-        \setlength\itemsep{1.5em} % Tăng khoảng cách giữa các ý
+    \vspace{-0.2cm}
+    \begin{columns}[c]
+        % --- Cột nội dung ---
+        \begin{column}{0.6\textwidth}
+            \begin{itemize}
+                \setlength\itemsep{1.2em} 
+                
+                % Dữ liệu
+                \item \textbf{Dữ liệu nghiên cứu:} 
+                Sử dụng bộ dữ liệu ảnh màu (RGB) độ phân giải cao, được thu thập thực tế từ thiết bị bay không người lái (UAV) tại khu vực khảo sát.
         
-        % Dữ liệu
-        \item \textbf{Dữ liệu nghiên cứu:} 
-        Sử dụng bộ dữ liệu ảnh màu (RGB) độ phân giải cao, được thu thập thực tế từ thiết bị bay không người lái (UAV) tại khu vực khảo sát.
-
-        % Đối tượng
-        \item \textbf{Đối tượng áp dụng:} 
-        Nghiên cứu tập trung vào hệ thống pin mặt trời được lắp đặt tại các hộ gia đình (áp mái) và các trang trại năng lượng mặt trời quy mô lớn.
-
-        % Giới hạn
-        \item \textbf{Giới hạn đề tài:} 
-        Hệ thống chỉ tập trung phát hiện các dạng hư hỏng vật lý quan sát được trên bề mặt; không bao gồm các đo đạc chuyên sâu về đặc tính điện hay cấu trúc bên trong tế bào quang điện.
-    \end{itemize}
+                % Đối tượng
+                \item \textbf{Đối tượng áp dụng:} 
+                Nghiên cứu tập trung vào hệ thống pin mặt trời được lắp đặt tại các trang trại năng lượng mặt trời quy mô lớn.
+        
+                % Giới hạn
+                \item \textbf{Giới hạn đề tài:} 
+                Hệ thống chỉ tập trung phát hiện các dạng hư hỏng vật lý quan sát được trên bề mặt; không bao gồm các đo đạc chuyên sâu về đặc tính điện hay cấu trúc bên trong tế bào quang điện.
+            \end{itemize}
+        \end{column}
+        
+        % --- Cột hình ảnh minh họa ---
+        \begin{column}{0.38\textwidth}
+            \centering
+            \newsavebox{\roundedfig}
+            \sbox{\roundedfig}{\includegraphics[width=\linewidth]{images/DatVanDe/minhhoa.jpg}}
+            \begin{tikzpicture}
+                \clip[rounded corners=15pt] (0,0) rectangle (\wd\roundedfig, \ht\roundedfig);
+                \node[inner sep=0pt, anchor=south west] at (0,0) {\usebox{\roundedfig}};
+                % Vẽ thêm viền nếu cần
+                %\draw[rounded corners=15pt, line width=1pt, gray] (0,0) rectangle (\wd\roundedfig, \ht\roundedfig);
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
 
 \end{frame}

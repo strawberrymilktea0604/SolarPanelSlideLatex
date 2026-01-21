@@ -1,5 +1,6 @@
 %------------------------------------------------
 \section{Kết luận \& hướng phát triển}
+\SectionIntro{Phần 4: Kết luận \& hướng phát triển}{Tổng kết kết quả đạt được và định hướng nghiên cứu tương lai.}
 %------------------------------------------------
 % Định nghĩa màu sắc giống trong ảnh
 \definecolor{myRed}{HTML}{FF3B30}   % Màu đỏ đậm cho số %
@@ -20,7 +21,7 @@
         colback=bgblue,
         colframe=mainblue,
         boxrule=0pt,
-        leftrule=4pt, % Tạo đường kẻ xanh bên trái
+        leftrule=0pt, % Tạo đường kẻ xanh bên trái
         arc=5pt,
         sharp corners=northwest,
         sharp corners=southwest,
@@ -179,7 +180,7 @@
     \setlength{\tabcolsep}{3pt}
     \setlength{\arrayrulewidth}{1pt} % Tăng độ đậm đường kẻ
     
-    \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|*{5}{>{\centering\arraybackslash}X|}}
+    \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash\hsize=1.5\hsize}X|*{5}{>{\centering\arraybackslash\hsize=0.9\hsize}X|}}
         \hhline{|-|-|-|-|-|-|}
         \textbf{Mô hình} & \textbf{Accuracy (\%)} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Params (M)} \\
         \hhline{|-|-|-|-|-|-|}
@@ -196,7 +197,7 @@
         \hhline{|-|-|-|-|-|-|}
     \end{tabularx}
     
-    \vspace{0.5cm}
+    \vspace{0.3cm}
     
     \begin{itemize}
         \item \textcolor{red}{\textbf{Nhận Xét:}} EfficientNet-B2 đạt độ chính xác cao nhất (\textbf{96.45\%}).
@@ -217,7 +218,7 @@
                 colframe=orangeTitle, 
                 sharp corners, 
                 boxrule=0pt, 
-                leftrule=3pt, % Tạo đường kẻ dọc bên trái
+                leftrule=0pt, % Tạo đường kẻ dọc bên trái
                 boxsep=2pt,
                 left=5pt,
                 right=5pt,
@@ -240,7 +241,7 @@
                 colframe=blueTitle, 
                 sharp corners, 
                 boxrule=0pt, 
-                leftrule=3pt, 
+                leftrule=0pt, 
                 boxsep=2pt,
                 left=5pt,
                 right=5pt,

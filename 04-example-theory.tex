@@ -48,6 +48,7 @@
 
 %------------------------------------------------
 \section{Cơ sở lý thuyết \& tổng quan}
+\SectionIntro{Phần 2: Cơ sở lý thuyết \& tổng quan}{Các khái niệm cơ bản về Deep Learning và bài toán phát hiện lỗi.}
 
 %------------------------------------------------
 \begin{frame}
@@ -161,106 +162,103 @@
 % Định nghĩa màu nền xanh
 \definecolor{CardBlue}{HTML}{B1CDFC}
 
-\begin{frame}[shrink=5]
+\begin{frame}
     \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TẠI VIỆT NAM}
+    \vspace{-0.85cm}
     
-    % Giảm khoảng cách dưới tiêu đề để tiết kiệm không gian
-    \vspace{-0.3cm}
-    
-    \begin{columns}[t, onlytextwidth] % onlytextwidth giúp căn lề chuẩn hơn
-        
-        % Thiết lập style chung cho các card để code gọn gàng
+    \begin{columns}[t, onlytextwidth]
         \tcbset{
             mycardstyle/.style={
-                colback=CardBlue,       % Yêu cầu 3: Full nền xanh
-                colframe=CardBlue!80!black, % Viền đậm hơn chút cho đẹp (hoặc để CardBlue nếu muốn ẩn)
-                arc=8pt,                % Bo góc box
-                boxrule=0pt,            % Bỏ viền dày
-                left=2pt, right=2pt, top=2pt, bottom=2pt, % Tối ưu lề (Yêu cầu 1: giảm overfull)
-                equal height group=A,   % Yêu cầu 4: Ép 3 cột cao bằng nhau
-                fontupper=\tiny,        % Set font chữ nhỏ toàn bộ
-                halign=center,          % Căn giữa nội dung
-                valign=top              % Căn nội dung từ trên xuống
+                colback=white,
+                colframe=gray!50,
+                arc=6pt,
+                boxrule=1pt,
+                left=2pt, right=2pt, top=1pt, bottom=1pt,
+                equal height group=A,
+                fontupper=\scriptsize,
+                halign=center,
+                valign=top
             }
         }
 
         % --- Card 1 ---
-        \begin{column}{0.32\textwidth}
+        \begin{column}{0.31\textwidth}
             \begin{tcolorbox}[mycardstyle]
-                % Icon + Tiêu đề
-                \includegraphics[height=0.8cm]{images/TongQuan/icons/dienmattroiquymolon.png}
-                \par\vspace{0.1cm}
-                {\scriptsize\textbf{ĐIỆN MẶT TRỜI\\QUY MÔ LỚN}}
-                
-                \vspace{0.1cm}
-                % Nội dung (căn trái)
-                \begin{flushleft}
-                    \textbullet\ Nguồn cung cấp sản lượng điện lớn đóng góp vào lưới điện quốc gia.\\[0.1cm]
+                \begin{minipage}[t][2.95cm][t]{\linewidth}
+                    \raggedright
+                    % Icon + Tiêu đề
+                    \centering
+                    \includegraphics[height=0.6cm]{images/TongQuan/icons/dienmattroiquymolon.png}
+                    \par\vspace{0.02cm}
+                    {\bfseries\small ĐIỆN MẶT TRỜI\\QUY MÔ LỚN}
+                    
+                    \vspace{0.02cm}
+                    \raggedright
+                    \textbullet\ Nguồn cung cấp sản lượng điện lớn đóng góp vào lưới điện quốc gia.\\[0.05cm]
                     \textbullet\ Các dự án kỷ lục: nhà máy Dầu Tiếng, tổ hợp Trung Nam.
-                \end{flushleft}
-                
-                \vfill % Đẩy ảnh xuống đáy (Yêu cầu 4)
+                \end{minipage}
                 
                 % Yêu cầu 2: Ảnh bo góc bằng TikZ Clip
                 \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.8cm); 
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.8cm]{images/TongQuan/trungnam.jpg}};
+                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.1cm); 
+                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.1cm]{images/TongQuan/trungnam.jpg}};
                 \end{tikzpicture}
             \end{tcolorbox}
-        \end{column}
+        \end{column}\hfill
 
         % --- Card 2 ---
-        \begin{column}{0.32\textwidth}
+        \begin{column}{0.31\textwidth}
             \begin{tcolorbox}[mycardstyle]
-                \includegraphics[height=0.8cm]{images/TongQuan/icons/dienmattroiapmai.png}
-                \par\vspace{0.1cm}
-                {\scriptsize\textbf{ĐIỆN MẶT TRỜI\\ÁP MÁI}}
-                
-                \vspace{0.1cm}
-                \begin{flushleft}
-                    \textbullet\ Tận dụng mái nhà xưởng và hộ gia đình.\\[0.1cm]
+                \begin{minipage}[t][2.95cm][t]{\linewidth}
+                    \raggedright
+                    \centering
+                    \includegraphics[height=0.6cm]{images/TongQuan/icons/dienmattroiapmai.png}
+                    \par\vspace{0.02cm}
+                    {\bfseries\small ĐIỆN MẶT TRỜI\\ÁP MÁI}
+                    
+                    \vspace{0.02cm}
+                    \raggedright
+                    \textbullet\ Tận dụng mái nhà xưởng và hộ gia đình.\\[0.05cm]
                     \textbullet\ Ưu tiên hàng đầu: không tốn đất, giảm tải tại chỗ cho lưới điện.
-                \end{flushleft}
+                \end{minipage}
                 
-                \vfill
-                
-				\vspace{0.3cm}
                 \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.8cm);
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.8cm]{images/TongQuan/apmai.png}};
+                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.1cm);
+                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.1cm]{images/TongQuan/apmai.png}};
                 \end{tikzpicture}
             \end{tcolorbox}
-        \end{column}
+        \end{column}\hfill
 
         % --- Card 3 ---
-        \begin{column}{0.32\textwidth}
+        \begin{column}{0.31\textwidth}
             \begin{tcolorbox}[mycardstyle]
-                \includegraphics[height=0.8cm]{images/TongQuan/icons/dienmattroidoclap.png}
-                \par\vspace{0.1cm}
-                {\scriptsize\textbf{ĐIỆN MẶT TRỜI\\ĐỘC LẬP}}
-                
-                \vspace{0.1cm}
-                \begin{flushleft}
-                    \textbullet\ Khu vực chưa có điện lưới hoặc công trình độc lập.\\[0.1cm]
+                \begin{minipage}[t][2.95cm][t]{\linewidth}
+                    \raggedright
+                    \centering
+                    \includegraphics[height=0.6cm]{images/TongQuan/icons/dienmattroidoclap.png}
+                    \par\vspace{0.02cm}
+                    {\bfseries\small ĐIỆN MẶT TRỜI\\ĐỘC LẬP}
+                    
+                    \vspace{0.02cm}
+                    \raggedright
+                    \textbullet\ Khu vực chưa có điện lưới hoặc công trình độc lập.\\[0.05cm]
                     \textbullet\ Cần tính toán kỹ pin lưu trữ để đảm bảo ổn định.
-                \end{flushleft}
-                
-                \vfill
+                \end{minipage}
                 
                 \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.8cm);
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.8cm]{images/TongQuan/doclap.png}};
+                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 1.1cm);
+                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=1.1cm]{images/TongQuan/doclap.png}};
                 \end{tikzpicture}
             \end{tcolorbox}
-        \end{column}
+        \end{column}\hfill
         
     \end{columns}
     
-    \vspace{0.1cm}
+    \vspace{0.05cm}
     \centering
     \fcolorbox{black!10}{white}{
     \parbox{0.95\textwidth}{
-        \tiny \textbf{Tổng kết:} Sự cộng hưởng giữa tiềm năng bức xạ dồi dào và hành lang pháp lý khuyến khích tự sản tự tiêu tạo nền tảng vững chắc để Việt Nam phát triển năng lượng mặt trời hiệu quả và bền vững.
+        \footnotesize \textbf{Tổng kết:} Sự cộng hưởng giữa tiềm năng bức xạ dồi dào và hành lang pháp lý khuyến khích tự sản tự tiêu tạo nền tảng vững chắc để Việt Nam phát triển năng lượng mặt trời hiệu quả và bền vững.
     }}
 \end{frame}
 
@@ -283,109 +281,109 @@
 \begin{frame}
     \frametitle{CÁC DẠNG HƯ HỎNG PHỔ BIẾN}
 
-    \vspace*{-0.5cm} 
+    \vspace*{-0.4cm} 
     
     \begin{columns}[T]
         
         % --- CỘT 1 ---
         \begin{column}{0.32\textwidth}
-            \begin{minipage}[c]{0.18\textwidth}
-                \includegraphics[width=\linewidth]{images/TongQuan/icons/quanghoc.png} 
-            \end{minipage}%
-            \hspace{0.1cm}
-            \begin{minipage}[c]{0.80\textwidth}
-                \textbf{\footnotesize Suy Thoái Quang Học}
+            % GÓI GỌN TEXT VÀO MINIPAGE ĐỂ CỐ ĐỊNH CHIỀU CAO -> ẢNH SẼ THẲNG HÀNG
+            \begin{minipage}[t][3.3cm][t]{\linewidth}
+                \centering
+                \textbf{\large Suy Thoái Quang Học}
+                
+                \vspace{0.1cm}
+                \small \raggedright
+                \begin{itemize}
+                    \setlength\itemsep{0.02cm}
+                    \setlength\parskip{0pt}
+                    \item \textbf{\textcolor{orange}{Bụi bẩn:}} Giảm khả năng hấp thụ ánh sáng.
+                    \item \textbf{\textcolor{orange}{Ố màu:}} Lão hóa vật liệu.
+                    \item \textbf{\textcolor{orange}{Bong tróc:}} Tách lớp kính bảo vệ.
+                \end{itemize}
             \end{minipage}
             
             \vspace{0.1cm}
-            \scriptsize \raggedright
-            \begin{itemize}
-                \setlength\itemsep{0.05cm}
-                \setlength\parskip{0pt}
-                \item \textbf{\textcolor{orange}{Bụi bẩn:}} Giảm khả năng hấp thụ ánh sáng.
-                \item \textbf{\textcolor{orange}{Ố màu:}} Lão hóa vật liệu.
-                \item \textbf{\textcolor{orange}{Bong tróc:}} Tách lớp kính bảo vệ.
-            \end{itemize}
-            
-            \vspace{0.05cm}
             \centering
-            % SỬ DỤNG LỆNH TIKZ ĐÃ TẠO Ở TRÊN
-            \roundimg{1.6cm}{images/TongQuan/suythoaiquanghoc.png}
+            % Chỉnh size ảnh nhỏ lại (1.4cm) để tránh tràn slide
+            \begin{tikzpicture}
+                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 1.4cm);
+                \node[inner sep=0pt, anchor=center] at (1.8cm, 0.7cm) {\includegraphics[width=3.6cm, height=1.4cm]{images/TongQuan/suythoaiquanghoc.png}};
+            \end{tikzpicture}
         \end{column}
 
         % --- KẺ DỌC 1 ---
         \begin{column}{0.02\textwidth}
             \centering
-            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.0cm}}
+            % Điều chỉnh chiều dài thanh kẻ dọc cho vừa vặn
+            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
         \end{column}
 
         % --- CỘT 2 ---
         \begin{column}{0.32\textwidth}
-            \begin{minipage}[c]{0.18\textwidth}
-                \includegraphics[width=\linewidth]{images/TongQuan/icons/matketnoidien.png}
-            \end{minipage}%
-            \hspace{0.1cm}
-            \begin{minipage}[c]{0.80\textwidth}
-                \textbf{\footnotesize Mất Kết Nối Điện}
+            \begin{minipage}[t][3.3cm][t]{\linewidth}
+                \centering
+                \textbf{\large Mất Kết Nối Điện}
+                
+                \vspace{0.1cm}
+                \small \raggedright
+                \begin{itemize}
+                    \setlength\itemsep{0.02cm}
+                    \setlength\parskip{0pt}
+                    \item \textbf{\textcolor{orange}{Vết nứt:}} Do tác động cơ học/nhiệt.
+                    \item \textbf{\textcolor{orange}{Điểm nóng:}} Gây quá nhiệt cục bộ.
+                    \item \textbf{\textcolor{orange}{Ngắn mạch:}} Hư hỏng cell pin.
+                \end{itemize}
             \end{minipage}
-            
+
             \vspace{0.1cm}
-            \scriptsize \raggedright
-            \begin{itemize}
-                \setlength\itemsep{0.05cm}
-                \setlength\parskip{0pt}
-                \item \textbf{\textcolor{orange}{Vết nứt:}} Do tác động cơ học/nhiệt.
-                \item \textbf{\textcolor{orange}{Điểm nóng:}} Gây quá nhiệt cục bộ.
-                \item \textbf{\textcolor{orange}{Ngắn mạch:}} Hư hỏng cell pin.
-            \end{itemize}
-            
-            \vspace{0.05cm}
             \centering
-            % SỬ DỤNG LỆNH TIKZ
-            \roundimg{1.6cm}{images/TongQuan/matketnoidien.jpg}
+            \begin{tikzpicture}
+                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 1.4cm);
+                \node[inner sep=0pt, anchor=center] at (1.8cm, 0.7cm) {\includegraphics[width=3.6cm, height=1.4cm]{images/TongQuan/matketnoidien.jpg}};
+            \end{tikzpicture}
         \end{column}
 
         % --- KẺ DỌC 2 ---
         \begin{column}{0.02\textwidth}
             \centering
-            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.0cm}}
+            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
         \end{column}
 
         % --- CỘT 3 ---
         \begin{column}{0.32\textwidth}
-            \begin{minipage}[c]{0.18\textwidth}
-                \includegraphics[width=\linewidth]{images/TongQuan/icons/phancung.png}
-            \end{minipage}%
-            \hspace{0.1cm}
-            \begin{minipage}[c]{0.80\textwidth}
-                \textbf{\footnotesize Hư Hỏng Phần Cứng}
+            \begin{minipage}[t][3.3cm][t]{\linewidth}
+                \centering
+                \textbf{\large Hư Hỏng Phần Cứng}
+                
+                \vspace{0.1cm}
+                \small \raggedright
+                \begin{itemize}
+                    \setlength\itemsep{0.02cm}
+                    \setlength\parskip{0pt}
+                    \item \textbf{\textcolor{orange}{PID:}} Suy giảm do điện thế cảm ứng.
+                    \item \textbf{\textcolor{orange}{Diode hỏng:}} Mất chức năng bypass.
+                    \item \textbf{\textcolor{orange}{Lỗi dây:}} Ăn mòn, đứt gãy.
+                \end{itemize}
             \end{minipage}
             
             \vspace{0.1cm}
-            \scriptsize \raggedright
-            \begin{itemize}
-                \setlength\itemsep{0.05cm}
-                \setlength\parskip{0pt}
-                \item \textbf{\textcolor{orange}{PID:}} Suy giảm do điện thế cảm ứng.
-                \item \textbf{\textcolor{orange}{Diode hỏng:}} Mất chức năng bypass.
-                \item \textbf{\textcolor{orange}{Lỗi dây:}} Ăn mòn, đứt gãy.
-            \end{itemize}
-            
-            \vspace{0.05cm}
             \centering
-            % SỬ DỤNG LỆNH TIKZ
-            \roundimg{1.6cm}{images/TongQuan/huhongphancung.png}
+            \begin{tikzpicture}
+                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 1.4cm);
+                \node[inner sep=0pt, anchor=center] at (1.8cm, 0.7cm) {\includegraphics[width=3.6cm, height=1.4cm]{images/TongQuan/huhongphancung.png}};
+            \end{tikzpicture}
         \end{column}
     \end{columns}
     
     % --- FOOTER ---
-    \vspace{0.2cm}
+    \vspace{0cm}
     \centering
-    \tiny 
+    \footnotesize 
     \parbox{0.95\textwidth}{
         Xuất phát từ đặc thù 'có thể nhìn thấy', đề tài tập trung nghiên cứu Nhận diện Suy thoái quang học và sẽ phân tích chi tiết các dạng lỗi này ở phần tiếp theo.
         
-        \vspace{0.1cm}
+        \vspace{0.05cm}
         \textbf{Tổng kết Chương 1:} Từ cơ sở thực tiễn về tiềm năng và thiệt hại do hư hỏng tấm pin đã nêu, Chương 2 sẽ đi sâu phân tích các phương pháp kiểm tra và giám sát nhằm giải quyết vấn đề này.
     }
 \end{frame}
@@ -505,127 +503,100 @@
 \end{frame}
 
 \begin{frame}[t]
-    % Giữ nguyên vị trí bắt đầu
-    \vspace{-0.4cm} 
-    \frametitle{KIỂM TRA MẮT THƯỜNG \& PHƯƠNG PHÁP BỔ TRỢ}
-
-    % --- CẤP ĐỘ 1 ---
-    {
-        \setbeamercolor{block title}{bg=customBlueTitle, fg=white}
-        \setbeamercolor{block body}{bg=customBlueBody, fg=black}
-        \setbeamertemplate{blocks}[rounded][shadow=false]
-
-        \begin{block}{\centering \raisebox{-0.5ex}{\includegraphics[height=1.2em, keepaspectratio]{\pathIcons search.png}} \enspace \textbf{CẤP ĐỘ 1: KIỂM TRA BẰNG MẮT THƯỜNG}}
-            \vspace{-0.1cm}
-            \begin{columns}
-                \column{0.75\textwidth}
-                \fontsize{6}{7}\selectfont 
-                \begin{itemize}
-                    \setlength\itemsep{0pt}
-                    \setlength\parskip{0pt}
-                    \setlength\leftmargini{0.4cm}
-                    \item Bước sàng lọc đầu tiên phát hiện lỗi bề mặt (kính, frame...).
-                    \item Quan sát trực tiếp vật mẫu dưới điều kiện ánh sáng mạnh.
-                    \item Ưu điểm: Tốc độ xử lý nhanh, chi phí thấp, dễ thực hiện.
-                    \item Nhược điểm: Phụ thuộc chủ quan và thị lực người kiểm tra.
-                    \item Hạn chế: Không thấy được lỗi ẩn sâu (micro-crack).
-                \end{itemize}
-
-                \column{0.21\textwidth}
-                \centering
-                \begin{tikzpicture}
-                    \begin{scope}
-                        \clip [rounded corners=0.2cm] (0,0) rectangle (2.5cm, 0.85cm);
-                        \node[anchor=south west, inner sep=0] at (0,0) {
-                            \includegraphics[width=2.5cm, height=0.85cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}
-                        };
-                    \end{scope}
-                \end{tikzpicture}
-            \end{columns}
-            \vspace{-0.1cm}
-        \end{block}
-    }
-
-    % --- MŨI TÊN (ĐIỀU CHỈNH KHOẢNG CÁCH ĐỂ ĐẨY CẤP 2 XUỐNG) ---
-    \begin{center}
-        \vspace{-0.3cm} % [Fix] Nới lỏng khoảng cách trên mũi tên (-0.5 -> -0.3)
-        \begin{tikzpicture}[scale=1]
-            \fill[fill=customBlueBody, draw=none] (-0.2,0.3) -- (0.2,0.3) -- (0.2,0) -- (0.4,0) -- (0,-0.4) -- (-0.4,0) -- (-0.2,0) -- cycle;
-        \end{tikzpicture}
-        \vspace{-0.1cm} % [Fix] Nới lỏng khoảng cách dưới mũi tên (-0.5 -> -0.1) -> Đẩy Cấp 2 xuống
-    \end{center}
-
-
-
-	\vspace{-0.3cm}
-    % --- CẤP ĐỘ 2 ---
-    \begin{tcolorbox}[
-        enhanced,
-        colframe=customGreenTitle,
-        colbacktitle=customGreenTitle,
-        coltitle=white,
-        colback=customGreenBody,
-        fonttitle=\bfseries\small,
-        title={CẤP ĐỘ 2: CÁC PHƯƠNG PHÁP BỔ TRỢ CHUYÊN SÂU},
-        arc=1.5mm, boxrule=0.5pt,
-        left=1pt, right=1pt, top=0pt, bottom=0pt, 
-        toptitle=1pt, bottomtitle=0pt,
-        halign title=center
-    ]
-        \begin{columns}[t, onlytextwidth]
-            % --- CỘT 1 ---
-            \column{0.33\textwidth}
+    \frametitle{CÁC PHƯƠNG PHÁP KIỂM TRA \& ĐÁNH GIÁ}
+    \vspace{-0.3cm}
+    
+    \begin{columns}[T, onlytextwidth]
+        % --- CỘT 1: MẮT THƯỜNG ---
+        \begin{column}{0.24\textwidth}
             \centering
-            \begin{minipage}{3.4cm}
-                \centering
-                % [Fix] Dùng raisebox -2pt để hạ Icon xuống ngang hàng với chữ
-                \raisebox{-2pt}{\includegraphics[height=0.8em]{\pathIcons electricity_icon.png}}
-                \enspace \tiny \textbf{\textcolor{black}{ĐIỆN HỌC}} 
-            \end{minipage}
-            \vspace{0.05cm} 
-            \drawCustomCard{\pathImages iv_curve_device.png}{%
-                Đo đường cong I-V kiểm tra sức khỏe dòng điện và hiệu suất thực tế.%
-            }
-
-            % --- CỘT 2 ---
-            \column{0.33\textwidth}
-            \centering
-            \begin{minipage}{3.4cm}
-                \centering
-                % [Fix] Căn thẳng hàng
-                \raisebox{-2pt}{\includegraphics[height=0.7em]{\pathIcons camera_icon.png}}
-                \enspace \tiny \textbf{\textcolor{black}{HÌNH ẢNH}}
-            \end{minipage}
+            {\bfseries\small\textcolor{black}{MẮT THƯỜNG\strut}}\par
+            \vspace{0.1cm}
+            \begin{tikzpicture}
+                % Ảnh ảo để lấy kích thước khung (height=2.2cm)
+                \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}};
+                % Cắt ảnh thật
+                \begin{scope}
+                    \clip[rounded corners=10pt] (measure.south west) rectangle (measure.north east);
+                    \node[inner sep=0pt] at (measure.center) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}};
+                \end{scope}
+            \end{tikzpicture}
             \vspace{0.05cm}
-            \drawCustomCard{\pathImages el_images.png}{%
-                \begin{itemize}
-                    \setlength\itemsep{0pt}
-                    \setlength\leftmargini{0.2cm}
-                    \item[•] EL: Nhìn xuyên thấu vết nứt.
-                    \item[•] UV-F: Đánh giá lão hóa.
-                \end{itemize}%
-            }
-
-            % --- CỘT 3 ---
-            \column{0.33\textwidth}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0pt} \setlength\parskip{0pt} \setlength\leftmargini{0.3cm}
+                \item Sàng lọc lỗi bề mặt (kính, khung).
+                \item Tốc độ nhanh, chi phí thấp.
+                \item \textbf{Hạn chế:} Bỏ sót lỗi ẩn sâu.
+            \end{itemize}
+        \end{column}\hfill
+        % --- CỘT 2: ĐIỆN HỌC (Zoom to hơn) ---
+        \begin{column}{0.24\textwidth}
             \centering
-            \begin{minipage}{3.4cm}
-                \centering
-                % [Fix] Căn thẳng hàng
-                \raisebox{-2pt}{\includegraphics[height=0.8em]{\pathIcons flask_icon.png}}
-                \enspace \tiny \textbf{\textcolor{black}{PHÂN TÍCH VẬT LIỆU}}
-            \end{minipage}
+            {\bfseries\small\textcolor{black}{ĐIỆN HỌC\strut}}\par
+            \vspace{0.1cm}
+            \begin{tikzpicture}
+                \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages iv_curve_device.png}};
+                \begin{scope}
+                    \clip[rounded corners=10pt] (measure.south west) rectangle (measure.north east);
+                    % Zoom ảnh lên 1.4 lần (2.2 * 1.4 = 3.08cm)
+                    \node[inner sep=0pt] at (measure.center) {\includegraphics[width=1.4\linewidth, height=3.08cm, keepaspectratio=false]{\pathImages iv_curve_device.png}};
+                \end{scope}
+            \end{tikzpicture}
             \vspace{0.05cm}
-            \drawCustomCard{\pathImages spectrometer_lab.png}{%
-                Máy Quang phổ phân tích chuyên sâu cấu trúc vật liệu trong Lab.%
-            }
-        \end{columns}
-    \end{tcolorbox}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0pt} \setlength\parskip{0pt} \setlength\leftmargini{0.3cm}
+                \item Đo đường cong I-V.
+                \item Kiểm tra sức khỏe dòng điện.
+                \item Đánh giá hiệu suất thực tế.
+            \end{itemize}
+        \end{column}\hfill
+        % --- CỘT 3: HÌNH ẢNH ---
+        \begin{column}{0.24\textwidth}
+            \centering
+            {\bfseries\small\textcolor{black}{HÌNH ẢNH\strut}}\par
+            \vspace{0.1cm}
+            \begin{tikzpicture}
+                \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages el_images.png}};
+                \begin{scope}
+                    \clip[rounded corners=10pt] (measure.south west) rectangle (measure.north east);
+                    \node[inner sep=0pt] at (measure.center) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages el_images.png}};
+                \end{scope}
+            \end{tikzpicture}
+            \vspace{0.05cm}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0pt} \setlength\parskip{0pt} \setlength\leftmargini{0.3cm}
+                \item \textbf{EL:} Soi xuyên thấu vết nứt.
+                \item \textbf{UV-F:} Đánh giá mức độ lão hóa vật liệu.
+            \end{itemize}
+        \end{column}\hfill
+        % --- CỘT 4: VẬT LIỆU ---
+        \begin{column}{0.24\textwidth}
+            \centering
+            {\bfseries\small\textcolor{black}{VẬT LIỆU\strut}}\par
+            \vspace{0.1cm}
+            \begin{tikzpicture}
+                \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages spectrometer_lab.png}};
+                \begin{scope}
+                    \clip[rounded corners=10pt] (measure.south west) rectangle (measure.north east);
+                    \node[inner sep=0pt] at (measure.center) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages spectrometer_lab.png}};
+                \end{scope}
+            \end{tikzpicture}
+            \vspace{0.05cm}
+            \scriptsize \raggedright
+            \begin{itemize}
+                \setlength\itemsep{0pt} \setlength\parskip{0pt} \setlength\leftmargini{0.3cm}
+                \item Phân tích quang phổ chuyên sâu.
+                \item Kiểm tra cấu trúc trong phòng Lab.
+            \end{itemize}
+        \end{column}
+    \end{columns}
 
-    % --- FOOTER (ĐẨY XUỐNG THÊM) ---
-	\vspace{-0.1cm}
+    \vfill
     \centering
-    \tiny \textit{`\textbf{Khám lâm sàng}' $\to$ `\textbf{Xét nghiệm y khoa}' để kết luận chính xác}
+    \small \textit{`\textbf{Khám lâm sàng}' $\to$ `\textbf{Xét nghiệm y khoa}' để kết luận chính xác}
 \end{frame}
 
 \begin{frame}
@@ -995,6 +966,7 @@
 
 %------------------------------------------------
 \section{Phương pháp đề xuất}
+\SectionIntro{Phần 3: Phương pháp đề xuất}{Quy trình xử lý dữ liệu và kiến trúc mô hình huấn luyện.}
 % Định nghĩa màu sắc theo ảnh
 \definecolor{processBlue}{RGB}{0, 85, 165}  % Màu xanh đậm của tiêu đề/nút
 \definecolor{processRed}{RGB}{235, 50, 50}   % Màu đỏ của số 95%
@@ -1155,6 +1127,14 @@
     \end{columns}
 \end{frame}
 
+\begin{frame}
+\label{anhthuthapboiuav}
+	\frametitle{ẢNH THU THẬP BỞI UAV}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{images/PhuongPhap/thuthap.png}
+	\end{center}
+\end{frame}
+
 
 \definecolor{myblue}{HTML}{0F52BA} % Màu xanh dương cho số liệu
 \definecolor{mypinred}{HTML}{D93025} % Màu đỏ cho cái ghim
@@ -1207,7 +1187,7 @@
 \end{scope}
     \end{tikzpicture}
     
-    \vspace{0.5em} % Khoảng cách giữa ảnh và box bên dưới
+    \vspace{2pt} % Khoảng cách giữa ảnh và box bên dưới
     
     % Phần hộp nội dung kết quả (Box xám)
     \begin{tikzpicture}
@@ -1390,7 +1370,7 @@
     myboxstyle/.style={
         enhanced,
         boxrule=0pt,
-        leftrule=4pt,
+        leftrule=0pt,
         arc=3pt,
         auto outer arc,
         % GIẢM PADDING ĐỂ TIẾT KIỆM CHỖ

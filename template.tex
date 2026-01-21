@@ -163,6 +163,23 @@ LÃ MINH KHÁNH - Lớp 67CS1 - MSV: 4004267}
 % Disable navigation symbols
 \setbeamertemplate{navigation symbols}{}
 
+% --- LỆNH TẠO TRANG TIÊU ĐỀ CHƯƠNG (SECTION SLIDE) ---
+\newcommand{\SectionIntro}[2]{
+    \begin{frame}
+        \centering
+        \vspace{1.5cm}
+        % Tiêu đề chính (Màu xanh đậm của theme, đậm, to)
+        {\usebeamercolor[fg]{structure}\huge \textbf{#1}} \par
+        \vspace{0.4cm}
+        % Đường kẻ trang trí (Màu vàng gold của theme)
+        {\color{scisGold}\rule{0.5\linewidth}{2pt}} \par
+        \vspace{0.4cm}
+        % Mô tả phụ (Màu đen/xám, nhỏ hơn)
+        {\large #2}
+        \vfill
+    \end{frame}
+}
+
 %---------------------------------------------------------
 %   DOCUMENT BEGINS
 %---------------------------------------------------------
