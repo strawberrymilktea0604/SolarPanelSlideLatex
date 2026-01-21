@@ -11,8 +11,8 @@
 
 
 % --- ĐƯỜNG DẪN ẢNH (Lưu ý đường dẫn tuyệt đối của bạn) ---
-\newcommand{\pathIcons}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/}
-\newcommand{\pathImages}{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/}
+\newcommand{\pathIcons}{images/TongQuan/icons/}
+\newcommand{\pathImages}{images/TongQuan/}
 
 % --- MACRO VẼ THẺ TIKZ ---
 \newcommand{\drawCustomCard}[2]{%
@@ -755,7 +755,7 @@
         \begin{column}{0.4\textwidth}
             \centering
             % Giảm chiều cao ảnh xuống 75% chiều cao slide (thay vì 0.8) để tránh đẩy khung
-            \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/mohinhe2.png}
+            \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{images/TongQuan/mohinhe2.png}
         \end{column}
 
     \end{columns}
@@ -793,7 +793,7 @@
                     \begin{column}{0.15\textwidth}
                         \centering
                         % Đặt kích thước cố định nhỏ (0.8cm)
-                        \includegraphics[width=0.8cm, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/khaiquat.png}
+                        \includegraphics[width=0.8cm, keepaspectratio]{images/TongQuan/icons/khaiquat.png}
                     \end{column}
                     % Cột chứa Tiêu đề
                     \begin{column}{0.83\textwidth}
@@ -824,7 +824,7 @@
                 \begin{columns}
                     \begin{column}{0.15\textwidth}
                         \centering
-                        \includegraphics[width=0.8cm, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/over.png}
+                        \includegraphics[width=0.8cm, keepaspectratio]{images/TongQuan/icons/over.png}
                     \end{column}
                     \begin{column}{0.83\textwidth}
                         \textbf{\small Overfitting vs Underfitting}
@@ -880,7 +880,7 @@
         \begin{column}{0.45\textwidth}
             \centering
             % Dùng keepaspectratio để ảnh không bị méo nếu lỡ quá cao
-            \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/matran.png}
+            \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{images/TongQuan/matran.png}
         \end{column}
     \end{columns}
 
@@ -951,7 +951,7 @@
         \begin{column}{0.48\textwidth}
             % Accuracy
             \MetricCard%
-                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/accuracy.png}%
+                {images/TongQuan/icons/chiso/accuracy.png}%
                 {Accuracy}%
                 {Tỷ lệ dự đoán đúng trên tổng số mẫu.}%
                 {$\dfrac{TP+TN}{TP+TN+FP+FN}$}
@@ -960,7 +960,7 @@
             
             % Precision (Nam châm)
             \MetricCard%
-                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision.png}%
+                {images/TongQuan/icons/chiso/precision.png}%
                 {Precision}%
                 {Tỷ lệ phát hiện được dương tính thực tế.}%
                 {$\dfrac{TP}{TP+FP}$}
@@ -970,7 +970,7 @@
         \begin{column}{0.48\textwidth}
             % Precision (Phễu)
             \MetricCard%
-                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/precision2.png}%
+                {images/TongQuan/icons/chiso/precision2.png}%
                 {Precision}%
                 {Độ chính xác trong các dự đoán dương tính.}%
                 {$\dfrac{TP}{TP+FN}$}
@@ -979,7 +979,7 @@
             
             % F1-Score
             \MetricCard%
-                {C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/TongQuan/icons/chiso/f1score.png}%
+                {images/TongQuan/icons/chiso/f1score.png}%
                 {F1-Score}%
                 {Dung hòa Precision \& Recall (data lệch).}%
                 {$2 \times \dfrac{\text{P} \times \text{R}}{\text{P} + \text{R}}$} 
@@ -1017,7 +1017,7 @@
 
             % --- BƯỚC 1: THU THẬP ---
             \node[inner sep=0pt] (icon1) at (0, 1.8) {
-                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/camera.png}
+                \includegraphics[height=1.5cm]{images/PhuongPhap/icons/camera.png}
             };
             \fill[processBlue] (0,0) circle (6pt); % Chấm tròn xanh
             \node[text width=4cm, align=center, anchor=north] at (0, -0.5) {
@@ -1027,7 +1027,7 @@
 
             % --- BƯỚC 2: TIỀN XỬ LÝ ---
             \node[inner sep=0pt] (icon2) at (\hdist, 1.8) {
-                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/xulyanh.png}
+                \includegraphics[height=1.5cm]{images/PhuongPhap/icons/xulyanh.png}
             };
             \fill[processBlue] (\hdist,0) circle (6pt);
             \node[text width=4cm, align=center, anchor=north] at (\hdist, -0.5) {
@@ -1037,7 +1037,7 @@
 
             % --- BƯỚC 3: HUẤN LUYỆN ---
             \node[inner sep=0pt] (icon3) at ({2*\hdist}, 1.8) {
-                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/train.png}
+                \includegraphics[height=1.5cm]{images/PhuongPhap/icons/train.png}
             };
             \fill[processBlue] ({2*\hdist},0) circle (6pt);
             \node[text width=4cm, align=center, anchor=north] at ({2*\hdist}, -0.5) {
@@ -1047,7 +1047,7 @@
 
             % --- BƯỚC 4: PHÂN LOẠI ---
             \node[inner sep=0pt] (icon4) at ({3*\hdist}, 1.8) {
-                \includegraphics[height=1.5cm]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/classify.png}
+                \includegraphics[height=1.5cm]{images/PhuongPhap/icons/classify.png}
             };
             \fill[processBlue] ({3*\hdist},0) circle (6pt);
             \node[text width=4cm, align=center, anchor=north] at ({3*\hdist}, -0.5) {
@@ -1113,13 +1113,13 @@
                 \renewcommand{\arraystretch}{0.8} 
                 \begin{tabular}{@{}c l@{}}
                     % Giảm kích thước icon xuống 1em
-                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/docao.png} & 
+                    \includegraphics[height=1em]{images/PhuongPhap/icons/docao.png} & 
                     \parbox{0.88\linewidth}{\scriptsize \textbf{Độ cao:} 25m so với mặt đất.} \\[0.8ex] % Giảm khoảng cách dòng
                     
-                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/gocchup.png} & 
+                    \includegraphics[height=1em]{images/PhuongPhap/icons/gocchup.png} & 
                     \parbox{0.88\linewidth}{\scriptsize \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).} \\[0.8ex]
                     
-                    \includegraphics[height=1em]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/icons/thoigian.png} & 
+                    \includegraphics[height=1em]{images/PhuongPhap/icons/thoigian.png} & 
                     \parbox{0.88\linewidth}{\scriptsize \textbf{Thời gian:} 9:00 - 11:00 sáng.} \\
                 \end{tabular}
 
@@ -1150,7 +1150,7 @@
              % Điều chỉnh ảnh bên phải cho khớp chiều cao mới
             \begin{tikzpicture}
                 \clip [rounded corners=5pt] (0,0) rectangle (\linewidth, 0.60\paperheight); 
-                \node [anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=\linewidth, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/uav.png}};
+                \node [anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=\linewidth, keepaspectratio]{images/PhuongPhap/uav.png}};
             \end{tikzpicture}
         \end{column}
         
@@ -1172,7 +1172,7 @@
         % Chèn ảnh gốc, căn chỉnh độ rộng bằng chiều ngang văn bản
         % LƯU Ý: Thay đổi đường dẫn ảnh nếu cần thiết, LaTeX dùng dấu gạch chéo /
         \node[anchor=south west, inner sep=0] (image) at (0,0) {
-            \includegraphics[width=\textwidth]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/tachchiet.png}
+            \includegraphics[width=\textwidth]{images/PhuongPhap/tachchiet.png}
         };
         
         % Tọa độ tương đối để đặt nhãn (cần tinh chỉnh nếu ảnh bị méo)
@@ -1347,7 +1347,7 @@
             \centering
             \textbf{Xoay (Rotation): +/- 15$^\circ$} \\ 
             \vspace{2pt} % Khoảng cách rất nhỏ
-            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/rotation.png}
+            \includegraphics[height=\imgH, keepaspectratio]{images/PhuongPhap/dataaugment/rotation.png}
         \end{minipage}
         & 
         % --- GÓC TRÊN PHẢI ---
@@ -1355,7 +1355,7 @@
             \centering
             \textbf{Lật (Flip): Ngang/Dọc} \\ 
             \vspace{2pt}
-            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/flip.png}
+            \includegraphics[height=\imgH, keepaspectratio]{images/PhuongPhap/dataaugment/flip.png}
         \end{minipage}
         \\ 
         \hline % ĐƯỜNG KẺ NGANG LIỀN MẠCH
@@ -1366,7 +1366,7 @@
             \vspace{2pt} % Đẩy nhẹ nội dung xuống khỏi đường kẻ
             \textbf{Color Jitter: Độ Sáng/Tương Phản} \\ 
             \vspace{2pt}
-            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/color.png}
+            \includegraphics[height=\imgH, keepaspectratio]{images/PhuongPhap/dataaugment/color.png}
         \end{minipage}
         & 
         % --- GÓC DƯỚI PHẢI ---
@@ -1375,7 +1375,7 @@
             \vspace{2pt}
             \textbf{Noise Injection: Nhiễu Gaussian} \\ 
             \vspace{2pt}
-            \includegraphics[height=\imgH, keepaspectratio]{C:/Users/minhk/Downloads/SolarPanelSlideLatex/images/PhuongPhap/dataaugment/noise.png}
+            \includegraphics[height=\imgH, keepaspectratio]{images/PhuongPhap/dataaugment/noise.png}
         \end{minipage}
         
     \end{tabular}

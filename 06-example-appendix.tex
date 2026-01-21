@@ -9,10 +9,28 @@
 }
 \addtobeamertemplate{frametitle}{\vspace*{-\headheight}}{}
 
-\begin{frame}[noframenumbering] % The end and appendix slides don't contribute to the page count
-% [plain] % The optional argument 'plain' hides the headers and foot lines
-	% \frametitle{Q\&A}
-	\begin{center}
-            {\LARGE Questions?}
-	\end{center}
+% 1. Định nghĩa màu sắc (đặt ở phần khai báo preamble hoặc ngay trước frame)
+\definecolor{myblue}{RGB}{0, 174, 239}    % Màu xanh của chữ Q&A
+\definecolor{myorange}{RGB}{243, 112, 33} % Màu cam của đường kẻ
+\definecolor{mytext}{RGB}{51, 63, 72}    % Màu xám đậm của dòng chữ dưới
+
+% --- CLOSING SLIDE ---
+\begin{frame}[noframenumbering]
+    \centering % Căn giữa toàn bộ nội dung theo chiều ngang
+    \vfill     % Đẩy nội dung vào giữa theo chiều dọc
+    
+    % Phần Q&A
+    {\Huge \textbf{\color{myblue} Q \& A}} 
+    
+    \vspace{0.6cm} % Khoảng cách giữa Q&A và dòng chữ dưới
+    
+    % Dòng chữ cảm ơn
+    {\Large \color{mytext} Cảm ơn thầy cô đã lắng nghe}
+    
+    \vspace{0.2cm}
+    
+    % Đường kẻ ngang màu cam (độ dài 5cm, độ dày 1.5pt)
+    {\color{myorange}\rule{5cm}{1.5pt}}
+    
+    \vfill % Đẩy nội dung vào giữa theo chiều dọc
 \end{frame}
