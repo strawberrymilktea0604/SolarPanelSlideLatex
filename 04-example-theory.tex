@@ -781,6 +781,7 @@
         % --- CỘT TRÁI: Khả năng tổng quát hóa ---
         \begin{column}{0.48\textwidth}
             \begin{tcolorbox}[
+                enhanced, equal height group=evalbox,
                 colback=bgGray,
                 colframe=bgGray,
                 arc=8pt,
@@ -793,7 +794,7 @@
                     \begin{column}{0.15\textwidth}
                         \centering
                         % Đặt kích thước cố định nhỏ (0.8cm)
-                        \includegraphics[width=0.8cm, keepaspectratio]{images/TongQuan/icons/khaiquat.png}
+                        \includegraphics[width=0.6cm, keepaspectratio]{images/TongQuan/icons/khaiquat.png}
                     \end{column}
                     % Cột chứa Tiêu đề
                     \begin{column}{0.83\textwidth}
@@ -814,6 +815,7 @@
         % --- CỘT PHẢI: Overfitting vs Underfitting ---
         \begin{column}{0.48\textwidth}
             \begin{tcolorbox}[
+                enhanced, equal height group=evalbox,
                 colback=bgGray,
                 colframe=bgGray,
                 arc=8pt,
@@ -837,7 +839,7 @@
                 \justifying
                 \color{textDark}
                 \footnotesize
-                Mục tiêu cuối cùng không chỉ là khớp dữ liệu huấn luyện (Training Data) mà là hoạt động tốt trên dữ liệu chưa biết (Unseen Data).
+                Cân bằng giữa Bias và Variance. Tránh Overfitting (học nhiễu) và Underfitting (chưa bắt được quy luật) để tối ưu hóa hiệu suất thực tế.
             \end{tcolorbox}
         \end{column}
 
@@ -901,50 +903,53 @@
         boxrule=1pt,
         arc=6pt,
         width=\linewidth,
-        boxsep=0pt, % Bỏ đệm nội dung
-        left=2pt, right=2pt, top=2pt, bottom=2pt, % Lề cực nhỏ
-        before skip=0pt, after skip=0pt, % Không tự động thêm khoảng trắng trước/sau thẻ
+        boxsep=0pt, 
+        left=2pt, right=2pt, top=1pt, bottom=5pt, 
+        before skip=0pt, after skip=0pt, 
         shadow={0.5mm}{-0.5mm}{0mm}{black!5}
     ]
         \centering
-        % 1. Icon thu nhỏ tối đa (0.35cm)
-        \begin{tikzpicture}
-            \node[circle, fill=myBlueIconBg, inner sep=3pt] {
-                \includegraphics[width=0.35cm, height=0.35cm, keepaspectratio]{#1}
-            };
-        \end{tikzpicture}
+        % 1. Header: Icon + Title inline
+        \raisebox{-0.22cm}{
+            \begin{tikzpicture}
+                \node[circle, fill=myBlueIconBg, inner sep=1pt] {
+                    \includegraphics[width=0.4cm, height=0.4cm, keepaspectratio]{#1}
+                };
+            \end{tikzpicture}
+        }
+        \hspace{0.1cm}
+        {\color{myBlueText}\bfseries\small #2} 
+        
         \vspace{1pt}
 
-        % 2. Tiêu đề
-        {\color{myBlueText}\bfseries\scriptsize #2} % Dùng scriptsize thay vì small
-        \vspace{1pt}
-
-        % 3. Mô tả (Rất nhỏ - tiny)
+        % 3. Mô tả 
         {\tiny #3}
         \vspace{2pt}
 
         % 4. Khung công thức
         \begin{tcolorbox}[
+            before skip=0pt, after skip=0pt,
             colback=myBoxBg,
             colframe=myBoxBg,
             arc=3pt,
             boxrule=0pt,
-            width=0.92\linewidth,
+            width=0.98\linewidth,
             boxsep=0pt,
-            top=1pt, bottom=1pt, left=1pt, right=1pt
+            top=2pt, bottom=3pt, left=1pt, right=1pt
         ]
-            \centering \color{myBlueText}\bfseries \tiny 
+            \centering \color{myBlueText}\bfseries \normalsize
             #4
         \end{tcolorbox}
     \end{tcolorbox}
 }
 
-% --- SỬ DỤNG SHRINK=20 ĐỂ ÉP VỪA TRANG ---
-% Nếu vẫn tràn, bạn có thể tăng lên 25, nhưng 20 thường là đủ
-\begin{frame}[shrink=20] 
+% --- SỬ DỤNG SHRINK=5 NẾU CẦN THIẾT ---
+% --- BỎ SHRINK ĐỂ TRÁNH LỖI ARITHMETIC OVERFLOW ---
+\begin{frame}
     \frametitle{CHỈ SỐ ĐÁNH GIÁ}
     
-    \vspace{0.5cm} % Kéo nội dung lên sát tiêu đề hơn nữa
+    % Kéo nội dung lên sát tiêu đề
+    \vspace{-0.3cm} 
     
     \begin{columns}[t]
         % --- CỘT TRÁI ---
@@ -954,16 +959,16 @@
                 {images/TongQuan/icons/chiso/accuracy.png}%
                 {Accuracy}%
                 {Tỷ lệ dự đoán đúng trên tổng số mẫu.}%
-                {$\dfrac{TP+TN}{TP+TN+FP+FN}$}
+                {$\displaystyle\dfrac{TP+TN}{TP+TN+FP+FN}$}
             
-            \vspace{0.15cm} % Khoảng cách giữa 2 thẻ dọc cực nhỏ
+            \vspace{0.15cm} % Khoảng cách giữa 2 thẻ (giữ nhỏ để vừa trang)
             
             % Precision (Nam châm)
             \MetricCard%
                 {images/TongQuan/icons/chiso/precision.png}%
                 {Precision}%
                 {Tỷ lệ phát hiện được dương tính thực tế.}%
-                {$\dfrac{TP}{TP+FP}$}
+                {$\displaystyle\dfrac{TP}{TP+FP}$}
         \end{column}
         
         % --- CỘT PHẢI ---
@@ -971,9 +976,9 @@
             % Precision (Phễu)
             \MetricCard%
                 {images/TongQuan/icons/chiso/precision2.png}%
-                {Precision}%
+                {Recall}%
                 {Độ chính xác trong các dự đoán dương tính.}%
-                {$\dfrac{TP}{TP+FN}$}
+                {$\displaystyle\dfrac{TP}{TP+FN}$}
             
             \vspace{0.15cm}
             
@@ -982,7 +987,7 @@
                 {images/TongQuan/icons/chiso/f1score.png}%
                 {F1-Score}%
                 {Dung hòa Precision \& Recall (data lệch).}%
-                {$2 \times \dfrac{\text{P} \times \text{R}}{\text{P} + \text{R}}$} 
+                {$2 \times \dfrac{P \times R}{P + R}$} 
         \end{column}
     \end{columns}
 
@@ -1087,60 +1092,53 @@
         
         % --- CỘT TRÁI ---
         \begin{column}{0.58\textwidth}
-            % Giảm margin và padding của box tổng xuống mức tối thiểu
+            % Bỏ nền xanh, bỏ viền, đưa padding về 0 để tiết kiệm không gian
             \begin{tcolorbox}[
-                colback=bglight, 
-                colframe=bglight, 
-                arc=5pt, 
+                enhanced,
+                frame hidden,
+                colback=white,
+                arc=0pt,
                 boxrule=0pt,
-                left=1mm, right=1mm, top=1mm, bottom=1mm, % Ép lề cực nhỏ
-                boxsep=0pt % Bỏ đệm nội dung
+                left=0pt, right=0pt, top=0pt, bottom=0pt, 
+                boxsep=0pt
             ]
                 % --- Phần 1: Thiết bị ---
-                % Dùng small thay vì large cho tiêu đề
-                \textbf{\small Thiết bị} 
+                \textbf{\normalsize Thiết bị} 
                 
-                % Dùng scriptsize (rất nhỏ) cho nội dung
-                \scriptsize{DJI Phantom 4 RTK với cảm biến 20MP và công nghệ định vị RTK độ chính xác centimet.}
+                \small{DJI Phantom 4 RTK với cảm biến 20MP và công nghệ định vị RTK độ chính xác centimet.}
                 
-                \vspace{0.3em} % Giảm khoảng cách
+                \vspace{2pt} % Giảm khoảng cách
                 
                 % --- Phần 2: Thông số ---
-                \textbf{\small Thông số bay tối ưu}
-                \vspace{0.2em}
+                \textbf{\normalsize Thông số bay tối ưu}
+                \vspace{1pt}
                 
-                % Bảng: Giảm khoảng cách dòng (arraystretch)
-                \renewcommand{\arraystretch}{0.8} 
-                \begin{tabular}{@{}c l@{}}
-                    % Giảm kích thước icon xuống 1em
-                    \includegraphics[height=1em]{images/PhuongPhap/icons/docao.png} & 
-                    \parbox{0.88\linewidth}{\scriptsize \textbf{Độ cao:} 25m so với mặt đất.} \\[0.8ex] % Giảm khoảng cách dòng
-                    
-                    \includegraphics[height=1em]{images/PhuongPhap/icons/gocchup.png} & 
-                    \parbox{0.88\linewidth}{\scriptsize \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).} \\[0.8ex]
-                    
-                    \includegraphics[height=1em]{images/PhuongPhap/icons/thoigian.png} & 
-                    \parbox{0.88\linewidth}{\scriptsize \textbf{Thời gian:} 9:00 - 11:00 sáng.} \\
-                \end{tabular}
+                \begin{itemize}
+                     \setlength\itemsep{2pt} % Giảm khoảng cách giữa các item
+                     \small 
+                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/docao.png}}] \textbf{Độ cao:} 25m so với mặt đất.
+                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/gocchup.png}}] \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).
+                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/thoigian.png}}] \textbf{Thời gian:} 9:00 - 11:00 sáng.
+                \end{itemize}
 
-                \vspace{0.5em}
+                \vspace{3pt}
 
                 % --- Phần 3: Kết quả ---
                 \begin{tcolorbox}[
                     enhanced,
                     title=Kết quả,
                     coltitle=white,
-                    fonttitle=\bfseries\scriptsize, % Font tiêu đề nhỏ
+                    fonttitle=\bfseries\small, 
                     colback=bglight,
                     colframe=borderblue,
-                    attach boxed title to top left={xshift=2mm, yshift*=-2mm}, % Đẩy tiêu đề sát hơn
-                    boxed title style={colback=borderblue, sharp corners, rounded corners=southeast, arc=3pt, size=small}, % size=small làm tiêu đề gọn hơn
+                    attach boxed title to top left={xshift=0mm, yshift*=-2mm}, 
+                    boxed title style={colback=borderblue, sharp corners, rounded corners=southeast, arc=3pt, size=small}, 
                     boxrule=0.5pt,
                     arc=3pt,
-                    left=1mm, right=1mm, top=4pt, bottom=1mm, % Ép lề box con
-                    boxsep=0pt
+                    left=2mm, right=2mm, top=6pt, bottom=2mm, 
+                    boxsep=1pt
                 ]
-                    \scriptsize 130 ảnh quang học độ phân giải cao, sắc nét, có tọa độ chính xác.
+                    \small 130 ảnh quang học độ phân giải cao, sắc nét, có tọa độ chính xác.
                 \end{tcolorbox}
             \end{tcolorbox}
         \end{column}
@@ -1220,7 +1218,7 @@
             text width=0.95\textwidth, 
             anchor=north
         ] {
-            \begin{columns}
+            \begin{columns}[T]
                 % Cột tiêu đề trái
                 \begin{column}{0.25\textwidth}
                     \textbf{Kết quả và\\độ tin cậy}
@@ -1402,71 +1400,54 @@
 }
 
 % Thêm tùy chọn [shrink] để Beamer tự động co nhỏ nếu vẫn bị tràn
-\begin{frame}[shrink] 
+\begin{frame} 
     \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
 
-    % Giảm khoảng cách dưới tiêu đề
     \vspace{-0.2cm} 
 
-    \begin{columns}[t, onlytextwidth]
+    % --- KHỐI DỮ LIỆU (TRÊN) ---
+    \begin{tcolorbox}[
+        myboxstyle,
+        colback=myBlueBack,
+        colframe=myBlueLine,
+        width=\textwidth
+    ]
+        \small 
+        \begin{center}
+            \textbf{Dữ Liệu}
+        \end{center}
+        \vspace{-8pt} % Kéo nội dung sát tiêu đề hơn
+        
+        \begin{itemize}
+            \setlength\itemsep{0pt}
+            \item \textbf{Tổng:} 5,902 ảnh.
+            \item \textbf{Phân chia:} Train 70\% -- Val 15\% -- Test 15\%.
+            \item \textbf{Nhãn:} Normal / Defect.
+        \end{itemize}
+    \end{tcolorbox}
+    
+    \vspace{0.2cm} % Khoảng cách giữa 2 khối
 
-        % --- CỘT TRÁI ---
-        \begin{column}{0.49\textwidth} % Tăng nhẹ độ rộng cột để chữ đỡ xuống dòng
-            \begin{tcolorbox}[
-                myboxstyle,
-                colback=myBlueBack,
-                colframe=myBlueLine,
-            ]
-                \small % Giảm cỡ chữ toàn bộ trong box
-                
-                \begin{center}
-                    \textbf{Dữ Liệu}
-                \end{center}
-                \vspace{2pt} % Khoảng cách rất nhỏ
-                
-                Tổng: 5,902 ảnh.
-                
-                Phân chia:
-                \begin{itemize}
-                    \setlength\itemsep{0pt} % Ép dòng sát nhau
-                    \setlength\parskip{0pt}
-                    \setlength\parsep{0pt}
-                    \item Train: 70\%
-                    \item Val: 15\%
-                    \item Test: 15\%
-                \end{itemize}
-                
-                \vspace{2pt}
-                Nhãn: Normal / Defect.
-            \end{tcolorbox}
-        \end{column}
+    % --- KHỐI KỸ THUẬT (DƯỚI) ---
+    \begin{tcolorbox}[
+        myboxstyle,
+        colback=myOrangeBack,
+        colframe=myOrangeLine,
+        width=\textwidth
+    ]
+        \small 
+        \begin{center}
+            \textbf{Kỹ Thuật}
+        \end{center}
+        \vspace{-8pt}
 
-        % --- CỘT PHẢI ---
-        \begin{column}{0.49\textwidth}
-            \begin{tcolorbox}[
-                myboxstyle,
-                colback=myOrangeBack,
-                colframe=myOrangeLine,
-            ]
-                \small % Giảm cỡ chữ
-                
-                \begin{center}
-                    \textbf{Kỹ Thuật}
-                \end{center}
-                \vspace{2pt}
+        \begin{itemize}
+            \setlength\itemsep{2pt} 
+            \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
+            \item \textbf{Optimizer:} Adam (LR $1e-4$).
+            \item \textbf{Early Stopping:} Patience = 5.
+            \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
+        \end{itemize}
+    \end{tcolorbox}
 
-                \begin{itemize}
-                    \setlength\itemsep{2pt} % Giãn dòng vừa phải
-                    \setlength\parskip{0pt}
-                    \setlength\parsep{0pt}
-                    
-                    \item Augmentation: Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
-                    \item Optimizer: Adam (LR $1e-4$).
-                    \item Early Stopping: Patience = 5
-                    \item Loss: Weighted Cross-Entropy \& Focal Loss.
-                \end{itemize}
-            \end{tcolorbox}
-        \end{column}
-
-    \end{columns}
 \end{frame}

@@ -192,6 +192,7 @@
 % --- ĐỊNH NGHĨA KHUNG (Custom Box) ---
 \newtcolorbox{objectivebox}[2]{
     enhanced,
+    equal height group=obj,
     boxrule=0pt, frame hidden, % Ẩn viền xung quanh
     borderline west={4pt}{0pt}{#1}, % Chỉ kẻ vạch màu bên trái dày 4pt
     colback=#2, % Màu nền
@@ -206,9 +207,7 @@
 \begin{frame}
     \frametitle{MỤC TIÊU NGHIÊN CỨU}
 
-    \vspace{0.5cm} % Khoảng cách từ tiêu đề xuống nội dung
-
-    \begin{columns}[T, onlytextwidth] % Căn lề trên (Top)
+    \begin{columns}[c, onlytextwidth] % Căn lề giữa
         % --- CỘT TRÁI (Xử lý ảnh) ---
         \begin{column}{0.48\textwidth}
             \begin{objectivebox}{myBlueBorder}{myBlueBG}

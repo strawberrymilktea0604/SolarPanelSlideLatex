@@ -34,45 +34,48 @@
 }
 
 
-\begin{frame}[shrink] 
+\begin{frame} 
     \frametitle{\textbf{KẾT QUẢ THỰC NGHIỆM}}
     
-    \centering
-    % Kéo nội dung lên sát tiêu đề hơn (ép khoảng trắng trên cùng)
-    
-    % Giảm nhẹ font chữ số to một chút (từ 45 xuống 40) để an toàn
-    {\fontsize{40}{45}\selectfont \textbf{\textcolor{myRed}{96.45\%}}}
-    
-    % Khoảng cách giữa số % và chữ Accuracy (ép nhỏ lại)
-    \vspace{0.1em}
-    {\Large \textcolor{myTextBlue}{Accuracy}}
-    
-    % Khoảng cách giữa tiêu đề và bảng (ép từ 0.5cm xuống 0.2cm)
-    \vspace{0.2cm} 
-    
-    % Tinh chỉnh bảng
-    \renewcommand{\arraystretch}{1.15} % Giảm chiều cao dòng (ép dòng bảng)
-    \setlength{\tabcolsep}{12pt}
-    
-    \begin{tabular}{l r}
-        \textcolor{myBlue}{\textbf{Chỉ số}} & \textcolor{myBlue}{\textbf{Giá trị}} \\
-        \arrayrulecolor{gray!40}\midrule
+    \begin{columns}[c] % Căn giữa theo chiều dọc
+        % --- CỘT TRÁI: SỐ TO ---
+        \begin{column}{0.4\textwidth}
+            \centering
+            % Giữ nguyên font to
+            {\fontsize{40}{45}\selectfont \textbf{\textcolor{myRed}{96.45\%}}}
+            
+            \vspace{0.2em}
+            {\Large \textcolor{myTextBlue}{Accuracy}}
+        \end{column}
         
-        \textcolor{myTextBlue}{Accuracy (\%)} & \textcolor{myTextBlue}{96.45} \\
-        \textcolor{myTextBlue}{Precision}     & \textcolor{myTextBlue}{0.9646} \\
-        \textcolor{myTextBlue}{Recall}        & \textcolor{myTextBlue}{0.9645} \\
-        \textcolor{myTextBlue}{F1-Score}      & \textcolor{myTextBlue}{0.9645} \\
-        \arrayrulecolor{gray!40}\midrule
-        
-        \textcolor{myTextBlue}{Số tham số (triệu)} & \textcolor{myTextBlue}{7.70} \\
-        \textcolor{myTextBlue}{Thời gian huấn luyện (phút)} & \textcolor{myTextBlue}{33.95} \\
-        
-    \end{tabular}
+        % --- CỘT PHẢI: BẢNG CHI TIẾT ---
+        \begin{column}{0.6\textwidth}
+            \centering
+            \renewcommand{\arraystretch}{1.2} 
+            \setlength{\tabcolsep}{8pt} % Thu nhỏ khoảng cách cột cho vừa khung
+            
+            \begin{tabular}{l r}
+                \textcolor{myBlue}{\textbf{Chỉ số}} & \textcolor{myBlue}{\textbf{Giá trị}} \\
+                \arrayrulecolor{gray!40}\midrule
+                
+                \textcolor{myTextBlue}{Accuracy (\%)} & \textcolor{myTextBlue}{96.45} \\
+                \textcolor{myTextBlue}{Precision}     & \textcolor{myTextBlue}{0.9646} \\
+                \textcolor{myTextBlue}{Recall}        & \textcolor{myTextBlue}{0.9645} \\
+                \textcolor{myTextBlue}{F1-Score}      & \textcolor{myTextBlue}{0.9645} \\
+                \arrayrulecolor{gray!40}\midrule
+                
+                \textcolor{myTextBlue}{Số tham số (M)} & \textcolor{myTextBlue}{7.70} \\
+                \textcolor{myTextBlue}{Time (phút)} & \textcolor{myTextBlue}{33.95} \\
+                
+            \end{tabular}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}
     \frametitle{KẾT QUẢ PHÂN LOẠI (591 MẪU)}
 
+    \vspace{0.3cm}
     \begin{columns}[T] 
         % --- CỘT TRÁI: HÌNH ẢNH MA TRẬN ---
         \begin{column}{0.48\textwidth}
@@ -131,7 +134,7 @@
         \end{column}
     \end{columns}
 
-    \vspace{0.4cm}
+    \vspace{-0.2cm}
     \centering
     \small \textbf{Kết luận:} Mô hình cân bằng tốt giữa việc phát hiện lỗi và hạn chế báo động giả.
 \end{frame}
@@ -174,22 +177,23 @@
     \small 
     \renewcommand{\arraystretch}{1.5}
     \setlength{\tabcolsep}{3pt}
+    \setlength{\arrayrulewidth}{1pt} % Tăng độ đậm đường kẻ
     
     \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|*{5}{>{\centering\arraybackslash}X|}}
-        \hline
+        \hhline{|-|-|-|-|-|-|}
         \textbf{Mô hình} & \textbf{Accuracy (\%)} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Params (M)} \\
         \hhline{|-|-|-|-|-|-|}
-        % Dùng lệnh thủ công để đảm bảo đường kẻ dọc không bị màu đè
+        % Dùng hhline để đường kẻ không bị màu đè
         \rowcolor{highlightYellow} \textbf{EfficientNet-B2} & \textbf{96,45} & \textbf{0,9646} & \textbf{0,9645} & \textbf{0,9645} & \textbf{7,7} \\
-        \hline
+        \hhline{|-|-|-|-|-|-|}
         ResNet-34 & 96,25 & 0,9628 & 0,9625 & 0,9625 & 21,29 \\
-        \hline
+        \hhline{|-|-|-|-|-|-|}
         ResNet-18 & 95,77 & 0,9585 & 0,9577 & 0,9576 & 11,18 \\
-        \hline
+        \hhline{|-|-|-|-|-|-|}
         ResNet-50 & 96,4 & 0,9641 & 0,964 & 0,9639 & 23,51 \\
-        \hline
+        \hhline{|-|-|-|-|-|-|}
         VGG16 & 93,57 & 0,9372 & 0,9357 & 0,9356 & 40,94 \\
-        \hline
+        \hhline{|-|-|-|-|-|-|}
     \end{tabularx}
     
     \vspace{0.5cm}
