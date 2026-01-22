@@ -1079,6 +1079,92 @@
 \end{frame}
 
 \begin{frame}
+\label{hinhminhhoa}
+	\frametitle{THU THẬP DỮ LIỆU UAV}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{images/PhuongPhap/hinhminhhoa.jpg}
+	\end{center}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{ĐỊA ĐIỂM THU THẬP DỮ LIỆU UAV}
+    
+    \vspace{0.2cm}
+
+    \begin{columns}[c, onlytextwidth]
+        % --- CỘT TRÁI: NỘI DUNG ---
+        \begin{column}{0.55\textwidth}
+            \begin{itemize}
+                \setlength\itemsep{0.6cm} % Khoảng cách giữa các mục
+                \raggedright
+                
+                \item \textbf{\Large Địa điểm:} \\[0.2cm]
+                {\Large Nhà máy điện Mặt Trời Adani Phước Minh}
+                
+                \item \textbf{\Large Địa chỉ:} \\[0.2cm]
+                {\Large Thôn Quán Thẻ 1, xã Thuận Nam, tỉnh Khánh Hòa} 
+                % Note: User said Khanh Hoa but Adani Phuoc Minh is usually in Ninh Thuan.
+                % User request said "tỉnh Khánh Hòa", I should follow user's request strictly unless it's an obvious correction I should make or ask.
+                % Re-reading user request: "tỉnh Khánh Hòa". I will write "tỉnh Khánh Hòa" as requested.
+            \end{itemize}
+        \end{column}
+
+        % --- CỘT PHẢI: HÌNH ẢNH ---
+        \begin{column}{0.42\textwidth}
+            \centering
+            \begin{tikzpicture}
+                % Bo góc tròn
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.5cm);
+                \node[anchor=south west, inner sep=0pt] at (0,0) {
+                    \includegraphics[width=\linewidth, height=5.5cm, keepaspectratio=false]{images/PhuongPhap/diadiem.jpg}
+                };
+                % Thêm viền mỏng cho đẹp nếu cần
+                % \draw[rounded corners=12pt, line width=1pt, gray!50] (0,0) rectangle (\linewidth, 5.5cm);
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+\label{sodobay}
+	\frametitle{SƠ ĐỒ BAY}
+    \vspace{-0.2cm}
+	\begin{columns}[c, onlytextwidth]
+        % --- CỘT 1 ---
+        \begin{column}{0.48\textwidth}
+            \centering
+            % Khung ảnh cố định 4.5cm chiều cao để cân đối
+            \begin{tikzpicture}
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 4.5cm);
+                % Ảnh landscape: width=\linewidth thường sẽ đủ chiều cao > 4.5cm (trừ khi ảnh quá dẹt)
+                % neo center để lấy vùng giữa ảnh
+                \node[anchor=center] at (0.5\linewidth, 2.25cm) {\includegraphics[width=\linewidth]{images/PhuongPhap/sodobay1.jpg}};
+            \end{tikzpicture}
+        \end{column}
+
+        % --- CỘT 2 ---
+        \begin{column}{0.48\textwidth}
+            \centering
+            % Khung ảnh cố định 4.5cm
+            \begin{tikzpicture}
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 4.5cm);
+                % Ảnh portrait: width=\linewidth sẽ làm ảnh rất cao -> bị crop trên dưới -> lấy được phần màn hình điều khiển ở giữa
+                \node[anchor=center] at (0.5\linewidth, 2.25cm) {\includegraphics[width=\linewidth]{images/PhuongPhap/sodobay2.jpg}};
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+\label{toancanh}
+	\frametitle{TOÀN CẢNH}
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{images/PhuongPhap/toancanh.jpg}
+	\end{center}
+\end{frame}
+
+\begin{frame}
 \label{anhthuthapboiuav}
 	\frametitle{ẢNH THU THẬP BỞI UAV}
 	\begin{center}
