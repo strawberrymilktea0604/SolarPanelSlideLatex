@@ -11,50 +11,56 @@
 \begin{frame}
     \frametitle{BỐI CẢNH VÀ TÍNH CẤP THIẾT}
     \vspace{-0.2cm}
-    \begin{columns}[T,onlytextwidth]
-        \begin{column}{0.52\textwidth}
+    % Fix overfull hbox by forcing exact bounding box
+    \setlength{\emergencystretch}{3em}
+    \begin{columns}[c,onlytextwidth]
+        \begin{column}{0.42\textwidth}
             \justifying
-            {\scriptsize Năng lượng mặt trời (PV) đang bùng nổ toàn cầu với tốc độ tăng trưởng \textbf{>20\%} mỗi năm (theo IEA). Tại Việt Nam, xu hướng này đang phát triển mạnh mẽ. Tính đến đầu năm 2025, điện mặt trời đã chiếm \textbf{11.85\%} tổng công suất nguồn điện cả nước, hàng loạt dự án quy mô lớn đã đi vào vận hành ổn định.}
+            {\scriptsize Năng lượng mặt trời (PV) đang bùng nổ toàn cầu với tốc độ tăng trưởng \textbf{>20\%} mỗi năm (theo IEA). Tại Việt Nam, xu hướng này đang phát triển mạnh mẽ. Tính đến đầu năm 2025, điện mặt trời đã chiếm \textbf{11.85\%} tổng công suất nguồn điện cả nước.}
 
-            \vspace{0.1cm}
+            \vspace{0.05cm}
 
-            % Example box with left orange strip
+            % Example box
             \begin{tikzpicture}
                 \node[inner sep=3pt,rounded corners=0pt] (box) {
-                    \begin{minipage}{0.94\linewidth}
-                        {\scriptsize \hspace{0.3cm}\textbf{Ví dụ điển hình: Nhà máy điện mặt trời Dầu Tiếng}}
+                    % Reduced width to 0.92 to ensure padding (inner sep) doesn't cause overflow
+                    \begin{minipage}{0.92\linewidth}
+                        {\scriptsize \hspace{0.1cm}\textbf{Ví dụ: NM điện mặt trời Dầu Tiếng}}
                         {\scriptsize
                         \begin{itemize}\setlength\itemsep{0pt}\setlength\parskip{0pt}
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Công suất:} >600 MWp (Lớn nhất Đông Nam Á).
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Quy mô:} Hàng trăm héc-ta với hàng triệu tấm pin.
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Thách thức:} Giám sát thủ công là bất khả thi.
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Công suất:} >600 MWp.
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Quy mô:} Hàng trăm héc-ta.
+                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Thách thức:} Giám sát thủ công khó khăn.
                         \end{itemize}}
                     \end{minipage}
                 };
-                % background rounded box and light gray fill
                 \begin{scope}[on background layer]
                     \fill[gray!15,rounded corners=0pt] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south east)+(0.04cm,-0.04cm)$);
-                    % Left strip removed
                 \end{scope}
             \end{tikzpicture}
 
-            \vspace{0.1cm}
+            \vspace{0.05cm}
 
             \justifying
-            {\scriptsize Theo \textbf{Quy hoạch điện VIII}, dư địa phát triển năng lượng tái tạo vẫn còn rất lớn, dự kiến quy mô điện mặt trời sẽ tiếp tục \textbf{tăng trưởng mạnh mẽ đến năm 2030.}}
-        \end{column}
-
-        \begin{column}{0.48\textwidth}
+            {\scriptsize Theo \textbf{Quy hoạch điện VIII}, dư địa phát triển năng lượng tái tạo vẫn lớn, dự kiến điện mặt trời tiếp tục \textbf{tăng trưởng mạnh đến 2030.}}
+        \end{column}%
+        \begin{column}{0.52\textwidth}
             \begin{center}
-                \vspace{0.8cm}
                 \begin{tikzpicture}
-                    % Draw the clipped image
+                    % Use 0.99\linewidth to avoid rounding errors causing overfull hbox
+                    \pgfmathsetmacro{\w}{0.99*\linewidth}
+                    \pgfmathsetmacro{\h}{\w * 0.6} % Aspect ratio
+                    
+                    % FORCE Bounding box to be exactly the linewidth
+                    % This hides the 0.75pt border spill from TeX's layout engine
+                    \useasboundingbox (0,0) rectangle (\w pt, \h pt);
+
                     \begin{scope}
-                        \clip[rounded corners=10pt] (0,0) rectangle (5.2,3.5);
-                        \node[anchor=south west,inner sep=0pt] at (0,0) {\includegraphics[width=5.2cm,keepaspectratio]{images/DatVanDe/dautieng.jpg}};
+                        \clip[rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
+                        \node[anchor=center,inner sep=0pt] at (0.5*\w pt, 0.5*\h pt) {\includegraphics[width=\w pt, height=\h pt, keepaspectratio=false]{images/DatVanDe/dautieng.jpg}};
                     \end{scope}
                     % Draw the border on top
-                    \draw[line width=1.5pt,rounded corners=10pt] (0,0) rectangle (5.2,3.5);
+                    \draw[line width=1.5pt,rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
                 \end{tikzpicture}
             \end{center}
         \end{column}
