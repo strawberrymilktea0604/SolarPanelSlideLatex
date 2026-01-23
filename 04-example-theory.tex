@@ -51,13 +51,13 @@
 \SectionIntro{Phần 2: Cơ sở lý thuyết \& tổng quan}{Các khái niệm cơ bản về Deep Learning và bài toán phát hiện lỗi.}
 
 %------------------------------------------------
-\begin{frame}
-\label{Maths}
-	\frametitle{TỔNG QUAN TẤM PIN NĂNG LƯỢNG MẶT TRỜI}
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{images/TongQuan/pinmattroi.png}
-	\end{center}
-\end{frame}
+% \begin{frame}
+% \label{Maths}
+% 	\frametitle{TỔNG QUAN TẤM PIN NĂNG LƯỢNG MẶT TRỜI}
+% 	\begin{center}
+% 		\includegraphics[width=0.8\textwidth]{images/TongQuan/pinmattroi.png}
+% 	\end{center}
+% \end{frame}
 
 %------------------------------------------------
 % SLIDE 10: ẨN - Tổng quan tiềm năng (đã gộp vào slide 11)
@@ -156,93 +156,93 @@
 % Định nghĩa màu nền xanh
 \definecolor{CardBlue}{HTML}{B1CDFC}
 
-\begin{frame}
-    \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TẠI VIỆT NAM}
-    \vspace{-0.85cm}
+% \begin{frame}
+%     \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TẠI VIỆT NAM}
+%     \vspace{-0.85cm}
     
-    \begin{columns}[t, onlytextwidth]
-        \tcbset{
-            mycardstyle/.style={
-                colback=white,
-                colframe=gray!50,
-                arc=6pt,
-                boxrule=1pt,
-                left=2pt, right=2pt, top=1pt, bottom=1pt,
-                equal height group=A,
-                fontupper=\scriptsize,
-                halign=center,
-                valign=top
-            }
-        }
+%     \begin{columns}[t, onlytextwidth]
+%         \tcbset{
+%             mycardstyle/.style={
+%                 colback=white,
+%                 colframe=gray!50,
+%                 arc=6pt,
+%                 boxrule=1pt,
+%                 left=2pt, right=2pt, top=1pt, bottom=1pt,
+%                 equal height group=A,
+%                 fontupper=\scriptsize,
+%                 halign=center,
+%                 valign=top
+%             }
+%         }
 
-        % --- Card 1 ---
-        \begin{column}{0.31\textwidth}
-            \begin{tcolorbox}[mycardstyle]
-                \begin{minipage}[t][2.95cm][t]{\linewidth}
-                    \raggedright
-                    % Tiêu đề
-                    \centering
-                    {\bfseries\small ĐIỆN MẶT TRỜI\\QUY MÔ LỚN}
+%         % --- Card 1 ---
+%         \begin{column}{0.31\textwidth}
+%             \begin{tcolorbox}[mycardstyle]
+%                 \begin{minipage}[t][2.95cm][t]{\linewidth}
+%                     \raggedright
+%                     % Tiêu đề
+%                     \centering
+%                     {\bfseries\small ĐIỆN MẶT TRỜI\\QUY MÔ LỚN}
                     
-                    \vspace{0.15cm}
-                    \raggedright
-                    \textbullet\ Nguồn cung cấp sản lượng điện lớn đóng góp vào lưới điện quốc gia.\\[0.05cm]
-                    \textbullet\ Các dự án kỷ lục: nhà máy Dầu Tiếng, tổ hợp Trung Nam.
-                \end{minipage}
+%                     \vspace{0.15cm}
+%                     \raggedright
+%                     \textbullet\ Nguồn cung cấp sản lượng điện lớn đóng góp vào lưới điện quốc gia.\\[0.05cm]
+%                     \textbullet\ Các dự án kỷ lục: nhà máy Dầu Tiếng, tổ hợp Trung Nam.
+%                 \end{minipage}
                 
-                % Yêu cầu 2: Ảnh bo góc bằng TikZ Clip
-                \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm); 
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/trungnam.jpg}};
-                \end{tikzpicture}
-            \end{tcolorbox}
-        \end{column}\hfill
+%                 % Yêu cầu 2: Ảnh bo góc bằng TikZ Clip
+%                 \begin{tikzpicture}
+%                     \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm); 
+%                     \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/trungnam.jpg}};
+%                 \end{tikzpicture}
+%             \end{tcolorbox}
+%         \end{column}\hfill
 
-        % --- Card 2 ---
-        \begin{column}{0.31\textwidth}
-            \begin{tcolorbox}[mycardstyle]
-                \begin{minipage}[t][2.95cm][t]{\linewidth}
-                    \raggedright
-                    \centering
-                    {\bfseries\small ĐIỆN MẶT TRỜI\\ÁP MÁI}
+%         % --- Card 2 ---
+%         \begin{column}{0.31\textwidth}
+%             \begin{tcolorbox}[mycardstyle]
+%                 \begin{minipage}[t][2.95cm][t]{\linewidth}
+%                     \raggedright
+%                     \centering
+%                     {\bfseries\small ĐIỆN MẶT TRỜI\\ÁP MÁI}
                     
-                    \vspace{0.15cm}
-                    \raggedright
-                    \textbullet\ Tận dụng mái nhà xưởng và hộ gia đình.\\[0.05cm]
-                    \textbullet\ Ưu tiên hàng đầu: không tốn đất, giảm tải tại chỗ cho lưới điện.
-                \end{minipage}
+%                     \vspace{0.15cm}
+%                     \raggedright
+%                     \textbullet\ Tận dụng mái nhà xưởng và hộ gia đình.\\[0.05cm]
+%                     \textbullet\ Ưu tiên hàng đầu: không tốn đất, giảm tải tại chỗ cho lưới điện.
+%                 \end{minipage}
                 
-                \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm);
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/apmai.png}};
-                \end{tikzpicture}
-            \end{tcolorbox}
-        \end{column}\hfill
+%                 \begin{tikzpicture}
+%                     \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm);
+%                     \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/apmai.png}};
+%                 \end{tikzpicture}
+%             \end{tcolorbox}
+%         \end{column}\hfill
 
-        % --- Card 3 ---
-        \begin{column}{0.31\textwidth}
-            \begin{tcolorbox}[mycardstyle]
-                \begin{minipage}[t][2.95cm][t]{\linewidth}
-                    \raggedright
-                    \centering
-                    {\bfseries\small ĐIỆN MẶT TRỜI\\ĐỘC LẬP}
+%         % --- Card 3 ---
+%         \begin{column}{0.31\textwidth}
+%             \begin{tcolorbox}[mycardstyle]
+%                 \begin{minipage}[t][2.95cm][t]{\linewidth}
+%                     \raggedright
+%                     \centering
+%                     {\bfseries\small ĐIỆN MẶT TRỜI\\ĐỘC LẬP}
                     
-                    \vspace{0.15cm}
-                    \raggedright
-                    \textbullet\ Khu vực chưa có điện lưới hoặc công trình độc lập.\\[0.05cm]
-                    \textbullet\ Cần tính toán kỹ pin lưu trữ để đảm bảo ổn định.
-                \end{minipage}
+%                     \vspace{0.15cm}
+%                     \raggedright
+%                     \textbullet\ Khu vực chưa có điện lưới hoặc công trình độc lập.\\[0.05cm]
+%                     \textbullet\ Cần tính toán kỹ pin lưu trữ để đảm bảo ổn định.
+%                 \end{minipage}
                 
-                \begin{tikzpicture}
-                    \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm);
-                    \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/doclap.png}};
-                \end{tikzpicture}
-            \end{tcolorbox}
-        \end{column}\hfill
+%                 \begin{tikzpicture}
+%                     \clip [rounded corners=6pt] (0,0) rectangle (\linewidth, 2.2cm);
+%                     \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[width=\linewidth, height=2.2cm]{images/TongQuan/doclap.png}};
+%                 \end{tikzpicture}
+%             \end{tcolorbox}
+%         \end{column}\hfill
         
-    \end{columns}
+%     \end{columns}
 
-\end{frame}
+% \end{frame}
 
 % Định nghĩa màu sắc giống trong ảnh
 \definecolor{mypaleblue}{RGB}{189, 215, 238} % Màu xanh nhạt cho đường kẻ
@@ -260,104 +260,104 @@
 }
 % -----------------------------------------------------------------------
 
-\begin{frame}
-    \frametitle{CÁC DẠNG HƯ HỎNG PHỔ BIẾN}
+% \begin{frame}
+%     \frametitle{CÁC DẠNG HƯ HỎNG PHỔ BIẾN}
 
-    \vspace*{-0.4cm} 
+%     \vspace*{-0.4cm} 
     
-    \begin{columns}[T]
+%     \begin{columns}[T]
         
-        % --- CỘT 1 ---
-        \begin{column}{0.32\textwidth}
-            % GÓI GỌN TEXT VÀO MINIPAGE ĐỂ CỐ ĐỊNH CHIỀU CAO -> ẢNH SẼ THẲNG HÀNG
-            \begin{minipage}[t][3.3cm][t]{\linewidth}
-                \centering
-                \textbf{\large Suy Thoái Quang Học}
+%         % --- CỘT 1 ---
+%         \begin{column}{0.32\textwidth}
+%             % GÓI GỌN TEXT VÀO MINIPAGE ĐỂ CỐ ĐỊNH CHIỀU CAO -> ẢNH SẼ THẲNG HÀNG
+%             \begin{minipage}[t][3.3cm][t]{\linewidth}
+%                 \centering
+%                 \textbf{\large Suy Thoái Quang Học}
                 
-                \vspace{0.1cm}
-                \small \raggedright
-                \begin{itemize}
-                    \setlength\itemsep{0.02cm}
-                    \setlength\parskip{0pt}
-                    \item \textbf{Bụi bẩn:} Giảm khả năng hấp thụ ánh sáng.
-                    \item \textbf{Ố màu:} Lão hóa vật liệu.
-                    \item \textbf{Bong tróc:} Tách lớp kính bảo vệ.
-                \end{itemize}
-            \end{minipage}
+%                 \vspace{0.1cm}
+%                 \small \raggedright
+%                 \begin{itemize}
+%                     \setlength\itemsep{0.02cm}
+%                     \setlength\parskip{0pt}
+%                     \item \textbf{Bụi bẩn:} Giảm khả năng hấp thụ ánh sáng.
+%                     \item \textbf{Ố màu:} Lão hóa vật liệu.
+%                     \item \textbf{Bong tróc:} Tách lớp kính bảo vệ.
+%                 \end{itemize}
+%             \end{minipage}
             
-            \vspace{0.1cm}
-            \centering
-            % Chỉnh size ảnh nhỏ lại (1.4cm) để tránh tràn slide
-            \begin{tikzpicture}
-                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
-                \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/suythoaiquanghoc.png}};
-            \end{tikzpicture}
-        \end{column}
+%             \vspace{0.1cm}
+%             \centering
+%             % Chỉnh size ảnh nhỏ lại (1.4cm) để tránh tràn slide
+%             \begin{tikzpicture}
+%                 \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
+%                 \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/suythoaiquanghoc.png}};
+%             \end{tikzpicture}
+%         \end{column}
 
-        % --- KẺ DỌC 1 ---
-        \begin{column}{0.02\textwidth}
-            \centering
-            % Điều chỉnh chiều dài thanh kẻ dọc cho vừa vặn
-            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
-        \end{column}
+%         % --- KẺ DỌC 1 ---
+%         \begin{column}{0.02\textwidth}
+%             \centering
+%             % Điều chỉnh chiều dài thanh kẻ dọc cho vừa vặn
+%             \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
+%         \end{column}
 
-        % --- CỘT 2 ---
-        \begin{column}{0.32\textwidth}
-            \begin{minipage}[t][3.3cm][t]{\linewidth}
-                \centering
-                \textbf{\large Mất Kết Nối Điện}
+%         % --- CỘT 2 ---
+%         \begin{column}{0.32\textwidth}
+%             \begin{minipage}[t][3.3cm][t]{\linewidth}
+%                 \centering
+%                 \textbf{\large Mất Kết Nối Điện}
                 
-                \vspace{0.1cm}
-                \small \raggedright
-                \begin{itemize}
-                    \setlength\itemsep{0.02cm}
-                    \setlength\parskip{0pt}
-                    \item \textbf{Vết nứt:} Do tác động cơ học/nhiệt.
-                    \item \textbf{Điểm nóng:} Gây quá nhiệt cục bộ.
-                    \item \textbf{Ngắn mạch:} Hư hỏng cell pin.
-                \end{itemize}
-            \end{minipage}
+%                 \vspace{0.1cm}
+%                 \small \raggedright
+%                 \begin{itemize}
+%                     \setlength\itemsep{0.02cm}
+%                     \setlength\parskip{0pt}
+%                     \item \textbf{Vết nứt:} Do tác động cơ học/nhiệt.
+%                     \item \textbf{Điểm nóng:} Gây quá nhiệt cục bộ.
+%                     \item \textbf{Ngắn mạch:} Hư hỏng cell pin.
+%                 \end{itemize}
+%             \end{minipage}
 
-            \vspace{0.1cm}
-            \centering
-            \begin{tikzpicture}
-                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
-                \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/matketnoidien.jpg}};
-            \end{tikzpicture}
-        \end{column}
+%             \vspace{0.1cm}
+%             \centering
+%             \begin{tikzpicture}
+%                 \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
+%                 \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/matketnoidien.jpg}};
+%             \end{tikzpicture}
+%         \end{column}
 
-        % --- KẺ DỌC 2 ---
-        \begin{column}{0.02\textwidth}
-            \centering
-            \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
-        \end{column}
+%         % --- KẺ DỌC 2 ---
+%         \begin{column}{0.02\textwidth}
+%             \centering
+%             \raisebox{-0.8cm}{\color{mypaleblue}\rule{1pt}{4.5cm}}
+%         \end{column}
 
-        % --- CỘT 3 ---
-        \begin{column}{0.32\textwidth}
-            \begin{minipage}[t][3.3cm][t]{\linewidth}
-                \centering
-                \textbf{\large Hư Hỏng Phần Cứng}
+%         % --- CỘT 3 ---
+%         \begin{column}{0.32\textwidth}
+%             \begin{minipage}[t][3.3cm][t]{\linewidth}
+%                 \centering
+%                 \textbf{\large Hư Hỏng Phần Cứng}
                 
-                \vspace{0.1cm}
-                \small \raggedright
-                \begin{itemize}
-                    \setlength\itemsep{0.02cm}
-                    \setlength\parskip{0pt}
-                    \item \textbf{PID:} Suy giảm do điện thế cảm ứng.
-                    \item \textbf{Diode hỏng:} Mất chức năng bypass.
-                    \item \textbf{Lỗi dây:} Ăn mòn, đứt gãy.
-                \end{itemize}
-            \end{minipage}
+%                 \vspace{0.1cm}
+%                 \small \raggedright
+%                 \begin{itemize}
+%                     \setlength\itemsep{0.02cm}
+%                     \setlength\parskip{0pt}
+%                     \item \textbf{PID:} Suy giảm do điện thế cảm ứng.
+%                     \item \textbf{Diode hỏng:} Mất chức năng bypass.
+%                     \item \textbf{Lỗi dây:} Ăn mòn, đứt gãy.
+%                 \end{itemize}
+%             \end{minipage}
             
-            \vspace{0.1cm}
-            \centering
-            \begin{tikzpicture}
-                \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
-                \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/huhongphancung.png}};
-            \end{tikzpicture}
-        \end{column}
-    \end{columns}
-\end{frame}
+%             \vspace{0.1cm}
+%             \centering
+%             \begin{tikzpicture}
+%                 \clip [rounded corners=6pt] (0,0) rectangle (3.6cm, 2.0cm);
+%                 \node[inner sep=0pt, anchor=center] at (1.8cm, 1.0cm) {\includegraphics[width=3.6cm, height=2.0cm]{images/TongQuan/huhongphancung.png}};
+%             \end{tikzpicture}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
 
 \begin{frame}
     \frametitle{GIỚI THIỆU VỀ UAV}
