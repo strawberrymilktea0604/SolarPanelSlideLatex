@@ -132,48 +132,52 @@
     \frametitle{THÁCH THỨC}
     \vspace{0.2cm}
     
-    % Three challenge cards
-    \begin{center}
-    \begin{tikzpicture}[scale=0.85, every node/.style={scale=0.85}]
-        % Card 1 - Time and Labor Cost (Dùng màu cardLight)
-        \node[rounded corners=12pt, fill=cardLight, minimum width=3.8cm, minimum height=4.2cm, align=center] at (0,0) (card1) {};
-        
-        % Icon 1 - Time and labor
-        \node at (0,0.7) {\includegraphics[width=2cm]{images/DatVanDe/icons/thoigian.png}};
-        
-        \node[text width=3.5cm, align=center, font=\small\bfseries] at (0,-0.95) {Tốn kém quá\\nhiều thời gian và\\nhân lực};
-        
-        % Card 2 - Safety Risk (Dùng màu cardDark)
-        \node[rounded corners=12pt, fill=cardDark, minimum width=3.8cm, minimum height=4.2cm, align=center] at (4.8,0) (card2) {};
-        
-        % Icon 2 - Safety
-        \node at (4.8,0.7) {\includegraphics[width=2cm]{images/DatVanDe/icons/antoan.png}};
-        
-        \node[text width=3.5cm, align=center, font=\small\bfseries] at (4.8,-0.95) {Nguy cơ mất\\an toàn lao động\\cho kỹ thuật viên};
-        
-        % Card 3 - Low Efficiency (Dùng màu cardLight)
-        \node[rounded corners=12pt, fill=cardLight, minimum width=3.8cm, minimum height=4.2cm, align=center] at (9.6,0) (card3) {};
-        
-        % Icon 3 - Efficiency
-        \node at (9.6,0.7) {\includegraphics[width=2cm]{images/DatVanDe/icons/hieuqua.png}};
-        
-        \node[text width=3.5cm, align=center, font=\small\bfseries] at (9.6,-0.95) {Hiệu quả\\không cao};
-    \end{tikzpicture}
-    \end{center}
-    
-    \vspace{0.4cm}
-    
-    % Objective box
-    \begin{center}
-    \begin{tikzpicture}
-        \node[inner sep=6pt, text width=0.88\textwidth] (objbox) {
-            \small \textbf{Mục tiêu:} tạo ra một giải pháp cân bằng giữa độ chính xác và chi phí, giúp phát hiện sớm hư hỏng để tối ưu hóa vận hành
-        };
-        \begin{scope}[on background layer]
-            \fill[gray!8, rounded corners=4pt] (objbox.north west) rectangle (objbox.south east);
-        \end{scope}
-    \end{tikzpicture}
-    \end{center}
+    \begin{columns}[c, onlytextwidth]
+        % --- CỘT TRÁI: HÌNH ẢNH MINH HỌA ---
+        \begin{column}{0.45\textwidth}
+            \centering
+            \begin{tikzpicture}
+                % Khung bo góc tròn, chiều cao khoảng 5cm để cân đối với nội dung bên phải
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.5cm);
+                % Chèn ảnh, fill đầy khung
+                % Tăng width lên 1.7 và inner sep=0 để đảm bảo ảnh lấp đầy toàn bộ khung clip
+                \node[anchor=center, inner sep=0] at (0.5\linewidth, 2.75cm) {
+                    \includegraphics[width=1.7\linewidth]{images/TongQuan/mat.jpg}
+                };
+            \end{tikzpicture}
+        \end{column}
+
+        % --- CỘT PHẢI: NỘI DUNG ---
+        \begin{column}{0.5\textwidth}
+            % Dùng minipage với chiều cao cố định 5.5cm (bằng chiều cao ảnh bên trái)
+            % để căn đều: Đầu itemize trùng đầu ảnh, Đáy box trùng đáy ảnh
+            \begin{minipage}[c][5.5cm][s]{\linewidth}
+                \begin{itemize}
+                    \setlength\itemsep{0.4cm} 
+                    \raggedright
+                    \item Tốn kém quá nhiều thời gian và nhân lực.
+                    \item Nguy cơ mất an toàn lao động cho kỹ thuật viên.
+                    \item Hiệu quả không cao.
+                \end{itemize}
+
+                \vfill % Đẩy box xuống đáy để căn đáy với ảnh
+
+                % Box Mục tiêu
+                \begin{tcolorbox}[
+                    enhanced,
+                    colback=gray!10,
+                    colframe=gray!40,
+                    arc=8pt,
+                    boxrule=1pt,
+                    left=6pt, right=6pt, top=6pt, bottom=6pt,
+                    width=\linewidth
+                ]
+                    \small
+                    \textbf{Mục tiêu:} tạo ra một giải pháp cân bằng giữa độ chính xác và chi phí, giúp phát hiện sớm hư hỏng để tối ưu hóa vận hành.
+                \end{tcolorbox}
+            \end{minipage}
+        \end{column}
+    \end{columns}
     
 \end{frame}
 
