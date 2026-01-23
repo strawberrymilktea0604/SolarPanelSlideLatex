@@ -174,7 +174,7 @@
 
 \begin{frame}
     \frametitle{SO SÁNH HIỆU SUẤT}
-    
+    \vspace{0.15cm}
     \small 
     \renewcommand{\arraystretch}{1.5}
     \setlength{\tabcolsep}{3pt}
@@ -182,7 +182,7 @@
     
     \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash\hsize=1.5\hsize}X|*{5}{>{\centering\arraybackslash\hsize=0.9\hsize}X|}}
         \hhline{|-|-|-|-|-|-|}
-        \textbf{Mô hình} & \textbf{Accuracy (\%)} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Params (M)} \\
+        \textbf{Mô hình} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Params (M)} \\
         \hhline{|-|-|-|-|-|-|}
         % Dùng hhline để đường kẻ không bị màu đè
         \rowcolor{highlightYellow} \textbf{EfficientNet-B2} & \textbf{96,45} & \textbf{0,9646} & \textbf{0,9645} & \textbf{0,9645} & \textbf{7,7} \\
@@ -197,10 +197,10 @@
         \hhline{|-|-|-|-|-|-|}
     \end{tabularx}
     
-    \vspace{0.3cm}
-    
+    \vspace{0.15cm}
+    \textcolor{red}{\textbf{Nhận Xét:}}
     \begin{itemize}
-        \item \textcolor{red}{\textbf{Nhận Xét:}} EfficientNet-B2 đạt độ chính xác cao nhất (\textbf{96.45\%}).
+        \item EfficientNet-B2 đạt độ chính xác cao nhất (\textbf{96.45\%}).
         \item Mô hình nhẹ hơn gấp \textbf{3 lần} so với ResNet-50 và \textbf{5 lần} so với VGG16.
         \item Thời gian huấn luyện nhanh (~34 phút), phù hợp cho việc tinh chỉnh và cập nhật liên tục.
     \end{itemize}
