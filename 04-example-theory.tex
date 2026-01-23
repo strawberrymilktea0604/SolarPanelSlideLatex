@@ -506,55 +506,48 @@
     \definecolor{headerBlue}{HTML}{6FA8DC}
     
     % Kéo bảng lên sát mép trên hơn nữa (từ -0.5cm lên -0.65cm)
-    \vspace{-0.65cm} 
-    
+    % Kéo bảng lên sát mép trên hơn nữa (từ -0.5cm lên -0.65cm)
+    \vspace{-0.3cm}
     \begin{table}
         \centering
-        \resizebox{\textwidth}{!}{
-            % Giữ nguyên scriptsize như bạn muốn (không dùng tiny)
-            \scriptsize 
+        \resizebox{0.95\textwidth}{!}{
+            % Giảm size chữ xuống tiny
+            \tiny 
             
-            % Giảm giãn dòng xuống 0.75 (Vẫn đọc tốt, tiết kiệm chiều cao cực nhiều)
+            % Tăng giãn dòng lên 1.1 cho thoáng
             \setlength{\tabcolsep}{3pt} 
-            \renewcommand{\arraystretch}{0.75} 
+            \renewcommand{\arraystretch}{1.1} 
             
             \begin{tabular}{|
-                >{\raggedright\arraybackslash}p{2.2cm}|
+                >{\raggedright\arraybackslash}p{3.0cm}|
                 >{\raggedright\arraybackslash}p{5.5cm}|
-                >{\raggedright\arraybackslash}p{4.0cm}|
-                >{\raggedright\arraybackslash}p{6.0cm}|
+                >{\raggedright\arraybackslash}p{8.5cm}|
             }
                 \hline
                 \rowcolor{headerBlue} 
-                \textbf{Công nghệ} & \textbf{Đầu vào} & \textbf{Phương pháp} & \textbf{Kết quả} \\
+                \textbf{Công nghệ} & \textbf{Phương pháp} & \textbf{Kết quả} \\
                 \hline
                 
                 % Hàng 1
                 Chụp ảnh đa phổ & 
-                - Ảnh không lỗi: 15330 \newline - Ảnh lỗi: 5915 \newline - Train/Test: 80/20 & 
                 Mạng neural tích chập đa phổ & 
                 Độ chính xác: \newline - Đường kẻ dày: 76.4\% \newline - Vết xước: 48.6\% \newline - Tế bào bẩn: 87.2\% \\
                 \hline
                 
                 % Hàng 2
                 Chụp ảnh nhiệt hồng ngoại (IR) & 
-                18 video: \newline - 13 (72\%) huấn luyện \newline - 5 (28\%) kiểm thử & 
                 - YOLOv2 \newline - YOLOv3 & 
                 - YOLOv2: Accuracy 89\% \newline - YOLOv3: Accuracy 91\% \\
                 \hline
                 
                 % Hàng 3
                 Chụp ảnh RGB & 
-                - Dữ liệu gốc: 45754 \newline - Huấn luyện: 27537 \newline - Xác thực: 18217 & 
                 - ImpactNet \newline - Mask FCNN \newline - BiDAF \newline - WebNN & 
                 Bụi, Tuyết, Phân chim, Vết nứt với độ chính xác tổng thể là 84.5\% \\
                 \hline
                 
-                % Hàng 4: Đã viết gọn tên công nghệ để tránh xuống dòng quá nhiều
+                % Hàng 4
                 Camera CCD, Nhiệt (IR) \& RGB & 
-                Ảnh từ UAV: \newline 
-                + 2038 ảnh nhiệt: Train 1426, Test 306, Val 306 \newline
-                + 1500 ảnh KTS: Train 1050, Test 225, Val 225 & 
                 - Biến đổi hình thái \& Canny \newline 
                 - Xử lý ảnh nhiệt \& CCD \newline 
                 - Biến đổi Hough \newline 
@@ -566,22 +559,31 @@
                 - Vũng nước: 82.5\% \\
                 \hline
                 
-                % Hàng 5: Viết gọn tên công nghệ
+                % Hàng 5
                 Ảnh phát quang hồng ngoại gần & 
-                Tập dữ liệu chuẩn PVEL-AD-2021 & 
                 YOLOv7 & 
                 Precision: 88.3\% \\
                 \hline
                 
                 % Hàng 6
                 Chụp ảnh điện quang EL & 
-                148 ảnh tế bào quang điện (U-net): \newline - Train: 108 (73\%) \newline - Test: 30 (20\%) \newline - Val: 10 (7\%) & 
                 - VGG-16 \newline - U-net & 
                 Recall: \newline - Vết nứt: 84\% \newline - Vùng k.hoạt động: 69\% \newline - Lỗi đường dẫn pin: 53\% \\
                 \hline
             \end{tabular}
         }
     \end{table}
+    \vspace{-0.2cm}
+    % Sử dụng size tiny cho cả khối để dấu chấm (bullet) cũng nhỏ theo
+    {\tiny
+        \textbf{\textcolor{red}{Khoảng trống nghiên cứu}}
+        \begin{itemize}
+            \item Chưa có nhiều nghiên cứu xây dựng chuỗi xử lý khép kín
+            \item Nhiều nghiên cứu độ chính xác cao phụ thuộc ảnh nhiệt/EL, chi phí lớn, khó triển khai rộng rãi tại Việt Nam
+            \item Các nghiên cứu ảnh RGB còn xử lý rời rạc, chưa tích hợp tách pin – phân loại lỗi, và độ chính xác chưa cao do chưa sử dụng model phù hợp
+            \item Phần lớn bộ dữ liệu quốc tế được thu thập trong điều kiện khí hậu ôn đới, chưa phù hợp với điều kiện nhiệt đới gió mùa Việt Nam
+        \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}
