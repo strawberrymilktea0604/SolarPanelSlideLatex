@@ -1023,64 +1023,50 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}
-\label{sodobay}
-	\frametitle{SƠ ĐỒ BAY}
-    \vspace{-0.2cm}
-	\begin{columns}[c, onlytextwidth]
-        % --- CỘT 1 ---
-        \begin{column}{0.48\textwidth}
-            \centering
-            % Khung ảnh cố định 4.5cm chiều cao để cân đối
-            \begin{tikzpicture}
-                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 4.5cm);
-                % Ảnh landscape: width=\linewidth thường sẽ đủ chiều cao > 4.5cm (trừ khi ảnh quá dẹt)
-                % neo center để lấy vùng giữa ảnh
-                \node[anchor=center] at (0.5\linewidth, 2.25cm) {\includegraphics[width=\linewidth]{images/PhuongPhap/sodobay1.jpg}};
-            \end{tikzpicture}
-        \end{column}
 
-        % --- CỘT 2 ---
-        \begin{column}{0.48\textwidth}
-            \centering
-            % Khung ảnh cố định 4.5cm
-            \begin{tikzpicture}
-                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 4.5cm);
-                % Ảnh portrait: width=\linewidth sẽ làm ảnh rất cao -> bị crop trên dưới -> lấy được phần màn hình điều khiển ở giữa
-                \node[anchor=center] at (0.5\linewidth, 2.25cm) {\includegraphics[width=\linewidth]{images/PhuongPhap/sodobay2.jpg}};
-            \end{tikzpicture}
-        \end{column}
-    \end{columns}
-\end{frame}
 
 \begin{frame}
 \label{toancanh}
 	\frametitle{THÔNG SỐ BAY TỐI ƯU}
 	
-    \begin{columns}[c, onlytextwidth]
-        % --- CỘT TRÁI: THÔNG SỐ BAY ---
-        \begin{column}{0.5\textwidth}            
-            \begin{itemize}
-                \setlength\itemsep{0.4cm} 
-                \raggedright
-                
-                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/docao.png}}] \textbf{Độ cao:} 25m so với mặt đất.
-                
-                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/gocchup.png}}] \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).
-                
-                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/thoigian.png}}] \textbf{Thời gian:} 9:00 - 11:00 sáng.
-            \end{itemize}
-        \end{column}
+    \vspace{0.2cm}
 
-        % --- CỘT PHẢI: HÌNH ẢNH ---
-        \begin{column}{0.48\textwidth}
+    % --- DÒNG 1: THÔNG SỐ (1 HÀNG NGANG) ---
+    \begin{center}
+        \small
+        % Icon được hạ thấp xuống để cân giữa với dòng chữ
+        \raisebox{-0.3em}{\includegraphics[height=1.2em]{images/PhuongPhap/icons/docao.png}} \textbf{Độ cao:} 25m
+        \hspace{0.25cm} \textcolor{gray}{\rule[-0.3em]{1.5pt}{1.2em}} \hspace{0.25cm} % Đường kẻ đứng đậm hơn chút và cân giữa
+        \raisebox{-0.3em}{\includegraphics[height=1.2em]{images/PhuongPhap/icons/gocchup.png}} \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$)
+        \hspace{0.25cm} \textcolor{gray}{\rule[-0.3em]{1.5pt}{1.2em}} \hspace{0.25cm}
+        \raisebox{-0.3em}{\includegraphics[height=1.2em]{images/PhuongPhap/icons/thoigian.png}} \textbf{Thời gian:} 9:00 - 11:00
+    \end{center}
+
+    \vspace{0.3cm}
+
+    % --- DÒNG 2: 2 ẢNH BẰNG NHAU ---
+    \begin{columns}[c, onlytextwidth]
+        % Ảnh 1: sodobay2.jpg (Màn hình điều khiển)
+        \begin{column}{0.49\textwidth}
             \centering
             \begin{tikzpicture}
-                % Khung bo góc tròn, chiều cao 5.8cm
-                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.8cm);
-                
-                % Tăng width lên 1.6 để đảm bảo ảnh đủ lớn lấp đầy khung 5.8cm -> sẽ thấy được bo góc
-                \node[anchor=center] at (0.5\linewidth, 2.9cm) {
+                % Khung bo góc tròn, chiều cao 5.0cm (cố định để 2 ảnh bằng nhau)
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.0cm);
+                % Zoom ảnh để lấp đầy khung
+                \node[anchor=center] at (0.5\linewidth, 2.5cm) {
+                    \includegraphics[width=\linewidth, height=5.0cm, keepaspectratio=false]{images/PhuongPhap/sodobay2.jpg}
+                };
+            \end{tikzpicture}
+        \end{column}
+        
+        \hfill
+
+        % Ảnh 2: toancanh.jpg (Toàn cảnh bay)
+        \begin{column}{0.49\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.0cm);
+                \node[anchor=center] at (0.5\linewidth, 2.5cm) {
                     \includegraphics[width=1.6\linewidth]{images/PhuongPhap/toancanh.jpg}
                 };
             \end{tikzpicture}
@@ -1168,29 +1154,29 @@
 \end{scope}
     \end{tikzpicture}
     
-    \vspace{2pt} % Khoảng cách giữa ảnh và box bên dưới
+    \vspace{0.35cm} % Dịch xuống thêm
     
     % Phần hộp nội dung kết quả (Box xám)
     \begin{tikzpicture}
         \node[
             fill=mybg, 
             rounded corners=5pt, 
-            inner sep=8pt, 
-            text width=0.95\textwidth, 
+            inner sep=6pt, % Tăng padding lên
+            text width=0.98\textwidth, 
             anchor=north
         ] {
-            \begin{columns}[T]
+            \begin{columns}[c]
                 % Cột tiêu đề trái
-                \begin{column}{0.25\textwidth}
-                    \textbf{Kết quả và\\độ tin cậy}
+                \begin{column}{0.3\textwidth}
+                    \hspace{0.5cm}\textbf{\textcolor{mypinred}{Kết quả và độ tin cậy}}
                 \end{column}
                 
                 % Cột nội dung phải
-                \begin{column}{0.75\textwidth}
+                \begin{column}{0.7\textwidth}
                     \small
                     Quy trình đạt độ chính xác tách chiết \textbf{\textcolor{myblue}{96.9\%}} (Kiểm tra thủ công trên 1.000 mẫu)
                     
-                    \vspace{0.3em} % Khoảng cách dòng
+                    \vspace{0.1em}
                     
                     Tự động trích xuất \textbf{\textcolor{myblue}{5.902}} ảnh tấm pin riêng lẻ từ 130 ảnh toàn cảnh.
                 \end{column}
