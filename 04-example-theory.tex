@@ -586,51 +586,43 @@
 
 \begin{frame}
     \frametitle{MÔ HÌNH EfficientNet-B2}
+    \vspace{-0.5cm}
 
     % [QUAN TRỌNG] Sử dụng shrink để tự động co giãn nếu vẫn bị tràn chút ít (tùy chọn)
     % Hoặc bỏ [shrink] nếu code bên dưới đã vừa vặn.
     
-    \begin{columns}[T] 
+    % Tăng size chữ lên normalsize để to hơn nữa
+    \normalsize 
+    
+    EfficientNet-B2 là một mô hình Deep Learning, thuộc nhóm mạng nơ-ron tích chập (CNN), được sử dụng phổ biến trong các bài toán phân loại ảnh.
+    
+    \vspace{0.5cm}
+    
+    \begin{columns}[c, onlytextwidth]
+        % --- CỘT TRÁI: LÝ DO ---
+        \begin{column}{0.55\textwidth}
+            % Tiêu đề to hơn
+            {\large\textbf{\textcolor{red}{Lý do lựa chọn EfficientNet-B2:}}}
+            \vspace{0.3cm}
         
-        % --- CỘT TRÁI: VĂN BẢN ---
-        \begin{column}{0.6\textwidth} % Tăng độ rộng cột chữ lên một chút cho thoáng
-            
-            % Dùng \footnotesize thay vì \small để chữ nhỏ hơn, vừa trang
-            \footnotesize 
-            
-            % Tiêu đề
-            {\textbf{\textcolor{red}{Tại sao chọn EfficientNet-B2 ?}}}
-            \vspace{0.1cm} % Giảm khoảng cách (từ 0.3 xuống 0.1)
-
-            % Nội dung
-            Kiến trúc này sử dụng phương pháp \textbf{Compound Scaling}, cân bằng tối ưu giữa 3 yếu tố: độ sâu (depth), độ rộng (width) và độ phân giải (resolution).
-            \vspace{0.1cm} % Giảm khoảng cách
-
-            % Danh sách
+            % Danh sách giãn cách rộng hơn
             \begin{itemize}
-                % Giảm khoảng cách giữa các item (từ 0.8em xuống 0.3em)
-                \setlength\itemsep{0.3em} 
+                \setlength\itemsep{1.0em} 
                 
-                \item[\textcolor{cyan}{\checkmark}] \textbf{Số lượng tham số:} 7.7 Triệu.
+                \item[\textcolor{cyan}{\checkmark}] Cân bằng tốt giữa độ chính xác và chi phí tính toán.
                 
-                \item[\textcolor{cyan}{\checkmark}] \textbf{Khối MBConv:} Mobile Inverted Bottleneck giúp giảm chi phí tính toán.
+                \item[\textcolor{cyan}{\checkmark}] Phù hợp với ảnh RGB thu thập từ UAV.
                 
-                \item[\textcolor{cyan}{\checkmark}] \textbf{Squeeze-and-Excitation (SE):} Cơ chế Attention giúp tập trung đặc trưng lỗi.
-                
-                \item[\textcolor{cyan}{\checkmark}] \textbf{Transfer Learning:} Dùng trọng số ImageNet để hội tụ nhanh.
+                \item[\textcolor{cyan}{\checkmark}] Đáp ứng yêu cầu triển khai thực tế trên tập dữ liệu lớn.
             \end{itemize}
-
-            \vspace{0.2cm} % Giảm khoảng cách cuối
-            \textbf{Hàm mất mát (Loss Function):} Kết hợp Weighted Cross-Entropy và Focal Loss
         \end{column}
-
+        
         % --- CỘT PHẢI: HÌNH ẢNH ---
-        \begin{column}{0.4\textwidth}
+        \begin{column}{0.42\textwidth}
             \centering
-            % Giảm chiều cao ảnh xuống 75% chiều cao slide (thay vì 0.8) để tránh đẩy khung
-            \includegraphics[width=\textwidth, height=0.75\textheight, keepaspectratio]{images/TongQuan/mohinhe2.png}
+            % Ảnh đặt bên cạnh sẽ có nhiều không gian chiều cao hơn
+            \includegraphics[width=\linewidth, keepaspectratio]{images/TongQuan/mohinhe2.png}
         \end{column}
-
     \end{columns}
 \end{frame}
 
