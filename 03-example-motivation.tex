@@ -8,65 +8,65 @@
 \SectionIntro{Phần 1: Đặt vấn đề \& tổng quan}{Bối cảnh năng lượng tái tạo và thách thức trong công tác bảo trì.}
 
 %------------------------------------------------
-\begin{frame}
-    \frametitle{BỐI CẢNH VÀ TÍNH CẤP THIẾT}
-    \vspace{-0.2cm}
-    % Fix overfull hbox by forcing exact bounding box
-    \setlength{\emergencystretch}{3em}
-    \begin{columns}[c,onlytextwidth]
-        \begin{column}{0.42\textwidth}
-            \justifying
-            {\scriptsize Năng lượng mặt trời (PV) đang bùng nổ toàn cầu với tốc độ tăng trưởng \textbf{>20\%} mỗi năm (theo IEA). Tại Việt Nam, xu hướng này đang phát triển mạnh mẽ. Tính đến đầu năm 2025, điện mặt trời đã chiếm \textbf{11.85\%} tổng công suất nguồn điện cả nước.}
+% \begin{frame}
+%     \frametitle{BỐI CẢNH VÀ TÍNH CẤP THIẾT}
+%     \vspace{-0.2cm}
+%     % Fix overfull hbox by forcing exact bounding box
+%     \setlength{\emergencystretch}{3em}
+%     \begin{columns}[c,onlytextwidth]
+%         \begin{column}{0.42\textwidth}
+%             \justifying
+%             {\scriptsize Năng lượng mặt trời (PV) đang bùng nổ toàn cầu với tốc độ tăng trưởng \textbf{>20\%} mỗi năm (theo IEA). Tại Việt Nam, xu hướng này đang phát triển mạnh mẽ. Tính đến đầu năm 2025, điện mặt trời đã chiếm \textbf{11.85\%} tổng công suất nguồn điện cả nước.}
 
-            \vspace{0.05cm}
+%             \vspace{0.05cm}
 
-            % Example box
-            \begin{tikzpicture}
-                \node[inner sep=3pt,rounded corners=0pt] (box) {
-                    % Reduced width to 0.92 to ensure padding (inner sep) doesn't cause overflow
-                    \begin{minipage}{0.92\linewidth}
-                        {\scriptsize \hspace{0.1cm}\textbf{Ví dụ: NM điện mặt trời Dầu Tiếng}}
-                        {\scriptsize
-                        \begin{itemize}\setlength\itemsep{0pt}\setlength\parskip{0pt}
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Công suất:} >600 MWp.
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Quy mô:} Hàng trăm héc-ta.
-                            \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Thách thức:} Giám sát thủ công khó khăn.
-                        \end{itemize}}
-                    \end{minipage}
-                };
-                \begin{scope}[on background layer]
-                    \fill[gray!15,rounded corners=0pt] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south east)+(0.04cm,-0.04cm)$);
-                \end{scope}
-            \end{tikzpicture}
+%             % Example box
+%             \begin{tikzpicture}
+%                 \node[inner sep=3pt,rounded corners=0pt] (box) {
+%                     % Reduced width to 0.92 to ensure padding (inner sep) doesn't cause overflow
+%                     \begin{minipage}{0.92\linewidth}
+%                         {\scriptsize \hspace{0.1cm}\textbf{Ví dụ: NM điện mặt trời Dầu Tiếng}}
+%                         {\scriptsize
+%                         \begin{itemize}\setlength\itemsep{0pt}\setlength\parskip{0pt}
+%                             \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Công suất:} >600 MWp.
+%                             \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Quy mô:} Hàng trăm héc-ta.
+%                             \item[\textcolor{green!50!black}{\ding{51}}] \textbf{Thách thức:} Giám sát thủ công khó khăn.
+%                         \end{itemize}}
+%                     \end{minipage}
+%                 };
+%                 \begin{scope}[on background layer]
+%                     \fill[gray!15,rounded corners=0pt] ($(box.north west)+(-0.04cm,0.04cm)$) rectangle ($(box.south east)+(0.04cm,-0.04cm)$);
+%                 \end{scope}
+%             \end{tikzpicture}
 
-            \vspace{0.05cm}
+%             \vspace{0.05cm}
 
-            \justifying
-            {\scriptsize Theo \textbf{Quy hoạch điện VIII}, dư địa phát triển năng lượng tái tạo vẫn lớn, dự kiến điện mặt trời tiếp tục \textbf{tăng trưởng mạnh đến 2030.}}
-        \end{column}%
-        \begin{column}{0.52\textwidth}
-            \begin{center}
-                \begin{tikzpicture}
-                    % Use 0.99\linewidth to avoid rounding errors causing overfull hbox
-                    \pgfmathsetmacro{\w}{0.99*\linewidth}
-                    \pgfmathsetmacro{\h}{\w * 0.6} % Aspect ratio
+%             \justifying
+%             {\scriptsize Theo \textbf{Quy hoạch điện VIII}, dư địa phát triển năng lượng tái tạo vẫn lớn, dự kiến điện mặt trời tiếp tục \textbf{tăng trưởng mạnh đến 2030.}}
+%         \end{column}%
+%         \begin{column}{0.52\textwidth}
+%             \begin{center}
+%                 \begin{tikzpicture}
+%                     % Use 0.99\linewidth to avoid rounding errors causing overfull hbox
+%                     \pgfmathsetmacro{\w}{0.99*\linewidth}
+%                     \pgfmathsetmacro{\h}{\w * 0.6} % Aspect ratio
                     
-                    % FORCE Bounding box to be exactly the linewidth
-                    % This hides the 0.75pt border spill from TeX's layout engine
-                    \useasboundingbox (0,0) rectangle (\w pt, \h pt);
+%                     % FORCE Bounding box to be exactly the linewidth
+%                     % This hides the 0.75pt border spill from TeX's layout engine
+%                     \useasboundingbox (0,0) rectangle (\w pt, \h pt);
 
-                    \begin{scope}
-                        \clip[rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
-                        \node[anchor=center,inner sep=0pt] at (0.5*\w pt, 0.5*\h pt) {\includegraphics[width=\w pt, height=\h pt, keepaspectratio=false]{images/DatVanDe/dautieng.jpg}};
-                    \end{scope}
-                    % Draw the border on top
-                    \draw[line width=1.5pt,rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
-                \end{tikzpicture}
-            \end{center}
-        \end{column}
-    \end{columns}
+%                     \begin{scope}
+%                         \clip[rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
+%                         \node[anchor=center,inner sep=0pt] at (0.5*\w pt, 0.5*\h pt) {\includegraphics[width=\w pt, height=\h pt, keepaspectratio=false]{images/DatVanDe/dautieng.jpg}};
+%                     \end{scope}
+%                     % Draw the border on top
+%                     \draw[line width=1.5pt,rounded corners=8pt] (0,0) rectangle (\w pt, \h pt);
+%                 \end{tikzpicture}
+%             \end{center}
+%         \end{column}
+%     \end{columns}
 
-\end{frame}
+% \end{frame}
 
 %------------------------------------------------
 
