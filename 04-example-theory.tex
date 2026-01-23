@@ -1108,71 +1108,68 @@
 \definecolor{mypinred}{HTML}{D93025} % Màu đỏ cho cái ghim
 \definecolor{mybg}{HTML}{EFF1F3} % Màu xám nhạt nền box
 
-\begin{frame}
-    \frametitle{TÁCH CHIẾT TẤM PIN}
+\begin{frame}       
+\frametitle{TÁCH CHIẾT TẤM PIN}
+
+\centering
+
+% Phần hình ảnh và nhãn đè lên (Overlay text)
+\begin{tikzpicture}
+    % Chèn ảnh gốc
+    \node[anchor=south west, inner sep=0] (image) at (0,0) {
+        \includegraphics[width=\textwidth]{images/PhuongPhap/tachchiet.png}
+    };
     
-    \centering
+    % --- PHẦN CHỈNH SỬA VỊ TRÍ NHÃN ---
+    % Đã đổi \tiny thành \footnotesize để chữ rõ hơn
+\begin{scope}[x={(image.south east)}, y={(image.north west)}, font=\bfseries\fontsize{5pt}{5pt}\selectfont]
     
-    % Phần hình ảnh và nhãn đè lên (Overlay text)
-    \begin{tikzpicture}
-        % Chèn ảnh gốc, căn chỉnh độ rộng bằng chiều ngang văn bản
-        % LƯU Ý: Thay đổi đường dẫn ảnh nếu cần thiết, LaTeX dùng dấu gạch chéo /
-        \node[anchor=south west, inner sep=0] (image) at (0,0) {
-            \includegraphics[width=\textwidth]{images/PhuongPhap/tachchiet.png}
-        };
-        
-        % Tọa độ tương đối để đặt nhãn (cần tinh chỉnh nếu ảnh bị méo)
-        % Quy ước: (0,0) là góc dưới trái ảnh, (1,1) là góc trên phải ảnh
-\begin{scope}[x={(image.south east)}, y={(image.north west)}, font=\bfseries\tiny]
-    
-    % --- HÀNG TRÊN (Y khoảng 0.95) ---
+    % --- HÀNG TRÊN (Điều chỉnh Y xuống khoảng 0.92) ---
     
     % Nhãn: Ảnh GRAY (Góc trên trái - Cột trái)
-    % Dùng anchor=north west để chữ "treo" từ tọa độ xuống dưới
-    \node[anchor=north west, text=white] at (0.37, 0.98) { 
+    \node[anchor=north west, text=white] at (0.265, 1.02) { 
         \textcolor{mypinred}{\faThumbtack}~Ảnh GRAY:
     };
     
     % Nhãn: Ảnh CANNY (Góc trên phải - Cột phải)
-    % Tọa độ x bắt đầu từ 0.52 (qua nửa phải một chút)
-    \node[anchor=north west, text=white] at (0.52, 0.98) { 
+    \node[anchor=north west, text=white] at (0.38, 1.02) { 
         \textcolor{mypinred}{\faThumbtack}~Ảnh CANNY:
     };
     
-    % --- HÀNG DƯỚI (Y khoảng 0.48) ---
+    % --- HÀNG DƯỚI (Điều chỉnh Y xuống khoảng 0.42) ---
     
     % Nhãn: Ảnh BLUR (Góc dưới trái - Cột trái)
-    % Đặt y=0.48 và anchor=north west để chữ nằm dưới đường kẻ giữa
-    \node[anchor=north west, text=white] at (0.37, 0.48) { 
+    \node[anchor=north west, text=white] at (0.265, 0.51) { 
         \textcolor{mypinred}{\faThumbtack}~Ảnh BLUR:
     };
     
     % Nhãn: Ảnh CONTOUR (Góc dưới phải - Cột phải)
-    \node[anchor=north west, text=white] at (0.52, 0.48) { 
+    \node[anchor=north west, text=white] at (0.37, 0.51) { 
         \textcolor{mypinred}{\faThumbtack}~Ảnh CONTOUR:
     };
-    
+
+    % Nhãn: ID trên mũi tên (Giữa ảnh 3 và 4)
+    \node[anchor=south] at (0.78, 0.55) { 
+        \textbf{\textcolor{red}{\shortstack{ID \\ tương ứng}}}
+    };
 \end{scope}
-    \end{tikzpicture}
+\end{tikzpicture}
+
+    \vspace{0.35cm}
     
-    \vspace{0.35cm} % Dịch xuống thêm
-    
-    % Phần hộp nội dung kết quả (Box xám)
+    % Phần hộp nội dung kết quả (Giữ nguyên)
     \begin{tikzpicture}
         \node[
             fill=mybg, 
             rounded corners=5pt, 
-            inner sep=8pt, % Tăng thêm padding cho thoáng
-            text width=0.94\textwidth, % Giảm width một chút để bù cho padding, tránh lỗi overfull
+            inner sep=8pt,
+            text width=0.94\textwidth,
             anchor=north
         ] {
             \begin{columns}[c]
-                % Cột tiêu đề trái
                 \begin{column}{0.3\textwidth}
-                    \hspace{0.5cm}\textbf{\textcolor{mypinred}{Kết quả và độ tin cậy}}
+                    \hspace{0.4cm}\textbf{\textcolor{mypinred}{Kết quả và độ tin cậy}}
                 \end{column}
-                
-                % Cột nội dung phải
                 \begin{column}{0.7\textwidth}
                     \small
                     Quy trình đạt độ chính xác tách chiết \textbf{\textcolor{myblue}{96.9\%}} (Kiểm tra thủ công trên 1.000 mẫu)
@@ -1180,34 +1177,6 @@
             \end{columns}
         };
     \end{tikzpicture}
-
-\end{frame}
-
-\begin{frame}
-    \frametitle{TÁCH CHIẾT TẤM PIN}
-    \vspace{0.2cm}
-
-    % Chèn ảnh và chữ overlay
-    \begin{figure}
-        \centering
-        \begin{tikzpicture}
-            % 1. Chèn ảnh nền
-            % Đảm bảo đường dẫn ảnh đúng với máy của bạn
-            \node[anchor=south west, inner sep=0] (image) at (0,0) {
-                \includegraphics[width=\textwidth, height=0.6\textheight, keepaspectratio]{images/PhuongPhap/tachchietid.png}
-            };
-
-            % 2. Chèn chữ "ID tương ứng"
-            % Sử dụng hệ tọa độ tương đối (0,0) đến (1,1) trên ảnh
-            \begin{scope}[x={(image.south east)}, y={(image.north west)}]
-                % - text=red: Màu đỏ
-                % - font=\bfseries\small: Chữ in đậm và nhỏ lại (có thể dùng \footnotesize nếu muốn nhỏ hơn nữa)
-                % - align=center: Căn giữa các dòng chữ
-                % - at (0.5, 0.43): Đặt tại vị trí giữa theo chiều ngang (0.5) và bên dưới mũi tên theo chiều dọc (0.43)
-                \node[text=red, font=\bfseries\tiny, align=center, anchor=north] at (0.53, 0.7) {ID\\tương ứng};
-            \end{scope}
-        \end{tikzpicture}
-    \end{figure}
 
 \end{frame}
 

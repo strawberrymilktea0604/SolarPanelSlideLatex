@@ -2,4 +2,4 @@
 \beamer@sectionintoc {2}{Đặt vấn đề \& mục tiêu}{3}{0}{1}
 \beamer@sectionintoc {3}{Cơ sở lý thuyết \& tổng quan}{10}{0}{2}
 \beamer@sectionintoc {4}{Phương pháp đề xuất}{16}{0}{3}
-\beamer@sectionintoc {5}{Kết luận \& hướng phát triển}{25}{0}{4}
+\beamer@sectionintoc {5}{Kết luận \& hướng phát triển}{24}{0}{4}
