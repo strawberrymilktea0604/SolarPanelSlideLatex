@@ -304,37 +304,70 @@
 \begin{frame}
     \frametitle{PHẠM VI NGHIÊN CỨU}
 
-    \vspace{-0.2cm}
-    \begin{columns}[c]
-        % --- Cột nội dung ---
-        \begin{column}{0.6\textwidth}
+    % Điều chỉnh khoảng cách trên (0cm để vừa vặn, không quá sát title)
+    \vspace{0.0cm}
+    
+    % --- ROW 1: Dữ liệu ---
+    \begin{columns}[c] 
+        \begin{column}{0.65\textwidth}
             \begin{itemize}
-                \setlength\itemsep{1.2em} 
-                
-                % Dữ liệu
-                \item \textbf{Dữ liệu nghiên cứu:} 
-                Sử dụng bộ dữ liệu ảnh màu (RGB) độ phân giải cao, được thu thập thực tế từ thiết bị bay không người lái (UAV) tại khu vực khảo sát.
-        
-                % Đối tượng
-                \item \textbf{Đối tượng áp dụng:} 
-                Nghiên cứu tập trung vào hệ thống pin mặt trời được lắp đặt tại các trang trại năng lượng mặt trời quy mô lớn.
-        
-                % Giới hạn
-                \item \textbf{Giới hạn đề tài:} 
-                Hệ thống chỉ tập trung phát hiện các dạng hư hỏng vật lý quan sát được trên bề mặt; không bao gồm các đo đạc chuyên sâu về đặc tính điện hay cấu trúc bên trong tế bào quang điện.
+                \setlength\itemsep{0pt}
+                \item \textbf{Dữ liệu nghiên cứu:} \\ 
+                Ảnh màu (RGB) độ phân giải cao, thu thập thực tế từ UAV tại khu vực khảo sát.
             \end{itemize}
         \end{column}
-        
-        % --- Cột hình ảnh minh họa ---
-        \begin{column}{0.38\textwidth}
+        \begin{column}{0.33\textwidth}
             \centering
-            \newsavebox{\roundedfig}
-            \sbox{\roundedfig}{\includegraphics[width=\linewidth]{images/DatVanDe/minhhoa.jpg}}
+            % Giảm chiều cao ảnh xuống 1.8cm
             \begin{tikzpicture}
-                \clip[rounded corners=15pt] (0,0) rectangle (\wd\roundedfig, \ht\roundedfig);
-                \node[inner sep=0pt, anchor=south west] at (0,0) {\usebox{\roundedfig}};
-                % Vẽ thêm viền nếu cần
-                %\draw[rounded corners=15pt, line width=1pt, gray] (0,0) rectangle (\wd\roundedfig, \ht\roundedfig);
+                \clip[rounded corners=8pt] (0,0) rectangle (3.6cm, 1.8cm);
+                \node[anchor=center, inner sep=0pt] at (1.8cm, 0.9cm) {
+                    \includegraphics[width=3.6cm, height=1.8cm, keepaspectratio=false]{images/DatVanDe/minhhoa.jpg}
+                };
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+    
+    \vspace{0.2cm} % Giảm khoảng cách giữa các hàng cho vừa trang
+
+    % --- ROW 2: Đối tượng ---
+    \begin{columns}[c]
+        \begin{column}{0.65\textwidth}
+            \begin{itemize}
+                \setlength\itemsep{0pt}
+                \item \textbf{Đối tượng áp dụng:} \\ 
+                Hệ thống pin mặt trời tại các trang trại năng lượng mặt trời quy mô lớn.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \clip[rounded corners=8pt] (0,0) rectangle (3.6cm, 1.8cm);
+                \node[anchor=center, inner sep=0pt] at (1.8cm, 0.9cm) {
+                    \includegraphics[width=3.6cm, height=1.8cm, keepaspectratio=false]{images/DatVanDe/canhdong.jpg}
+                };
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
+    
+    \vspace{0.2cm}
+
+    % --- ROW 3: Giới hạn ---
+    \begin{columns}[c]
+        \begin{column}{0.65\textwidth}
+            \begin{itemize}
+                \setlength\itemsep{0pt}
+                \item \textbf{Giới hạn đề tài:} \\ 
+                Chỉ phát hiện các hư hỏng vật lý quan sát được trên bề mặt tấm pin; không xét đến các đo đạc chuyên sâu về đặc tính điện.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.33\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \clip[rounded corners=8pt] (0,0) rectangle (3.6cm, 1.8cm);
+                \node[anchor=center, inner sep=0pt] at (1.8cm, 0.9cm) {
+                    \includegraphics[width=3.6cm, height=1.8cm, keepaspectratio=false]{images/DatVanDe/bivo.jpg}
+                };
             \end{tikzpicture}
         \end{column}
     \end{columns}
