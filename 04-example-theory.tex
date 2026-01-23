@@ -1162,14 +1162,14 @@
         \node[
             fill=mybg, 
             rounded corners=5pt, 
-            inner sep=6pt, % Tăng padding lên
-            text width=0.98\textwidth, 
+            inner sep=8pt, % Tăng thêm padding cho thoáng
+            text width=0.94\textwidth, % Giảm width một chút để bù cho padding, tránh lỗi overfull
             anchor=north
         ] {
             \begin{columns}[c]
                 % Cột tiêu đề trái
                 \begin{column}{0.3\textwidth}
-                    \hspace{0.5cm}\textbf{\textcolor{mypinred}{Kết quả và độ tin cậy}}
+                    \hspace{0.4cm}\textbf{\textcolor{mypinred}{Kết quả và độ tin cậy}}
                 \end{column}
                 
                 % Cột nội dung phải

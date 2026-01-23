@@ -71,61 +71,124 @@
 %------------------------------------------------
 
 \begin{frame}
-    \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN VIỆT NAM}
-    
-    % [FIX 1] Giảm khoảng cách dưới tiêu đề (0.2 -> 0.1)
-    \vspace{0.1cm} 
-    
-    \begin{columns}[T] 
-        
-        % --- CỘT TRÁI: BẢN ĐỒ ---
-        \begin{column}{0.32\textwidth}
-            \centering
-            \vspace{0pt} 
-            \includegraphics[width=0.95\textwidth]{images/DatVanDe/bandonhietVietNam.png}
-        \end{column}
-        
-        % --- CỘT PHẢI: NỘI DUNG ---
-        \begin{column}{0.65\textwidth}
-            \vspace{0pt} 
-            
-            % === PHẦN 1: PHÁP LÝ ===
-            {\Large\textbf{\textcolor{blue!70!black}{PHÁP LÝ}}}
-            
-            \vspace{0.05cm}
-            
-            \footnotesize
-            \begin{itemize}
-                % [FIX 5] Giảm khoảng cách giữa các item (0.1 -> 0.02)
-                \setlength\itemsep{0.02cm} 
-                \item Chuyển từ giai đoạn chính sách giá ưu đãi (kích cầu đầu tư ồ ạt) sang giai đoạn phát triển bền vững và có kiểm soát.
-                \item Tập trung kiểm soát an toàn lưới điện và đặc biệt ưu tiên khuyến khích mô hình điện mặt trời \textbf{tự sản tự tiêu} (thay vì bán lên lưới).
-            \end{itemize}
-            
-            % [FIX 6] Giảm khoảng cách lớn giữa 2 phần (0.4 -> 0.25)
-            \vspace{0.2cm} 
-            
-            % === PHẦN 2: TIỀM NĂNG ===
-            {\Large\textbf{\textcolor{blue!70!black}{TIỀM NĂNG}}}
-            
-            \vspace{0.05cm}
-            
-            \footnotesize
-            \begin{itemize}
-                \setlength\itemsep{0.02cm}
-                \item \textbf{Việt Nam} nằm trong nhóm quốc gia có bức xạ mặt trời \textbf{tốt nhất Đông Nam Á}, đặc biệt tại miền Trung và Nam Bộ (bức xạ $>$4.6 kWh/kWp/ngày; $>$2500 giờ nắng/năm).
-                \item \textbf{Miền Nam} phù hợp phát triển cả trang trại lớn và điện áp mái; \textbf{Miền Bắc} tuy bức xạ thấp hơn nhưng vẫn hiệu quả cho mô hình áp mái kết hợp lưu trữ.
-            \end{itemize}
-            
-        \end{column}
-    \end{columns}
-\end{frame}
-\begin{frame}
 \label{Bungno}
 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
-	\begin{center}
-		\includegraphics[width=0.7\textwidth]{images/TongQuan/bieudobungno.png}
-	\end{center}
+    
+    \vspace{-0.2cm}
+    
+    % --- PHẦN 1: TỔNG QUAN (Bullet points) ---
+    \begin{itemize}
+        \setlength\itemsep{0.2em} % Giảm khoảng cách dòng
+        \small % Tăng size chữ lên small
+        \item Năng lượng tái tạo đang được ưu tiên phát triển trên toàn cầu.
+        \item Điện mặt trời chiếm tỷ trọng lớn nhất trong các nguồn NLTT.
+        \item Công suất lắp đặt tăng nhanh, tập trung ở các quốc gia lớn.
+        \item Mô hình triển khai chủ yếu: hệ thống quang điện (PV).
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    % --- PHẦN 2: BIỂU ĐỒ VÀ BẢNG SỐ LIỆU ---
+    \begin{columns}[c, onlytextwidth]
+        
+        % Cột trái: Biểu đồ
+        \begin{column}{0.48\textwidth}
+            \centering
+            % Ảnh width = 0.9\linewidth
+            \includegraphics[width=0.9\linewidth]{images/TongQuan/bieudobungno.png}
+        \end{column}
+
+        % Cột phải: Bảng số liệu
+        \begin{column}{0.48\textwidth}
+            \centering
+            % Resize bảng width = 0.9\linewidth (bằng ảnh)
+            % Tăng tabcolsep lên cao để bảng bè ra (tăng chiều rộng tự nhiên),
+            % giúp khi resize về cùng width sẽ giảm chiều cao xuống cho bằng ảnh.
+            \resizebox{0.9\linewidth}{!}{
+                \setlength{\tabcolsep}{12pt} % Tăng khoảng cách cột
+                \renewcommand{\arraystretch}{0.85} % Giảm khoảng cách dòng
+                \begin{tabular}{|c|l|r|}
+                    \hline
+                    \textbf{STT} & \textbf{Quốc gia} & \textbf{Công suất (MW)} \\
+                    \hline
+                    1 & Trung Quốc & 887,360 \\
+                    2 & Hoa Kỳ & 175,990 \\
+                    3 & Ấn Độ & 97,042 \\
+                    4 & Nhật Bản & 91,610 \\
+                    5 & Đức & 89,943 \\
+                    6 & Brazil & 53,113 \\
+                    7 & Úc & 38,469 \\
+                    8 & Tây Ban Nha & 36,285 \\
+                    9 & Italy & 36,008 \\
+                    10 & Korea Rep & 26,445 \\
+                    \hline
+                \end{tabular}
+            }
+        \end{column}
+
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN VIỆT NAM}
+    
+    \vspace{0cm}
+    
+    % --- PHẦN 1: NỘI DUNG CHÍNH ---
+    \begin{itemize}
+        \setlength\itemsep{0.1em}
+        \footnotesize
+        \item Việt Nam ưu tiên phát triển năng lượng tái tạo.
+        \item Định hướng rõ ràng từ Quy hoạch điện VII.
+        \item Nhiều trang trại điện mặt trời quy mô lớn đã đưa vào vận hành chủ yếu ở Nam Trung Bộ, Tây Nguyên và Nam Bộ.
+    \end{itemize}
+
+    \vspace{0.1cm}
+
+    % --- PHẦN 2: HÌNH ẢNH MINH HỌA (Lưới 2x2) ---
+    \begin{columns}[c, onlytextwidth]
+        % Cột 1
+        \begin{column}{0.48\textwidth}
+            \centering
+            \def\imgwidth{0.95\linewidth}
+            % Ảnh 1: Phú Yên
+            \begin{tikzpicture}
+                \clip[rounded corners=5pt] (0,0) rectangle (\imgwidth, 1.7cm);
+                \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[height=1.7cm, width=\imgwidth]{images/DatVanDe/pin/phuyen.jpg}};
+            \end{tikzpicture} \\
+            {\tiny \textbf{Phú Yên (257 MWp)}}
+            
+            \vspace{0.1cm}
+            
+            % Ảnh 3: Ninh Thuận
+            \begin{tikzpicture}
+                \clip[rounded corners=5pt] (0,0) rectangle (\imgwidth, 1.7cm);
+                \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[height=1.7cm, width=\imgwidth]{images/DatVanDe/pin/ninhthuan.jpg}};
+            \end{tikzpicture} \\
+            {\tiny \textbf{Ninh Thuận (168 MWp)}}
+        \end{column}
+
+        % Cột 2
+        \begin{column}{0.48\textwidth}
+            \centering
+            \def\imgwidth{0.95\linewidth}
+            % Ảnh 2: Dầu Tiếng
+            \begin{tikzpicture}
+                \clip[rounded corners=5pt] (0,0) rectangle (\imgwidth, 1.7cm);
+                \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[height=1.7cm, width=\imgwidth]{images/DatVanDe/pin/dautieng.jpg}};
+            \end{tikzpicture} \\
+            {\tiny \textbf{Dầu Tiếng (420 MWp)}}
+            
+            \vspace{0.1cm}
+            
+            % Ảnh 4: Trung Nam
+            \begin{tikzpicture}
+                \clip[rounded corners=5pt] (0,0) rectangle (\imgwidth, 1.7cm);
+                \node[anchor=south west, inner sep=0] at (0,0) {\includegraphics[height=1.7cm, width=\imgwidth]{images/DatVanDe/pin/trungnam.jpg}};
+            \end{tikzpicture} \\
+            {\tiny \textbf{Trung Nam (450 MWp)}}
+        \end{column}
+    \end{columns}
 \end{frame}
 %------------------------------------------------
 \begin{frame}
