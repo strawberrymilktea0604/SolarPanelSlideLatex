@@ -664,128 +664,128 @@
 \definecolor{myRed}{HTML}{FF3333}
 \definecolor{bgGray}{HTML}{F8FAFC}
 \definecolor{textDark}{HTML}{333333}
-\begin{frame}
-    \frametitle{ĐÁNH GIÁ MÔ HÌNH}
+% \begin{frame}
+%     \frametitle{ĐÁNH GIÁ MÔ HÌNH}
 
-    % Tiêu đề chính
-    \begin{center}
-        \textbf{\textcolor{myRed}{\large Tại Sao Cần Đánh Giá Mô Hình?}}
-    \end{center}
+%     % Tiêu đề chính
+%     \begin{center}
+%         \textbf{\textcolor{myRed}{\large Tại Sao Cần Đánh Giá Mô Hình?}}
+%     \end{center}
     
-    \vspace{0.2cm} % Giảm khoảng cách để tránh tràn trang
+%     \vspace{0.2cm} % Giảm khoảng cách để tránh tràn trang
 
-    % Chia 2 cột lớn độc lập cho toàn bộ slide
-    \begin{columns}[T] % T = Top alignment (căn đỉnh trên)
+%     % Chia 2 cột lớn độc lập cho toàn bộ slide
+%     \begin{columns}[T] % T = Top alignment (căn đỉnh trên)
         
-        % --- CỘT TRÁI: Khả năng tổng quát hóa ---
-        \begin{column}{0.48\textwidth}
-            \begin{tcolorbox}[
-                enhanced, equal height group=evalbox,
-                colback=bgGray,
-                colframe=bgGray,
-                arc=8pt,
-                boxrule=0pt,
-                left=4pt, right=4pt, top=6pt, bottom=6pt
-            ]
-                % Chia cột nhỏ bên trong Box (Icon | Tiêu đề)
-                \begin{columns}
-                    % Cột chứa Icon (nhỏ lại theo yêu cầu)
-                    \begin{column}{0.15\textwidth}
-                        \centering
-                        % Đặt kích thước cố định nhỏ (0.8cm)
-                        \includegraphics[width=0.6cm, keepaspectratio]{images/TongQuan/icons/khaiquat.png}
-                    \end{column}
-                    % Cột chứa Tiêu đề
-                    \begin{column}{0.83\textwidth}
-                        \textbf{\small Khả năng tổng quát hóa}
-                    \end{column}
-                \end{columns}
+%         % --- CỘT TRÁI: Khả năng tổng quát hóa ---
+%         \begin{column}{0.48\textwidth}
+%             \begin{tcolorbox}[
+%                 enhanced, equal height group=evalbox,
+%                 colback=bgGray,
+%                 colframe=bgGray,
+%                 arc=8pt,
+%                 boxrule=0pt,
+%                 left=4pt, right=4pt, top=6pt, bottom=6pt
+%             ]
+%                 % Chia cột nhỏ bên trong Box (Icon | Tiêu đề)
+%                 \begin{columns}
+%                     % Cột chứa Icon (nhỏ lại theo yêu cầu)
+%                     \begin{column}{0.15\textwidth}
+%                         \centering
+%                         % Đặt kích thước cố định nhỏ (0.8cm)
+%                         \includegraphics[width=0.6cm, keepaspectratio]{images/TongQuan/icons/khaiquat.png}
+%                     \end{column}
+%                     % Cột chứa Tiêu đề
+%                     \begin{column}{0.83\textwidth}
+%                         \textbf{\small Khả năng tổng quát hóa}
+%                     \end{column}
+%                 \end{columns}
 
-                \vspace{0.2cm}
+%                 \vspace{0.2cm}
                 
-                % Nội dung text
-                \justifying
-                \color{textDark}
-                \footnotesize % Dùng font nhỏ hơn một chút để an toàn
-                Mục tiêu cuối cùng không chỉ là khớp dữ liệu huấn luyện (Training Data) mà là hoạt động tốt trên dữ liệu chưa biết (Unseen Data).
-            \end{tcolorbox}
-        \end{column}
+%                 % Nội dung text
+%                 \justifying
+%                 \color{textDark}
+%                 \footnotesize % Dùng font nhỏ hơn một chút để an toàn
+%                 Mục tiêu cuối cùng không chỉ là khớp dữ liệu huấn luyện (Training Data) mà là hoạt động tốt trên dữ liệu chưa biết (Unseen Data).
+%             \end{tcolorbox}
+%         \end{column}
 
-        % --- CỘT PHẢI: Overfitting vs Underfitting ---
-        \begin{column}{0.48\textwidth}
-            \begin{tcolorbox}[
-                enhanced, equal height group=evalbox,
-                colback=bgGray,
-                colframe=bgGray,
-                arc=8pt,
-                boxrule=0pt,
-                left=4pt, right=4pt, top=6pt, bottom=6pt
-            ]
-                % Chia cột nhỏ bên trong Box
-                \begin{columns}
-                    \begin{column}{0.15\textwidth}
-                        \centering
-                        \includegraphics[width=0.8cm, keepaspectratio]{images/TongQuan/icons/over.png}
-                    \end{column}
-                    \begin{column}{0.83\textwidth}
-                        \textbf{\small Overfitting vs Underfitting}
-                    \end{column}
-                \end{columns}
+%         % --- CỘT PHẢI: Overfitting vs Underfitting ---
+%         \begin{column}{0.48\textwidth}
+%             \begin{tcolorbox}[
+%                 enhanced, equal height group=evalbox,
+%                 colback=bgGray,
+%                 colframe=bgGray,
+%                 arc=8pt,
+%                 boxrule=0pt,
+%                 left=4pt, right=4pt, top=6pt, bottom=6pt
+%             ]
+%                 % Chia cột nhỏ bên trong Box
+%                 \begin{columns}
+%                     \begin{column}{0.15\textwidth}
+%                         \centering
+%                         \includegraphics[width=0.8cm, keepaspectratio]{images/TongQuan/icons/over.png}
+%                     \end{column}
+%                     \begin{column}{0.83\textwidth}
+%                         \textbf{\small Overfitting vs Underfitting}
+%                     \end{column}
+%                 \end{columns}
 
-                \vspace{0.2cm}
+%                 \vspace{0.2cm}
 
-                % Nội dung text
-                \justifying
-                \color{textDark}
-                \footnotesize
-                Cân bằng giữa Bias và Variance. Tránh Overfitting (học nhiễu) và Underfitting (chưa bắt được quy luật) để tối ưu hóa hiệu suất thực tế.
-            \end{tcolorbox}
-        \end{column}
+%                 % Nội dung text
+%                 \justifying
+%                 \color{textDark}
+%                 \footnotesize
+%                 Cân bằng giữa Bias và Variance. Tránh Overfitting (học nhiễu) và Underfitting (chưa bắt được quy luật) để tối ưu hóa hiệu suất thực tế.
+%             \end{tcolorbox}
+%         \end{column}
 
-    \end{columns}
+%     \end{columns}
 
-\end{frame}
+% \end{frame}
 
 % Định nghĩa màu (giữ nguyên)
 \definecolor{mygreen}{RGB}{0, 168, 89} 
 \definecolor{myred}{RGB}{237, 28, 36}
 
-\begin{frame}
-    \frametitle{MA TRẬN NHẦM LẪN}
+% \begin{frame}
+%     \frametitle{MA TRẬN NHẦM LẪN}
 
-    % Thêm [T] để căn nội dung bắt đầu từ trên cùng của cột
-    \begin{columns}[T] 
+%     % Thêm [T] để căn nội dung bắt đầu từ trên cùng của cột
+%     \begin{columns}[T] 
         
-        % Cột bên trái: Nội dung văn bản
-        \begin{column}{0.55\textwidth}
-            \small % Cỡ chữ nhỏ
-            Là nền tảng của hầu hết các chỉ số đánh giá phân loại. Nó so sánh kết quả dự đoán với thực tế.
-            \vspace{0.1cm} % GIẢM khoảng cách ở đây (từ 0.3 xuống 0.1)
+%         % Cột bên trái: Nội dung văn bản
+%         \begin{column}{0.55\textwidth}
+%             \small % Cỡ chữ nhỏ
+%             Là nền tảng của hầu hết các chỉ số đánh giá phân loại. Nó so sánh kết quả dự đoán với thực tế.
+%             \vspace{0.1cm} % GIẢM khoảng cách ở đây (từ 0.3 xuống 0.1)
 
-            \begin{itemize}
-                % GIẢM khoảng cách giữa các gạch đầu dòng (từ 0.5em xuống 0.1em)
-                \setlength\itemsep{0.1em} 
-                \setlength\parskip{0pt} % Loại bỏ khoảng cách đoạn thừa
+%             \begin{itemize}
+%                 % GIẢM khoảng cách giữa các gạch đầu dòng (từ 0.5em xuống 0.1em)
+%                 \setlength\itemsep{0.1em} 
+%                 \setlength\parskip{0pt} % Loại bỏ khoảng cách đoạn thừa
                 
-                \item \textbf{\textcolor{mygreen}{TP (True Positive):}} Dự đoán đúng là Dương tính.
+%                 \item \textbf{\textcolor{mygreen}{TP (True Positive):}} Dự đoán đúng là Dương tính.
                 
-                \item \textbf{\textcolor{mygreen}{TN (True Negative):}} Dự đoán đúng là Âm tính.
+%                 \item \textbf{\textcolor{mygreen}{TN (True Negative):}} Dự đoán đúng là Âm tính.
                 
-                \item \textbf{\textcolor{myred}{FP (False Positive):}} Dự đoán sai là Dương tính (Báo động giả).
+%                 \item \textbf{\textcolor{myred}{FP (False Positive):}} Dự đoán sai là Dương tính (Báo động giả).
                 
-                \item \textbf{\textcolor{myred}{FN (False Negative):}} Dự đoán sai là Âm tính (Bỏ sót).
-            \end{itemize}
-        \end{column}
+%                 \item \textbf{\textcolor{myred}{FN (False Negative):}} Dự đoán sai là Âm tính (Bỏ sót).
+%             \end{itemize}
+%         \end{column}
 
-        % Cột bên phải: Hình ảnh
-        \begin{column}{0.45\textwidth}
-            \centering
-            % Dùng keepaspectratio để ảnh không bị méo nếu lỡ quá cao
-            \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{images/TongQuan/matran.png}
-        \end{column}
-    \end{columns}
+%         % Cột bên phải: Hình ảnh
+%         \begin{column}{0.45\textwidth}
+%             \centering
+%             % Dùng keepaspectratio để ảnh không bị méo nếu lỡ quá cao
+%             \includegraphics[width=\textwidth, height=0.7\textheight, keepaspectratio]{images/TongQuan/matran.png}
+%         \end{column}
+%     \end{columns}
 
-\end{frame}
+% \end{frame}
 
 % --- ĐỊNH NGHĨA MÀU SẮC ---
 \definecolor{myBlueText}{HTML}{155FA0}
