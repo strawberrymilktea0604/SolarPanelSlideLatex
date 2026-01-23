@@ -362,99 +362,76 @@
 \begin{frame}
     \frametitle{GIỚI THIỆU VỀ UAV}
 
-    % --- 1. KÉO SÁT LÊN TRÊN ---
-    \vspace{-0.3cm}
-
-    % --- 2. DANH SÁCH ---
+    % --- 1. ĐỊNH NGHĨA ---
     \footnotesize
-    \begin{itemize}
-        \setlength\itemsep{0pt}
-        \setlength\parskip{0pt}
-        \item Nhóm chọn giải pháp kiểm tra hệ thống bằng thiết bị bay không người lái (UAV) tích hợp Camera quang học (RGB).
-        \item Hướng tiếp cận này khắc phục nhược điểm về chi phí cao và tốn kém nhân lực của các phương pháp truyền thống.
-        \item Giải pháp loại bỏ tình trạng quá tải, tốn thời gian và nguy cơ bỏ sót lỗi khi phân tích thủ công lượng lớn hình ảnh.
-    \end{itemize}
+    \textbf{Định nghĩa:} Là thiết bị bay không người lái dùng để thu thập dữ liệu từ trên cao. Thường được tích hợp camera RGB, camera nhiệt hoặc cảm biến chuyên dụng.
 
-    \vspace{0.2cm} % Tăng khoảng cách một chút để thoáng hơn
+    \vspace{0.15cm} % Giảm khoảng cách để hết tràn (0.4 -> 0.15)
 
-    % --- PHẦN NỘI DUNG CHÍNH ---
-    \begin{columns}[T, onlytextwidth]
-        % --- CỘT TRÁI: BẢNG ĐÁNH GIÁ ---
-        % Giảm độ rộng cột trái một chút để nhường chỗ cho cột phải
-        \begin{column}{0.45\textwidth}
-            \centering % <--- THÊM LỆNH NÀY ĐỂ CANH GIỮA BẢNG TRONG CỘT (DỊCH PHẢI 1 TÍ)
-            \begin{table}[h]
-                \scriptsize
-                \renewcommand{\arraystretch}{1.2} % Tăng nhẹ giãn dòng cho dễ đọc
-                \setlength{\tabcolsep}{3pt}
-                % Sử dụng tỷ lệ phần trăm để bảng tự co giãn tốt hơn
-                \begin{tabular}{|p{0.25\linewidth}|p{0.68\linewidth}|}
-                    \hline
-                    \rowcolor{blue!70}\textcolor{white}{\textbf{Đánh giá}} & \cellcolor{blue!70} \\
-                    \hline
-                    \cellcolor{green!20}\textbf{Ưu điểm} & Tối ưu chi phí, tốc độ; giảm tải nhân lực, dễ triển khai. \\
-                    \hline
-                    \cellcolor{red!20}\textbf{Hạn chế} & Chỉ phát hiện lỗi bề mặt; độ chính xác phụ thuộc đk bay. \\
-                    \hline
-                \end{tabular}
-            \end{table}
-        \end{column}
+    % --- 2. BẢNG ĐÁNH GIÁ (ƯU/NHƯỢC ĐIỂM) ---
+    \begin{table}[h]
+        \centering
+        \scriptsize
+        \renewcommand{\arraystretch}{1.2}
+        \setlength{\tabcolsep}{5pt}
+        \setlength\arrayrulewidth{1pt}
+        % Thu hẹp cột 2 mạnh tay hơn (0.65 -> 0.55) để cắt hết khoảng trắng
+        \begin{tabular}{|p{0.15\linewidth}|p{0.55\linewidth}|}
+            \hline
+            \rowcolor{blue!70}\textcolor{white}{\textbf{Đánh giá}} & \cellcolor{blue!70} \\
+            \hline
+            \cellcolor{green!20}\textbf{Ưu điểm} & Tối ưu chi phí, tốc độ; giảm tải nhân lực, dễ triển khai. \\
+            \hline
+            \cellcolor{red!20}\textbf{Hạn chế} & Chỉ phát hiện lỗi bề mặt; độ chính xác phụ thuộc điều kiện bay. \\
+            \hline
+        \end{tabular}
+    \end{table}
 
-        % --- CỘT PHẢI: SƠ ĐỒ QUY TRÌNH MỚI ---
-        % Tăng độ rộng cột phải để chứa sơ đồ lớn hơn
-        \begin{column}{0.53\textwidth}
-            \centering
-            % Sử dụng resizebox để ép toàn bộ sơ đồ vừa khít chiều ngang cột
-            \resizebox{1\linewidth}{!}{%
-                \begin{tikzpicture}[
-                    % Định nghĩa kiểu cho các hộp và nhãn
-                    boxstyle/.style={
-                        draw,
-                        rectangle,
-                        fill=blue!15, % Màu nền xanh nhạt giống ảnh
-                        align=center,
-                        font=\bfseries\small, % Chữ in đậm, to vừa
-                        text width=3.2cm, % Độ rộng cố định cho các hộp
-                        minimum height=1.2cm,
-                        inner sep=5pt
-                    },
-                    labelstyle/.style={
-                        align=center,
-                        font=\scriptsize, % Chữ chú thích nhỏ hơn
-                        text width=3.2cm,
-                        below=0.2cm % Khoảng cách nằm dưới hộp
-                    },
-                    arrowstyle/.style={->, >=latex, thick} % Kiểu mũi tên
-                ]
+    \vspace{0.1cm} % Giảm khoảng cách (0.3 -> 0.1)
 
-                    % 1. Node Drone ở trên cùng, giữa
-                    % Thay đường dẫn ảnh bằng ảnh thực tế của bạn: images/TongQuan/drone.png
-                    \node (drone) at (0, 3) {\includegraphics[width=2.5cm, keepaspectratio]{images/TongQuan/drone.png}};
+    % --- 3. SƠ ĐỒ QUY TRÌNH ---
+    \centering
+    \resizebox{0.75\textwidth}{!}{% Resize nhỏ hơn theo yêu cầu (0.82 -> 0.75)
+        \begin{tikzpicture}[
+            boxstyle/.style={
+                draw,
+                rectangle,
+                fill=blue!15, 
+                align=center,
+                font=\bfseries\small, 
+                text width=3.2cm, 
+                minimum height=1.0cm,
+                inner sep=4pt
+            },
+            labelstyle/.style={
+                align=center,
+                font=\scriptsize, 
+                text width=3.2cm,
+                below=0.1cm
+            },
+            arrowstyle/.style={->, >=latex, thick}
+        ]
 
-                    % 2. Các hộp quy trình chính (Đặt hộp số 2 ở giữa tâm 0,0)
-                    \node [boxstyle] (step2) at (0,0) {2. Thu thập dữ liệu RGB};
-                    % Hộp 1 nằm bên trái hộp 2
-                    \node [boxstyle, left=0.6cm of step2] (step1) {1. Lập kế hoạch bay};
-                    % Hộp 3 nằm bên phải hộp 2
-                    \node [boxstyle, right=0.6cm of step2] (step3) {3. AI Detect (Deep Learning)};
+            % 1. Node Drone
+            \node (drone) at (0, 1.5) {\includegraphics[width=2.0cm, keepaspectratio]{images/TongQuan/drone.png}};
 
-                    % 3. Các nhãn chú thích bên dưới các hộp
-                    \node [labelstyle] at (step1.south) {Thiết lập đường bay tự động};
-                    \node [labelstyle] at (step2.south) {Chụp ảnh, gắn thẻ GPS, ghép bản đồ};
-                    \node [labelstyle] at (step3.south) {Phân tích lỗi \& Định vị tọa độ};
+            % 2. Các hộp quy trình chính
+            \node [boxstyle] (step2) at (0,0) {2. Thu thập dữ liệu RGB};
+            \node [boxstyle, left=0.8cm of step2] (step1) {1. Lập kế hoạch bay};
+            \node [boxstyle, right=0.8cm of step2] (step3) {3. AI Detect (Deep Learning)};
 
-                    % 4. Các mũi tên kết nối
-                    % Mũi tên nét đứt từ Drone xuống hộp 2
-                    \draw [arrowstyle, dashed, very thick, gray!80] (drone.south) -- (step2.north);
-                    % Mũi tên từ 1 sang 2
-                    \draw [arrowstyle] (step1) -- (step2);
-                    % Mũi tên từ 2 sang 3
-                    \draw [arrowstyle] (step2) -- (step3);
+            % 3. Các nhãn chú thích
+            \node [labelstyle] at (step1.south) {Thiết lập đường bay tự động};
+            \node [labelstyle] at (step2.south) {Chụp ảnh, gắn thẻ GPS, ghép bản đồ};
+            \node [labelstyle] at (step3.south) {Phân tích lỗi \& Định vị tọa độ};
 
-                \end{tikzpicture}
-            }% Kết thúc resizebox
-        \end{column}
-    \end{columns}
+            % 4. Các mũi tên kết nối
+            \draw [arrowstyle, dashed, very thick, gray!80] (drone.south) -- (step2.north);
+            \draw [arrowstyle] (step1) -- (step2);
+            \draw [arrowstyle] (step2) -- (step3);
+
+        \end{tikzpicture}
+    }
 \end{frame}
 
 \begin{frame}[t]
@@ -1008,83 +985,39 @@
 \definecolor{borderblue}{HTML}{2F5575}
 
 % Thêm tùy chọn shrink=5 để tự động co nhỏ 5% nếu vẫn còn hơi chật
-\begin{frame}[shrink=5] 
+\begin{frame}
     \frametitle{THU THẬP DỮ LIỆU UAV}
+    
+    \vspace{0.2cm}
+    \centering
+    % Nội dung thiết bị - 1 dòng
+    {\small \textbf{Thiết bị:} DJI Phantom 4 RTK với cảm biến 20MP và công nghệ định vị RTK độ chính xác centimet.}
+    \vspace{0.3cm}
 
-    \begin{columns}[T]
-        
-        % --- CỘT TRÁI ---
-        \begin{column}{0.58\textwidth}
-            % Bỏ nền xanh, bỏ viền, đưa padding về 0 để tiết kiệm không gian
-            \begin{tcolorbox}[
-                enhanced,
-                frame hidden,
-                colback=white,
-                arc=0pt,
-                boxrule=0pt,
-                left=0pt, right=0pt, top=0pt, bottom=0pt, 
-                boxsep=0pt
-            ]
-                % --- Phần 1: Thiết bị ---
-                \textbf{\normalsize Thiết bị} 
-                
-                \small{DJI Phantom 4 RTK với cảm biến 20MP và công nghệ định vị RTK độ chính xác centimet.}
-                
-                \vspace{2pt} % Giảm khoảng cách
-                
-                % --- Phần 2: Thông số ---
-                \textbf{\normalsize Thông số bay tối ưu}
-                \vspace{1pt}
-                
-                \begin{itemize}
-                     \setlength\itemsep{2pt} % Giảm khoảng cách giữa các item
-                     \small 
-                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/docao.png}}] \textbf{Độ cao:} 25m so với mặt đất.
-                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/gocchup.png}}] \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).
-                     \item[{\includegraphics[height=1em]{images/PhuongPhap/icons/thoigian.png}}] \textbf{Thời gian:} 9:00 - 11:00 sáng.
-                \end{itemize}
-
-                \vspace{3pt}
-
-                % --- Phần 3: Kết quả ---
-                \begin{tcolorbox}[
-                    enhanced,
-                    title=Kết quả,
-                    coltitle=white,
-                    fonttitle=\bfseries\small, 
-                    colback=bglight,
-                    colframe=borderblue,
-                    attach boxed title to top left={xshift=0mm, yshift*=-2mm}, 
-                    boxed title style={colback=borderblue, sharp corners, rounded corners=southeast, arc=3pt, size=small}, 
-                    boxrule=0.5pt,
-                    arc=3pt,
-                    left=2mm, right=2mm, top=6pt, bottom=2mm, 
-                    boxsep=1pt
-                ]
-                    \small 130 ảnh quang học độ phân giải cao, sắc nét, có tọa độ chính xác.
-                \end{tcolorbox}
-            \end{tcolorbox}
-        \end{column}
-
-        % --- CỘT PHẢI ---
-        \begin{column}{0.40\textwidth}
-             % Điều chỉnh ảnh bên phải cho khớp chiều cao mới
+    \begin{columns}[T, onlytextwidth]
+        % Ảnh 1: Hình minh họa
+        \begin{column}{0.48\textwidth}
+            \centering
             \begin{tikzpicture}
-                \clip [rounded corners=5pt] (0,0) rectangle (\linewidth, 0.60\paperheight); 
-                \node [anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=\linewidth, keepaspectratio]{images/PhuongPhap/uav.png}};
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.0cm);
+                % Căn giữa ảnh, zoom 1.7 để lấp đầy hoàn toàn chiều cao
+                \node[anchor=center] at (0.5\linewidth, 2.5cm) {\includegraphics[width=1.7\linewidth]{images/PhuongPhap/hinhminhhoa.jpg}};
             \end{tikzpicture}
         \end{column}
         
+        % Ảnh 2: UAV
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.0cm);
+                % Căn giữa ảnh, zoom 1.7 để lấp đầy
+                \node[anchor=center] at (0.5\linewidth, 2.5cm) {\includegraphics[width=1.7\linewidth]{images/PhuongPhap/uav.png}};
+            \end{tikzpicture}
+        \end{column}
     \end{columns}
 \end{frame}
 
-\begin{frame}
-\label{hinhminhhoa}
-	\frametitle{THU THẬP DỮ LIỆU UAV}
-	\begin{center}
-		\includegraphics[width=0.9\textwidth]{images/PhuongPhap/hinhminhhoa.jpg}
-	\end{center}
-\end{frame}
+% Slide hinhminhhoa da duoc gop vao slide tren
 
 
 \begin{frame}
@@ -1095,19 +1028,17 @@
     \begin{columns}[c, onlytextwidth]
         % --- CỘT TRÁI: NỘI DUNG ---
         \begin{column}{0.55\textwidth}
-            \begin{itemize}
-                \setlength\itemsep{0.6cm} % Khoảng cách giữa các mục
-                \raggedright
-                
-                \item \textbf{\Large Địa điểm:} \\[0.2cm]
-                {\Large Nhà máy điện Mặt Trời Adani Phước Minh}
-                
-                \item \textbf{\Large Địa chỉ:} \\[0.2cm]
-                {\Large Thôn Quán Thẻ 1, xã Thuận Nam, tỉnh Khánh Hòa} 
-                % Note: User said Khanh Hoa but Adani Phuoc Minh is usually in Ninh Thuan.
-                % User request said "tỉnh Khánh Hòa", I should follow user's request strictly unless it's an obvious correction I should make or ask.
-                % Re-reading user request: "tỉnh Khánh Hòa". I will write "tỉnh Khánh Hòa" as requested.
-            \end{itemize}
+            \centering
+            % Tên nhà máy - In đậm, màu #151c55, IN HOA
+            {\Large \textbf{\textcolor[HTML]{151C55}{NHÀ MÁY ĐIỆN MẶT TRỜI ADANI PHƯỚC MINH}}}
+            
+            \vspace{0.3cm}
+            % Dải phân cách
+            {\color{gray!70}\rule{0.3\linewidth}{2pt}}
+            \vspace{0.3cm}
+            
+            % Địa chỉ
+            {\large Đ/C: Thôn Quán Thẻ 1, xã Thuận Nam, tỉnh Khánh Hòa.}
         \end{column}
 
         % --- CỘT PHẢI: HÌNH ẢNH ---
@@ -1168,7 +1099,27 @@
 \label{anhthuthapboiuav}
 	\frametitle{ẢNH THU THẬP BỞI UAV}
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{images/PhuongPhap/thuthap.png}
+		\includegraphics[width=0.7\textwidth]{images/PhuongPhap/thuthap.png}
+        
+        \vspace{0.1cm}
+        % Box Kết quả
+        \begin{tcolorbox}[
+            enhanced,
+            title=Kết quả,
+            coltitle=white,
+            fonttitle=\bfseries\small, 
+            colback=bglight,
+            colframe=borderblue,
+            attach boxed title to top left={xshift=0mm, yshift*=-2mm}, 
+            boxed title style={colback=borderblue, sharp corners, rounded corners=southeast, arc=3pt, size=small}, 
+            boxrule=0.5pt,
+            arc=3pt,
+            width=0.9\textwidth,
+            left=2mm, right=2mm, top=6pt, bottom=2mm, 
+            boxsep=1pt
+        ]
+            \small 130 ảnh quang học độ phân giải cao, sắc nét, có tọa độ chính xác.
+        \end{tcolorbox}
 	\end{center}
 \end{frame}
 
