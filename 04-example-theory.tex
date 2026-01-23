@@ -439,27 +439,6 @@
     \vspace{-0.3cm}
     
     \begin{columns}[T, onlytextwidth]
-        % --- CỘT 1: MẮT THƯỜNG ---
-        \begin{column}{0.24\textwidth}
-            \centering
-            {\bfseries\small\textcolor{black}{MẮT THƯỜNG\strut}}\par
-            \vspace{0.1cm}
-            \begin{tikzpicture}
-                % Ảnh ảo để lấy kích thước khung (height=2.2cm)
-                \node[inner sep=0pt, opacity=0] (measure) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}};
-                % Cắt ảnh thật
-                \begin{scope}
-                    \clip[rounded corners=10pt] (measure.south west) rectangle (measure.north east);
-                    \node[inner sep=0pt] at (measure.center) {\includegraphics[width=\linewidth, height=2.2cm, keepaspectratio=false]{\pathImages visual_inspection_worker.png}};
-                \end{scope}
-            \end{tikzpicture}
-            \vspace{0.05cm}
-            \scriptsize \raggedright
-            \begin{itemize}
-                \setlength\itemsep{0pt} \setlength\parskip{0pt} \setlength\leftmargini{0.3cm}
-                \item Đo thủ công
-            \end{itemize}
-        \end{column}\hfill
         % --- CỘT 2: ĐIỆN HỌC (Zoom to hơn) ---
         \begin{column}{0.24\textwidth}
             \centering
