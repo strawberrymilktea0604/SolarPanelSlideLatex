@@ -1089,10 +1089,37 @@
 
 \begin{frame}
 \label{toancanh}
-	\frametitle{TOÀN CẢNH}
-	\begin{center}
-		\includegraphics[width=0.9\textwidth]{images/PhuongPhap/toancanh.jpg}
-	\end{center}
+	\frametitle{THÔNG SỐ BAY TỐI ƯU}
+	
+    \begin{columns}[c, onlytextwidth]
+        % --- CỘT TRÁI: THÔNG SỐ BAY ---
+        \begin{column}{0.5\textwidth}            
+            \begin{itemize}
+                \setlength\itemsep{0.4cm} 
+                \raggedright
+                
+                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/docao.png}}] \textbf{Độ cao:} 25m so với mặt đất.
+                
+                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/gocchup.png}}] \textbf{Góc chụp:} Vuông góc ($\approx 90^\circ$).
+                
+                \item[{\includegraphics[height=1.2em]{images/PhuongPhap/icons/thoigian.png}}] \textbf{Thời gian:} 9:00 - 11:00 sáng.
+            \end{itemize}
+        \end{column}
+
+        % --- CỘT PHẢI: HÌNH ẢNH ---
+        \begin{column}{0.48\textwidth}
+            \centering
+            \begin{tikzpicture}
+                % Khung bo góc tròn, chiều cao 5.8cm
+                \clip [rounded corners=12pt] (0,0) rectangle (\linewidth, 5.8cm);
+                
+                % Tăng width lên 1.6 để đảm bảo ảnh đủ lớn lấp đầy khung 5.8cm -> sẽ thấy được bo góc
+                \node[anchor=center] at (0.5\linewidth, 2.9cm) {
+                    \includegraphics[width=1.6\linewidth]{images/PhuongPhap/toancanh.jpg}
+                };
+            \end{tikzpicture}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}
