@@ -1311,55 +1311,54 @@
     }
 }
 
-% % Thêm tùy chọn [shrink] để Beamer tự động co nhỏ nếu vẫn bị tràn
-% \begin{frame} 
-%     \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
+\begin{frame} 
+    \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
 
-%     \vspace{-0.2cm} 
+    \vspace{-0.2cm} 
 
-%     % --- KHỐI DỮ LIỆU (TRÊN) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myBlueBack,
-%         colframe=myBlueLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Dữ Liệu}
-%         \end{center}
-%         \vspace{-8pt} % Kéo nội dung sát tiêu đề hơn
-        
-%         \begin{itemize}
-%             \setlength\itemsep{0pt}
-%             \item \textbf{Tổng:} 5,902 ảnh.
-%             \item \textbf{Phân chia:} Train 70\% -- Val 15\% -- Test 15\%.
-%             \item \textbf{Nhãn:} Normal / Defect.
-%         \end{itemize}
-%     \end{tcolorbox}
+    % --- HÀNG 1: 4 ẢNH AUGMENTATION ---
+    \begin{columns}[c, onlytextwidth]
+        \begin{column}{0.24\textwidth}
+            \centering
+            % Thêm width=\linewidth để đảm bảo ảnh không rộng hơn cột
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/rotation.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/flip.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/color.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/noise.png}
+        \end{column}
+    \end{columns}
     
-%     \vspace{0.2cm} % Khoảng cách giữa 2 khối
+    \vspace{0.3cm} % Khoảng cách giữa 2 khối
 
-%     % --- KHỐI KỸ THUẬT (DƯỚI) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myOrangeBack,
-%         colframe=myOrangeLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Kỹ Thuật}
-%         \end{center}
-%         \vspace{-8pt}
+    % --- HÀNG 2: KỸ THUẬT ---
+    \begin{tcolorbox}[
+        myboxstyle,
+        colback=myOrangeBack,
+        colframe=myOrangeLine,
+        width=\textwidth
+    ]
+        \small 
+        \begin{center}
+            \textbf{Kỹ Thuật}
+        \end{center}
+        \vspace{-8pt}
 
-%         \begin{itemize}
-%             \setlength\itemsep{2pt} 
-%             \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
-%             \item \textbf{Optimizer:} Adam (LR $1e-4$).
-%             \item \textbf{Early Stopping:} Patience = 5.
-%             \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
-%         \end{itemize}
-%     \end{tcolorbox}
+        \begin{itemize}
+            \setlength\itemsep{2pt} 
+            \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
+            \item \textbf{Optimizer:} Adam (LR $1e-4$).
+            \item \textbf{Early Stopping:} Patience = 5.
+            \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
+        \end{itemize}
+    \end{tcolorbox}
 
 \end{frame}
