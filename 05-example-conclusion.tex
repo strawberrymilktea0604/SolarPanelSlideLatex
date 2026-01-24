@@ -179,22 +179,23 @@
     \renewcommand{\arraystretch}{1.5}
     \setlength{\tabcolsep}{3pt}
     \setlength{\arrayrulewidth}{1pt} % Tăng độ đậm đường kẻ
+    \arrayrulecolor{black} % Đảm bảo màu viền là đen (do ở trên đã set gray!40)
     
     \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash\hsize=1.5\hsize}X|*{5}{>{\centering\arraybackslash\hsize=0.9\hsize}X|}}
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         \textbf{Mô hình} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Params (M)} \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         % Dùng hhline để đường kẻ không bị màu đè
         \rowcolor{highlightYellow} \textbf{EfficientNet-B2} & \textbf{96,45} & \textbf{0,9646} & \textbf{0,9645} & \textbf{0,9645} & \textbf{7,7} \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         ResNet-34 & 96,25 & 0,9628 & 0,9625 & 0,9625 & 21,29 \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         ResNet-18 & 95,77 & 0,9585 & 0,9577 & 0,9576 & 11,18 \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         ResNet-50 & 96,4 & 0,9641 & 0,964 & 0,9639 & 23,51 \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
         VGG16 & 93,57 & 0,9372 & 0,9357 & 0,9356 & 40,94 \\
-        \hhline{|-|-|-|-|-|-|}
+        \hline
     \end{tabularx}
     
     \vspace{0.15cm}

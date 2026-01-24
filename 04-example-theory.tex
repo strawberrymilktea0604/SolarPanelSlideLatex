@@ -48,7 +48,7 @@
 
 %------------------------------------------------
 \section{Cơ sở lý thuyết \& tổng quan}
-\SectionIntro{Phần 2: Cơ sở lý thuyết \& tổng quan}{Các khái niệm cơ bản về Deep Learning và bài toán phát hiện lỗi.}
+\SectionIntro{Phần 2: Cơ sở lý thuyết \& tổng quan}{Các khái niệm cơ bản và bài toán phát hiện lỗi.}
 
 %------------------------------------------------
 % \begin{frame}
@@ -517,6 +517,8 @@
             % Tăng giãn dòng lên 1.1 cho thoáng
             \setlength{\tabcolsep}{3pt} 
             \renewcommand{\arraystretch}{1.1} 
+            \setlength{\arrayrulewidth}{1pt} % Viền đậm đều 1pt
+            \arrayrulecolor{black}      % Đảm bảo viền màu đen
             
             \begin{tabular}{|
                 >{\raggedright\arraybackslash}p{3.0cm}|
@@ -541,13 +543,13 @@
                 \hline
                 
                 % Hàng 3
-                Chụp ảnh RGB & 
+                \rowcolor{yellow} Chụp ảnh RGB & 
                 - ImpactNet \newline - Mask FCNN \newline - BiDAF \newline - WebNN & 
                 Bụi, Tuyết, Phân chim, Vết nứt với độ chính xác tổng thể là 84.5\% \\
                 \hline
                 
                 % Hàng 4
-                Camera CCD, Nhiệt (IR) \& RGB & 
+                \rowcolor{yellow} Camera CCD, Nhiệt (IR) \& RGB & 
                 - Biến đổi hình thái \& Canny \newline 
                 - Xử lý ảnh nhiệt \& CCD \newline 
                 - Biến đổi Hough \newline 

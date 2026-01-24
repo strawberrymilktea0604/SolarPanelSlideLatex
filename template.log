@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  24 JAN 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  24 JAN 2026 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,11 +1312,11 @@ Package translations Info: no dictionary file `translations-basic-dictionary-vie
 Overfull \vbox (11.11711pt too high) detected at line 15
  []
 
-<images/background-1080p-washout.jpg, id=98, 778.107pt x 423.0204pt>
+<images/background-1080p-washout.jpg, id=98, 2762.32pt x 1541.76pt>
 File: images/background-1080p-washout.jpg Graphic file (type jpg)
 <use images/background-1080p-washout.jpg>
 Package pdftex.def Info: images/background-1080p-washout.jpg  used on input line 15.
-(pdftex.def)             Requested size: 455.24419pt x 256.08627pt.
+(pdftex.def)             Requested size: 455.2152pt x 256.07324pt.
 [1{C:/Users/minhk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
 
  <./images/background-1080p-washout.jpg>]) (02-contents.tex (template.toc) [2
@@ -1438,14 +1438,14 @@ File: images/DatVanDe/canhdong.jpg Graphic file (type jpg)
 <use images/DatVanDe/canhdong.jpg>
 Package pdftex.def Info: images/DatVanDe/canhdong.jpg  used on input line 375.
 (pdftex.def)             Requested size: 102.42342pt x 51.2117pt.
-<images/DatVanDe/bivo.jpg, id=702, 1003.75pt x 565.11125pt>
-File: images/DatVanDe/bivo.jpg Graphic file (type jpg)
-<use images/DatVanDe/bivo.jpg>
-Package pdftex.def Info: images/DatVanDe/bivo.jpg  used on input line 375.
-(pdftex.def)             Requested size: 102.4179pt x 51.21135pt.
+<images/DatVanDe/ban.jpg, id=702, 2128.95375pt x 1419.3025pt>
+File: images/DatVanDe/ban.jpg Graphic file (type jpg)
+<use images/DatVanDe/ban.jpg>
+Package pdftex.def Info: images/DatVanDe/ban.jpg  used on input line 375.
+(pdftex.def)             Requested size: 102.42575pt x 51.19662pt.
  [8
 
- <./images/DatVanDe/minhhoa.jpg> <./images/DatVanDe/canhdong.jpg (PNG copy)> <./images/DatVanDe/bivo.jpg>]) (04-example-theory.tex [9
+ <./images/DatVanDe/minhhoa.jpg> <./images/DatVanDe/canhdong.jpg (PNG copy)> <./images/DatVanDe/ban.jpg>]) (04-example-theory.tex [9
 
 ]
 <images/TongQuan/drone.png, id=860, 302.93175pt x 169.8345pt>
@@ -1491,7 +1491,7 @@ Package pdftex.def Info: images/TongQuan/spectrometer_lab.png  used on input lin
 <images/TongQuan/mohinhe2.png, id=1102, 823.659pt x 398.58pt>
 File: images/TongQuan/mohinhe2.png Graphic file (type png)
 <use images/TongQuan/mohinhe2.png>
-Package pdftex.def Info: images/TongQuan/mohinhe2.png  used on input line 629.
+Package pdftex.def Info: images/TongQuan/mohinhe2.png  used on input line 627.
 (pdftex.def)             Requested size: 182.00597pt x 88.07101pt.
  [13
 
@@ -1499,22 +1499,22 @@ Package pdftex.def Info: images/TongQuan/mohinhe2.png  used on input line 629.
 <images/TongQuan/icons/chiso/accuracy.png, id=1184, 39.42pt x 39.42pt>
 File: images/TongQuan/icons/chiso/accuracy.png Graphic file (type png)
 <use images/TongQuan/icons/chiso/accuracy.png>
-Package pdftex.def Info: images/TongQuan/icons/chiso/accuracy.png  used on input line 861.
+Package pdftex.def Info: images/TongQuan/icons/chiso/accuracy.png  used on input line 859.
 (pdftex.def)             Requested size: 11.38097pt x 11.38097pt.
 <images/TongQuan/icons/chiso/precision.png, id=1185, 35.478pt x 35.697pt>
 File: images/TongQuan/icons/chiso/precision.png Graphic file (type png)
 <use images/TongQuan/icons/chiso/precision.png>
-Package pdftex.def Info: images/TongQuan/icons/chiso/precision.png  used on input line 861.
+Package pdftex.def Info: images/TongQuan/icons/chiso/precision.png  used on input line 859.
 (pdftex.def)             Requested size: 11.31096pt x 11.38078pt.
 <images/TongQuan/icons/chiso/precision2.png, id=1186, 37.23pt x 42.267pt>
 File: images/TongQuan/icons/chiso/precision2.png Graphic file (type png)
 <use images/TongQuan/icons/chiso/precision2.png>
-Package pdftex.def Info: images/TongQuan/icons/chiso/precision2.png  used on input line 861.
+Package pdftex.def Info: images/TongQuan/icons/chiso/precision2.png  used on input line 859.
 (pdftex.def)             Requested size: 10.02438pt x 11.38063pt.
 <images/TongQuan/icons/chiso/f1score.png, id=1187, 45.552pt x 36.573pt>
 File: images/TongQuan/icons/chiso/f1score.png Graphic file (type png)
 <use images/TongQuan/icons/chiso/f1score.png>
-Package pdftex.def Info: images/TongQuan/icons/chiso/f1score.png  used on input line 861.
+Package pdftex.def Info: images/TongQuan/icons/chiso/f1score.png  used on input line 859.
 (pdftex.def)             Requested size: 11.38031pt x 9.13707pt.
  [14
 
@@ -1524,22 +1524,22 @@ Package pdftex.def Info: images/TongQuan/icons/chiso/f1score.png  used on input 
 <images/PhuongPhap/icons/camera.png, id=1351, 63.51pt x 63.51pt>
 File: images/PhuongPhap/icons/camera.png Graphic file (type png)
 <use images/PhuongPhap/icons/camera.png>
-Package pdftex.def Info: images/PhuongPhap/icons/camera.png  used on input line 948.
+Package pdftex.def Info: images/PhuongPhap/icons/camera.png  used on input line 946.
 (pdftex.def)             Requested size: 42.68034pt x 42.67912pt.
 <images/PhuongPhap/icons/xulyanh.png, id=1352, 53.655pt x 53.874pt>
 File: images/PhuongPhap/icons/xulyanh.png Graphic file (type png)
 <use images/PhuongPhap/icons/xulyanh.png>
-Package pdftex.def Info: images/PhuongPhap/icons/xulyanh.png  used on input line 948.
+Package pdftex.def Info: images/PhuongPhap/icons/xulyanh.png  used on input line 946.
 (pdftex.def)             Requested size: 42.50731pt x 42.67912pt.
 <images/PhuongPhap/icons/train.png, id=1353, 67.452pt x 54.093pt>
 File: images/PhuongPhap/icons/train.png Graphic file (type png)
 <use images/PhuongPhap/icons/train.png>
-Package pdftex.def Info: images/PhuongPhap/icons/train.png  used on input line 948.
+Package pdftex.def Info: images/PhuongPhap/icons/train.png  used on input line 946.
 (pdftex.def)             Requested size: 53.22165pt x 42.67912pt.
 <images/PhuongPhap/icons/classify.png, id=1354, 62.853pt x 62.853pt>
 File: images/PhuongPhap/icons/classify.png Graphic file (type png)
 <use images/PhuongPhap/icons/classify.png>
-Package pdftex.def Info: images/PhuongPhap/icons/classify.png  used on input line 948.
+Package pdftex.def Info: images/PhuongPhap/icons/classify.png  used on input line 946.
 (pdftex.def)             Requested size: 42.67905pt x 42.67912pt.
  [16
 
@@ -1547,12 +1547,12 @@ Package pdftex.def Info: images/PhuongPhap/icons/classify.png  used on input lin
 <images/PhuongPhap/hinhminhhoa.jpg, id=1437, 2569.6pt x 1200.485pt>
 File: images/PhuongPhap/hinhminhhoa.jpg Graphic file (type jpg)
 <use images/PhuongPhap/hinhminhhoa.jpg>
-Package pdftex.def Info: images/PhuongPhap/hinhminhhoa.jpg  used on input line 986.
+Package pdftex.def Info: images/PhuongPhap/hinhminhhoa.jpg  used on input line 984.
 (pdftex.def)             Requested size: 353.60934pt x 165.19084pt.
 <images/PhuongPhap/uav.png, id=1438, 589.548pt x 532.608pt>
 File: images/PhuongPhap/uav.png Graphic file (type png)
 <use images/PhuongPhap/uav.png>
-Package pdftex.def Info: images/PhuongPhap/uav.png  used on input line 986.
+Package pdftex.def Info: images/PhuongPhap/uav.png  used on input line 984.
 (pdftex.def)             Requested size: 353.60934pt x 319.46161pt.
  [17
 
@@ -1560,7 +1560,7 @@ Package pdftex.def Info: images/PhuongPhap/uav.png  used on input line 986.
 <images/PhuongPhap/diadiem.jpg, id=1518, 963.6pt x 1284.8pt>
 File: images/PhuongPhap/diadiem.jpg Graphic file (type jpg)
 <use images/PhuongPhap/diadiem.jpg>
-Package pdftex.def Info: images/PhuongPhap/diadiem.jpg  used on input line 1026.
+Package pdftex.def Info: images/PhuongPhap/diadiem.jpg  used on input line 1024.
 (pdftex.def)             Requested size: 181.99785pt x 156.48267pt.
  [18
 
@@ -1568,27 +1568,27 @@ Package pdftex.def Info: images/PhuongPhap/diadiem.jpg  used on input line 1026.
 <images/PhuongPhap/icons/docao.png, id=1597, 154.77824pt x 146.34676pt>
 File: images/PhuongPhap/icons/docao.png Graphic file (type png)
 <use images/PhuongPhap/icons/docao.png>
-Package pdftex.def Info: images/PhuongPhap/icons/docao.png  used on input line 1077.
+Package pdftex.def Info: images/PhuongPhap/icons/docao.png  used on input line 1075.
 (pdftex.def)             Requested size: 12.68953pt x 11.99997pt.
 <images/PhuongPhap/icons/gocchup.png, id=1598, 151.767pt x 126.4725pt>
 File: images/PhuongPhap/icons/gocchup.png Graphic file (type png)
 <use images/PhuongPhap/icons/gocchup.png>
-Package pdftex.def Info: images/PhuongPhap/icons/gocchup.png  used on input line 1077.
+Package pdftex.def Info: images/PhuongPhap/icons/gocchup.png  used on input line 1075.
 (pdftex.def)             Requested size: 14.39948pt x 11.99997pt.
 <images/PhuongPhap/icons/thoigian.png, id=1599, 157.7895pt x 158.39175pt>
 File: images/PhuongPhap/icons/thoigian.png Graphic file (type png)
 <use images/PhuongPhap/icons/thoigian.png>
-Package pdftex.def Info: images/PhuongPhap/icons/thoigian.png  used on input line 1077.
+Package pdftex.def Info: images/PhuongPhap/icons/thoigian.png  used on input line 1075.
 (pdftex.def)             Requested size: 11.95407pt x 11.99997pt.
 <images/PhuongPhap/sodobay2.jpg, id=1600, 555.07375pt x 616.3025pt>
 File: images/PhuongPhap/sodobay2.jpg Graphic file (type jpg)
 <use images/PhuongPhap/sodobay2.jpg>
-Package pdftex.def Info: images/PhuongPhap/sodobay2.jpg  used on input line 1077.
+Package pdftex.def Info: images/PhuongPhap/sodobay2.jpg  used on input line 1075.
 (pdftex.def)             Requested size: 212.34465pt x 142.26381pt.
 <images/PhuongPhap/toancanh.jpg, id=1601, 1322.9425pt x 616.3025pt>
 File: images/PhuongPhap/toancanh.jpg Graphic file (type jpg)
 <use images/PhuongPhap/toancanh.jpg>
-Package pdftex.def Info: images/PhuongPhap/toancanh.jpg  used on input line 1077.
+Package pdftex.def Info: images/PhuongPhap/toancanh.jpg  used on input line 1075.
 (pdftex.def)             Requested size: 339.75107pt x 158.26942pt.
  [19
 
@@ -1596,7 +1596,7 @@ Package pdftex.def Info: images/PhuongPhap/toancanh.jpg  used on input line 1077
 <images/PhuongPhap/thuthap.png, id=1685, 1259.031pt x 508.518pt>
 File: images/PhuongPhap/thuthap.png Graphic file (type png)
 <use images/PhuongPhap/thuthap.png>
-Package pdftex.def Info: images/PhuongPhap/thuthap.png  used on input line 1104.
+Package pdftex.def Info: images/PhuongPhap/thuthap.png  used on input line 1102.
 (pdftex.def)             Requested size: 303.34329pt x 122.52013pt.
  [20
 
@@ -1604,24 +1604,24 @@ Package pdftex.def Info: images/PhuongPhap/thuthap.png  used on input line 1104.
 <images/PhuongPhap/tachchiet.png, id=1766, 1406.418pt x 292.146pt>
 File: images/PhuongPhap/tachchiet.png Graphic file (type png)
 <use images/PhuongPhap/tachchiet.png>
-Package pdftex.def Info: images/PhuongPhap/tachchiet.png  used on input line 1181.
+Package pdftex.def Info: images/PhuongPhap/tachchiet.png  used on input line 1179.
 (pdftex.def)             Requested size: 433.34946pt x 90.016pt.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 1181.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on input line 1179.
  (C:\Users\minhk\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree3.fd) [21
 
 {C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free3.enc} <./images/PhuongPhap/tachchiet.png>]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 1239.
+(Font)              scaled to size 25.92514pt on input line 1237.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 1239.
+(Font)              scaled to size 21.61124pt on input line 1237.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 1239.
+(Font)              scaled to size 15.0049pt on input line 1237.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 25.92514pt on input line 1239.
+(Font)              scaled to size 25.92514pt on input line 1237.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 21.61124pt on input line 1239.
+(Font)              scaled to size 21.61124pt on input line 1237.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 1239.
+(Font)              scaled to size 15.0049pt on input line 1237.
  [22
 
 ]) (05-example-conclusion.tex [23
@@ -1652,17 +1652,17 @@ Package pdftex.def Info: images/TongKet/demo1.png  used on input line 165.
 <images/TongKet/icons/nhiphan.png, id=2401, 66.795pt x 68.328pt>
 File: images/TongKet/icons/nhiphan.png Graphic file (type png)
 <use images/TongKet/icons/nhiphan.png>
-Package pdftex.def Info: images/TongKet/icons/nhiphan.png  used on input line 304.
+Package pdftex.def Info: images/TongKet/icons/nhiphan.png  used on input line 305.
 (pdftex.def)             Requested size: 13.90709pt x 14.22636pt.
 <images/TongKet/icons/dulieu.png, id=2402, 75.117pt x 68.328pt>
 File: images/TongKet/icons/dulieu.png Graphic file (type png)
 <use images/TongKet/icons/dulieu.png>
-Package pdftex.def Info: images/TongKet/icons/dulieu.png  used on input line 304.
+Package pdftex.def Info: images/TongKet/icons/dulieu.png  used on input line 305.
 (pdftex.def)             Requested size: 15.63977pt x 14.22636pt.
 <images/TongKet/icons/rgb.png, id=2403, 67.014pt x 68.328pt>
 File: images/TongKet/icons/rgb.png Graphic file (type png)
 <use images/TongKet/icons/rgb.png>
-Package pdftex.def Info: images/TongKet/icons/rgb.png  used on input line 304.
+Package pdftex.def Info: images/TongKet/icons/rgb.png  used on input line 305.
 (pdftex.def)             Requested size: 13.95268pt x 14.22636pt.
  [29
 
@@ -1670,17 +1670,17 @@ Package pdftex.def Info: images/TongKet/icons/rgb.png  used on input line 304.
 <images/TongKet/icons/multimodal.png, id=2485, 59.787pt x 54.312pt>
 File: images/TongKet/icons/multimodal.png Graphic file (type png)
 <use images/TongKet/icons/multimodal.png>
-Package pdftex.def Info: images/TongKet/icons/multimodal.png  used on input line 358.
+Package pdftex.def Info: images/TongKet/icons/multimodal.png  used on input line 359.
 (pdftex.def)             Requested size: 31.32112pt x 28.45274pt.
 <images/TongKet/icons/dinhvi.png, id=2486, 53.436pt x 54.312pt>
 File: images/TongKet/icons/dinhvi.png Graphic file (type png)
 <use images/TongKet/icons/dinhvi.png>
-Package pdftex.def Info: images/TongKet/icons/dinhvi.png  used on input line 358.
+Package pdftex.def Info: images/TongKet/icons/dinhvi.png  used on input line 359.
 (pdftex.def)             Requested size: 27.99397pt x 28.45274pt.
 <images/TongKet/icons/phandoan.png, id=2487, 53.436pt x 54.312pt>
 File: images/TongKet/icons/phandoan.png Graphic file (type png)
 <use images/TongKet/icons/phandoan.png>
-Package pdftex.def Info: images/TongKet/icons/phandoan.png  used on input line 358.
+Package pdftex.def Info: images/TongKet/icons/phandoan.png  used on input line 359.
 (pdftex.def)             Requested size: 27.99397pt x 28.45274pt.
  [30
 
@@ -1688,12 +1688,12 @@ Package pdftex.def Info: images/TongKet/icons/phandoan.png  used on input line 3
 <images/PhuLuc/1.jpg, id=2569, 1938.24126pt x 2569.6pt>
 File: images/PhuLuc/1.jpg Graphic file (type jpg)
 <use images/PhuLuc/1.jpg>
-Package pdftex.def Info: images/PhuLuc/1.jpg  used on input line 380.
+Package pdftex.def Info: images/PhuLuc/1.jpg  used on input line 381.
 (pdftex.def)             Requested size: 134.6852pt x 178.55728pt.
 <images/PhuLuc/3.png, id=2570, 531.1845pt x 476.982pt>
 File: images/PhuLuc/3.png Graphic file (type png)
 <use images/PhuLuc/3.png>
-Package pdftex.def Info: images/PhuLuc/3.png  used on input line 380.
+Package pdftex.def Info: images/PhuLuc/3.png  used on input line 381.
 (pdftex.def)             Requested size: 208.00404pt x 186.77914pt.
  [31
 
@@ -1701,7 +1701,7 @@ Package pdftex.def Info: images/PhuLuc/3.png  used on input line 380.
 <images/PhuLuc/2.png, id=2651, 760.64175pt x 498.06075pt>
 File: images/PhuLuc/2.png Graphic file (type png)
 <use images/PhuLuc/2.png>
-Package pdftex.def Info: images/PhuLuc/2.png  used on input line 389.
+Package pdftex.def Info: images/PhuLuc/2.png  used on input line 390.
 (pdftex.def)             Requested size: 279.5528pt x 183.04842pt.
  [32
 
@@ -1725,14 +1725,14 @@ L3 programming layer <2025-12-29>
  ) 
 Here is how much of TeX's memory you used:
  41486 strings out of 467871
- 889523 string characters out of 5418376
- 1320784 words of memory out of 5000000
+ 889516 string characters out of 5418376
+ 1317543 words of memory out of 5000000
  69477 multiletter control sequences out of 15000+600000
  746129 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,521b,1453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb>
-Output written on template.pdf (33 pages, 100117662 bytes).
+Output written on template.pdf (33 pages, 101331918 bytes).
 PDF statistics:
  2773 PDF objects out of 2984 (max. 8388607)
  78 named destinations out of 1000 (max. 500000)
