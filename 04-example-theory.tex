@@ -1311,54 +1311,30 @@
 }
 
 % % Thêm tùy chọn [shrink] để Beamer tự động co nhỏ nếu vẫn bị tràn
-% \begin{frame} 
-%     \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
+\begin{frame} 
+    \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
 
-%     \vspace{-0.2cm} 
+    \vspace{-0.2cm} 
+    % --- KHỐI KỸ THUẬT (DƯỚI) ---
+    \begin{tcolorbox}[
+        myboxstyle,
+        colback=myOrangeBack,
+        colframe=myOrangeLine,
+        width=\textwidth
+    ]
+        \small 
+        \begin{center}
+            \textbf{Kỹ Thuật}
+        \end{center}
+        \vspace{-8pt}
 
-%     % --- KHỐI DỮ LIỆU (TRÊN) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myBlueBack,
-%         colframe=myBlueLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Dữ Liệu}
-%         \end{center}
-%         \vspace{-8pt} % Kéo nội dung sát tiêu đề hơn
-        
-%         \begin{itemize}
-%             \setlength\itemsep{0pt}
-%             \item \textbf{Tổng:} 5,902 ảnh.
-%             \item \textbf{Phân chia:} Train 70\% -- Val 15\% -- Test 15\%.
-%             \item \textbf{Nhãn:} Normal / Defect.
-%         \end{itemize}
-%     \end{tcolorbox}
-    
-%     \vspace{0.2cm} % Khoảng cách giữa 2 khối
+        \begin{itemize}
+            \setlength\itemsep{2pt} 
+            \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
+            \item \textbf{Optimizer:} Adam (LR $1e-4$).
+            \item \textbf{Early Stopping:} Patience = 5.
+            \item \textbf{Loss:} Weighted Cross-Entropy.
+        \end{itemize}
+    \end{tcolorbox}
 
-%     % --- KHỐI KỸ THUẬT (DƯỚI) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myOrangeBack,
-%         colframe=myOrangeLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Kỹ Thuật}
-%         \end{center}
-%         \vspace{-8pt}
-
-%         \begin{itemize}
-%             \setlength\itemsep{2pt} 
-%             \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
-%             \item \textbf{Optimizer:} Adam (LR $1e-4$).
-%             \item \textbf{Early Stopping:} Patience = 5.
-%             \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
-%         \end{itemize}
-%     \end{tcolorbox}
-
-% \end{frame}
+\end{frame}
