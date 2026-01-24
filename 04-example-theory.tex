@@ -514,9 +514,9 @@
             % Giảm size chữ xuống tiny
             \tiny 
             
-            % Tăng giãn dòng lên 1.1 cho thoáng
+            % Giảm giãn dòng xuống 1.0 để tiết kiệm chiều cao cho phần dưới
             \setlength{\tabcolsep}{3pt} 
-            \renewcommand{\arraystretch}{1.1} 
+            \renewcommand{\arraystretch}{1.0} 
             \setlength{\arrayrulewidth}{1pt} % Viền đậm đều 1pt
             \arrayrulecolor{black}      % Đảm bảo viền màu đen
             
@@ -571,15 +571,16 @@
             \end{tabular}
         }
     \end{table}
-    \vspace{-0.2cm}
-    % Sử dụng size tiny cho cả khối để dấu chấm (bullet) cũng nhỏ theo
-    {\tiny
+    \vspace{-0.1cm}
+    % Tăng size chữ lên scriptsize (lớn hơn tiny)
+    {\scriptsize
         \textbf{\textcolor{red}{Khoảng trống nghiên cứu}}
         \begin{itemize}
-            \item Chưa có nhiều nghiên cứu xây dựng chuỗi xử lý khép kín
-            \item Nhiều nghiên cứu độ chính xác cao phụ thuộc ảnh nhiệt/EL, chi phí lớn, khó triển khai rộng rãi tại Việt Nam
-            \item Các nghiên cứu ảnh RGB còn xử lý rời rạc, chưa tích hợp tách pin – phân loại lỗi, và độ chính xác chưa cao do chưa sử dụng model phù hợp
-            \item Phần lớn bộ dữ liệu quốc tế được thu thập trong điều kiện khí hậu ôn đới, chưa phù hợp với điều kiện nhiệt đới gió mùa Việt Nam
+            \setlength\itemsep{0pt} % Giảm khoảng cách giữa các item
+            \item Chưa có nhiều nghiên cứu xây dựng chuỗi xử lý khép kín.
+            \item Nhiều nghiên cứu độ chính xác cao phụ thuộc ảnh nhiệt/EL, chi phí lớn, khó triển khai rộng rãi tại Việt Nam.
+            \item Các nghiên cứu ảnh RGB còn xử lý rời rạc, chưa tích hợp tách pin – phân loại lỗi, và độ chính xác chưa cao do chưa sử dụng model phù hợp.
+            \item Phần lớn bộ dữ liệu quốc tế được thu thập trong điều kiện khí hậu ôn đới, chưa phù hợp với điều kiện nhiệt đới gió mùa Việt Nam.
         \end{itemize}
     }
 \end{frame}
@@ -1310,55 +1311,54 @@
     }
 }
 
-% % Thêm tùy chọn [shrink] để Beamer tự động co nhỏ nếu vẫn bị tràn
-% \begin{frame} 
-%     \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
+\begin{frame} 
+    \frametitle{CHIẾN LƯỢC HUẤN LUYỆN}
 
-%     \vspace{-0.2cm} 
+    \vspace{-0.2cm} 
 
-%     % --- KHỐI DỮ LIỆU (TRÊN) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myBlueBack,
-%         colframe=myBlueLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Dữ Liệu}
-%         \end{center}
-%         \vspace{-8pt} % Kéo nội dung sát tiêu đề hơn
-        
-%         \begin{itemize}
-%             \setlength\itemsep{0pt}
-%             \item \textbf{Tổng:} 5,902 ảnh.
-%             \item \textbf{Phân chia:} Train 70\% -- Val 15\% -- Test 15\%.
-%             \item \textbf{Nhãn:} Normal / Defect.
-%         \end{itemize}
-%     \end{tcolorbox}
+    % --- HÀNG 1: 4 ẢNH AUGMENTATION ---
+    \begin{columns}[c, onlytextwidth]
+        \begin{column}{0.24\textwidth}
+            \centering
+            % Thêm width=\linewidth để đảm bảo ảnh không rộng hơn cột
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/rotation.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/flip.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/color.png}
+        \end{column}
+        \begin{column}{0.24\textwidth}
+            \centering
+            \includegraphics[width=\linewidth, height=2.8cm, keepaspectratio]{images/PhuongPhap/dataaugment/noise.png}
+        \end{column}
+    \end{columns}
     
-%     \vspace{0.2cm} % Khoảng cách giữa 2 khối
+    \vspace{0.3cm} % Khoảng cách giữa 2 khối
 
-%     % --- KHỐI KỸ THUẬT (DƯỚI) ---
-%     \begin{tcolorbox}[
-%         myboxstyle,
-%         colback=myOrangeBack,
-%         colframe=myOrangeLine,
-%         width=\textwidth
-%     ]
-%         \small 
-%         \begin{center}
-%             \textbf{Kỹ Thuật}
-%         \end{center}
-%         \vspace{-8pt}
+    % --- HÀNG 2: KỸ THUẬT ---
+    \begin{tcolorbox}[
+        myboxstyle,
+        colback=myOrangeBack,
+        colframe=myOrangeLine,
+        width=\textwidth
+    ]
+        \small 
+        \begin{center}
+            \textbf{Kỹ Thuật}
+        \end{center}
+        \vspace{-8pt}
 
-%         \begin{itemize}
-%             \setlength\itemsep{2pt} 
-%             \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
-%             \item \textbf{Optimizer:} Adam (LR $1e-4$).
-%             \item \textbf{Early Stopping:} Patience = 5.
-%             \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
-%         \end{itemize}
-%     \end{tcolorbox}
+        \begin{itemize}
+            \setlength\itemsep{2pt} 
+            \item \textbf{Augmentation:} Xoay, Lật, Chỉnh màu, Nhiễu Gaussian.
+            \item \textbf{Optimizer:} Adam (LR $1e-4$).
+            \item \textbf{Early Stopping:} Patience = 5.
+            \item \textbf{Loss:} Weighted Cross-Entropy \& Focal Loss.
+        \end{itemize}
+    \end{tcolorbox}
 
-% \end{frame}
+\end{frame}
