@@ -591,7 +591,7 @@
 
 \begin{frame}
     \frametitle{MÔ HÌNH EfficientNet-B2}
-    \vspace{-0.5cm}
+    \vspace{0.3cm}
 
     % [QUAN TRỌNG] Sử dụng shrink để tự động co giãn nếu vẫn bị tràn chút ít (tùy chọn)
     % Hoặc bỏ [shrink] nếu code bên dưới đã vừa vặn.
@@ -629,6 +629,10 @@
     \vspace{0.5cm}
 
     EfficientNet-B2 là một mô hình Deep Learning, thuộc nhóm mạng nơ-ron tích chập (CNN), được sử dụng phổ biến trong các bài toán phân loại ảnh.
+
+    \vspace{0.5cm}
+    \centering
+    \textbf{Chỉ số đánh giá:} Accuracy, Recall, Precision, F1-score.
 \end{frame}
 
 % Định nghĩa màu sắc
@@ -815,53 +819,7 @@
 
 % --- SỬ DỤNG SHRINK=5 NẾU CẦN THIẾT ---
 % --- BỎ SHRINK ĐỂ TRÁNH LỖI ARITHMETIC OVERFLOW ---
-\begin{frame}
-    \frametitle{CHỈ SỐ ĐÁNH GIÁ}
-    
-    % Kéo nội dung lên sát tiêu đề
-    \vspace{-0.3cm} 
-    
-    \begin{columns}[t]
-        % --- CỘT TRÁI ---
-        \begin{column}{0.48\textwidth}
-            % Accuracy
-            \MetricCard%
-                {images/TongQuan/icons/chiso/accuracy.png}%
-                {Accuracy}%
-                {Tỷ lệ dự đoán đúng trên tổng số mẫu.}%
-                {$\displaystyle\dfrac{TP+TN}{TP+TN+FP+FN}$}
-            
-            \vspace{0.15cm} % Khoảng cách giữa 2 thẻ (giữ nhỏ để vừa trang)
-            
-            % Precision (Nam châm)
-            \MetricCard%
-                {images/TongQuan/icons/chiso/precision.png}%
-                {Precision}%
-                {Tỷ lệ phát hiện được dương tính thực tế.}%
-                {$\displaystyle\dfrac{TP}{TP+FP}$}
-        \end{column}
-        
-        % --- CỘT PHẢI ---
-        \begin{column}{0.48\textwidth}
-            % Precision (Phễu)
-            \MetricCard%
-                {images/TongQuan/icons/chiso/precision2.png}%
-                {Recall}%
-                {Độ chính xác trong các dự đoán dương tính.}%
-                {$\displaystyle\dfrac{TP}{TP+FN}$}
-            
-            \vspace{0.15cm}
-            
-            % F1-Score
-            \MetricCard%
-                {images/TongQuan/icons/chiso/f1score.png}%
-                {F1-Score}%
-                {Dung hòa Precision \& Recall (data lệch).}%
-                {$2 \times \dfrac{P \times R}{P + R}$} 
-        \end{column}
-    \end{columns}
-
-\end{frame}
+% SLIDE REMOVED
 
 %------------------------------------------------
 \section{Phương pháp đề xuất}
