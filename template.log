@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  25 JAN 2026 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.20)  25 JAN 2026 07:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1731,13 +1731,13 @@ L3 programming layer <2025-12-29>
 Here is how much of TeX's memory you used:
  41469 strings out of 467871
  889246 string characters out of 5418376
- 1316628 words of memory out of 5000000
+ 1316610 words of memory out of 5000000
  69464 multiletter control sequences out of 15000+600000
  744656 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,521b,1366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/minhk/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplri8v.pfb>
-Output written on template.pdf (33 pages, 113227946 bytes).
+Output written on template.pdf (33 pages, 113227943 bytes).
 PDF statistics:
  2770 PDF objects out of 2984 (max. 8388607)
  78 named destinations out of 1000 (max. 500000)
