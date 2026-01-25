@@ -75,18 +75,18 @@
 	\frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN THẾ GIỚI}
     
     \vspace{-0.2cm}
+    Hiện nay, năng lượng tái tạo đang được xem là \textcolor{red}{\textbf{hướng phát triển tất yếu}} nhằm thay thế các nguồn năng lượng hóa thạch truyền thống, trong đó:
+    \vspace{0.1cm}
     
     % --- PHẦN 1: TỔNG QUAN (Bullet points) ---
     \begin{itemize}
         \setlength\itemsep{0.2em} % Giảm khoảng cách dòng
         \small % Tăng size chữ lên small
-        \item Năng lượng tái tạo đang được ưu tiên phát triển trên toàn cầu.
         \item Điện mặt trời chiếm tỷ trọng lớn nhất trong các nguồn NLTT.
         \item Công suất lắp đặt tăng nhanh, tập trung ở các quốc gia lớn.
-        \item Mô hình triển khai chủ yếu: hệ thống quang điện (PV).
     \end{itemize}
 
-    \vspace{0.3cm}
+    \vspace{0.1cm}
 
     % --- PHẦN 2: BIỂU ĐỒ VÀ HÌNH ẢNH ---
     \begin{columns}[c, onlytextwidth]
@@ -122,14 +122,15 @@
     \frametitle{TÌNH HÌNH HỆ THỐNG PIN MẶT TRỜI TRÊN VIỆT NAM}
     
     \vspace{0cm}
+    Từ bức tranh chung trên thế giới, Việt Nam cũng không nằm ngoài \textcolor{red}{\textbf{xu thế phát triển mạnh mẽ}} của điện mặt trời trong những năm gần đây.
+    \vspace{0.1cm}
     
     % --- PHẦN 1: NỘI DUNG CHÍNH ---
     \begin{itemize}
         \setlength\itemsep{0.1em}
-        \footnotesize
-        \item Việt Nam ưu tiên phát triển năng lượng tái tạo.
-        \item Định hướng rõ ràng từ Quy hoạch điện VII.
-        \item Nhiều trang trại điện mặt trời quy mô lớn đã đưa vào vận hành chủ yếu ở Nam Trung Bộ, Tây Nguyên và Nam Bộ.
+        \small % Tăng size chữ lên small
+        \item Định hướng từ Quy hoạch điện VII với chủ trương, chính sách khuyến khích thu hút đầu tư.
+        \item Nhiều trang trại điện mặt trời quy mô lớn đã đưa vào vận hành.
     \end{itemize}
 
     \vspace{0.1cm}
@@ -182,7 +183,9 @@
 %------------------------------------------------
 \begin{frame}
     \frametitle{THÁCH THỨC}
-    \vspace{0.2cm}
+    \vspace{0.0cm}
+    Tuy nhiên, chính sự phát triển nhanh và quy mô lớn của các hệ thống pin mặt trời lại đặt ra một bài toán rất lớn về \textcolor{red}{\textbf{vận hành và bảo trì}}.
+    \vspace{0.3cm}
     
     \begin{columns}[c, onlytextwidth]
         % --- CỘT TRÁI: HÌNH ẢNH MINH HỌA ---
@@ -198,12 +201,17 @@
                 };
             \end{tikzpicture}
         \end{column}
-
+    \vspace{1.3cm}
         % --- CỘT PHẢI: NỘI DUNG ---
         \begin{column}{0.5\textwidth}
             % Dùng minipage với chiều cao cố định 5.5cm (bằng chiều cao ảnh bên trái)
             % để căn đều: Đầu itemize trùng đầu ảnh, Đáy box trùng đáy ảnh
+            \hspace{-0.8cm}
             \begin{minipage}[c][5.5cm][s]{\linewidth}
+                \vspace{0cm}
+                \hspace{0.3cm}\textbf{Kiểm tra thủ công truyền thống:}
+                \vspace{-1.5cm}
+
                 \begin{itemize}
                     \setlength\itemsep{0.4cm} 
                     \raggedright
@@ -213,20 +221,6 @@
                 \end{itemize}
 
                 \vfill % Đẩy box xuống đáy để căn đáy với ảnh
-
-                % Box Mục tiêu
-                \begin{tcolorbox}[
-                    enhanced,
-                    colback=gray!10,
-                    colframe=gray!40,
-                    arc=8pt,
-                    boxrule=1pt,
-                    left=6pt, right=6pt, top=6pt, bottom=6pt,
-                    width=\linewidth
-                ]
-                    \small
-                    \textbf{Mục tiêu:} tạo ra một giải pháp cân bằng giữa độ chính xác và chi phí, giúp phát hiện sớm hư hỏng để tối ưu hóa vận hành.
-                \end{tcolorbox}
             \end{minipage}
         \end{column}
     \end{columns}
@@ -259,6 +253,7 @@
 
 \begin{frame}
     \frametitle{MỤC TIÊU NGHIÊN CỨU}
+                    \textbf{Mục tiêu:} tạo ra một giải pháp cân bằng giữa độ \textcolor{red}{\textbf{chính xác và chi phí}}, giúp phát hiện sớm hư hỏng để tối ưu hóa vận hành.
 
     \begin{columns}[c, onlytextwidth] % Căn lề giữa
         % --- CỘT TRÁI (Xử lý ảnh) ---
@@ -284,7 +279,7 @@
                 \vspace{0.5cm}
                 
                 \raggedright
-                Phát triển mô hình \textbf{Học sâu (Deep Learning)} để phân loại trạng thái tấm pin (Bình thường vs. Lỗi) với độ chính xác cao.
+                Phát triển mô hình \textbf{Học sâu} để phân loại trạng thái tấm pin với độ chính xác cao.
             \end{objectivebox}
         \end{column}
     \end{columns}
@@ -292,9 +287,7 @@
 
 \begin{frame}
     \frametitle{PHẠM VI NGHIÊN CỨU}
-
-    % Điều chỉnh khoảng cách trên (0cm để vừa vặn, không quá sát title)
-    \vspace{0.0cm}
+Để đảm bảo tính \textcolor{red}{\textbf{khả thi và phù hợp}} với điều kiện triển khai thực tế, nghiên cứu được giới hạn trong phạm vi cụ thể: 
     
     % --- ROW 1: Dữ liệu ---
     \begin{columns}[c] 
@@ -302,7 +295,7 @@
             \begin{itemize}
                 \setlength\itemsep{0pt}
                 \item \textbf{Dữ liệu nghiên cứu:} \\ 
-                Ảnh màu (RGB) độ phân giải cao, thu thập thực tế từ UAV tại khu vực khảo sát.
+                Ảnh màu độ phân giải cao, thu thập thực tế từ UAV tại khu vực khảo sát.
             \end{itemize}
         \end{column}
         \begin{column}{0.33\textwidth}
@@ -317,7 +310,7 @@
         \end{column}
     \end{columns}
     
-    \vspace{0.2cm} % Giảm khoảng cách giữa các hàng cho vừa trang
+    \vspace{0.1cm} % Giảm khoảng cách giữa các hàng cho vừa trang
 
     % --- ROW 2: Đối tượng ---
     \begin{columns}[c]
@@ -339,7 +332,7 @@
         \end{column}
     \end{columns}
     
-    \vspace{0.2cm}
+    \vspace{0.1cm}
 
     % --- ROW 3: Giới hạn ---
     \begin{columns}[c]
@@ -347,7 +340,7 @@
             \begin{itemize}
                 \setlength\itemsep{0pt}
                 \item \textbf{Giới hạn đề tài:} \\ 
-                Chỉ phát hiện các hư hỏng vật lý quan sát được trên bề mặt tấm pin; không xét đến các đo đạc chuyên sâu về đặc tính điện.
+                Chỉ phát hiện các hư hỏng vật lý quan sát được trên bề mặt tấm pin.
             \end{itemize}
         \end{column}
         \begin{column}{0.33\textwidth}
